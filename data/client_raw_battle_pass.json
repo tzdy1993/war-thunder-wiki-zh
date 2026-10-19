@@ -1,0 +1,174 @@
+{
+  "battlePass/info/today_login_exp": {
+    "en": "Progress points received today with Login Award: {expNum}",
+    "zh": "本\\t日\\t登\\t录\\t奖\\t励\\t升\\t级\\t点\\t数：\\t{expNum}"
+  },
+  "battlePass/info/login_streak": {
+    "en": "The Season's logins: {loginNum}",
+    "zh": "赛\\t季\\t登\\t录：\\t{loginNum}"
+  },
+  "battlePass/info/tomorow_login_exp": {
+    "en": "Progress points will be received tomorrow with Login Award: {expNum}",
+    "zh": "明\\t日\\t登\\t录\\t奖\\t励\\t升\\t级\\t点\\t数：\\t{expNum}"
+  },
+  "battlePass/info/easy_daily_task_progress": {
+    "en": "Daily Easy Task: {status}",
+    "zh": "每\\t日\\t任\\t务 • 简\\t单：\\t{status}"
+  },
+  "battlePass/info/medium_daily_task_progress": {
+    "en": "Daily Medium Task: {status}",
+    "zh": "每\\t日\\t任\\t务 • 中\\t等：\\t{status}"
+  },
+  "battlePass/info/task_status/done": {
+    "en": "done",
+    "zh": "已\\t完\\t成"
+  },
+  "battlePass/info/task_status/notDone": {
+    "en": "not done",
+    "zh": "未\\t完\\t成"
+  },
+  "battlePass/info/season_tasks_progress": {
+    "en": "The Season's Challenges Progress:",
+    "zh": "赛\\t季\\t挑\\t战\\t进\\t度："
+  },
+  "battlePass/info/available_special_tasks": {
+    "en": "Available Special Tasks: {tasksNum}",
+    "zh": "可\\t用\\t特\\t别\\t任\\t务：\\t{tasksNum}"
+  },
+  "battlePass/name": {
+    "en": "Battle Pass {name}",
+    "zh": "战\\t斗\\t通\\t行\\t证\\t—\\t—\\t{name}"
+  },
+  "battlePass/endDate": {
+    "en": "(until {time})",
+    "zh": "（截\\t止\\t时\\t间：\\t{time}）"
+  },
+  "battlePass/improvedBattlePassName": {
+    "en": "Improved Battle Pass {name}",
+    "zh": "豪\\t华\\t战\\t斗\\t通\\t行\\t证\\t—\\t—\\t{name}"
+  },
+  "battlePass": {
+    "en": "Battle Pass",
+    "zh": "战\\t斗\\t通\\t行\\t证"
+  },
+  "battlePass/seasonName/1": {
+    "en": "1st Season, 75th Anniversary of the Great Victory",
+    "zh": "第 1 赛\\t季 • 二\\t战\\t胜\\t利 75 周\\t年"
+  },
+  "battlePass/seasonName/2": {
+    "en": "\"Steel Centurion\"",
+    "zh": "“铁\\t血\\t百\\t夫\\t长”"
+  },
+  "battlePass/seasonName/3": {
+    "en": "\"Strength Athletics\"",
+    "zh": "“大\\t力\\t士\\t竞\\t技\\t赛”"
+  },
+  "battlePass/seasonName/4": {
+    "en": "\"Fearless Voltigeur\"",
+    "zh": "“无\\t畏\\t腾\\t跃\\t兵”"
+  },
+  "battlePass/seasonName/5": {
+    "en": "\"River Hunter\"",
+    "zh": "“河\\t道\\t猎\\t手”"
+  },
+  "battlePass/seasonName/6": {
+    "en": "\"Firepower\"",
+    "zh": "“火\\t力\\t全\\t开”"
+  },
+  "battlePass/seasonName/7": {
+    "en": "\"Armored Elephant\"",
+    "zh": "“重\\t装\\t巨\\t象”"
+  },
+  "battlePass/seasonName/8": {
+    "en": "\"Field Testing\"",
+    "zh": "“全\\t面\\t测\\t试”"
+  },
+  "battlePass/seasonName/9": {
+    "en": "\"Smell of Victory\"",
+    "zh": "“胜\\t利\\t之\\t息”"
+  },
+  "battlePass/seasonName/10": {
+    "en": "\"Royal Guard\"",
+    "zh": "\"\\t皇\\t家\\t护\\t卫\\t\""
+  },
+  "battlePass/seasonName/11": {
+    "en": "\"Her Majesty's Hussar\"",
+    "zh": "禁\\t卫\\t骠\\t骑\\t兵"
+  },
+  "battlePass/seasonName/12": {
+    "en": "\"Armour Breaking Ambusher\"",
+    "zh": "“破\\t甲\\t刀\\t斧\\t手”"
+  },
+  "battlePass/seasonName/13": {
+    "en": "\"Tropical Storm\"",
+    "zh": "“热\\t带\\t风\\t暴”"
+  },
+  "battlePass/seasonName/14": {
+    "en": "\"Airborne General\"",
+    "zh": "“空\\t降\\t神\\t兵”"
+  },
+  "battlePass/seasonName/15": {
+    "en": "\"Northern King\"",
+    "zh": "“北\\t境\\t之\\t王”"
+  },
+  "battlePass/seasonName/16": {
+    "en": "\"Skilled Marksman\"",
+    "zh": "\"\\t历\\t战\\t神\\t射\\t手\\t\""
+  },
+  "battlePass/rewardsTitle": {
+    "en": "Congratulations! You have earned Battle Pass prize!",
+    "zh": "恭\\t喜！\\t获\\t得\\t战\\t斗\\t通\\t行\\t证\\t奖\\t励！"
+  },
+  "battlePass/buy/desc": {
+    "en": "The purchase of the \"Battle Pass\" allows to collect rewards from all opened levels of the Season. \"Battle Pass\" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.",
+    "zh": "购\\t买\\t“战\\t斗\\t通\\t行\\t证”\\t后，\\t升\\t级\\t可\\t解\\t锁\\t本\\t季\\t所\\t有\\t奖\\t励。\\t升\\t级\\t“战\\t斗\\t通\\t行\\t证”\\t即\\t可\\t获\\t得\\t各\\t种\\t丰\\t厚\\t物\\t品，\\t更\\t有\\t独\\t特\\t奖\\t励，\\t如\\t高\\t级\\t载\\t具、\\t涂\\t装、\\t装\\t饰\\t挂\\t件、\\t贴\\t花、\\t头\\t像\\t等。\\t只\\t需\\t在\\t多\\t人\\t对\\t战\\t中\\t完\\t成\\t作\\t战\\t任\\t务\\t及\\t赛\\t季\\t挑\\t战，\\t即\\t可\\t获\\t得\\t所\\t有\\t奖\\t励。"
+  },
+  "battlePass/btn_buy": {
+    "en": "\"Battle Pass\" shop",
+    "zh": "“战\\t斗\\t通\\t行\\t证”\\t商\\t店"
+  },
+  "battlePass/seasonLoginStreak": {
+    "en": "The Season's logins: {amount}",
+    "zh": "赛\\t季\\t登\\t录：\\t{amount}"
+  },
+  "battlePass/info/total_progress_exp": {
+    "en": "Total progress points earned: {expNum}",
+    "zh": "升\\t级\\t点\\t数\\t总\\t值：\\t{expNum}"
+  },
+  "battlePass/info/require_exp_for_level": {
+    "en": "Remaining to new level: {expNum}",
+    "zh": "升\\t级\\t还\\t需：\\t{expNum}"
+  },
+  "battlePass/wiki_link": {
+    "en": "Battle Pass rules",
+    "zh": "战\\t斗\\t通\\t行\\t证\\t规\\t则"
+  },
+  "battlePass/msgbox/gotoBpShopTitle": {
+    "en": "To receive Battle Pass paid prizes, you must first purchase it in the store.",
+    "zh": "若\\t欲\\t获\\t得\\t战\\t斗\\t通\\t行\\t证\\t付\\t费\\t奖\\t励，\\t请\\t先\\t在\\t商\\t店\\t中\\t购\\t买\\t通\\t行\\t证。"
+  },
+  "battlePass/msgbox/gotoPrize": {
+    "en": "Go to unclaimed reward",
+    "zh": "跳\\t转\\t至\\t未\\t领\\t取\\t的\\t奖\\t励"
+  },
+  "battlePass/msgbox/gotoPrizeTitle": {
+    "en": "To receive the selected reward, you need to collect all the previous rewards in the lineup.",
+    "zh": "若\\t欲\\t获\\t得\\t该\\t奖\\t励，\\t您\\t必\\t须\\t先\\t领\\t取\\t在\\t此\\t之\\t前\\t的\\t其\\t他\\t奖\\t励\\t物\\t品。"
+  },
+  "battlePass/msgbox/alreadyReceived": {
+    "en": "Prize already received",
+    "zh": "已\\t获\\t取\\t该\\t奖\\t励"
+  },
+  "battlePass/msgbox/bpLevelInsufficient": {
+    "en": "To receive the selected prize, you need to earn the corresponding Battle Pass level.",
+    "zh": "必\\t须\\t解\\t锁\\t对\\t应\\t的\\t通\\t行\\t证\\t等\\t级\\t方\\t能\\t领\\t取\\t选\\t定\\t奖\\t励。"
+  },
+  "battlePass/congratulations/buy": {
+    "en": "You have purchased \"Battle Pass\" and can receive all prizes of the Season",
+    "zh": "已\\t购\\t买\\t“战\\t斗\\t通\\t行\\t证”，\\t可\\t通\\t过\\t升\\t级\\t获\\t得\\t本\\t季\\t所\\t有\\t奖\\t励"
+  },
+  "mainmenu/personalTasks/battlePassTasks": {
+    "en": "Battle Pass Challenges",
+    "zh": "战\\t斗\\t通\\t行\\t证\\t挑\\t战"
+  }
+}

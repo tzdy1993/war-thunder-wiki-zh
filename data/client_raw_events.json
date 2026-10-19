@@ -1,0 +1,1354 @@
+{
+  "events/join_event": {
+    "en": "Take part",
+    "zh": "加\\t入"
+  },
+  "events/join_event_by_team": {
+    "en": "Take part for team {team}",
+    "zh": "加\\t入\\t队\\t伍 {team}"
+  },
+  "events/teamA": {
+    "en": "Team A",
+    "zh": "A 队"
+  },
+  "events/teamB": {
+    "en": "Team B",
+    "zh": "B 队"
+  },
+  "events/ffa": {
+    "en": "Free For All",
+    "zh": "混\\t战"
+  },
+  "events/team_battle": {
+    "en": "Team Battle",
+    "zh": "团\\t队\\t竞\\t技"
+  },
+  "teamA": {
+    "en": "A",
+    "zh": "A"
+  },
+  "teamB": {
+    "en": "B",
+    "zh": "B"
+  },
+  "events/countres": {
+    "en": "Countries:",
+    "zh": "国\\t家："
+  },
+  "events/required_crafts_no_colon": {
+    "en": "Required vehicles",
+    "zh": "需\\t要\\t载\\t具"
+  },
+  "events/required_crafts": {
+    "en": "Required vehicles:",
+    "zh": "载\\t具\\t要\\t求："
+  },
+  "events/allowed_crafts_no_colon": {
+    "en": "Allowed vehicles",
+    "zh": "可\\t用\\t载\\t具"
+  },
+  "events/allowed_crafts": {
+    "en": "Allowed vehicles:",
+    "zh": "可\\t用\\t载\\t具："
+  },
+  "events/forbidden_crafts": {
+    "en": "Forbidden vehicles:",
+    "zh": "禁\\t用\\t型\\t号："
+  },
+  "events/no_selected_event": {
+    "en": "Select an event from the list.",
+    "zh": "请\\t从\\t列\\t表\\t中\\t选\\t择\\t一\\t项\\t军\\t事\\t行\\t动。"
+  },
+  "events/no_entitlement": {
+    "en": "Required {entitlement}",
+    "zh": "需\\t要 {entitlement}"
+  },
+  "events/squad_is_too_big": {
+    "en": "Your squad size is too big for this event ({squadSize}).\nMaximum team size is: {maxTeamSize}",
+    "zh": "当\\t前\\t小\\t队\\t有 {squadSize} 名\\t玩\\t家，\\t超\\t出\\t了\\t该\\t行\\t动\\t允\\t许\\t的\\t组\\t队\\t上\\t限\\t（{maxTeamSize}）。"
+  },
+  "events/squads_disabled": {
+    "en": "Joining a squad is not available for this event.",
+    "zh": "该\\t行\\t动\\t不\\t允\\t许\\t组\\t队\\t参\\t与。"
+  },
+  "events/no_selected_country": {
+    "en": "Select a country from the participant list.",
+    "zh": "请\\t选\\t择\\t参\\t与\\t了\\t该\\t军\\t事\\t行\\t动\\t的\\t国\\t家"
+  },
+  "events/no_allowed_crafts": {
+    "en": "Select one of allowed vehicles.",
+    "zh": "请\\t选\\t择\\t符\\t合\\t要\\t求\\t的\\t载\\t具\\t型\\t号"
+  },
+  "events/no_required_crafts": {
+    "en": "Missing one of required vehicles",
+    "zh": "缺\\t少\\t符\\t合\\t要\\t求\\t的\\t载\\t具\\t型\\t号。"
+  },
+  "events/empty_slotbar": {
+    "en": "Put a vehicle in at least one crew slot.",
+    "zh": "必\\t须\\t为\\t一\\t个\\t乘\\t员\\t组\\t分\\t配\\t载\\t具"
+  },
+  "events/empty_crew": {
+    "en": "Select a crew slot that is not empty.",
+    "zh": "请\\t选\\t择\\t已\\t分\\t配\\t载\\t具\\t的\\t乘\\t员\\t组"
+  },
+  "events/specialRequirements": {
+    "en": "To participate, you need at least one vehicle in the hangar",
+    "zh": "必\\t须\\t在\\t出\\t击\\t队\\t列\\t中\\t准\\t备\\t至\\t少\\t一\\t台\\t载\\t具\\t才\\t能\\t参\\t加"
+  },
+  "events/no_specialRequirements": {
+    "en": "No required vehicle in the hangar.",
+    "zh": "没\\t有\\t符\\t合\\t要\\t求\\t的\\t载\\t具。"
+  },
+  "events/rank": {
+    "en": "rank %s",
+    "zh": "%s 级"
+  },
+  "events/br": {
+    "en": "BR %s",
+    "zh": "权\\t重 %s"
+  },
+  "events/event_disabled": {
+    "en": "The event has ended",
+    "zh": "该\\t行\\t动\\t已\\t结\\t束"
+  },
+  "events/event_not_started_yet": {
+    "en": "The event has not started yet.",
+    "zh": "该\\t行\\t动\\t尚\\t不\\t可\\t用。"
+  },
+  "events/event_will_begin_soon": {
+    "en": "The event will begin soon.",
+    "zh": "活\\t动\\t即\\t将\\t开\\t始。"
+  },
+  "events/event_is_testing": {
+    "en": "The event is being tested. It is hidden from regular users.",
+    "zh": "该\\t军\\t事\\t行\\t动\\t尚\\t处\\t测\\t试\\t阶\\t段，\\t对\\t普\\t通\\t用\\t户\\t隐\\t藏"
+  },
+  "events/event_goes": {
+    "en": "The event is ongoing",
+    "zh": "该\\t行\\t动\\t正\\t在\\t进\\t行\\t中"
+  },
+  "events/event_started_at": {
+    "en": "Started: %s ago",
+    "zh": "开\\t始\\t于：%s 前"
+  },
+  "events/event_starts_in": {
+    "en": "Starts in: %s",
+    "zh": "开\\t始\\t时\\t间：%s"
+  },
+  "events/event_ends_in": {
+    "en": "Ends in: %s",
+    "zh": "结\\t束\\t时\\t间：%s"
+  },
+  "events/featured_event": {
+    "en": "Featured event:",
+    "zh": "推\\t荐\\t行\\t动："
+  },
+  "events/historical_common_desc": {
+    "en": "The battles take place in a historical location. The vehicles list is limited to the vehicles that indeed fought in that period.",
+    "zh": "该\\t军\\t事\\t行\\t动\\t将\\t依\\t照\\t史\\t实\\t限\\t制\\t参\\t与\\t载\\t具\\t型\\t号"
+  },
+  "events/hb_with_all_countries": {
+    "en": "Realistic Battles mission with all countries taking part in it.",
+    "zh": "历\\t史\\t性\\t能，\\t不\\t限\\t制\\t国\\t家"
+  },
+  "events/rb_with_all_countries": {
+    "en": "Simulator Battles mission with all countries taking part in it.",
+    "zh": "全\\t真\\t模\\t拟，\\t不\\t限\\t制\\t国\\t家"
+  },
+  "events/ab_without_respawns": {
+    "en": "Arcade Battles mission without respawns.",
+    "zh": "街\\t机\\t娱\\t乐，\\t无\\t法\\t重\\t生"
+  },
+  "events/air_bought": {
+    "en": "You have this vehicle",
+    "zh": "已\\t拥\\t有\\t该\\t型\\t号"
+  },
+  "events/air_can_buy": {
+    "en": "You can purchase this vehicle",
+    "zh": "已\\t能\\t购\\t买\\t该\\t型\\t号"
+  },
+  "events/all_units_allowed": {
+    "en": "All types of vehicles are allowed",
+    "zh": "可\\t使\\t用\\t任\\t何\\t载\\t具"
+  },
+  "events/all_crafts_allowed": {
+    "en": "All aircraft are allowed",
+    "zh": "可\\t使\\t用\\t任\\t何\\t机\\t型"
+  },
+  "events/all_tanks_allowed": {
+    "en": "All ground forces are allowed",
+    "zh": "可\\t使\\t用\\t任\\t何\\t地\\t面\\t载\\t具"
+  },
+  "events/allowed_units": {
+    "en": "{unitType} and {unitType2} are allowed",
+    "zh": "可\\t使\\t用 {unitType} 和 {unitType2}"
+  },
+  "events/allowed_units/Aircraft": {
+    "en": "aircraft",
+    "zh": "空\\t中\\t单\\t位"
+  },
+  "events/allowed_units/Tank": {
+    "en": "ground forces",
+    "zh": "地\\t面\\t载\\t具"
+  },
+  "events/allowed_units/Ship": {
+    "en": "naval vessels",
+    "zh": "水\\t面\\t载\\t具"
+  },
+  "events/allowed_units/Helicopter": {
+    "en": "helicopters",
+    "zh": "直\\t升\\t机"
+  },
+  "events/allowed_only/Aircraft": {
+    "en": "Only aircraft are allowed",
+    "zh": "只\\t有\\t空\\t中\\t单\\t位\\t才\\t能\\t参\\t加\\t该\\t行\\t动"
+  },
+  "events/allowed_only/Tank": {
+    "en": "Only ground vehicles are allowed",
+    "zh": "只\\t有\\t地\\t面\\t载\\t具\\t才\\t能\\t参\\t加\\t该\\t行\\t动"
+  },
+  "events/allowed_only/Ship": {
+    "en": "Only naval vessels are allowed",
+    "zh": "只\\t有\\t水\\t面\\t载\\t具\\t才\\t能\\t参\\t加\\t该\\t行\\t动"
+  },
+  "events/allowed_only/Helicopter": {
+    "en": "Only helicopters are allowed",
+    "zh": "只\\t有\\t直\\t升\\t机\\t才\\t能\\t参\\t加\\t该\\t行\\t动"
+  },
+  "events/selected_craft_is_not_allowed": {
+    "en": "Selected vehicle is not allowed",
+    "zh": "所\\t选\\t载\\t具\\t不\\t可\\t用"
+  },
+  "events/minSquadSize": {
+    "en": "Squad size is smaller than {minSize}",
+    "zh": "小\\t队\\t规\\t模\\t小\\t于 {minSize}"
+  },
+  "events/maxSquadSize": {
+    "en": "Squad size is bigger than {maxSize}",
+    "zh": "小\\t队\\t规\\t模\\t大\\t于 {maxSize}"
+  },
+  "events/chapter/basic_events": {
+    "en": "Events",
+    "zh": "军\\t事\\t行\\t动"
+  },
+  "events/chapter/basic_events/ended": {
+    "en": "Ended Events",
+    "zh": "已\\t结\\t束\\t的\\t行\\t动"
+  },
+  "events/chapter/clan_events": {
+    "en": "Squadron Events",
+    "zh": "联\\t队\\t战"
+  },
+  "events/chapter/clan_events/ended": {
+    "en": "Ended Squadron Events",
+    "zh": "已\\t结\\t束\\t的\\t联\\t队\\t战"
+  },
+  "events/chapter/tournaments": {
+    "en": "Tournaments",
+    "zh": "竞\\t技\\t场"
+  },
+  "events/chapter/tournaments/ended": {
+    "en": "Ended Tournaments",
+    "zh": "已\\t结\\t束\\t的\\t竞\\t技\\t场\\t比\\t赛"
+  },
+  "events/chapter/simulation_battles": {
+    "en": "Simulator Battles",
+    "zh": "全\\t真\\t模\\t拟"
+  },
+  "simulator_battles/desc": {
+    "en": "Simulator Battles is a mode where missions, as in Realistic Battles, take place in the locations of historical battles, and players are divided into teams of the countries that participated in the conflict.\nBattles in the \"Enduring Confrontation\" mode are held for aircraft only. Aircraft controls are as realistic as possible in this mode, cockpit view is only available, take off is effected from the airfield. Markers are only present above allied players at short distances.\nGround Battles are held in the Combined Battles mode, a player can use both ground and air vehicles according to his preference. The position of the external camera when commanding a ground vehicle is limited to the Commander's position. Markers are absent for both allies and enemies.",
+    "zh": "与\\t历\\t史\\t模\\t式\\t一\\t样，\\t陆\\t战\\t的\\t全\\t真\\t模\\t式\\t也\\t都\\t取\\t材\\t于\\t二\\t战\\t等\\t历\\t史\\t上\\t的\\t军\\t事\\t冲\\t突，\\t玩\\t家\\t亦\\t将\\t按\\t照\\t参\\t战\\t的\\t国\\t别\\t被\\t严\\t格\\t划\\t分\\t为\\t两\\t组\\t进\\t行\\t对\\t抗。\\t在\\t该\\t模\\t式\\t中，\\t玩\\t家\\t可\\t根\\t据\\t喜\\t好\\t选\\t择\\t飞\\t机\\t或\\t其\\t他\\t地\\t面\\t载\\t具\\t出\\t击\\t一\\t次\\t（【无\\t间\\t断\\t作\\t战\\t】\\t的\\t地\\t图\\t只\\t能\\t使\\t用\\t飞\\t机\\t出\\t击）。\n全\\t真\\t模\\t式\\t不\\t会\\t为\\t任\\t何\\t载\\t具\\t显\\t示\\t指\\t示\\t图\\t标，\\t仅\\t在\\t近\\t距\\t离\\t时\\t显\\t示\\t友\\t军\\t图\\t标。\\t此\\t外，\\t车\\t辆\\t机\\t动\\t特\\t性\\t会\\t尽\\t量\\t贴\\t近\\t现\\t实，\\t同\\t时\\t外\\t部\\t视\\t角\\t将\\t限\\t制\\t在\\t车\\t长\\t指\\t挥\\t塔\\t位\\t置；\\t飞\\t机\\t的\\t气\\t动\\t模\\t型\\t进\\t一\\t步\\t拟\\t真，\\t且\\t只\\t能\\t在\\t座\\t舱\\t内\\t操\\t纵\\t飞\\t机。"
+  },
+  "events/chapter/test_events": {
+    "en": "Test Events",
+    "zh": "测\\t试\\t任\\t务"
+  },
+  "events/chapter/playtest_events": {
+    "en": "Playtest",
+    "zh": "游\\t戏\\t测\\t试"
+  },
+  "events/chapter/combined_battles": {
+    "en": "Combined Battles",
+    "zh": "联\\t合\\t作\\t战"
+  },
+  "events/chapter/special_events": {
+    "en": "Special Events",
+    "zh": "特\\t殊\\t活\\t动"
+  },
+  "events/chapter/historical_events": {
+    "en": "Historical Events",
+    "zh": "历\\t史\\t事\\t件"
+  },
+  "events/chapter/chronicle": {
+    "en": "WW2 Chronicles",
+    "zh": "二\\t战\\t编\\t年\\t史"
+  },
+  "events/chapter/air_tournaments": {
+    "en": "Air Tournaments",
+    "zh": "空\\t战\\t竞\\t技\\t场"
+  },
+  "events/chapter/tank_tournaments": {
+    "en": "Ground Tournaments",
+    "zh": "陆\\t战\\t竞\\t技\\t场"
+  },
+  "events/chapter/clan_tournaments": {
+    "en": "Squadron Tournaments",
+    "zh": "联\\t队\\t赛\\t竞\\t技\\t场"
+  },
+  "events/chapter/race": {
+    "en": "Race",
+    "zh": "竞\\t速\\t赛"
+  },
+  "events/chapter/mad_thunder": {
+    "en": "Mad Thunder",
+    "zh": "废\\t土\\t雷\\t霆"
+  },
+  "events/future_events": {
+    "en": "Future Events",
+    "zh": "筹\\t备\\t中\\t的\\t行\\t动"
+  },
+  "events/players_count": {
+    "en": "Players",
+    "zh": "玩\\t家\\t数"
+  },
+  "events/clans_count": {
+    "en": "Squadrons",
+    "zh": "联\\t队\\t数"
+  },
+  "events/max_players_count": {
+    "en": "Max players",
+    "zh": "最\\t多\\t玩\\t家\\t数\\t量"
+  },
+  "events/players_range": {
+    "en": "Players required (min - max):",
+    "zh": "开\\t战\\t人\\t数\\t要\\t求\\t（下\\t限 - 上\\t限）："
+  },
+  "events/players_short": {
+    "en": "Players (min - max):",
+    "zh": "玩\\t家\\t数\\t量："
+  },
+  "events/players_range_single": {
+    "en": "Players required:",
+    "zh": "玩\\t家\\t要\\t求："
+  },
+  "events/arcade_common_desc": {
+    "en": "An Arcade Battle based on a real historical event, it takes place in random arcade locations. The vehicles list is limited to the vehicles that indeed fought in that period.",
+    "zh": "基\\t于\\t历\\t史\\t事\\t件\\t的\\t街\\t机\\t娱\\t乐\\t模\\t式\\t战\\t斗。\\t使\\t用\\t随\\t机\\t街\\t机\\t地\\t图，\\t并\\t将\\t依\\t照\\t史\\t实\\t对\\t载\\t具\\t型\\t号\\t作\\t出\\t限\\t制。"
+  },
+  "events/clan_only": {
+    "en": "This event is for Squadrons members only",
+    "zh": "只\\t有\\t联\\t队\\t成\\t员\\t才\\t能\\t参\\t加\\t该\\t行\\t动"
+  },
+  "events/clan_event_help": {
+    "en": "In this kind of event, a team of your squadron fights against a team of another squadron.",
+    "zh": "在\\t该\\t行\\t动\\t中，\\t你\\t们\\t将\\t与\\t其\\t他\\t联\\t队\\t相\\t遭\\t遇。"
+  },
+  "events/allowSwitchClan/false": {
+    "en": "Changing squadron during this tournament is not allowed.",
+    "zh": "在\\t该\\t比\\t赛\\t中\\t无\\t法\\t变\\t更\\t联\\t队。"
+  },
+  "events/allowSwitchClan/true": {
+    "en": "Changing squadron during this tournament is allowed.",
+    "zh": "在\\t该\\t比\\t赛\\t中\\t允\\t许\\t变\\t更\\t联\\t队。"
+  },
+  "events/handicap": {
+    "en": "Maximum players:",
+    "zh": "人\\t数\\t上\\t限："
+  },
+  "events/ticket_cost": {
+    "en": "Participation cost: {cost}",
+    "zh": "参\\t与\\t花\\t费：\\t{cost}"
+  },
+  "events/battle_cost": {
+    "en": "Battle cost: {cost}",
+    "zh": "作\\t战\\t花\\t费：\\t{cost}"
+  },
+  "ticket/max_defeat_count": {
+    "en": "Up to {value} defeats",
+    "zh": "仅\\t允\\t许\\t失\\t败 {value} 场"
+  },
+  "ticket/max_defeat_count_in_a_row": {
+    "en": "Up to {value} consecutive defeats",
+    "zh": "仅\\t允\\t许 {value} 场\\t连\\t败"
+  },
+  "ticket/battle_limit": {
+    "en": "Up to {value} battles.",
+    "zh": "需\\t进\\t行 {value} 场\\t战\\t斗"
+  },
+  "ticket/battle_count": {
+    "en": "Battles played",
+    "zh": "已\\t进\\t行\\t的\\t场\\t次"
+  },
+  "ticket/defeat_count": {
+    "en": "Defeats",
+    "zh": "失\\t败\\t数"
+  },
+  "ticket/defeat_count_in_a_row": {
+    "en": "Consecutive defeats",
+    "zh": "连\\t败\\t数"
+  },
+  "msgbox/need_ticket/purchase": {
+    "en": "To participate, you need to purchase:\n{ticket}\n{info}\nCost: {cost}",
+    "zh": "需\\t购\\t买：\n{ticket}\n{info}\n价\\t格：\\t{cost}"
+  },
+  "msgbox/need_ticket/no_tickets": {
+    "en": "Unfortunately, there are no available tickets\nfor the event {eventName}.",
+    "zh": "暂\\t未\\t拥\\t有\\t竞\\t技\\t场\\t入\\t场\\t券：\n{eventName}"
+  },
+  "events/all_vs_all": {
+    "en": "[Confrontation] All against all",
+    "zh": "【娱\\t乐\\t历\\t史\\t】\\t大\\t乱\\t斗"
+  },
+  "events/all_vs_all_desc": {
+    "en": "An Arcade Battle based on real historical event, it takes place in random historical locations. Respawn has been disabled for this type of battle.",
+    "zh": "基\\t于\\t历\\t史\\t事\\t件\\t的\\t街\\t机\\t娱\\t乐\\t模\\t式\\t战\\t斗。\\t使\\t用\\t随\\t机\\t历\\t史\\t地\\t图，\\t且\\t不\\t可\\t重\\t生。"
+  },
+  "missions/clan_event": {
+    "en": "Squadron Battles",
+    "zh": "联\\t队\\t战"
+  },
+  "missions/clan_event/desc": {
+    "en": "A special event where squadrons fight each other. In squadron events any units can fight in one battle, regardless of their rank.",
+    "zh": "在\\t联\\t队\\t战\\t模\\t式\\t中，\\t玩\\t家\\t所\\t选\\t择\\t的\\t载\\t具\\t不\\t会\\t受\\t到\\t任\\t何\\t等\\t级\\t限\\t制。"
+  },
+  "events/clan_event_arcade_9": {
+    "en": "Squadron Arcade Events (max BR 3.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（3.7 权\\t重）"
+  },
+  "events/clan_event_realistic_9": {
+    "en": "Squadron Realistic Events (max BR 3.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（3.7 权\\t重）"
+  },
+  "events/clan_event_arcade_10": {
+    "en": "Squadron Arcade Events (max BR 4.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（4.0 权\\t重）"
+  },
+  "events/clan_event_realistic_10": {
+    "en": "Squadron Realistic Events (max BR 4.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（4.0 权\\t重）"
+  },
+  "events/clan_event_arcade_11": {
+    "en": "Squadron Arcade Events (max BR 4.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（4.3 权\\t重）"
+  },
+  "events/clan_event_realistic_11": {
+    "en": "Squadron Realistic Events (max BR 4.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（4.3 权\\t重）"
+  },
+  "events/clan_event_arcade_12": {
+    "en": "Squadron Arcade Events (max BR 4.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（4.7 权\\t重）"
+  },
+  "events/clan_event_realistic_12": {
+    "en": "Squadron Realistic Events (max BR 4.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（4.7 权\\t重）"
+  },
+  "events/clan_event_arcade_13": {
+    "en": "Squadron Arcade Events (max BR 5.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（5.0 权\\t重）"
+  },
+  "events/clan_event_realistic_13": {
+    "en": "Squadron Realistic Events (max BR 5.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（5.0 权\\t重）"
+  },
+  "events/clan_event_arcade_14": {
+    "en": "Squadron Arcade Events (max BR 5.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（5.3 权\\t重）"
+  },
+  "events/clan_event_realistic_14": {
+    "en": "Squadron Realistic Events (max BR 5.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（5.3 权\\t重）"
+  },
+  "events/clan_event_arcade_15": {
+    "en": "Squadron Arcade Events (max BR 5.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（5.7 权\\t重）"
+  },
+  "events/clan_event_realistic_15": {
+    "en": "Squadron Realistic Events (max BR 5.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（5.7 权\\t重）"
+  },
+  "events/clan_event_arcade_16": {
+    "en": "Squadron Arcade Events (max BR 6.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（6.0 权\\t重）"
+  },
+  "events/clan_event_realistic_16": {
+    "en": "Squadron Realistic Events (max BR 6.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（6.0 权\\t重）"
+  },
+  "events/clan_event_arcade_17": {
+    "en": "Squadron Arcade Events (max BR 6.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（6.3 权\\t重）"
+  },
+  "events/clan_event_realistic_17": {
+    "en": "Squadron Realistic Events (max BR 6.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（6.3 权\\t重）"
+  },
+  "events/clan_event_arcade_18": {
+    "en": "Squadron Arcade Events (max BR 6.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（6.7 权\\t重）"
+  },
+  "events/clan_event_realistic_18": {
+    "en": "Squadron Realistic Events (max BR 6.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（6.7 权\\t重）"
+  },
+  "events/clan_event_arcade_19": {
+    "en": "Squadron Arcade Events (max BR 7.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（7.0 权\\t重）"
+  },
+  "events/clan_event_realistic_19": {
+    "en": "Squadron Realistic Events (max BR 7.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（7.0 权\\t重）"
+  },
+  "events/clan_event_arcade_20": {
+    "en": "Squadron Arcade Events (max BR 7.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（7.3 权\\t重）"
+  },
+  "events/clan_event_realistic_20": {
+    "en": "Squadron Realistic Events (max BR 7.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（7.3 权\\t重）"
+  },
+  "events/clan_event_arcade_21": {
+    "en": "Squadron Arcade Events (max BR 7.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（7.7 权\\t重）"
+  },
+  "events/clan_event_realistic_21": {
+    "en": "Squadron Realistic Events (max BR 7.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（7.7 权\\t重）"
+  },
+  "events/clan_event_arcade_22": {
+    "en": "Squadron Arcade Events (max BR 8.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（8.0 权\\t重）"
+  },
+  "events/clan_event_realistic_22": {
+    "en": "Squadron Realistic Events (max BR 8.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（8.0 权\\t重）"
+  },
+  "events/clan_event_arcade_23": {
+    "en": "Squadron Arcade Events (max BR 8.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（8.3 权\\t重）"
+  },
+  "events/clan_event_realistic_23": {
+    "en": "Squadron Realistic Events (max BR 8.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（8.3 权\\t重）"
+  },
+  "events/clan_event_arcade_24": {
+    "en": "Squadron Arcade Events (max BR 8.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（8.7 权\\t重）"
+  },
+  "events/clan_event_realistic_24": {
+    "en": "Squadron Realistic Events (max BR 8.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（8.7 权\\t重）"
+  },
+  "events/clan_event_arcade_25": {
+    "en": "Squadron Arcade Events (max BR 9.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（9.0 权\\t重）"
+  },
+  "events/clan_event_realistic_25": {
+    "en": "Squadron Realistic Events (max BR 9.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（9.0 权\\t重）"
+  },
+  "events/clan_event_arcade_26": {
+    "en": "Squadron Arcade Events (max BR 9.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（9.3 权\\t重）"
+  },
+  "events/clan_event_realistic_26": {
+    "en": "Squadron Realistic Events (max BR 9.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（9.3 权\\t重）"
+  },
+  "events/clan_event_arcade_27": {
+    "en": "Squadron Arcade Events (max BR 9.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（9.7 权\\t重）"
+  },
+  "events/clan_event_realistic_27": {
+    "en": "Squadron Realistic Events (max BR 9.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（9.7 权\\t重）"
+  },
+  "events/clan_event_arcade_28": {
+    "en": "Squadron Arcade Events (max BR 10.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（10.0 权\\t重）"
+  },
+  "events/clan_event_realistic_28": {
+    "en": "Squadron Realistic Events (max BR 10.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（10.0 权\\t重）"
+  },
+  "events/clan_event_arcade_29": {
+    "en": "Squadron Arcade Events (max BR 10.7)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（10.7 权\\t重）"
+  },
+  "events/clan_event_realistic_29": {
+    "en": "Squadron Realistic Events (max BR 10.7)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（10.7 权\\t重）"
+  },
+  "events/clan_event_arcade_30": {
+    "en": "Squadron Arcade Events (max BR 11.0)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（11.0 权\\t重）"
+  },
+  "events/clan_event_realistic_30": {
+    "en": "Squadron Realistic Events (max BR 11.0)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（11.0 权\\t重）"
+  },
+  "events/clan_event_arcade_31": {
+    "en": "Squadron Arcade Events (max BR 11.3)",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐\\t（11.3 权\\t重）"
+  },
+  "events/clan_event_realistic_31": {
+    "en": "Squadron Realistic Events (max BR 11.3)",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能\\t（11.3 权\\t重）"
+  },
+  "events/clan_event_arcade": {
+    "en": "Squadron Arcade Events",
+    "zh": "联\\t队\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "events/clan_event_realistic": {
+    "en": "Squadron Realistic Events",
+    "zh": "联\\t队\\t战 • 历\\t史\\t性\\t能"
+  },
+  "mainmenu/maxBR": {
+    "en": "max BR {br}",
+    "zh": "最\\t高\\t权\\t重：\\t{br}"
+  },
+  "missions/tank_event": {
+    "en": "Ground Battles",
+    "zh": "陆\\t战"
+  },
+  "missions/tank_event/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "missions/air_event": {
+    "en": "Air Battles",
+    "zh": "空\\t战"
+  },
+  "missions/air_event/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "missions/ship_event": {
+    "en": "Naval Battles",
+    "zh": "海\\t战"
+  },
+  "missions/ship_event/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "missions/helicopter_event": {
+    "en": "Helicopter Battles",
+    "zh": "直\\t升\\t机"
+  },
+  "missions/helicopter_event/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "missions/tank_event_arcade": {
+    "en": "Ground Arcade Battles",
+    "zh": "陆\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/tank_event_arcade/desc": {
+    "en": "Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.",
+    "zh": "在\\t陆\\t战\\t的\\t街\\t机\\t模\\t式\\t中，\\t玩\\t家\\t可\\t使\\t用\\t任\\t意\\t国\\t家\\t的\\t地\\t面\\t载\\t具，\\t并\\t能\\t通\\t过\\t不\\t断\\t摧\\t毁\\t敌\\t方\\t载\\t具\\t积\\t累\\t行\\t动\\t点\\t数。\\t利\\t用\\t这\\t些\\t行\\t动\\t点，\\t玩\\t家\\t还\\t可\\t以\\t驾\\t驶\\t飞\\t机\\t空\\t袭\\t敌\\t军\\t单\\t位。\n街\\t机\\t模\\t式\\t允\\t许\\t玩\\t家\\t重\\t生\\t三\\t次，\\t且\\t会\\t在\\t友\\t军\\t和\\t敌\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t街\\t机\\t模\\t式\\t中\\t的\\t车\\t辆\\t机\\t动\\t特\\t性\\t也\\t会\\t比\\t历\\t史\\t模\\t式\\t更\\t好。"
+  },
+  "missions/tank_event_in_random_battles_arcade": {
+    "en": "Ground Arcade Battles",
+    "zh": "陆\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/tank_event_in_random_battles_arcade/desc": {
+    "en": "Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.",
+    "zh": "在\\t陆\\t战\\t的\\t街\\t机\\t模\\t式\\t中，\\t玩\\t家\\t可\\t使\\t用\\t任\\t意\\t国\\t家\\t的\\t地\\t面\\t载\\t具，\\t并\\t能\\t通\\t过\\t不\\t断\\t摧\\t毁\\t敌\\t方\\t载\\t具\\t积\\t累\\t行\\t动\\t点\\t数。\\t利\\t用\\t这\\t些\\t行\\t动\\t点，\\t玩\\t家\\t还\\t可\\t以\\t驾\\t驶\\t飞\\t机\\t空\\t袭\\t敌\\t军\\t单\\t位。\n街\\t机\\t模\\t式\\t允\\t许\\t玩\\t家\\t重\\t生\\t三\\t次，\\t且\\t会\\t在\\t友\\t军\\t和\\t敌\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t街\\t机\\t模\\t式\\t中\\t的\\t车\\t辆\\t机\\t动\\t特\\t性\\t也\\t会\\t比\\t历\\t史\\t模\\t式\\t更\\t好。"
+  },
+  "missions/air_event_arcade": {
+    "en": "Air Arcade Battles",
+    "zh": "空\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/tank_event_arcade_short": {
+    "en": "Ground AB",
+    "zh": "陆\\t战\\t（街\\t机）"
+  },
+  "missions/short/tank_event_in_random_battles_arcade": {
+    "en": "Ground AB",
+    "zh": "陆\\t战\\t（街\\t机）"
+  },
+  "missions/air_event_arcade_short": {
+    "en": "Air AB",
+    "zh": "空\\t战\\t（街\\t机）"
+  },
+  "missions/short/air_arcade": {
+    "en": "Air AB",
+    "zh": "空\\t战\\t（街\\t机）"
+  },
+  "missions/ship_event_arcade_short": {
+    "en": "Naval AB",
+    "zh": "海\\t战\\t（街\\t机）"
+  },
+  "missions/short/ship_event_in_random_battles_arcade": {
+    "en": "Naval AB",
+    "zh": "海\\t战\\t（街\\t机）"
+  },
+  "missions/mixed_event_arcade": {
+    "en": "Mixed Arcade Battles",
+    "zh": "联\\t合\\t作\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/tank_event_historical": {
+    "en": "Ground Realistic Battles",
+    "zh": "陆\\t战 • 历\\t史\\t性\\t能"
+  },
+  "missions/tank_event_historical/desc": {
+    "en": "Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.",
+    "zh": "陆\\t战\\t的\\t历\\t史\\t模\\t式\\t的\\t均\\t取\\t材\\t于\\t二\\t战\\t等\\t历\\t史\\t上\\t的\\t军\\t事\\t冲\\t突，\\t玩\\t家\\t亦\\t将\\t按\\t照\\t参\\t战\\t的\\t国\\t别\\t被\\t严\\t格\\t划\\t分\\t为\\t两\\t组\\t进\\t行\\t对\\t抗。\\t在\\t该\\t模\\t式\\t中，\\t玩\\t家\\t一\\t开\\t始\\t只\\t能\\t出\\t击\\t地\\t面\\t载\\t具，\\t但\\t可\\t以\\t通\\t过\\t成\\t功\\t的\\t任\\t务\\t行\\t动\\t和\\t不\\t断\\t摧\\t毁\\t敌\\t方\\t载\\t具\\t积\\t累\\t重\\t生\\t点\\t数。\\t利\\t用\\t这\\t些\\t重\\t生\\t点，\\t玩\\t家\\t可\\t以\\t进\\t一\\t步\\t选\\t择\\t飞\\t机\\t或\\t其\\t他\\t地\\t面\\t载\\t具\\t出\\t击。\n历\\t史\\t模\\t式\\t仅\\t会\\t在\\t友\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t历\\t史\\t模\\t式\\t中\\t的\\t车\\t辆\\t机\\t动\\t特\\t性\\t会\\t尽\\t量\\t贴\\t近\\t现\\t实。"
+  },
+  "missions/tank_event_in_random_battles_historical": {
+    "en": "Ground Realistic Battles",
+    "zh": "陆\\t战 • 历\\t史\\t性\\t能"
+  },
+  "missions/tank_event_in_random_battles_historical/desc": {
+    "en": "Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.",
+    "zh": "陆\\t战\\t的\\t历\\t史\\t模\\t式\\t的\\t均\\t取\\t材\\t于\\t二\\t战\\t等\\t历\\t史\\t上\\t的\\t军\\t事\\t冲\\t突，\\t玩\\t家\\t亦\\t将\\t按\\t照\\t参\\t战\\t的\\t国\\t别\\t被\\t严\\t格\\t划\\t分\\t为\\t两\\t组\\t进\\t行\\t对\\t抗。\\t在\\t该\\t模\\t式\\t中，\\t玩\\t家\\t一\\t开\\t始\\t只\\t能\\t出\\t击\\t地\\t面\\t载\\t具，\\t但\\t可\\t以\\t通\\t过\\t成\\t功\\t的\\t任\\t务\\t行\\t动\\t和\\t不\\t断\\t摧\\t毁\\t敌\\t方\\t载\\t具\\t积\\t累\\t重\\t生\\t点\\t数。\\t利\\t用\\t这\\t些\\t重\\t生\\t点，\\t玩\\t家\\t可\\t以\\t进\\t一\\t步\\t选\\t择\\t飞\\t机\\t或\\t其\\t他\\t地\\t面\\t载\\t具\\t出\\t击。\n历\\t史\\t模\\t式\\t仅\\t会\\t在\\t友\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t历\\t史\\t模\\t式\\t中\\t的\\t车\\t辆\\t机\\t动\\t特\\t性\\t会\\t尽\\t量\\t贴\\t近\\t现\\t实。"
+  },
+  "missions/air_event_historical": {
+    "en": "Air Realistic Battles",
+    "zh": "空\\t战 • 历\\t史\\t性\\t能"
+  },
+  "missions/tank_event_historical_short": {
+    "en": "Ground RB",
+    "zh": "陆\\t战\\t（历\\t史）"
+  },
+  "missions/short/tank_event_in_random_battles_historical": {
+    "en": "Ground RB",
+    "zh": "陆\\t战\\t（历\\t史）"
+  },
+  "missions/air_event_historical_short": {
+    "en": "Air RB",
+    "zh": "空\\t战\\t（历\\t史）"
+  },
+  "missions/short/air_realistic": {
+    "en": "Air RB",
+    "zh": "空\\t战\\t（历\\t史）"
+  },
+  "missions/ship_event_historical_short": {
+    "en": "Naval RB",
+    "zh": "海\\t战\\t（历\\t史）"
+  },
+  "missions/short/ship_event_in_random_battles_realistic": {
+    "en": "Naval RB",
+    "zh": "海\\t战\\t（历\\t史）"
+  },
+  "missions/mixed_event_historical": {
+    "en": "Mixed Realistic Battles",
+    "zh": "联\\t合\\t作\\t战 • 历\\t史\\t性\\t能"
+  },
+  "missions/tank_event_simulator": {
+    "en": "Ground Simulator Battles",
+    "zh": "陆\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/tank_event_simulator_short": {
+    "en": "Ground SB",
+    "zh": "陆\\t战\\t（全\\t真）"
+  },
+  "missions/tank_event_in_random_battles_simulator": {
+    "en": "Ground Simulator Battles",
+    "zh": "陆\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/short/tank_random_battles_simulation": {
+    "en": "Ground SB",
+    "zh": "陆\\t战\\t（全\\t真）"
+  },
+  "missions/short/tank_random_battles_simulation_1": {
+    "en": "Ground SB",
+    "zh": "陆\\t战\\t（全\\t真）"
+  },
+  "missions/air_event_simulator": {
+    "en": "Air Simulator Battles",
+    "zh": "空\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/air_event_simulator_short": {
+    "en": "Air SB",
+    "zh": "空\\t战\\t（全\\t真）"
+  },
+  "missions/air_simulation_timeDelay_battles": {
+    "en": "Air Simulator Battles",
+    "zh": "空\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/air_simulation_timeDelay_battles_short": {
+    "en": "Air SB",
+    "zh": "空\\t战\\t（全\\t真）"
+  },
+  "missions/short/air_simulation_timeDelay_battles": {
+    "en": "Air SB",
+    "zh": "空\\t战\\t（全\\t真）"
+  },
+  "missions/mixed_event_simulator": {
+    "en": "Mixed Simulator Battles",
+    "zh": "联\\t合\\t作\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/ship_event_arcade": {
+    "en": "Naval Arcade Battles",
+    "zh": "海\\t战 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/ship_event_arcade/desc": {
+    "en": "Naval Arcade Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. There are markers over both allied and enemy units. The manoeuvrability characteristics of the vehicles are improved over those in Realistic Battles. Parties can have vehicles from any nation. The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.",
+    "zh": "在\\t海\\t战\\t的\\t街\\t机\\t模\\t式\\t中，\\t玩\\t家\\t可\\t使\\t用\\t任\\t意\\t国\\t家\\t的\\t水\\t面\\t载\\t具\\t及\\t空\\t中\\t单\\t位。\\t你\\t可\\t以\\t驾\\t驶\\t自\\t己\\t所\\t选\\t的\\t空\\t中\\t单\\t位，\\t也\\t可\\t以\\t使\\t用\\t两\\t个\\t额\\t外\\t增\\t加\\t的\\t空\\t中\\t单\\t位\\t栏\\t位。\\t在\\t该\\t模\\t式\\t中，\\t玩\\t家\\t可\\t以\\t通\\t过\\t执\\t行\\t多\\t种\\t任\\t务\\t行\\t动\\t积\\t累\\t特\\t殊\\t的\\t重\\t生\\t点\\t数，\\t并\\t利\\t用\\t这\\t些\\t点\\t数\\t出\\t击\\t空\\t中\\t单\\t位。\\t注\\t意，\\t游\\t戏\\t一\\t开\\t始\\t获\\t得\\t的\\t点\\t数\\t不\\t足\\t以\\t驾\\t驶\\t空\\t中\\t单\\t位。\n街\\t机\\t模\\t式\\t允\\t许\\t玩\\t家\\t使\\t用\\t水\\t面\\t载\\t具\\t重\\t生\\t三\\t次，\\t使\\t用\\t空\\t中\\t单\\t位\\t重\\t生\\t两\\t次，\\t且\\t会\\t在\\t友\\t军\\t和\\t敌\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t街\\t机\\t模\\t式\\t中\\t的\\t舰\\t船\\t航\\t行\\t特\\t性\\t也\\t会\\t比\\t历\\t史\\t模\\t式\\t更\\t好。"
+  },
+  "missions/ship_event_historical": {
+    "en": "Naval Realistic Battles",
+    "zh": "海\\t战 • 历\\t史\\t性\\t能"
+  },
+  "missions/ship_event_historical/desc": {
+    "en": "Naval Realistic Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – and you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. The markers are used for allied units only. Vehicle characteristics are maximally approximated to those of their real-life counterparts. Parties can have vehicles from one or several nations.\nThe maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.",
+    "zh": "在\\t海\\t战\\t的\\t历\\t史\\t模\\t式\\t中，\\t玩\\t家\\t可\\t使\\t用\\t任\\t意\\t国\\t家\\t的\\t水\\t面\\t载\\t具\\t及\\t空\\t中\\t单\\t位。\\t你\\t可\\t以\\t驾\\t驶\\t自\\t己\\t所\\t选\\t的\\t空\\t中\\t单\\t位，\\t也\\t可\\t以\\t使\\t用\\t两\\t个\\t额\\t外\\t增\\t加\\t的\\t空\\t中\\t单\\t位\\t栏\\t位。\\t在\\t该\\t模\\t式\\t中，\\t玩\\t家\\t可\\t以\\t通\\t过\\t执\\t行\\t多\\t种\\t任\\t务\\t行\\t动\\t积\\t累\\t特\\t殊\\t的\\t重\\t生\\t点\\t数，\\t并\\t利\\t用\\t这\\t些\\t点\\t数\\t出\\t击\\t空\\t中\\t单\\t位。\\t注\\t意，\\t游\\t戏\\t一\\t开\\t始\\t获\\t得\\t的\\t点\\t数\\t不\\t足\\t以\\t驾\\t驶\\t空\\t中\\t单\\t位。\n历\\t史\\t模\\t式\\t允\\t许\\t玩\\t家\\t使\\t用\\t水\\t面\\t载\\t具\\t重\\t生\\t三\\t次，\\t使\\t用\\t空\\t中\\t单\\t位\\t重\\t生\\t两\\t次。\\t该\\t模\\t式\\t仅\\t会\\t在\\t友\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t且\\t会\\t在\\t友\\t军\\t和\\t敌\\t军\\t的\\t载\\t具\\t上\\t方\\t显\\t示\\t指\\t示\\t图\\t标。\\t此\\t外，\\t历\\t史\\t模\\t式\\t中\\t的\\t舰\\t船\\t航\\t行\\t特\\t性\\t会\\t尽\\t量\\t贴\\t近\\t现\\t实。"
+  },
+  "missions/ship_event_simulator": {
+    "en": "Naval Simulator Battles",
+    "zh": "海\\t战 • 全\\t真\\t模\\t拟"
+  },
+  "missions/ship_event_simulator/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "missions/helicopter_event_arcade": {
+    "en": "Helicopter Arcade Battles",
+    "zh": "直\\t升\\t机 • 街\\t机\\t娱\\t乐"
+  },
+  "missions/helicopter_event_historical": {
+    "en": "Helicopter Realistic Battles",
+    "zh": "直\\t升\\t机 • 历\\t史\\t性\\t能"
+  },
+  "missions/helicopter_event_simulator": {
+    "en": "Helicopter Simulator Battles",
+    "zh": "直\\t升\\t机 • 全\\t真\\t模\\t拟"
+  },
+  "common_air_kills": {
+    "en": "(aircraft)",
+    "zh": "（空\\t战\\t击\\t杀\\t数）"
+  },
+  "common_ground_kills": {
+    "en": "(ground forces)",
+    "zh": "（陆\\t战\\t击\\t杀\\t数）"
+  },
+  "common_missions_played": {
+    "en": "(missions)",
+    "zh": "（任\\t务\\t数）"
+  },
+  "premium_tanks_givaway_day01": {
+    "en": "First Battles",
+    "zh": "小\\t试\\t身\\t手"
+  },
+  "premium_tanks_givaway_day02": {
+    "en": "Avenger",
+    "zh": "复\\t仇\\t心\\t切"
+  },
+  "premium_tanks_givaway_day03": {
+    "en": "Aircraft Score Too!",
+    "zh": "掌\\t控\\t蓝\\t天"
+  },
+  "premium_tanks_givaway_day04": {
+    "en": "Meet the Heavy",
+    "zh": "重\\t装\\t出\\t击"
+  },
+  "premium_tanks_givaway_day05": {
+    "en": "Daily Routine",
+    "zh": "渐\\t入\\t佳\\t境"
+  },
+  "premium_tanks_givaway_day06": {
+    "en": "Can See My Enemy",
+    "zh": "弹\\t无\\t虚\\t发"
+  },
+  "premium_tanks_givaway_day07": {
+    "en": "Five After Ten",
+    "zh": "轻\\t车\\t熟\\t路"
+  },
+  "event_country_germany": {
+    "en": "(Germany)",
+    "zh": "（德\\t国）"
+  },
+  "event_country_ussr": {
+    "en": "(USSR)",
+    "zh": "（苏\\t联）"
+  },
+  "event_country_britain": {
+    "en": "(Britain)",
+    "zh": "（英\\t国）"
+  },
+  "event_country_australia": {
+    "en": "(Australia)",
+    "zh": "（澳\\t大\\t利\\t亚）"
+  },
+  "event_country_usa": {
+    "en": "(USA)",
+    "zh": "（美\\t国）"
+  },
+  "event_country_italy": {
+    "en": "(Italy)",
+    "zh": "（意\\t大\\t利）"
+  },
+  "event_country_japan": {
+    "en": "(Japan)",
+    "zh": "（日\\t本）"
+  },
+  "event_country_china": {
+    "en": "(China)",
+    "zh": "（中\\t国）"
+  },
+  "event_airforce_germany": {
+    "en": "German Air Force",
+    "zh": "德\\t国\\t空\\t军"
+  },
+  "event_airforce_ussr": {
+    "en": "USSR Air Force",
+    "zh": "苏\\t联\\t空\\t军"
+  },
+  "event_airforce_britain": {
+    "en": "British Air Force",
+    "zh": "英\\t国\\t空\\t军"
+  },
+  "event_airforce_australia": {
+    "en": "Australian Air Force",
+    "zh": "澳\\t大\\t利\\t亚\\t空\\t军"
+  },
+  "event_airforce_usa": {
+    "en": "US Air Force",
+    "zh": "美\\t国\\t空\\t军"
+  },
+  "event_airforce_italy": {
+    "en": "Italian Air Force",
+    "zh": "意\\t大\\t利\\t空\\t军"
+  },
+  "event_airforce_japan": {
+    "en": "Japanese Air Force",
+    "zh": "日\\t本\\t空\\t军"
+  },
+  "event_airforce_china": {
+    "en": "Chinese Air Force",
+    "zh": "中\\t国\\t空\\t军"
+  },
+  "event_army_germany": {
+    "en": "German Army",
+    "zh": "德\\t国\\t陆\\t军"
+  },
+  "event_army_ussr": {
+    "en": "USSR Army",
+    "zh": "苏\\t联\\t陆\\t军"
+  },
+  "event_army_britain": {
+    "en": "British Army",
+    "zh": "英\\t国\\t陆\\t军"
+  },
+  "event_army_australia": {
+    "en": "Australian Army",
+    "zh": "澳\\t大\\t利\\t亚\\t陆\\t军"
+  },
+  "event_army_usa": {
+    "en": "US Army",
+    "zh": "美\\t国\\t陆\\t军"
+  },
+  "event_army_italy": {
+    "en": "Italian Army",
+    "zh": "意\\t大\\t利\\t陆\\t军"
+  },
+  "event_army_japan": {
+    "en": "Japanese Army",
+    "zh": "日\\t本\\t陆\\t军"
+  },
+  "event_army_china": {
+    "en": "Chinese Army",
+    "zh": "中\\t国\\t陆\\t军"
+  },
+  "events/kursk_battle": {
+    "en": "Battle of Kursk",
+    "zh": "库\\t尔\\t斯\\t克\\t战\\t役"
+  },
+  "events/kursk_battle/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "events/prokhorovka_battle": {
+    "en": "Battle of Prokhorovka",
+    "zh": "普\\t罗\\t霍\\t罗\\t夫\\t卡\\t战\\t役"
+  },
+  "events/prokhorovka_battle/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "events/antiaircraft_battle": {
+    "en": "Rapid Fire",
+    "zh": "火\\t力\\t网"
+  },
+  "events/antiaircraft_battle/desc": {
+    "en": "",
+    "zh": ""
+  },
+  "events/tank_vs_air_arcade": {
+    "en": "The Sky is for Heroes",
+    "zh": "蓝\\t天\\t属\\t于\\t英\\t雄"
+  },
+  "events/tank_vs_air_arcade/desc": {
+    "en": "Only the best will reach the heights! Gain one opportunity of using an aircraft in a ground battle for each three enemies defeated.",
+    "zh": "只\\t有\\t战\\t场\\t精\\t英\\t才\\t配\\t统\\t治\\t天\\t空！\\t每\\t当\\t用\\t地\\t面\\t载\\t具\\t获\\t得\\t三\\t个\\t击\\t杀，\\t便\\t可\\t赢\\t得\\t一\\t次\\t使\\t用\\t飞\\t机\\t出\\t击\\t的\\t机\\t会。"
+  },
+  "missions/phiphi_race_two_circles_v1_race_inverted": {
+    "en": "[Race] Tropical Island",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛"
+  },
+  "missions/phiphi_race_two_circles_v1_race_inverted/desc": {
+    "en": "Race track above the tropical island.",
+    "zh": "在\\t风\\t景\\t如\\t画\\t的\\t热\\t带\\t群\\t岛\\t上\\t空\\t极\\t速\\t驰\\t骋。"
+  },
+  "missions/phiphi_race_two_circles_v2_race_straight": {
+    "en": "[Race] Tropical Island",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛"
+  },
+  "missions/phiphi_race_two_circles_v2_race_straight/desc": {
+    "en": "Race track above the tropical island.",
+    "zh": "在\\t风\\t景\\t如\\t画\\t的\\t热\\t带\\t群\\t岛\\t上\\t空\\t极\\t速\\t驰\\t骋。"
+  },
+  "missions/phiphi_race_two_circles_v2_race_inverted": {
+    "en": "[Race] Tropical Island",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛"
+  },
+  "missions/phiphi_race_two_circles_v2_race_inverted/desc": {
+    "en": "Race track above the tropical island.",
+    "zh": "在\\t风\\t景\\t如\\t画\\t的\\t热\\t带\\t群\\t岛\\t上\\t空\\t极\\t速\\t驰\\t骋。"
+  },
+  "missions/phiphi_race_two_circles": {
+    "en": "[Race] Island",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛"
+  },
+  "missions/phiphi_race_two_circles_1st_rank": {
+    "en": "[Race] Island (1st rank)",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛\\t（I 级）"
+  },
+  "missions/phiphi_race_two_circles_2nd_rank": {
+    "en": "[Race] Island (2nd rank)",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛\\t（II 级）"
+  },
+  "missions/phiphi_race_two_circles_3rd_rank": {
+    "en": "[Race] Island (3rd rank)",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛\\t（III 级）"
+  },
+  "missions/phiphi_race_two_circles_4th_rank": {
+    "en": "[Race] Island (4th rank)",
+    "zh": "【竞\\t速\\t赛\\t】\\t披\\t披\\t群\\t岛\\t（IV 级）"
+  },
+  "events/wrong_clan_for_this_tornament": {
+    "en": "In this tournament you can participate in only one Squadron.",
+    "zh": "仅\\t允\\t许\\t一\\t个\\t联\\t队\\t参\\t与\\t该\\t比\\t赛。"
+  },
+  "events/wait_for_sessions_to_finish/main": {
+    "en": "You cannot join the battle until the current tournament battle is finished.",
+    "zh": "当\\t前\\t竞\\t技\\t场\\t比\\t赛\\t结\\t束\\t之\\t前\\t无\\t法\\t加\\t入\\t新\\t的\\t游\\t戏。"
+  },
+  "events/wait_for_sessions_to_finish/optional": {
+    "en": "Less than {timeleft} left.",
+    "zh": "还\\t剩 {timeleft}。"
+  },
+  "events/no_unlock_progress": {
+    "en": "Achievement progress is not counted in this battle.",
+    "zh": "该\\t场\\t战\\t斗\\t的\\t结\\t果\\t将\\t不\\t会\\t计\\t入\\t成\\t就\\t进\\t度。"
+  },
+  "events/has_time_awarding_economics": {
+    "en": "This mode uses a system of rewards for useful actions per unit of time. The reward for individual actions is not accrued.",
+    "zh": "本\\t模\\t式\\t的\\t收\\t益\\t分\\t配\\t基\\t于\\t每\\t段\\t时\\t间\\t内\\t的\\t全\\t部\\t作\\t战\\t贡\\t献，\\t达\\t成\\t单\\t次\\t贡\\t献\\t时\\t不\\t会\\t单\\t独\\t分\\t发\\t奖\\t励。"
+  },
+  "missions/ab_airfield_assault": {
+    "en": "Airfield Assault",
+    "zh": "三\\t足\\t鼎\\t立"
+  },
+  "missions/ab_airfield_assault/desc": {
+    "en": "Three airfields surround the town. Each team has an airfield, but there is a central one in the middle of the town - this airfield is open for capture by all and, once capped, the owning team can capture the others. The central base has no ticket bleed, but as soon as any of the other fields are taken, tickets will bleed from the original owners. This will continue until the central airfield is captured again and then the team's satellite base is re-captured. This will be a real tug of war between the three teams, a real struggle for survival.",
+    "zh": "城\\t区\\t周\\t边\\t有\\t三\\t座\\t外\\t围\\t机\\t场，\\t开\\t场\\t时\\t三\\t方\\t各\\t持\\t其\\t中\\t之\\t一。\\t当\\t一\\t方\\t夺\\t取\\t了\\t城\\t区\\t中\\t心\\t的\\t中\\t立\\t机\\t场\\t后\\t（不\\t会\\t导\\t致\\t对\\t方\\t丢\\t分），\\t便\\t可\\t进\\t一\\t步\\t占\\t领\\t另\\t两\\t方\\t的\\t机\\t场\\t（会\\t导\\t致\\t对\\t方\\t丢\\t分）。\\t而\\t欲\\t夺\\t回\\t己\\t方\\t的\\t外\\t围\\t机\\t场，\\t则\\t必\\t须\\t先\\t占\\t领\\t中\\t心\\t机\\t场。\\t在\\t这\\t场\\t旷\\t日\\t持\\t久\\t的\\t拉\\t锯\\t战\\t中，\\t哪\\t一\\t方\\t才\\t能\\t笑\\t到\\t最\\t后\\t呢？"
+  },
+  "mission/pve_event": {
+    "en": "Victory Hour",
+    "zh": "胜\\t利\\t时\\t刻"
+  },
+  "mission/pve_event/desc": {
+    "en": "Take part in the events that became a symbol of victory in the Second World War.",
+    "zh": "参\\t加\\t活\\t动，\\t亲\\t身\\t经\\t历\\t最\\t激\\t动\\t人\\t心\\t的\\t胜\\t利\\t时\\t刻！"
+  },
+  "missions/ussr_capture_of_reichstag": {
+    "en": "Victory Hour",
+    "zh": "胜\\t利\\t时\\t刻"
+  },
+  "missions/ussr_capture_of_reichstag_PvE": {
+    "en": "Victory Hour",
+    "zh": "【合\\t作\\t任\\t务\\t】\\t胜\\t利\\t时\\t刻"
+  },
+  "missions/ussr_capture_of_reichstag_PvE/desc": {
+    "en": "Take part in the events that became a symbol of victory in the Second World War: the Battle for the Reichstag!",
+    "zh": "夺\\t取\\t国\\t会\\t大\\t厦，\\t终\\t结\\t柏\\t林\\t战\\t役，\\t彻\\t底\\t击\\t败\\t德\\t意\\t志\\t第\\t三\\t帝\\t国，\\t亲\\t身\\t经\\t历\\t二\\t战\\t中\\t最\\t激\\t动\\t人\\t心\\t的\\t胜\\t利\\t时\\t刻！"
+  },
+  "missions/chastise": {
+    "en": "Operation \"Chastise\"",
+    "zh": "【军\\t事\\t行\\t动\\t】\\t惩\\t戒\\t行\\t动"
+  },
+  "missions/chastise/desc": {
+    "en": "Operation \"Chastise\" was planned for the 16th and 17th of May 1943. The RAF bomber groups were to provide massive attacks over the industrial areas of the Ruhr. The intention of operation \"Chastise\", was to significantly weaken the weapon production of the enemy.",
+    "zh": "1943 年 5 月 16 日\\t和 17 日，\\t英\\t国\\t发\\t起\\t了\\t惩\\t戒\\t行\\t动。\\t其\\t间，\\t皇\\t家\\t空\\t军\\t对\\t鲁\\t尔\\t工\\t业\\t区\\t进\\t行\\t了\\t大\\t规\\t模\\t战\\t略\\t轰\\t炸，\\t大\\t幅\\t削\\t弱\\t了\\t纳\\t粹\\t德\\t国\\t未\\t来\\t的\\t作\\t战\\t潜\\t能。"
+  },
+  "missions/stalingrad_I2M_rank0_5": {
+    "en": "[1][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（I 级）"
+  },
+  "missions/stalingrad_I2M_rank6_10": {
+    "en": "[2][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（II 级）"
+  },
+  "missions/stalingrad_I2M_rank11_16": {
+    "en": "[3][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（III 级）"
+  },
+  "missions/stalingrad_I2M_rank17_25": {
+    "en": "[4][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（IV 级）"
+  },
+  "missions/stalingrad_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（I 级）"
+  },
+  "missions/stalingrad_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（II 级）"
+  },
+  "missions/stalingrad_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（III 级）"
+  },
+  "missions/stalingrad_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（IV 级）"
+  },
+  "missions/stalingrad_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] Stalingrad",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t斯\\t大\\t林\\t格\\t勒\\t（V 级）"
+  },
+  "missions/khalkhin_gol_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] Khalkhin Gol",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t诺\\t门\\t罕\\t（I 级）"
+  },
+  "missions/khalkhin_gol_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] Khalkhin Gol",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t诺\\t门\\t罕\\t（II 级）"
+  },
+  "missions/khalkhin_gol_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] Khalkhin Gol",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t诺\\t门\\t罕\\t（III 级）"
+  },
+  "missions/khalkhin_gol_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] Khalkhin Gol",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t诺\\t门\\t罕\\t（IV 级）"
+  },
+  "missions/khalkhin_gol_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] Khalkhin Gol",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t诺\\t门\\t罕\\t（V 级）"
+  },
+  "missions/ruhr_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] Ruhr",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t鲁\\t尔\\t（I 级）"
+  },
+  "missions/ruhr_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] Ruhr",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t鲁\\t尔\\t（II 级）"
+  },
+  "missions/ruhr_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] Ruhr",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t鲁\\t尔\\t（III 级）"
+  },
+  "missions/ruhr_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] Ruhr",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t鲁\\t尔\\t（IV 级）"
+  },
+  "missions/ruhr_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] Ruhr",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t鲁\\t尔\\t（V 级）"
+  },
+  "missions/sicily_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] Sicily",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t西\\t西\\t里\\t岛\\t（I 级）"
+  },
+  "missions/sicily_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] Sicily",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t西\\t西\\t里\\t岛\\t（II 级）"
+  },
+  "missions/sicily_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] Sicily",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t西\\t西\\t里\\t岛\\t（III 级）"
+  },
+  "missions/sicily_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] Sicily",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t西\\t西\\t里\\t岛\\t（IV 级）"
+  },
+  "missions/sicily_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] Sicily",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t西\\t西\\t里\\t岛\\t（V 级）"
+  },
+  "missions/port_moresby_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] New Guinea",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t新\\t几\\t内\\t亚\\t（I 级）"
+  },
+  "missions/port_moresby_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] New Guinea",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t新\\t几\\t内\\t亚\\t（II 级）"
+  },
+  "missions/port_moresby_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] New Guinea",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t新\\t几\\t内\\t亚\\t（III 级）"
+  },
+  "missions/port_moresby_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] New Guinea",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t新\\t几\\t内\\t亚\\t（IV 级）"
+  },
+  "missions/port_moresby_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] New Guinea",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t新\\t几\\t内\\t亚\\t（V 级）"
+  },
+  "missions/volokolamsk_I2M_rank_1": {
+    "en": "[1][Enduring Confrontation] Volokolamsk",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t沃\\t洛\\t科\\t拉\\t姆\\t斯\\t克\\t（I 级）"
+  },
+  "missions/volokolamsk_I2M_rank_2": {
+    "en": "[2][Enduring Confrontation] Volokolamsk",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t沃\\t洛\\t科\\t拉\\t姆\\t斯\\t克\\t（II 级）"
+  },
+  "missions/volokolamsk_I2M_rank_3": {
+    "en": "[3][Enduring Confrontation] Volokolamsk",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t沃\\t洛\\t科\\t拉\\t姆\\t斯\\t克\\t（III 级）"
+  },
+  "missions/volokolamsk_I2M_rank_4": {
+    "en": "[4][Enduring Confrontation] Volokolamsk",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t沃\\t洛\\t科\\t拉\\t姆\\t斯\\t克\\t（IV 级）"
+  },
+  "missions/volokolamsk_I2M_rank_5": {
+    "en": "[5][Enduring Confrontation] Volokolamsk",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t沃\\t洛\\t科\\t拉\\t姆\\t斯\\t克\\t（V 级）"
+  },
+  "missions/I2M": {
+    "en": "Enduring Confrontation",
+    "zh": "无\\t间\\t断\\t作\\t战"
+  },
+  "missions/I2M/desc": {
+    "en": "This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:\n[1] 1.0 - 2.0\n[2] 2.3 - 3.3\n[3] 3.7 - 4.7\n[4] 5.0 - 6.3\n[5] 6.7+\nPlan your vehicle setup accordingly.",
+    "zh": "根\\t据\\t出\\t击\\t队\\t列\\t中\\t的\\t最\\t高\\t载\\t具\\t等\\t级，\\t该\\t模\\t式\\t共\\t提\\t供\\t了 5 种\\t分\\t房\\t等\\t级：\n[1] 1.0 - 2.0\n[2] 2.3 - 3.3\n[3] 3.7 - 4.7\n[4] 5.0 - 6.3\n[5] 6.7+\n请\\t根\\t据\\t上\\t述\\t分\\t房\\t等\\t级\\t优\\t化\\t配\\t置\\t出\\t击\\t载\\t具。"
+  },
+  "missions/I2M_rank_1": {
+    "en": "[1][Enduring Confrontation]",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t（I 级）"
+  },
+  "missions/I2M_rank_2": {
+    "en": "[2][Enduring Confrontation]",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t（II 级）"
+  },
+  "missions/I2M_rank_3": {
+    "en": "[3][Enduring Confrontation]",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t（III 级）"
+  },
+  "missions/I2M_rank_4": {
+    "en": "[4][Enduring Confrontation]",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t（IV 级）"
+  },
+  "missions/I2M_rank_5": {
+    "en": "[5][Enduring Confrontation]",
+    "zh": "【无\\t间\\t断\\t作\\t战\\t】\\t（V 级）"
+  },
+  "mission/survival": {
+    "en": "The Last Stand",
+    "zh": "背\\t水\\t一\\t战"
+  },
+  "mission/survival/desc": {
+    "en": "Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!",
+    "zh": "如\\t潮\\t水\\t般\\t的\\t敌\\t人\\t涌\\t来，\\t试\\t图\\t冲\\t破\\t我\\t们\\t的\\t最\\t后\\t防\\t线。\\t战\\t斗\\t吧！\\t让\\t他\\t们\\t明\\t白\\t谁\\t才\\t是\\t猎\\t物！"
+  },
+  "mission/survival_clan": {
+    "en": "[Squadron Event] The Last Stand",
+    "zh": "【联\\t队\\t行\\t动\\t】\\t背\\t水\\t一\\t战"
+  },
+  "mission/survival_clan/desc": {
+    "en": "Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!",
+    "zh": "如\\t潮\\t水\\t般\\t的\\t敌\\t人\\t涌\\t来，\\t试\\t图\\t冲\\t破\\t我\\t们\\t的\\t最\\t后\\t防\\t线。\\t战\\t斗\\t吧！\\t让\\t他\\t们\\t明\\t白\\t谁\\t才\\t是\\t猎\\t物！"
+  },
+  "missions/battle_for_survival_8_players_PvE": {
+    "en": "The Last Stand",
+    "zh": "背\\t水\\t一\\t战"
+  },
+  "missions/battle_for_survival_8_players_PvE/desc": {
+    "en": "Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!",
+    "zh": "如\\t潮\\t水\\t般\\t的\\t敌\\t人\\t涌\\t来，\\t试\\t图\\t冲\\t破\\t我\\t们\\t的\\t最\\t后\\t防\\t线。\\t战\\t斗\\t吧！\\t让\\t他\\t们\\t明\\t白\\t谁\\t才\\t是\\t猎\\t物！"
+  },
+  "missions/battle_for_survival": {
+    "en": "The Last Stand",
+    "zh": "最\\t后\\t防\\t线"
+  },
+  "missions/battle_for_survival/desc": {
+    "en": "Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!",
+    "zh": "如\\t潮\\t水\\t般\\t的\\t敌\\t人\\t涌\\t来，\\t试\\t图\\t冲\\t破\\t我\\t们\\t的\\t最\\t后\\t防\\t线。\\t战\\t斗\\t吧！\\t让\\t他\\t们\\t明\\t白\\t谁\\t才\\t是\\t猎\\t物！"
+  },
+  "msg/eventAccess/needEntitlements": {
+    "en": "To access the event {event}, you must have {entitlement}",
+    "zh": "加\\t入 {event} 需\\t要 {entitlement}"
+  },
+  "msg/members_no_access_to_mode": {
+    "en": "{members} do not have access to this mode.",
+    "zh": "成\\t员 {members} 未\\t满\\t足\\t进\\t入\\t条\\t件。"
+  },
+  "event/pve_main_air_arcade": {
+    "en": "Assault. Air Arcade",
+    "zh": "空\\t战 • 守\\t卫\\t模\\t式\\t（街\\t机）"
+  },
+  "event/pve_main_air_arcade/desc": {
+    "en": "Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in \"Assault\" mode brings players a special reward.\nThis game mode has 5 levels depending on the maximum battle rating of your vehicle setup:\n1.0 - 2.3\n2.7 - 3.7\n4.0 - 5.0\n5.3 - 6.3\n6.7 - 12.7\nPlan your vehicle setup accordingly.",
+    "zh": "在\\t这\\t场\\t人\\t机\\t对\\t战\\t游\\t戏\\t中\\t对\\t抗\\t如\\t潮\\t水\\t般\\t涌\\t来\\t的\\t电\\t脑\\t敌\\t军。\\t每\\t天\\t首\\t次\\t游\\t玩\\t守\\t卫\\t模\\t式\\t都\\t会\\t获\\t得\\t特\\t别\\t奖\\t励。\n根\\t据\\t出\\t击\\t队\\t列\\t中\\t的\\t最\\t高\\t载\\t具\\t等\\t级，\\t该\\t模\\t式\\t共\\t分\\t为 5 阶：\n1.0 - 2.3\n2.7 - 3.7\n4.0 - 5.0\n5.3 - 6.3\n6.7 - 12.7\n请\\t根\\t据\\t上\\t述\\t分\\t房\\t等\\t级\\t优\\t化\\t配\\t置\\t出\\t击\\t载\\t具。"
+  },
+  "event/pve_main_tank_arcade": {
+    "en": "Assault. Ground Arcade",
+    "zh": "陆\\t战 • 守\\t卫\\t模\\t式\\t（街\\t机）"
+  },
+  "event/pve_main_tank_arcade/desc": {
+    "en": "Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in \"Assault\" mode brings players a special reward.\nThis game mode has 6 levels depending on the maximum battle rating of your vehicle setup:\n1.0 - 2.3\n2.7 - 3.7\n4.0 - 5.0\n5.3 - 6.3\n6.7 - 8.0\n8.3+\nPlan your vehicle setup accordingly.",
+    "zh": "在\\t这\\t场\\t人\\t机\\t对\\t战\\t游\\t戏\\t中\\t守\\t住\\t基\\t地，\\t并\\t对\\t抗\\t如\\t潮\\t水\\t般\\t涌\\t来\\t的\\t电\\t脑\\t敌\\t军。\\t每\\t天\\t首\\t次\\t游\\t玩\\t守\\t卫\\t模\\t式\\t都\\t会\\t获\\t得\\t特\\t别\\t奖\\t励。\n根\\t据\\t出\\t击\\t队\\t列\\t中\\t的\\t最\\t高\\t载\\t具\\t等\\t级，\\t该\\t模\\t式\\t共\\t提\\t供\\t了 6 种\\t难\\t度：\n[1] 1.0 - 2.3\n[2] 2.7 - 3.7\n[3] 4.0 - 5.0\n[4] 5.3 - 6.3\n[5] 6.7 - 8.0\n[6] 8.3+\n请\\t根\\t据\\t上\\t述\\t分\\t房\\t等\\t级\\t优\\t化\\t配\\t置\\t出\\t击\\t载\\t具。"
+  },
+  "trophy/pve_main_trophy": {
+    "en": "Trophy for taking part in the Assault",
+    "zh": "参\\t加\\t守\\t卫\\t模\\t式\\t的\\t作\\t战\\t物\\t资"
+  },
+  "event/BR": {
+    "en": "Battle Royale",
+    "zh": "大\\t逃\\t杀"
+  },
+  "event/BR32": {
+    "en": "Battle Royale (32 players)",
+    "zh": "大\\t逃\\t杀\\t（32 人）"
+  },
+  "event/BR64": {
+    "en": "Battle Royale (64 players)",
+    "zh": "大\\t逃\\t杀\\t（64 人）"
+  },
+  "events/playersRooms": {
+    "en": "Rooms created by players",
+    "zh": "玩\\t家\\t创\\t建\\t的\\t游\\t戏"
+  },
+  "events/playersRooms/tooltip": {
+    "en": "Search for available sessions also among the rooms created by players.",
+    "zh": "同\\t时\\t搜\\t索\\t由\\t其\\t他\\t玩\\t家\\t创\\t建\\t的\\t战\\t局"
+  },
+  "events/noCompatibilityMode/msg": {
+    "en": "This mode is not available when the 'Old videocards support' option is enabled.",
+    "zh": "该\\t模\\t式\\t在\\t启\\t用\\t“低\\t端\\t显\\t卡\\t支\\t持”\\t时\\t不\\t可\\t用。"
+  },
+  "events/noCompatibilityMode": {
+    "en": "Switch off the 'Old videocards support' option.",
+    "zh": "请\\t禁\\t用\\t“低\\t端\\t显\\t卡\\t支\\t持”\\t选\\t项。"
+  },
+  "events/notEnoughMoney": {
+    "en": "Not enough money for a contribution",
+    "zh": "可\\t用\\t金\\t额\\t不\\t足"
+  },
+  "events/notAvailableNewbiesMode/msg": {
+    "en": "This mode is not available to you. Select another suitable mode in the mode selection window.",
+    "zh": "无\\t法\\t选\\t择\\t该\\t模\\t式，\\t请\\t在\\t游\\t戏\\t模\\t式\\t选\\t择\\t界\\t面\\t选\\t定\\t其\\t他\\t模\\t式\\t进\\t行\\t游\\t戏。"
+  },
+  "missions/ship_timeDelay_battles": {
+    "en": "[┚ Enduring Confrontation] Naval Battles",
+    "zh": "【┚ 无\\t间\\t断\\t作\\t战\\t】\\t海\\t战"
+  },
+  "missions/ship_timeDelay_battles/desc": {
+    "en": "Achieve superiority by destroying enemy convoys, ports and vehicles.\n\nAircraft fly outs require a fixed amount of available respawn points. Respawns on ships with BR 4.7 and higher require respawn points depending on the BR. The amount of respawns is not limited and you can respawn with same vehicle multiple times but every respawn will cost Silver Lions depending on the repair cost of the vehicle.",
+    "zh": "摧\\t毁\\t敌\\t军\\t的\\t船\\t队、\\t港\\t口\\t和\\t作\\t战\\t载\\t具，\\t尽\\t一\\t切\\t可\\t能\\t维\\t持\\t战\\t场\\t优\\t势。\n\n要\\t出\\t击\\t空\\t中\\t单\\t位，\\t必\\t须\\t先\\t累\\t积\\t一\\t定\\t的\\t重\\t生\\t点\\t数。\\t使\\t用\\t水\\t面\\t载\\t具\\t时，\\t若\\t载\\t具\\t的\\t权\\t重\\t不\\t低\\t于 4.7，\\t则\\t按\\t照\\t权\\t重\\t高\\t低\\t支\\t付\\t重\\t生\\t点\\t数。\\t载\\t具\\t的\\t重\\t生\\t次\\t数\\t不\\t受\\t限\\t制，\\t但\\t根\\t据\\t载\\t具\\t的\\t维\\t修\\t费\\t用，\\t每\\t次\\t出\\t击\\t会\\t收\\t取\\t一\\t定\\t的\\t银\\t狮。"
+  }
+}

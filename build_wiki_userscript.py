@@ -171,22 +171,27 @@ def main() -> None:
 
         unlocks.update(base_unlocks)
 
-    CHINESE_MANUFACTURERS = {
-        'Chengdu': '航空工业成飞',
-        'CAIG': '航空工业成飞',
-        'Shenyang': '航空工业沈飞',
-        "Xi'an": '航空工业西飞',
-        'Hongdu': '航空工业洪都',
-        'Nanchang': '航空工业洪都',
-        'Hafei': '航空工业哈飞',
-        'Harbin': '航空工业哈飞',
-        'Changhe': '航空工业昌飞',
-        'Shaanxi': '航空工业陕飞',
-        'Guizhou': '航空工业贵飞',
-        'NORINCO': '中国兵器工业集团',
-        'Norinco': '中国兵器工业集团',
-        '北方工业': '中国兵器工业集团',
-    }
+    mfg_json_path = HERE / "data" / "manufacturers.json"
+    if mfg_json_path.exists():
+        import json as _json
+        CHINESE_MANUFACTURERS = _json.loads(mfg_json_path.read_text(encoding="utf-8"))
+    else:
+        CHINESE_MANUFACTURERS = {
+            'Chengdu': '航空工业成飞',
+            'CAIG': '航空工业成飞',
+            'Shenyang': '航空工业沈飞',
+            "Xi'an": '航空工业西飞',
+            'Hongdu': '航空工业洪都',
+            'Nanchang': '航空工业洪都',
+            'Hafei': '航空工业哈飞',
+            'Harbin': '航空工业哈飞',
+            'Changhe': '航空工业昌飞',
+            'Shaanxi': '航空工业陕飞',
+            'Guizhou': '航空工业贵飞',
+            'NORINCO': '中国兵器工业集团',
+            'Norinco': '中国兵器工业集团',
+            '北方工业': '中国兵器工业集团',
+        }
     for m_k, m_v in CHINESE_MANUFACTURERS.items():
         if m_k in term_index:
             term_index[m_k] = m_v
