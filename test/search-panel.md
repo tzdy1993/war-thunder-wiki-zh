@@ -1,0 +1,472 @@
+===== PAGE: https://wiki.warthunder.com/ (search panel) =====
+- banner:
+  - link:
+    - /url: /
+  - link "PLAY":
+    - /url: https://warthunder.com/en/play4free?r=wiki
+  - button "Search…":
+  - button "Login":
+- navigation:
+  - generic: VEHICLES
+  - link "Aviation":
+    - /url: /aviation
+    - generic: Aviation
+  - link "Helicopters":
+    - /url: /helicopters
+    - generic: Helicopters
+  - link "Ground Vehicles":
+    - /url: /ground
+    - generic: Ground Vehicles
+  - link "Bluewater Fleet":
+    - /url: /ships
+    - generic: Bluewater Fleet
+  - link "Coastal Fleet":
+    - /url: /boats
+    - generic: Coastal Fleet
+  - link "Collections":
+    - /url: /collections
+    - generic: Collections
+  - generic: WAR THUNDER
+  - link "Official Website":
+    - /url: https://warthunder.com/en/
+    - generic: Official Website
+  - link "Store":
+    - /url: https://store.gaijin.net/catalog.php?category=WarThunder&partner=Wiki&partner_val=mufby3bs
+    - generic: Store
+  - link "Market":
+    - /url: https://trade.gaijin.net/?from=wiki
+    - generic: Market
+  - link "WT Live Portal":
+    - /url: https://live.warthunder.com?lang=en
+    - generic: WT Live Portal
+  - link "Forum":
+    - /url: https://forum.warthunder.com
+    - generic: Forum
+  - link "Author Support Program":
+    - /url: /author_guide
+    - generic: Author Support Program
+  - button:
+  - generic: •
+  - generic: "Theme:"
+  - button "System"
+  - text:  
+  - list:
+    - link "Terms and Conditions":
+      - /url: https://legal.gaijin.net/
+    - link "Terms of Service":
+      - /url: https://legal.gaijin.net/termsofservice
+    - link "Privacy Policy":
+      - /url: https://legal.gaijin.net/privacypolicy
+    - link "Cookie Settings":
+      - /url: https://legal.gaijin.net/cookie
+    - link "Contribution Agreement":
+      - /url: https://legal.gaijin.net/contribution
+    - listitem: © 2011—2026 Gaijin Games Kft.
+- main:
+  - link:
+    - /url: /aviation
+  - link:
+    - /url: /helicopters
+  - link:
+    - /url: /ground
+  - link:
+    - /url: /ships
+  - link:
+    - /url: /boats
+  - tablist:
+    - tab "Beginners" [selected]
+    - tab "Mechanics"
+    - tab "Weaponry"
+    - tab "Discover"
+    - tab "Content creation"
+  - tabpanel:
+    - link "Crew":
+      - /url: /crew
+      - text: Crew
+    - link "Vehicle modules":
+      - /url: /modules
+      - text: Vehicle modules
+    - link "Controls":
+      - /url: /controls
+      - text: Controls
+    - link "Game modes":
+      - /url: /gamemodes
+      - text: Game modes
+    - link "Battle activity":
+      - /url: /destroy_rules
+      - text: Battle activity
+  - link "New":
+    - /url: /new
+    - generic: New
+  - link "Popular":
+    - /url: /popular
+    - generic: Popular
+  - button "Rating"
+  - link "Reeder228834@live":
+    - /url: /u/U163375503-reeder228834-live
+    - generic: Reeder228834@live
+  - link "9 hours ago":
+    - /url: /8540-zeus-has-his-thunderbolt-now-you-got-yours-thunderbolt-mk-1
+    - generic "20:05:25 17.08.2026 (UTC)": 9 hours ago
+  - link:
+    - /url: /8540-zeus-has-his-thunderbolt-now-you-got-yours-thunderbolt-mk-1
+  - generic: Zeus has his thunderbolt. Now you got yours. – Thunderbolt Mk.1
+  - paragraph: The Thunderbolt Mk.1 was the first variant of the P‑47D supplied to the Royal Air Force under Lend‑Lease. As one of the heaviest single‑engine fighters of the war, it introduced RAF pilots to an American design philosophy built around structural strength, high‑altitude performance, and exceptional dive capability. Its large radial engine, robust airframe, and eight .50‑calibre Browning machine guns made it a formidable fighter‑bomber capable of absorbing significant damage while delivering powerful strikes against both air and ground targets.
+  - link:
+    - /url: https://wiki.warthunder.com/images/19ff2febca30ea189a20329238731357.jpg
+  - link "Aviation":
+    - /url: /tag/aviation
+  - link "#britain":
+    - /url: /tag/britain
+  - link "#article":
+    - /url: /tag/article
+  - link "#review":
+    - /url: /tag/review
+  - link "#gameplay":
+    - /url: /tag/gameplay
+  - link "#history":
+    - /url: /history
+  - link "#fighters":
+    - /url: /tag/fighters
+  - button "1":
+    - generic: "1"
+  - link "2":
+    - /url: /8540-zeus-has-his-thunderbolt-now-you-got-yours-thunderbolt-mk-1#comments
+    - generic: "2"
+  - button "Save to bookmarks":
+    - img: 
+    - text: 
+  - link "War Thunder Video":
+    - /url: /u/4-war-thunder-video
+    - generic: War Thunder Video
+  - link "13 hours ago":
+    - /url: /video/9058-three-plane-stabilizers
+    - generic "16:00:00 17.08.2026 (UTC)": 13 hours ago
+  - link:
+    - /url: /video/9058-three-plane-stabilizers
+  - generic: Three-Plane Stabilizers
+  - paragraph: "In one of our previous videos, we covered the main types of tank stabilizers. However, one unique vehicle didn’t get the attention it deserved. Its full name translates as “Test Platform with a Three-Axis Stabilized Turret.” Of course, we are talking about the German Turm III: its three-axis stabilization has recently been fully implemented in the game. Today, we will see how this system works and where else similar solutions have been used."
+  - iframe:
+    - generic "YouTube 视频播放器"
+    - button "播放视频"
+    - button "隐藏播放器控件"
+    - link "Three-Plane Stabilizers":
+      - /url: https://www.youtube.com/watch?v=yEEGKaCWKZo
+    - link "War Thunder. Official channel.":
+      - /url: /channel/UCPZsNertSS82YCT2qX9-wHA
+      - generic: War Thunder. Official channel.
+    - button
+    - generic: War Thunder. Official channel.
+    - generic: 192万位订阅者
+    - button "分享":
+    - link "在 YouTube 上观看":
+      - /url: https://www.youtube.com/watch?v=yEEGKaCWKZo
+      - text: 前往平台观看：
+  - link "#video":
+    - /url: /video
+  - link "#youtube":
+    - /url: /tag/youtube
+  - link "Ground Vehicles":
+    - /url: /tag/groundvehicles
+  - button "Like":
+    - generic: Like
+  - link "Comments":
+    - /url: /video/9058-three-plane-stabilizers#comments
+  - button "Save to bookmarks":
+    - img: 
+    - text: 
+  - link "War Thunder Video":
+    - /url: /u/4-war-thunder-video
+    - generic: War Thunder Video
+  - link "16 August":
+    - /url: /video/9057-f4u-7-the-most-versatile-corsair
+    - generic "16:00:00 16.08.2026 (UTC)": 16 August
+  - link:
+    - /url: /video/9057-f4u-7-the-most-versatile-corsair
+  - generic: "F4U-7: The Most Versatile Corsair"
+  - paragraph: The French F4U-7 is hardly a new arrival, but it still deserves some attention. Its suspended armament was recently expanded, and this veteran piston fighter can now make a serious claim to being the most versatile Corsair in the game. Why this one in particular? Let’s compare.
+  - iframe:
+    - generic "YouTube 视频播放器"
+    - button "播放视频"
+    - button "隐藏播放器控件"
+    - 'link "F4U-7: The Most Versatile Corsair"':
+      - /url: https://www.youtube.com/watch?v=MDjx-ZNSy34
+    - link "War Thunder. Official channel.":
+      - /url: /channel/UCPZsNertSS82YCT2qX9-wHA
+      - generic: War Thunder. Official channel.
+    - button
+    - generic: War Thunder. Official channel.
+    - generic: 192万位订阅者
+    - button "分享":
+    - link "在 YouTube 上观看":
+      - /url: https://www.youtube.com/watch?v=MDjx-ZNSy34
+      - text: 前往平台观看：
+  - link "#video":
+    - /url: /video
+  - link "#youtube":
+    - /url: /tag/youtube
+  - link "Aviation":
+    - /url: /tag/aviation
+  - button "1":
+    - generic: "1"
+  - link "Comments":
+    - /url: /video/9057-f4u-7-the-most-versatile-corsair#comments
+  - button "Save to bookmarks":
+    - img: 
+    - text: 
+  - link "Груздников":
+    - /url: /u/U118443097-gruzdnikov
+    - generic: Груздников
+  - link "14 August":
+    - /url: /8920-marat-a-naval-stronghold-to-defend-leningrad
+    - generic "20:43:31 14.08.2026 (UTC)": 14 August
+  - link:
+    - /url: /8920-marat-a-naval-stronghold-to-defend-leningrad
+  - generic: Marat — A Naval Stronghold to Defend Leningrad
+  - paragraph: Marat was a Soviet battleship of the Sevastopol class. Between 1928 and 1931, it underwent a major modernization, acquiring a modified silhouette and enhanced air defense, as well as improved living conditions for the crew. During World War II, Marat played a significant role in the defense of Leningrad; even after sustaining serious damage and partial flooding, it continued to shell enemy positions until the end of the siege. You can read more about this fearless veteran in the article!
+  - link:
+    - /url: https://wiki.warthunder.com/images/a17ab439a324753d511441adef51bce3.jpg
+  - link "Fleet":
+    - /url: /tag/fleet
+  - link "#review":
+    - /url: /tag/review
+  - link "#article":
+    - /url: /tag/article
+  - link "#ww2":
+    - /url: /tag/ww2
+  - link "#battleships":
+    - /url: /tag/battleships
+  - link "#history":
+    - /url: /history
+  - link "#ussr":
+    - /url: /tag/ussr
+  - button "8":
+    - generic: "8"
+  - link "4":
+    - /url: /8920-marat-a-naval-stronghold-to-defend-leningrad#comments
+    - generic: "4"
+  - button "2":
+    - img: 
+    - text: 
+    - generic: "2"
+  - link "Desert Bulldog":
+    - /url: /u/U162033261-desert-bulldog
+    - generic: Desert Bulldog
+  - link "12 August":
+    - /url: /8862-kv-1e-the-soviet-steel-wall
+    - generic "19:42:23 12.08.2026 (UTC)": 12 August
+  - link:
+    - /url: /8862-kv-1e-the-soviet-steel-wall
+  - generic: "KV-1E: The Soviet Steel Wall"
+  - paragraph: While somewhat rare, the KV-1E is extremely annoying to face, primarily due to its incredibly thick armor, which allows it to block shells from tanks that are above its level. While similar to the other KV-1s, the KV-1E still has a different playstyle that can be a joy to experience if done right. In today’s article, we are going to look at the different strengths and weaknesses of the KV-1E, which tactics to use, and how to get the most out of this Soviet bunker.
+  - link:
+    - /url: https://wiki.warthunder.com/images/501fd60f0d78fafed3256799c5efabcd.jpg
+  - link "Ground Vehicles":
+    - /url: /tag/groundvehicles
+  - link "#article":
+    - /url: /tag/article
+  - link "#heavy_tanks":
+    - /url: /tag/heavy_tanks
+  - link "#review":
+    - /url: /tag/review
+  - link "#gameplay":
+    - /url: /tag/gameplay
+  - link "#ussr":
+    - /url: /tag/ussr
+  - link "#76mm":
+    - /url: /tag/76mm
+  - button "9":
+    - generic: "9"
+  - link "33":
+    - /url: /8862-kv-1e-the-soviet-steel-wall#comments
+    - generic: "33"
+  - button "2":
+    - img: 
+    - text: 
+    - generic: "2"
+  - link "turtlyorca@live":
+    - /url: /u/U211239805-turtlyorca-live
+    - generic: turtlyorca@live
+  - link "10 August":
+    - /url: /8590-yak-130-magnificent-mitten
+    - generic "20:05:59 10.08.2026 (UTC)": 10 August
+  - link:
+    - /url: /8590-yak-130-magnificent-mitten
+  - generic: "Yak-130: Magnificent Mitten"
+  - paragraph: The Yak-130 is a modern two seat Russian trainer with powerful engines and an ordnance loadout that packs a punch. Made to prepare future pilots for the complexity and maneuverability of 4th, and even 5th generation fighters, it is a real force to be reckoned with due to its high tech and supermaneuverable nature. Not only is the Yak-130 a menace in War Thunder, but this powerful trainer also has a unique history full of complications and many interesting partnerships.
+  - link:
+    - /url: https://wiki.warthunder.com/images/4ef5aaa2eca7e7473e0943dae8c11cb6.jpg
+  - link "Aviation":
+    - /url: /tag/aviation
+  - link "#article":
+    - /url: /tag/article
+  - link "#review":
+    - /url: /tag/review
+  - link "#ussr":
+    - /url: /tag/ussr
+  - link "#strike_aircraft":
+    - /url: /tag/strike_aircraft
+  - link "#history":
+    - /url: /history
+  - link "#gameplay":
+    - /url: /tag/gameplay
+  - link "#jets":
+    - /url: /tag/jets
+  - button "6":
+    - generic: "6"
+  - link "34":
+    - /url: /8590-yak-130-magnificent-mitten#comments
+    - generic: "34"
+  - button "4":
+    - img: 
+    - text: 
+    - generic: "4"
+  - link "War Thunder Video":
+    - /url: /u/4-war-thunder-video
+    - generic: War Thunder Video
+  - link "9 August":
+    - /url: /video/9001-f-101-voodoo-fighter-that-outlived-its-concept
+    - generic "16:00:00 09.08.2026 (UTC)": 9 August
+  - link:
+    - /url: /video/9001-f-101-voodoo-fighter-that-outlived-its-concept
+  - generic: "F-101 Voodoo: Fighter That Outlived Its Concept"
+  - paragraph: "The end of the Second World War gave the United States military only a brief respite. The Cold War that followed demanded no less effort, along with an enormous amount of work from engineers and military theorists. During the struggle against the Axis powers, the U.S. Air Force had refined several existing concepts and developed new ones. One of them was the penetration fighter: a fast, long-range aircraft capable of escorting strategic bombers deep into enemy territory and breaking through hostile air defenses. In essence, it was an evolution of the traditional escort-fighter concept."
+  - iframe
+  - link "#video":
+    - /url: /video
+  - link "#youtube":
+    - /url: /tag/youtube
+  - link "Aviation":
+    - /url: /tag/aviation
+  - button "3":
+    - generic: "3"
+  - link "Comments":
+    - /url: /video/9001-f-101-voodoo-fighter-that-outlived-its-concept#comments
+  - button "1":
+    - img: 
+    - text: 
+    - generic: "1"
+  - link "War Thunder Video":
+    - /url: /u/4-war-thunder-video
+    - generic: War Thunder Video
+  - link "8 August":
+    - /url: /video/9000-pgz88-spaa-with-a-tank-s-attitude
+    - generic "16:00:00 08.08.2026 (UTC)": 8 August
+  - link:
+    - /url: /video/9000-pgz88-spaa-with-a-tank-s-attitude
+  - generic: "PGZ88: SPAA with a Tank’s Attitude"
+  - paragraph: Anti-aircraft vehicles stopped being useful only when enemy aircraft appear a long time ago. Many of them are so effective against ground targets that they can influence the course of a battle from its opening minutes. The Chinese PGZ88 is one such machine.
+  - iframe
+  - link "#video":
+    - /url: /video
+  - link "#youtube":
+    - /url: /tag/youtube
+  - link "Ground Vehicles":
+    - /url: /tag/groundvehicles
+  - button "3":
+    - generic: "3"
+  - link "Comments":
+    - /url: /video/9000-pgz88-spaa-with-a-tank-s-attitude#comments
+  - button "1":
+    - img: 
+    - text: 
+    - generic: "1"
+  - link "organic_arrow6@psn":
+    - /url: /u/U103529473-organic-arrow6-psn
+    - generic: organic_arrow6@psn
+  - link "7 August":
+    - /url: /8665-xm1-gm-project
+    - generic "21:10:27 07.08.2026 (UTC)": 7 August
+  - link:
+    - /url: /8665-xm1-gm-project
+  - generic: XM1 (GM) Project
+  - paragraph: The XM1 (GM) is a premium American main battle tank intended to replace the aging M60 tanks following the failure of the MBT-70 project. With its great 105 mm gun and mobility, the XM1 is a highly effective flanking vehicle, however, the relatively weak armor on this tank makes positioning and situational awareness crucial for survival.
+  - link:
+    - /url: https://wiki.warthunder.com/images/7d0e8ca245b8685d887a49ec0a75f465.jpg
+  - link "Ground Vehicles":
+    - /url: /tag/groundvehicles
+  - link "#article":
+    - /url: /tag/article
+  - link "#review":
+    - /url: /tag/review
+  - link "#usa":
+    - /url: /tag/usa
+  - link "#MBTs":
+    - /url: /tag/MBTs
+  - link "#105mm":
+    - /url: /tag/105mm
+  - button "8":
+    - generic: "8"
+  - link "26":
+    - /url: /8665-xm1-gm-project#comments
+    - generic: "26"
+  - button "3":
+    - img: 
+    - text: 
+    - generic: "3"
+  - link "CyberMonstro@live":
+    - /url: /u/U97867896-cybermonstro-live
+    - generic: CyberMonstro@live
+  - link "5 August":
+    - /url: /7967-attacker-the-royal-navy-s-first-operational-jet-fighter
+    - generic "20:03:53 05.08.2026 (UTC)": 5 August
+  - link:
+    - /url: /7967-attacker-the-royal-navy-s-first-operational-jet-fighter
+  - generic: "Attacker: The Royal Navy's First Operational Jet Fighter"
+  - paragraph:
+    - text: The Supermarine Attacker was a fighter that emerged in the 1940s with the aim of replacing the legendary
+    - link "Gloster Meteor":
+      - /url: /unit/meteor_fmk3
+    - text: ", the UK’s first jet fighter, which had already made aviation history, and simultaneously becoming the Royal Navy’s first frontline jet fighter. The Attacker failed to achieve its primary objective: the introduction of a modern, efficient single-engine jet aircraft for the Royal Air Force, and its service life was short due to poor overall performance and maintenance issues. Its history and service, spanning from 1950 to 1964, reflects the challenges of the transition to the jet age in the United Kingdom and the introduction of the first jet aircraft of the Royal Pakistan Air Force (RPAF). Throughout its 14 years of service, the aircraft never took part in any conflict or combat."
+  - link:
+    - /url: https://wiki.warthunder.com/images/92c5033ec169c40807af8740d461233b.jpg
+  - link "Aviation":
+    - /url: /tag/aviation
+  - link "#article":
+    - /url: /tag/article
+  - link "#history":
+    - /url: /history
+  - link "#jet_fighters":
+    - /url: /tag/jet_fighters
+  - link "#britain":
+    - /url: /tag/britain
+  - button "9":
+    - generic: "9"
+  - link "14":
+    - /url: /7967-attacker-the-royal-navy-s-first-operational-jet-fighter#comments
+    - generic: "14"
+  - button "5":
+    - img: 
+    - text: 
+    - generic: "5"
+  - button "Load more…"
+  - generic: Popular now
+  - link "XM1 (GM) Project":
+    - /url: /8665-xm1-gm-project
+  - generic: "8"
+  - generic: 
+  - text: "26"
+  - generic: 
+  - text: "3"
+  - 'link "KV-1E: The Soviet Steel Wall"':
+    - /url: /8862-kv-1e-the-soviet-steel-wall
+  - generic: "9"
+  - generic: 
+  - text: "33"
+  - generic: 
+  - text: "2"
+  - generic: Popular vehicle
+  - generic: Sevastopol
+  - link "":
+    - /url: /unit/ussr_battlecruiser_sevastopol
+    - generic: 
+  - generic: Rank VI
+  - generic: 
+  - text: "25"
+  - link "BUY":
+    - /url: https://store.gaijin.net/story.php?partner=Wiki&partner_val=mufby3bs&id=14446
+- dialog:
+  - textbox "Search…" [active]
+  - generic: 
+  - separator
+  - generic: No recent searches

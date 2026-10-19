@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs & Audit Dumps
+*.log
+audit-*.log
+
+# Heavy Crawler Test Dumps & Snapshots (tens of MBs)
+test/site/
+test/site-texts.md
+test/popover-texts.md
+test/snapshots-all.md
+test/snapshots*.md
+test/all-urls.txt
+test/real-unit*.html
+test/runtime-*.html
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

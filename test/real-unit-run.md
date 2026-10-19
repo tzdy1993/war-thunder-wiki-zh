@@ -1,0 +1,507 @@
+- banner:
+  - button:
+  - link:
+    - /url: /
+  - link "播放":
+    - /url: https://warthunder.com/en/play4free?r=wiki
+  - button "搜索…":
+  - button "登录":
+- navigation:
+  - button "Close":
+  - generic: 载具
+  - link "空军":
+    - /url: /aviation
+    - text: 空军
+  - link "直升机":
+    - /url: /helicopters
+    - text: 直升机
+  - link "地面载具":
+    - /url: /ground
+    - text: 地面载具
+  - link "远洋海军":
+    - /url: /ships
+    - text: 远洋海军
+  - link "近岸海军":
+    - /url: /boats
+    - text: 近岸海军
+  - link "套装收藏":
+    - /url: /collections
+    - text: 套装收藏
+  - generic: War Thunder
+  - link "官方网站":
+    - /url: https://warthunder.com/en/
+    - text: 官方网站
+  - link "商店":
+    - /url: https://store.gaijin.net/catalog.php?category=WarThunder&partner=Wiki&partner_val=mufby3bs
+    - text: 商店
+  - link "市场":
+    - /url: https://trade.gaijin.net/?from=wiki
+    - text: 市场
+  - link "WT Live 门户":
+    - /url: https://live.warthunder.com?lang=en
+    - text: WT Live 门户
+  - link "论坛":
+    - /url: https://forum.warthunder.com
+    - text: 论坛
+  - link "作者支持计划":
+    - /url: /author_guide
+    - text: 作者支持计划
+  - button:
+  - list:
+    - listitem: English
+    - link "流星 F.3":
+      - /url: https://wiki-ru.warthunder.com/unit/meteor_fmk3?from=en_lang
+  - generic: •
+  - text: 主题：
+  - button "—"
+  - list:
+    - button "系统":
+      - text: 系统
+    - button "Light":
+      - text: Light
+    - button "Dark":
+      - text: Dark
+  - list:
+    - link "条款与条件":
+      - /url: https://legal.gaijin.net/
+    - link "服务条款":
+      - /url: https://legal.gaijin.net/termsofservice
+    - link "隐私政策":
+      - /url: https://legal.gaijin.net/privacypolicy
+    - link "Cookie 设置":
+      - /url: https://legal.gaijin.net/cookie
+    - link "贡献协议":
+      - /url: https://legal.gaijin.net/contribution
+    - listitem: © 2011—2026 Gaijin Games Kft.
+- main:
+  - generic: 空军
+  - generic: 流星 F.3
+  - generic: V 级
+  - generic: 等级
+  - generic: 街机
+  - generic: "7.3"
+  - generic: 历史
+  - generic: "7.3"
+  - generic: 全真
+  - generic: "7.0"
+  - generic: 战斗权重
+  - generic: 英国
+  - generic: 研发科技树
+  - generic: 战斗机
+  - generic: 主要职能
+  - generic: 95,000
+  - img "RP"
+  - generic: 研发
+  - generic: 270,000
+  - img "SL"
+  - generic: 购买
+  - button:
+  - button:
+  - button "比较":
+    - text: 比较
+  - button:
+  - button "在游戏中查看":
+    - text: 在游戏中查看
+  - button
+  - button
+  - generic: 通用信息
+  - paragraph:
+    - text: The Gloster Meteor was the first and only Allied jet aircraft to see combat in WWII. Beginning development in 1940, prototypes first flew in 1943, and the first production variant soon entered service in July 1944. They were initially used to intercept V-1 flying bombs, achieving the world's first air-to-air "kills" in a jet-powered fighter on 4 August, just a few days before its German competitor, the
+    - link "Me 262 A-1a":
+      - /url: /unit/me-262a-1a
+    - text: ", achieved the same on a piloted aircraft. The 流星 F.3, equipped with improved Rolls-Royce Derwent I engines, would enter service in December 1944. They were deployed in Europe, providing air defence over Belgium and the Netherlands, having initially been banned from flying over the continent for fears of being downed and captured by the Germans or Soviets. The Meteor would spawn a number of variants, and would remain in operational service as late as 1970 with export customers such as Argentina."
+  - paragraph:
+    - text: In the game since the start of the Open Beta Test prior to Update 1.27, the Meteor F Mk 3 is a solid jack-of-all-trades, and an excellent introduction to early jet combat. While not as fast as the
+    - link "攻击者 FB.1":
+      - /url: /unit/attaker_fb1
+    - text: ", nor as manoeuvrable as the"
+    - link "吸血鬼 F.B.5":
+      - /url: /unit/vampire_fb5
+    - text: ", the Meteor provides a balanced and versatile platform capable of dogfighting common opponents and adapting to any situation. Its nonetheless excellent manoeuvrability allows it to easily bait and trap most opponents in a turnfight, while the four venerable Hispano cannons mounted in the nose will quickly down any target once on their tail. Its main drawbacks include the somewhat low engine power, as one might expect from one of the first of their kind, as well as the rather stiff roll rate; both issues become greatly alleviated in future variants."
+  - link "规格":
+    - /url: "#specification"
+  - link "玩家评分":
+    - /url: "#user-score"
+  - link "特性与事实":
+    - /url: "#fandom"
+  - link "文章":
+    - /url: "#articles"
+  - separator
+  - generic: 涂装
+  - link "在 WT Live 上搜索":
+    - /url: https://live.warthunder.com/feed/camouflages/?vehicle=meteor_fmk3&lang=en
+    - generic: 在 WT Live 上搜索
+  - separator
+  - generic: 套装收藏
+  - link "游戏角色 战斗机":
+    - /url: /collections/game_roles/fighter
+    - generic: 游戏角色
+    - generic: 战斗机
+  - link "游戏角色 喷气战斗机":
+    - /url: /collections/game_roles/jet_fighter
+    - generic: 游戏角色
+    - generic: 喷气战斗机
+  - link "载具系列 流星":
+    - /url: /collections/family/meteor
+    - generic: 载具系列
+    - generic: 流星
+  - link "使用国 英国":
+    - /url: /collections/operator/country_britain
+    - generic: 使用国
+    - generic: 英国
+  - link "制造商 格洛斯特":
+    - /url: /collections/manufacturer/gloster
+    - generic: 制造商
+    - generic: 格洛斯特
+  - link "按版本更新的载具 飞机封闭测试":
+    - /url: /collections/update/cbt_aviation
+    - generic: 按版本更新的载具
+    - generic: 飞机封闭测试
+  - generic: 飞行性能
+  - generic: 最大速度
+  - generic: at 6,096 m
+  - generic: 755692797715 km/h
+  - text: 爬升率
+  - generic: 22.516.827.617.9 m/s
+  - text: 转弯时间
+  - generic: 2021.519.220.9 s
+  - generic: 最大高度 12,500 米
+  - generic: 起飞滑跑 550 米
+  - separator
+  - text: 降落
+  - text: 襟翼
+  - text: 起飞
+  - text: 襟翼
+  - text: 空战
+  - text: 襟翼
+  - text: 空中
+  - text: 制动器
+  - generic: 一般特性
+  - generic: 乘员组 1 人
+  - text: 发动机
+  - button "2 × 德温特 1"
+  - generic: 长度 12.6 米
+  - generic: 翼展 13.1 米
+  - generic: 翼载
+  - text: 161 千克/平方米
+  - separator
+  - generic: 重量：
+  - generic: 基础重量
+  - generic: 4.394.544.284.51 t
+  - text: 主油箱燃料
+  - generic: 1.2 吨 (34m)
+  - separator
+  - generic: 限制：
+  - generic: 最大速度限制（指示空速） 850 公里/小时
+  - generic: 马赫数限制 0.83 马赫
+  - generic: G 力限制
+  - text: 约 -5/10 G
+  - generic: 襟翼速度限制（指示空速） 着陆 / 起飞 / 战斗
+  - generic: 290 / 462 / 495 公里/小时
+  - generic: 起落架速度限制（指示空速） 390 公里/小时
+  - generic: 前射武器
+  - tabpanel:
+    - text: 4 ×
+    - link "20 毫米 西斯帕诺 Mk II 机炮":
+      - /url: /collections/weapon/20mm_hispano_404
+    - generic: 弹种 720 发
+    - generic: 射速 600 发/分钟
+    - generic: 一秒齐射质量 1.32 千克
+    - heading "可用弹链" [level=2]:
+      - button "可用弹链"
+    - table:
+      - rowgroup:
+        - row "Belt Belt filling Armor penetration (mm) at a distance:":
+          - columnheader "Belt"
+          - columnheader "Belt filling"
+          - columnheader "Armor penetration (mm) at a distance:"
+        - row "10 米 100 米 500 米 1000 米 1500 米 2000 米":
+          - columnheader "10 米"
+          - columnheader "100 米"
+          - columnheader "500 米"
+          - columnheader "1000 米"
+          - columnheader "1500 米"
+          - columnheader "2000 米"
+      - rowgroup:
+        - row "Default HEI/SAP-I/T 22 20 14 9 6 4":
+          - cell "Default":
+            - button "Default": Default
+          - cell "HEI/SAP-I/T"
+          - cell "22"
+          - cell "20"
+          - cell "14"
+          - cell "9"
+          - cell "6"
+          - cell "4"
+        - row "通用 AP-T/HEI/SAP-I 37 35 25 16 10 7":
+          - cell "通用":
+            - button "通用": 通用
+          - cell "AP-T/HEI/SAP-I"
+          - cell "37"
+          - cell "35"
+          - cell "25"
+          - cell "16"
+          - cell "10"
+          - cell "7"
+        - row "对空 T/HEI/SAP-I/HEI/SAP-I 22 20 14 9 6 4":
+          - cell "对空":
+            - button "对空": 对空
+          - cell "T/HEI/SAP-I/HEI/SAP-I"
+          - cell "22"
+          - cell "20"
+          - cell "14"
+          - cell "9"
+          - cell "6"
+          - cell "4"
+        - row "曳光 AP-T/T/HEI 37 35 25 16 10 7":
+          - cell "曳光":
+            - button "曳光": 曳光
+          - cell "AP-T/T/HEI"
+          - cell "37"
+          - cell "35"
+          - cell "25"
+          - cell "16"
+          - cell "10"
+          - cell "7"
+        - row "对地 AP-T/SAP-I/HEI/AP-T 37 35 25 16 10 7":
+          - cell "对地":
+            - button "对地": 对地
+          - cell "AP-T/SAP-I/HEI/AP-T"
+          - cell "37"
+          - cell "35"
+          - cell "25"
+          - cell "16"
+          - cell "10"
+          - cell "7"
+        - row "匿踪 HEI/HEI/SAP-I 22 20 14 9 6 4":
+          - cell "匿踪":
+            - button "匿踪": 匿踪
+          - cell "HEI/HEI/SAP-I"
+          - cell "22"
+          - cell "20"
+          - cell "14"
+          - cell "9"
+          - cell "6"
+          - cell "4"
+  - generic: 挂载
+  - text: 方案 1
+  - generic: 2 × 1,000 磅 HE MC Mk 13 炸弹
+  - generic: 经济
+  - generic: 维修费 基础 → 完全体
+  - text: 街机
+  - text: 3,268 → 4,654
+  - img "SL"
+  - text: 历史
+  - text: 8,871 → 12,632
+  - img "SL"
+  - text: 全真
+  - text: 12,350 → 17,586
+  - img "SL"
+  - text: 乘员训练
+  - text: 78,000
+  - img "SL"
+  - text: 专家
+  - text: 270,000
+  - img "SL"
+  - text: 王牌
+  - text: 1,500
+  - img "GE"
+  - text: 研发王牌
+  - text: 670,000
+  - img "RP"
+  - generic: 奖励倍率 街机 / 历史 / 全真
+  - text: 130 / 340 / 600 %
+  - img "SL"
+  - text: 190 %
+  - img "RP"
+  - text: 改装件总价
+  - text: 80,000
+  - img "RP"
+  - text: 129,500
+  - img "SL"
+  - text: 护身符价格
+  - text: 2,000
+  - img "GE"
+  - separator
+  - generic: 研发顺序：
+  - link "喷火 F Mk 22 喷火 F Mk 22喷火 F Mk 22 喷火 F Mk 22":
+    - /url: /unit/spitfire_f22
+    - text: 喷火 F Mk 22
+    - text: 喷火 F Mk 22喷火 F Mk 22 喷火 F Mk 22
+  - text: 流星 F.3
+  - link "海流星 F.3 海流星 F.3海流星 F.3 海流星 F.3":
+    - /url: /unit/meteor_fmk3_navy
+    - text: 海流星 F.3
+    - text: 海流星 F.3海流星 F.3 海流星 F.3
+  - link "流星 F Mk 4 G.41F 流星 F Mk 4 G.41F流星 F Mk 4 G.41F 流星 F Mk 4 G.41F":
+    - /url: /unit/meteor_fmk4_lw
+    - text: 流星 F Mk 4 G.41F
+    - text: 流星 F Mk 4 G.41F流星 F Mk 4 G.41F 流星 F Mk 4 G.41F
+  - separator
+  - heading "改装件" [level=2]:
+    - button "改装件"
+  - table:
+    - rowgroup:
+      - row "飞行性能":
+        - columnheader "飞行性能":
+          - generic: 飞行性能
+    - rowgroup:
+      - row "维修机身":
+        - cell "维修机身":
+          - button "维修机身"
+        - cell
+      - row "机体翻新 压缩机":
+        - cell "机体翻新":
+          - button "机体翻新"
+        - cell "压缩机":
+          - button "压缩机"
+      - row "维修机翼 发动机":
+        - cell "维修机翼":
+          - button "维修机翼"
+        - cell "发动机":
+          - button "发动机"
+      - row "蒙皮":
+        - cell "蒙皮":
+          - button "蒙皮"
+        - cell
+    - rowgroup
+  - table:
+    - rowgroup:
+      - row "生存能力":
+        - columnheader "生存能力":
+          - generic: 生存能力
+    - rowgroup:
+      - row:
+        - cell
+      - row:
+        - cell
+      - row "抗荷服":
+        - cell "抗荷服":
+          - button "抗荷服"
+      - row "引擎灭火系统":
+        - cell "引擎灭火系统":
+          - button "引擎灭火系统"
+    - rowgroup
+  - table:
+    - rowgroup:
+      - row "武器配置":
+        - columnheader "武器配置":
+          - generic: 武器配置
+    - rowgroup:
+      - row "Offensive 20 mm belts":
+        - cell "Offensive 20 mm belts":
+          - button "Offensive 20 mm belts"
+        - cell
+      - row "GLBC Mk III 挂架":
+        - cell
+        - cell "GLBC Mk III 挂架":
+          - button "GLBC Mk III 挂架"
+      - row "Mk II (1943)":
+        - cell "Mk II (1943)":
+          - button "Mk II (1943)"
+        - cell
+      - row:
+        - cell
+        - cell
+    - rowgroup
+  - generic: 玩家评分
+  - generic: You must play more than 3 battles for the last week and more than 10 battles in a vehicle to rate it.
+  - generic: 喜欢：
+  - button:
+  - generic: "35"
+  - generic: 飞行性能： Not enough ratings
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - generic: 生存能力： Not enough ratings
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - generic: 空战： Not enough ratings
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - generic: 对地攻击： Not enough ratings
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - generic: 平衡： Not enough ratings
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - button "Close":
+  - text: 设置
+  - link "通用信息":
+    - /url: "#general"
+    - generic: 通用信息
+  - link "规格":
+    - /url: "#specification"
+    - generic: 规格
+  - link "武器装备":
+    - /url: "#weapon"
+    - generic: 武器装备
+  - link "经济":
+    - /url: "#economy"
+    - generic: 经济
+  - link "玩家评分":
+    - /url: "#user-score"
+    - generic: 玩家评分
+  - link "用户内容":
+    - /url: "#fandom"
+    - generic: 用户内容
+  - generic: 设置
+  - generic: 特性：
+  - radio "历史" [checked]
+  - text: 历史
+  - radio "街机"
+  - text: 街机
+  - generic: 改装：
+  - radio "完全体" [checked]
+  - text: 完全体
+  - radio "基础"
+  - text: 基础
+  - generic: 2.57.1.82
+  - text: 特性与事实
+  - button
+  - generic: This space is currently empty
+  - text: Do you know any interesting vehicle features?
+  - button "Share them!"
+  - status: 加载中……
+  - text: 文章
+  - link:
+    - /url: /author_guide
+  - generic: 全部
+  - generic: "#评测"
+  - generic: "#历史"
+  - generic: "#武器"
+  - generic: "#机制"
+  - generic: "#视频"
+  - button
+  - generic: 最新
+  - generic: 热门
+  - generic: No articles about this vehicle yet
+  - separator
+  - generic: Become the first author and get rewards!
+  - generic: Write a guide, tell about interesting historical facts, make a tutorial or simply an interesting post.
+  - list:
+    - link "Participation rules":
+      - /url: /author_guide
+    - link "Go to editor":
+      - /url: /editor
+  - generic: No more content
+  - button "加载更多…"

@@ -1,0 +1,546 @@
+New | War Thunder Wiki
+3D model creation
+The Yak-130 is
+A6M
+MiG-23 / MiG-27
+Pe-2 / Pe-3
+CR.32 / CR.42
+Mirage 5
+Su-17 / Su-22
+Eurofighter Typhoon
+A-20 Havoc
+AD Skyraider
+SAAB 21
+Su-30
+MS.406
+P-26 Peashooter
+SAAB 18
+He 111
+J-7
+MB.150
+Mirage F1
+SAAB 105
+SAAB 17
+F.220
+IAR-80
+J-8
+2,000 lb Mk 84 bomb
+250 kg FAB-250 bomb
+100 kg FAB-100 bomb
+HVAR rocket
+AIM-9L Sidewinder missile
+Zuni rocket
+750 lb M117 bomb
+250 kg SC250JA bomb
+500 lb G.P. Mk.IV bomb
+Paveway II guided bomb
+AIM-9B Sidewinder missile
+50 kg FAB-50 bomb
+AGM-65 Maverick missile
+250 kg OFAB-250 bomb
+SNEB rocket
+250 lb Mk 81 bomb
+250 lb G.P. Mk.IV bomb
+S-24 rocket
+S-5 rocket
+RP-3 rocket
+30 mm DEFA cannon
+AIM-9M Sidewinder missile
+S-8KO rocket
+AIM-7 Sparrow missile
+AIM-120 AMRAAM missile
+Paveway III guided bomb
+RS-82 rocket
+2,000 lb AN-M66A2 bomb
+1,000 lb M.C. Mk.I bomb
+500 lb S.A.P. Mk.II bomb
+Mk 77 incendiary bomb
+R-60M missile
+AIM-9P Sidewinder missile
+Kh-29 missile
+RS-132 rocket
+Tiny Tim rocket
+1,000 kg SC1000 bomb
+S-13OF rocket
+S-25 rocket
+AIM-9E Sidewinder missile
+Type A Mark I mine
+AIM-9G Sidewinder missile
+R-27 missile
+R-3 missile
+R-73 missile
+1,000 kg FAB-1000 bomb
+500 lb M.C. Mk.I bomb
+AGM-12 Bullpup missile
+AGM-88 HARM missile
+Python 3 missile
+T10 rocket
+500 kg KAB-500 bomb
+540 lb Mk.M2 bomb
+Kh-31P missile
+Kh-23 missile
+Kh-25 missile
+1,500 kg FAB-1500 bomb
+AS-30 Nord missile
+GBU-8 guided bomb
+250 lb M.C. Mk.I bomb
+AIM-9J Sidewinder missile
+APKWS
+Kh-31A missile
+AIM-9D Sidewinder missile
+R-13M1 missile
+R-60 missile
+Type 91 torpedo
+Wfr.Gr.21 rocket
+1,000 lb G.P. Mk.I bomb
+18-inch Mark XII torpedo
+2-inch RP rocket
+R-77 missile
+8 mm ksp m/22 machine gun
+AGM-154 JSOW guided bomb
+Matra R530 missile
+100 kg No.1 bomb
+AS-20 Nord missile
+Brimstone missile
+PL-5 missile
+S-3K rocket
+Skyflash missile
+1,800 kg SC1800 bomb
+3,000 kg FAB-3000 bomb
+AA-20 Nord missile
+1,500 kg KAB-1500 bomb
+2,000 lb A.P. Mk.I bomb
+PL-12 missile
+200 kg No.1 bomb
+450 mm 45-36 torpedo
+7.62 PV-1 machine gun
+CRV7 rocket
+Kh-58 missile
+Kh-59 missile
+S-21 rocket
+SPICE
+Shafrir 2 missile
+Uncle Tom rocket
+Whitehead 450 mm torpedo
+37 mm BK 3,7 cannon
+AS-37 ARMAT missile
+CM-102 missile
+LD-10 missile
+R-23 missile
+Kh-27 missile
+Kh-38 missile
+18-inch Mk.XV torpedo
+AIM-54 Phoenix missile
+25 mm GAU-12 cannon
+AASM Hammer
+AGM-122 Sidearm missile
+AGM-84 SLAM missile
+30 mm GIAT 30 cannon
+7.62 mm DP machine gun
+9M127 Vikhr missile
+20 mm Flak 30 cannon
+37 mm/54 Breda cannon
+57 mm 6pdr 7cwt QF cannon
+9M133 Kornet missile
+AKD-10 missile
+Schräge Musik
+Bloch / Dassault
+Seversky / Republic
+Curtiss-Wright
+General Dynamics
+Focke-Wulf
+Savoia-Marchetti
+Morane-Saulnier
+War Thunder Mobile
+B-18A
+PBY-5 Catalina
+PBY-5A Catalina
+P-40E-1 TD
+P-43A-1
+PBJ-1H
+A-26B-10
+A-26B-50
+P-51H-5-NA
+A-26C-45DT
+F-4C Phantom II
+F-4J Phantom II
+▀Marcolin's C.R.42 CN
+Bf 109 Z-1
+Me 262 A-1a/Jabo
+◄Su-22M4 WTD61
+◄Tornado IDS SLE
+▂PBY-5A Catalina
+▂Hampden TB Mk I
+Pe-2-359
+▂L-39ZA Albatros
+▄Su-30MK2 AMV
+Hurricane Mk.I/L FAA M
+Spitfire Mk IX
+F-4J(UK) Phantom II
+Ki-10-I
+Ki-10-II
+Ki-10-I C
+Ki-10-II C
+Ki-27 Otsu
+Ki-21-Ia
+H6K4
+Hagiri's A5M4
+Ki-27 Otsu Tachiarai
+A6M2 mod. 11
+H8K2
+H8K3
+Ki-61-II Otsu Kai
+Ki-67-I Ko
+▅P-51C-11-NT
+Ki-100-II
+A6M5 Otsu
+A6M5 Hei
+N1K1-Ja
+A6M6c
+F-4EJ Phantom II
+F-4EJ Kai Phantom II
+F-2A ADTW
+␗Ki-27 Otsu
+␗I-153 M-62
+␗P-43A-1
+H-81A-2
+␗P-51C-11-NT
+P.108A serie 2
+Marcolin's C.R.42 CN
+P.108B serie 1
+P.108B serie 2
+◔Me 210 Ca
+▄Bf 109 G-6 Erla
+A-4
+A-4H
+Vautour IIA
+MiG-21 2000
+F-15I Ra’am
+Name
+Leopard 2
+M60 tank
+Pz. IV
+IS tank
+M113 APC
+Magach
+Merkava
+Pz. III
+T-54 / T-55
+M.40 / M.41 / M.42 / M.43
+Leopard 1
+T-60 / T-70 / T-80
+CV90
+Marder IFV
+Vickers E / T-26
+M3 half-track
+Strv m/41
+BMP-1 / BMP-2
+BT tank
+Crusader
+L-60
+M109 howitzer
+MT-LB
+Strv m/42
+Type 74 MBT
+AMX-50
+M3
+Sd.Kfz. 234
+Senrai Maidens
+Strv 81/101
+AMD.35 / Panhard 178
+B1 Centauro
+BMD-3 / BMD-4
+KanJPz / RakJPz
+PT-76
+Pz. II
+Sd.Kfz. 251
+Strv 103
+StuG III
+Turán
+Type 16 MCV
+Type 61 tank
+Valentine
+Vickers MBT
+ZSU-23-4
+A.13 tank
+BTR-80
+Boxer
+M163 VADS
+M6 heavy tank
+MBT/KPz-70
+Ram
+Rooikat
+Type 90 MBT
+ZTZ-99
+Dardo IFV
+GAZ-AA
+L.40
+PLZ-83
+Panhard EBR
+Puma IFV
+Ratel
+SARC
+Stryker IFV
+T-10
+T29 / T30 heavy tank
+Type 10 MBT
+Type 73 APC
+Type 95 Ha-Go
+Wiesel
+CCKW 353
+Pz. I
+SPz Lang HS.30
+Type 89 IFV
+U-SH
+VAB
+7.92 mm ZB-53 machine gun
+100 mm D-10 cannon
+122 mm A-19 cannon
+Spike missile
+20 mm CN20 F2 cannon
+88 mm Flak 18 cannon
+35 mm Oerlikon GDF cannon
+37 mm Bofors cannon
+40 mm Bofors L/70 cannon
+85 mm D-5 cannon
+47 mm SA35 cannon
+75 mm SA50 cannon
+105 mm CN 105 F1 cannon
+30 mm Mauser MK 30 cannon
+7.62 mm M60 machine gun
+75 mm Ordnance QF cannon
+SS.11 missile
+120 mm M1 cannon
+37 mm PaK36 cannon
+MILAN missile
+20 mm/70 Oerlikon cannon
+9M14 Malutka ATGM
+9M120 Ataka ATGM
+Mistral missile
+9M114 Shturm missile
+9M39 Igla missile
+Hedgehog mortar
+Multi-Vehicle system
+Electro-optical APS
+Krauss-Maffei
+Daimler-Benz
+Thyssen-Henschel
+Sandock-Austral
+Marmon-Herrington
+Scania-Vabis
+Batignolles-Chatillon
+Hispano-Suiza
+Anti-aircraft vehicles
+M5A1 TD
+NASAMS 3
+Pz.II C TD
+Pz.III J1 TD
+Sd.Kfz.234/2 TD
+BT-7 TD
+T-34E STZ
+T-126
+▂M3 Medium
+IS-2 No.321
+Matilda III
+Chi-Ha Kai TD
+T-34-85 Gai
+WZ1001(E) LCT
+Strv m/39 TD
+M109
+Mi-28
+30 mm M230 Chain Gun
+7.62 mm GShG machine gun
+9M17 Falanga missile
+HJ-8 ATGM
+Agusta
+Eurocopter
+Fuji Heavy Industries
+MBB
+Sikorsky
+Hughes
+Kamov
+CAIC
+BO 105 PAH-1A1
+Rooivalk Mk1F CSH
+AH-60
+Type 1936-class destroyer
+Condottieri-class cruiser
+Fletcher-class destroyer
+Clemson-class destroyer
+Kongō-class battlecruiser
+Omaha-class cruiser
+Aigle-class destroyer
+Akizuki-class destroyer
+Battle-class destroyer
+Bayern-class battleship
+Chacal-class destroyer
+County-class cruiser
+Daring-class destroyer
+Hunt-class destroyer
+J/N/K-class destroyer
+Mogami-class cruiser
+Porter-class destroyer
+Soldati-class destroyer
+Suffren-class cruiser
+Svetlana-class cruiser
+Town-class cruiser
+Tribal-class destroyer
+Type 1934-class destroyer
+V-class destroyer
+Yūgumo-class destroyer
+Baltimore-class cruiser
+Bretagne-class battleship
+Brooklyn-class cruiser
+Colorado-class battleship
+Courbet-class battleship
+Dardo-class destroyers
+Des Moines-class cruiser
+Deutschland-class cruiser
+Duilio-class battleship
+Furutaka-class cruiser
+Fusō-class battleship
+G-class destroyer
+Gearing-class destroyer
+Hatsuharu-class destroyer
+Ise-class battleship
+Kagerō-class destroyer
+Königsberg-class cruiser
+Leipzig-class cruiser
+Leone-class destroyer
+Littorio-class battleship
+Mitscher-class destroyer
+Momi-class destroyers
+Mutsuki-class destroyer
+Myōkō-class cruiser
+Nagato-class battleship
+Nassau-class battleship
+Nelson-class battleship
+Nevada-class battleship
+Somers-class destroyer
+Town-class destroyer
+Turbine-class destroyer
+Wyoming-class battleship
+Yamato-class battleship
+Zara-class cruiser
+5-inch/38 Mk.12 cannon
+25 mm/60 Hotchkiss cannon
+610 mm Type 93 torpedo
+533 mm Mk.15 torpedo
+4-inch/45 Mark XVI cannon
+Type 95 depth charge
+5-inch/40 Type 89 cannon
+37 mm SK C/30 cannon
+100 mm/47 O.T.O. cannon
+1.1-inch/75 Mk.1 cannon
+12.8 cm/45 SK C/34 cannon
+3-inch/50 Mk.33 cannon
+4.7-inch/45 Mk.IX cannon
+8-inch/55 Mark 9 cannon
+10.5 cm/60 SK C/33 cannon
+533 mm Mk.V torpedo
+100 mm/56 B-34 cannon
+25 mm 2M-3 cannon
+61 Communards Shipyard
+Schichau-Werke
+Sub-chaser
+Barge
+Anti-air ferry
+S-boot
+CRDA 60ft-type motor boat
+Fairmile D
+Kusentei-type subchaser
+Dark-class motor boat
+G-5-class motor boat
+MAS-500-class motor boat
+Pr. 1124-class gun boat
+Pr. 123-class motor boat
+Pr. 201-class subchaser
+R-boot
+Albatros-class corvette
+Asheville-class gunboat
+D-3-class Torpedo Boat
+Flower-class Corvette
+Freccia-class gunboat
+Gabbiano-class corvette
+Hiburi-class escort ship
+Köln-class frigate
+M-boot
+Nibbio-class hydrofoil
+Peacock-class corvette
+Pr. 122-class subchaser
+River-class frigate
+SGB-class gun boat
+Whitby-class frigate
+30 mm/54 AK-630 cannon
+Saunders-Roe
+Sub-chasers
+Dark Aggressor TD
+Type T-14
+TheSniper_111
+RDXRooster63
+M24 Chaffee
+KV-2 heavy tank
+Taepea
+Renault YR
+Renault ACG
+Wiki Team
+HMS
+Renown
+Glorious
+2 x
+Mi-24V | War Thunder Wiki
+(NATO reporting name:
+Hind-E
+) introduced in
+New 12.7 mm MGs
+New 7.62 mm MGs
+Fist of the fleet
+The highest fire rate
+New 20 mm cannons
+M1A1HC
+Stormin Norman
+Punisher
+Two-plane stabilizer
+First-order
+Kronstadt
+-class battleships
+. However,
+M.C. 250 lb Mk.I bomb
+Leopard 2A6 variant
+Leopard 2A4 variant
+Helhest
+AMX-30B
+Chemin des Dames
+Montmirail
+Castilla
+[eSport] Gendarme
+HE patt.1911
+AP patt.1911
+SAP patt.1911
+HE patt.1928
+MegaFangs
+KV-1 variants
+GiMei
+KohleR
+TNTe
+AviatoR_76
+Brawler
+Flanker
+Spearhead
+Notice:
+Heavy Tanks
+Medium Tanks
+VK 3002
+Light Tanks
+ColonelKlink1942
+Gerbil99999999
+HEI-PD
+Inaccurate information;
+Fleet | War Thunder Wiki
+FinnSupra
+Intrépide
+Defside7
+3 November 2025
+21 September 2025
+833 days
+Yamato

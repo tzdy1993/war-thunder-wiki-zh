@@ -1,0 +1,5612 @@
+[
+  [
+    "KB-1",
+    {
+      "☢狂飙一号": 3,
+      "KB-1": 1
+    },
+    [
+      [
+        "weapons/cn_kb1/short",
+        "☢狂飙一号"
+      ],
+      [
+        "weapons/cn_kb1_5kt/short",
+        "☢狂飙一号"
+      ],
+      [
+        "weapons/cn_kb1_30kt/short",
+        "☢狂飙一号"
+      ],
+      [
+        "weapons/ussr_mine_kb1_1931/short",
+        "KB-1"
+      ]
+    ]
+  ],
+  [
+    "7.7 mm Type 97 machine gun",
+    {
+      "7.7 毫米 九七式固定机枪": 1,
+      "7.7 毫米 九七式旋回机枪": 1,
+      "7.7 毫米 九七式车载重机枪": 1
+    },
+    [
+      [
+        "weapons/gunType97",
+        "7.7 毫米 九七式固定机枪"
+      ],
+      [
+        "weapons/gunType97_turret",
+        "7.7 毫米 九七式旋回机枪"
+      ],
+      [
+        "weapons/7_7mm_Type_97_user_machinegun",
+        "7.7 毫米 九七式车载重机枪"
+      ]
+    ]
+  ],
+  [
+    "12.7 mm Ho-103 machine gun",
+    {
+      "12.7 毫米 Ho-103 固定机枪": 1,
+      "12.7 毫米 Ho-103 旋回机枪": 1
+    },
+    [
+      [
+        "weapons/gunHo103",
+        "12.7 毫米 Ho-103 固定机枪"
+      ],
+      [
+        "weapons/gunHo103_turret",
+        "12.7 毫米 Ho-103 旋回机枪"
+      ]
+    ]
+  ],
+  [
+    "7.92 mm Type 98 machine gun",
+    {
+      "7.92 毫米 九八式旋回机枪": 1,
+      "7.92 毫米 九八式固定机枪": 1
+    },
+    [
+      [
+        "weapons/gunType98_turret",
+        "7.92 毫米 九八式旋回机枪"
+      ],
+      [
+        "weapons/gunType98",
+        "7.92 毫米 九八式固定机枪"
+      ]
+    ]
+  ],
+  [
+    "7.7 mm Type 89 machine gun",
+    {
+      "7.7 毫米 八九式固定机枪": 1,
+      "7.7 毫米 八九式旋回机枪": 2
+    },
+    [
+      [
+        "weapons/gunType89",
+        "7.7 毫米 八九式固定机枪"
+      ],
+      [
+        "weapons/gunType89_turret",
+        "7.7 毫米 八九式旋回机枪"
+      ],
+      [
+        "weapons/7_7mm_type_89_naval_user_machinegun",
+        "7.7 毫米 八九式旋回机枪"
+      ]
+    ]
+  ],
+  [
+    "7.7 mm Type 92 machine gun",
+    {
+      "7.7 毫米 九二式固定机枪": 1,
+      "7.7 毫米 九二式旋回机枪": 1,
+      "7.7 毫米 九二式机枪": 1
+    },
+    [
+      [
+        "weapons/gunType92",
+        "7.7 毫米 九二式固定机枪"
+      ],
+      [
+        "weapons/gunType92_turret",
+        "7.7 毫米 九二式旋回机枪"
+      ],
+      [
+        "weapons/7_7mm_80_type_92_naval_user_machinegun",
+        "7.7 毫米 九二式机枪"
+      ]
+    ]
+  ],
+  [
+    "250 kg SC250JA bomb",
+    {
+      "250 千克 SC260JA 炸弹": 1,
+      "250 千克 250JA 型炸弹": 1,
+      "250 千克 SC250JA 炸弹": 1
+    },
+    [
+      [
+        "weapons/de_sc250",
+        "250 千克 SC260JA 炸弹"
+      ],
+      [
+        "weapons/de_sc250_default",
+        "250 千克 250JA 型炸弹"
+      ],
+      [
+        "weapons/de_sc250_87",
+        "250 千克 SC250JA 炸弹"
+      ]
+    ]
+  ],
+  [
+    "250 kg Navy Type Number 25 Model 2 bomb",
+    {
+      "二五番通常爆弹二型 (250 千克)": 1,
+      "二五番通常爆弹二型（250 千克）": 1
+    },
+    [
+      [
+        "weapons/jp_navy_mod25mark2_250kg",
+        "二五番通常爆弹二型 (250 千克)"
+      ],
+      [
+        "weapons/jp_navy_mod25mark2_250kg_default",
+        "二五番通常爆弹二型（250 千克）"
+      ]
+    ]
+  ],
+  [
+    "1500 kg",
+    {
+      "三式一五〇番": 1,
+      "一五〇番": 1
+    },
+    [
+      [
+        "weapons/jp_ijnaf_type_3_number_150_1500kg_ap/short",
+        "三式一五〇番"
+      ],
+      [
+        "modification/g8n_1500",
+        "一五〇番"
+      ]
+    ]
+  ],
+  [
+    "GBU-8",
+    {
+      "GBU-8 制导炸弹": 1,
+      "GBU-8": 2
+    },
+    [
+      [
+        "weapons/us_2000lb_gbu_8_hobos",
+        "GBU-8 制导炸弹"
+      ],
+      [
+        "weapons/us_2000lb_gbu_8_hobos/short",
+        "GBU-8"
+      ],
+      [
+        "modification/us_gbu_8",
+        "GBU-8"
+      ]
+    ]
+  ],
+  [
+    "Drop tank",
+    {
+      "副油箱": 253,
+      "保形油箱": 1
+    },
+    [
+      [
+        "weapons/rs_500l_j_22/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_300_gal_fuse_f_16_blok_10/short",
+        "副油箱"
+      ],
+      [
+        "weapons/jp_300_gal_fuse_f_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/ar_318l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/ar_318l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/ar_318l_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_100gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_100gal_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_130gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_130gal_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_330gal_fa_18_drop_tank_wing_left/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_330gal_fa_18_drop_tank_wing_right/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_330gal_fa_18_drop_tank_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_480gal_fa_18e_drop_tank_centr/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_480gal_fa_18e_drop_tank_wing_left_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_480gal_fa_18e_drop_tank_wing_left_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_480gal_fa_18e_drop_tank_wing_right_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_480gal_fa_18e_drop_tank_wing_right_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_280gal_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_280gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_280gal_drop_tank_light/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_280gal_drop_tank_light_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_264gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_264gal_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_264gal_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_370_gal_wing_f_16/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_370_gal_wing_f_16_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_200_gal_wing_f2h_2_left/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_200_gal_wing_f2h_2_right/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_fuse_f_4/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_left_wing_dark/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_fuse_dark/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_610_gal_f_15_right_wing_dark/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_f_111a_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_f_111a_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_f_111a_4/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_f_111a_5/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_600_gal_fuse_f_4/short",
+        "副油箱"
+      ],
+      [
+        "weapons/jp_600gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/jp_600gal_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1500_liters_fuse_mig_29/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1500_liters_fuse_mig_29smt/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_2000_liters_fuse_mig_29smt/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1150l_mig_29kr_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1150l_mig_29kr_left_wing1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1150l_mig_29kr_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_1150l_mig_29kr_right_wing1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_2150_liters_fuse_mig_29kr/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39_puma/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39_left_wing_puma/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1100_gal_fuse_saab_jas39_right_wing_puma/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_1250l_late_saab_ja37d/short",
+        "副油箱"
+      ],
+      [
+        "weapons/gr_1500l_tornado_assta1_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_fyx800_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_central_fyx800_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_fyx800_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_fyx800_j_10_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_fyx800_j_10_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_760l_f_6c_drop_tank_l/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_760l_f_6c_drop_tank_r/short",
+        "副油箱"
+      ],
+      [
+        "weapons/f_6c_pakistan_fuse_tank/short",
+        "保形油箱"
+      ],
+      [
+        "weapons/gr_1500l_tornado_assta1_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/gr_1500l_tornado_ids_mfg_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/gr_1500l_tornado_ids_mfg_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/buccaneer_s2b_baydoor_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_580l_amx_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_580l_amx_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/br_580l_amx_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/br_580l_amx_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_1500l_tornado_ids_mod_95_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_1500l_tornado_ids_mod_95_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1500l_tornado_gr1_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1500l_tornado_gr1_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1500l_tornado_gr4_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1500l_tornado_gr4_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/gr_1500l_tornado_f3_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/gr_2250l_tornado_f3_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1300l_rp522_mirage_2000d_r1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_2500l_m4000_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_2500l_m4000_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_2000l_rpl_741_rafale_drop_tank_left/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_2000l_rpl_741_rafale_drop_tank_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_2000l_rpl_741_rafale_drop_tank_right/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_500l_m4000_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_500l_m4000_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_625l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_510l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_510l_drop_tank_x2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_510l_wdns_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_510l_wdns_drop_tank_x2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_275gal_fuse_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_275gal_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_275gal_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sws_675l_hunter_f58_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sws_675l_hunter_f58_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/nl_150gal_early_fuse_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/nl_150gal_early_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/nl_150gal_early_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/nl_50gal_wingtip_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/nl_50gal_wingtip_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_silver_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_silver_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_silver_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_17_silver_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25tm_silver_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25tm_silver_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25tm_silver_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25tm_silver_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25t_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25t_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25t_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25t_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_25_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_mig_23_27_silver_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_mig_23bn_silver_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_mig_21_silver_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_720l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_mig_23m_silver_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_mig_23ml_silver_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_left_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_j_7_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_j_7_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_480l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_480l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_fuse_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_right_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/jp_330_liters_a6m/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_bison_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_bison_left_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_490l_mig_21_bison_right_wing/short",
+        "副油箱"
+      ],
+      [
+        "weapons/310l_alpha_jet_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/310l_alpha_jet_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/310l_alpha_jet_france_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/310l_alpha_jet_france_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_early_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_early_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_early_fuse_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_fuse_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_late_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_late_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_early_f_20_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_early_f_20_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_150gal_fuse_f_20_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1140l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1140l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1400l_fyx1400_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1400l_fyx1400_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1400l_fyx1400_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1400l_fyx1400_j_8_fuse_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1600l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1600l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1600l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_aluminium_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_aluminium_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_aluminium_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_gray_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_gray_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp35_drop_tank_gray_fuse/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_aluminium_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_aluminium_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_aluminium_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_desert_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_desert_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_desert_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_gray_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_gray_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1200l_rp36_drop_tank_gray_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1300l_rp62_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1300l_rp62_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1700l_rp30_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1700l_rp30_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/bl_1700l_rp30_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/bl_1700l_rp30_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1700l_rp30_mirage_3e_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/fr_1700l_rp30_mirage_3e_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_ghost_grey_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_ghost_grey_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_ghost_grey_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_mirage_3cj/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_880l_rp825_drop_tank_ghost_grey_mirage_3cj/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_880l_rp825_drop_tank_mirage_iiis/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_ghost_grey_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_ghost_grey_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/il_1300l_rp62_drop_tank_ghost_grey_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_a_10c_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_a_10c_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_600_gal_a_10c_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su24m_2000l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su24m_3000l_drop_tank_left/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su24m_3000l_drop_tank_right/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su34_3000l_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su34_3000l_drop_tank_left/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_su34_3000l_drop_tank_right/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_800l_rx3_drop_tank/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1100l_rx3_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/cn_1100l_rx3_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1000l_ef_2000_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1000l_ef_2000_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_1000l_ef_2000_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/in_100gal_marut_drop_tank_l/short",
+        "副油箱"
+      ],
+      [
+        "weapons/in_100gal_marut_drop_tank_r/short",
+        "副油箱"
+      ],
+      [
+        "weapons/in_100gal_marut_drop_tank_l_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/in_100gal_marut_drop_tank_r_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_358gal_f_106_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_358gal_f_106_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/us_275gal_fuse_clip_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_130gal_hawk_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/uk_130gal_hawk_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_330l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_330l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_a21_drop_tank_l/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_a21_drop_tank_r/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_a21rb_drop_tank_l/short",
+        "副油箱"
+      ],
+      [
+        "weapons/sw_a21rb_drop_tank_r/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_7b_silver_fuse_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_7b_silver_fuse_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_7b_silver_wing_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_800l_su_7b_silver_wing_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_5280l_mig_25pd_drop_tank_central/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_500l_yak_130_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/su_500l_yak_130_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_630l_drop_tank_1/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_630l_drop_tank_2/short",
+        "副油箱"
+      ],
+      [
+        "weapons/it_630l_drop_tank_3/short",
+        "副油箱"
+      ],
+      [
+        "weapons/ro_540l_iar_93_drop_tank/short",
+        "副油箱"
+      ]
+    ]
+  ],
+  [
+    "YINGS-III",
+    {
+      "鹰隼 III": 1,
+      "鹰隼-III": 1
+    },
+    [
+      [
+        "weapons/cn_yings_3a_targeting_pod/short",
+        "鹰隼 III"
+      ],
+      [
+        "modification/cn_yings_3a",
+        "鹰隼-III"
+      ]
+    ]
+  ],
+  [
+    "Pave Tack",
+    {
+      "铺路大头钉": 1,
+      "AN/AVQ-26": 1
+    },
+    [
+      [
+        "weapons/us_pave_tack_targeting_pod/short",
+        "铺路大头钉"
+      ],
+      [
+        "modification/us_pave_tack_pod",
+        "AN/AVQ-26"
+      ]
+    ]
+  ],
+  [
+    "Drop tank (1140 liters)",
+    {
+      "保形油箱 (1,140 升)": 1,
+      "可抛副油箱 (1,140 升)": 2
+    },
+    [
+      [
+        "weapons/f_6c_pakistan_fuse_tank",
+        "保形油箱 (1,140 升)"
+      ],
+      [
+        "weapons/cn_1140l_drop_tank_1",
+        "可抛副油箱 (1,140 升)"
+      ],
+      [
+        "weapons/cn_1140l_drop_tank_2",
+        "可抛副油箱 (1,140 升)"
+      ]
+    ]
+  ],
+  [
+    "Ki-148 I-Go 1B",
+    {
+      "Ki-148": 9,
+      "Ki-148 一式乙型": 8
+    },
+    [
+      [
+        "weapons/jp_ki_148_i_go_1b/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_warhead",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_warhead/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_engine",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_engine/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_air_ballon",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_air_ballon/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_pipe",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_pipe/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_servo_controll",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_servo_controll/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_guidance",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_guidance/short",
+        "Ki-148"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_fuel_leak",
+        "Ki-148 一式乙型"
+      ],
+      [
+        "weapons/jp_ki_148_i_go_1b_event_broken_fuel_leak/short",
+        "Ki-148"
+      ]
+    ]
+  ],
+  [
+    "Mk 13-6 Case Torpedo (2216 lbs)",
+    {
+      "Mk 13-6 鱼雷 (盒式稳定器，2,216 磅)": 1,
+      "Mk 13-1 鱼雷 (盒式稳定器，2,216 磅)": 1
+    },
+    [
+      [
+        "weapons/us_mk13_torpedo",
+        "Mk 13-6 鱼雷 (盒式稳定器，2,216 磅)"
+      ],
+      [
+        "weapons/us_mk13_torpedo_tutorial",
+        "Mk 13-1 鱼雷 (盒式稳定器，2,216 磅)"
+      ]
+    ]
+  ],
+  [
+    "Mk 13",
+    {
+      "Mk 13": 4,
+      "Mk.13": 1,
+      "Mk 13 鱼雷": 1
+    },
+    [
+      [
+        "weapons/us_mk13_mod1/short",
+        "Mk 13"
+      ],
+      [
+        "weapons/us_mk13_torpedo_weak/short",
+        "Mk 13"
+      ],
+      [
+        "weapons/us_mk13_torpedo_no_case/short",
+        "Mk 13"
+      ],
+      [
+        "weapons/us_569mm_22_5_in_mark13_torpedo/short",
+        "Mk 13"
+      ],
+      [
+        "weapons/rocket_mk13_naval_rocket_launcher/short",
+        "Mk.13"
+      ],
+      [
+        "modification/us_mk13",
+        "Mk 13 鱼雷"
+      ]
+    ]
+  ],
+  [
+    "lau 131A",
+    {
+      "LAU-131/A 火箭弹发射器": 1,
+      "LAU-131/A": 1
+    },
+    [
+      [
+        "weapons/lau_131a_x3",
+        "LAU-131/A 火箭弹发射器"
+      ],
+      [
+        "weapons/lau_131a_x3/short",
+        "LAU-131/A"
+      ]
+    ]
+  ],
+  [
+    "20 mm KwK30 cannon",
+    {
+      "20 毫米 KwK 30 机炮": 1,
+      "20 毫米 KwK 30 L/55 机炮": 2
+    },
+    [
+      [
+        "weapons/20mm_KwK30_222_user_cannon",
+        "20 毫米 KwK 30 机炮"
+      ],
+      [
+        "weapons/20mm_KwK30_user_cannon",
+        "20 毫米 KwK 30 L/55 机炮"
+      ],
+      [
+        "weapons/20mm_KwK30_k_user_cannon",
+        "20 毫米 KwK 30 L/55 机炮"
+      ]
+    ]
+  ],
+  [
+    "Pzgr.",
+    {
+      "Pzgr.": 1,
+      "PzGr.": 1
+    },
+    [
+      [
+        "37mm_pzgr_341",
+        "Pzgr."
+      ],
+      [
+        "88mm_pzgr",
+        "PzGr."
+      ]
+    ]
+  ],
+  [
+    "Sprgr.",
+    {
+      "Sprgr.": 1,
+      "SprGr.": 1
+    },
+    [
+      [
+        "37mm_sprgr_341",
+        "Sprgr."
+      ],
+      [
+        "20mm_sprgr",
+        "SprGr."
+      ]
+    ]
+  ],
+  [
+    "45 mm 20-K cannon",
+    {
+      "45 毫米 20-K 坦克炮": 2,
+      "45 毫米 20-K 反坦克炮": 1
+    },
+    [
+      [
+        "weapons/45mm_20K_for_tutorial_user_cannon",
+        "45 毫米 20-K 坦克炮"
+      ],
+      [
+        "weapons/45mm_20K_user_cannon_for_T_35",
+        "45 毫米 20-K 坦克炮"
+      ],
+      [
+        "weapons/45mm_20K_user_cannon",
+        "45 毫米 20-K 反坦克炮"
+      ]
+    ]
+  ],
+  [
+    "76 mm M7 cannon",
+    {
+      "76 毫米 M7 反坦克炮": 1,
+      "76 毫米 M7 坦克炮": 1
+    },
+    [
+      [
+        "weapons/76mm_M7_for_M10_user_cannon",
+        "76 毫米 M7 反坦克炮"
+      ],
+      [
+        "weapons/76mm_M7_user_cannon",
+        "76 毫米 M7 坦克炮"
+      ]
+    ]
+  ],
+  [
+    "90 mm BK90 cannon",
+    {
+      "90 毫米 BK 90 反坦克炮": 1,
+      "90 毫米 BK 90 坦克炮": 1
+    },
+    [
+      [
+        "weapons/90mm_BK_90_user_cannon",
+        "90 毫米 BK 90 反坦克炮"
+      ],
+      [
+        "weapons/90mm_BK90_Ru251_user_cannon",
+        "90 毫米 BK 90 坦克炮"
+      ]
+    ]
+  ],
+  [
+    "HEAT",
+    {
+      "破甲": 1,
+      "HEAT": 3
+    },
+    [
+      [
+        "rocket/warhead/heat",
+        "破甲"
+      ],
+      [
+        "he_at/name/short",
+        "HEAT"
+      ],
+      [
+        "heat_grenade_tank/name/short",
+        "HEAT"
+      ],
+      [
+        "heat_tank/name/short",
+        "HEAT"
+      ]
+    ]
+  ],
+  [
+    "HE",
+    {
+      "高爆": 1,
+      "HE": 6
+    },
+    [
+      [
+        "rocket/warhead/he",
+        "高爆"
+      ],
+      [
+        "he_frag_base_fuse_tank/name/short",
+        "HE"
+      ],
+      [
+        "he_grenade_tank/name/short",
+        "HE"
+      ],
+      [
+        "he_frag_tank/name/short",
+        "HE"
+      ],
+      [
+        "tp_tank/name/short",
+        "HE"
+      ],
+      [
+        "20mm_oerlikon_he",
+        "HE"
+      ],
+      [
+        "he_frag_fs_tank/name/short",
+        "HE"
+      ]
+    ]
+  ],
+  [
+    "AP",
+    {
+      "穿甲": 28,
+      "AP": 5,
+      "反坦克": 3
+    },
+    [
+      [
+        "rocket/warhead/ap",
+        "穿甲"
+      ],
+      [
+        "ap_ball/name/short",
+        "AP"
+      ],
+      [
+        "ap_ball_M2/name/short",
+        "AP"
+      ],
+      [
+        "ap/name/short",
+        "AP"
+      ],
+      [
+        "ap_large_caliber_tank/name/short",
+        "AP"
+      ],
+      [
+        "ap_tank/name/short",
+        "AP"
+      ],
+      [
+        "modification/shvak_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/vya_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/ns23_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/ns37_armor_target/short",
+        "穿甲"
+      ],
+      [
+        "modification/mg151_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/mk_103_antitank/short",
+        "反坦克"
+      ],
+      [
+        "modification/bk37_antitank/short",
+        "反坦克"
+      ],
+      [
+        "modification/mavag_39m_antitank/short",
+        "穿甲"
+      ],
+      [
+        "modification/bk5_antitank/short",
+        "反坦克"
+      ],
+      [
+        "modification/303_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/shvak_turret_apit/short",
+        "穿甲"
+      ],
+      [
+        "modification/mgff_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/ho1_turret_apt/short",
+        "穿甲"
+      ],
+      [
+        "modification/type99mk1_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/breda12_7_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/breda_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/30cal_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/303cal_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/50cal_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/7_5mm_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/mg_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/mle33_ap_turret/short",
+        "穿甲"
+      ],
+      [
+        "modification/shkas_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/type92_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/7_7mm_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/ub_turret_ap/short",
+        "穿甲"
+      ],
+      [
+        "modification/m4_75mm_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/SAA_armor_targets/short",
+        "穿甲"
+      ],
+      [
+        "modification/nr23_turret_apit/short",
+        "穿甲"
+      ],
+      [
+        "modification/shvak_armor_targets_r/short",
+        "穿甲"
+      ]
+    ]
+  ],
+  [
+    "Smoke",
+    {
+      "发烟": 1,
+      "烟雾": 3,
+      "烟雾弹": 38
+    },
+    [
+      [
+        "rocket/warhead/smoke",
+        "发烟"
+      ],
+      [
+        "smoke_tank/name/short",
+        "烟雾"
+      ],
+      [
+        "smoke_grenade_tank/name/short",
+        "烟雾"
+      ],
+      [
+        "weapons/81mm_smoke_granade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/81mm_tucha_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/81mm_3d17_smoke_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/102mm_uk_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/60mm_smoke_mortar_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/91mm_germ_smoke_mortar_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/91mm_germ_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/50mm_uk_smoke_mortar_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_germ_smoke_mortar_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_germ_smoke_candle_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_nato_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_nato_smoke_grenade_launcher_single/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_nato_smoke_grenade_launcher_ru251/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_modern_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_modern_cn_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/60mm_modern_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/76mm_modern_germ_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_modern_uk_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_modern_us_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_modern_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/40mm_modern_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_type_90_modern_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_uk_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/66mm_smoke_grenade_launcher_m60a2/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/80mm_galix_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/80mm_brenus_smoke_grenade_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/t_34_100_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/t_34_85_stp_s53_smoke_barrel_launcher/short",
+        "烟雾"
+      ],
+      [
+        "weapons/t_44_100_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/asu_85_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/is_3_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/is_4m_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/object_268_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/su_122_54_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/t_10m_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/t54_1947_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/t54_1951_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/type_62_smoke_barrel_launcher/short",
+        "烟雾弹"
+      ],
+      [
+        "weapons/21mm_exo_smoke_launcher/short",
+        "烟雾弹"
+      ]
+    ]
+  ],
+  [
+    "Launch range",
+    {
+      "作战距离": 1,
+      "发射距离": 1
+    },
+    [
+      [
+        "missile/launchRange",
+        "作战距离"
+      ],
+      [
+        "launchRange",
+        "发射距离"
+      ]
+    ]
+  ],
+  [
+    "TV",
+    {
+      "电视": 1,
+      "电视成像": 1,
+      "电视成像传感器": 1
+    },
+    [
+      [
+        "missile/guidance/tv",
+        "电视"
+      ],
+      [
+        "avionics_sight_vision/tv",
+        "电视成像"
+      ],
+      [
+        "avionics_sensor_tv",
+        "电视成像传感器"
+      ]
+    ]
+  ],
+  [
+    "GNSS",
+    {
+      "全球卫星导航系统": 1,
+      "卫星制导弹药": 1
+    },
+    [
+      [
+        "missile/guidance/sns",
+        "全球卫星导航系统"
+      ],
+      [
+        "modification/cn_sns_bomb",
+        "卫星制导弹药"
+      ]
+    ]
+  ],
+  [
+    "AP-I",
+    {
+      "API": 4,
+      "AP-I": 1
+    },
+    [
+      [
+        "ap_i_ball/name/short",
+        "API"
+      ],
+      [
+        "ap_i_ball_M8/name/short",
+        "API"
+      ],
+      [
+        "ap_i_ball_b32/name/short",
+        "AP-I"
+      ],
+      [
+        "ap_i/name/short",
+        "API"
+      ],
+      [
+        "20mm_m53",
+        "API"
+      ]
+    ]
+  ],
+  [
+    "IAI",
+    {
+      "IAI": 2,
+      "HEI-T/IAI": 1
+    },
+    [
+      [
+        "he_i_ball/name/short",
+        "IAI"
+      ],
+      [
+        "i_ball_mdz/name/short",
+        "IAI"
+      ],
+      [
+        "mg131_heit/name/short",
+        "HEI-T/IAI"
+      ]
+    ]
+  ],
+  [
+    "High-explosive fragmentation shell",
+    {
+      "高爆破片弹": 1,
+      "杀伤榴弹": 1,
+      "高爆破片杀伤榴弹": 1
+    },
+    [
+      [
+        "he_frag/name",
+        "高爆破片弹"
+      ],
+      [
+        "he_frag_tank/name",
+        "杀伤榴弹"
+      ],
+      [
+        "he_frag_fs_tank/name",
+        "高爆破片杀伤榴弹"
+      ]
+    ]
+  ],
+  [
+    "Armor-piercing shell",
+    {
+      "穿甲弹": 2,
+      "穿甲弹 (大口径)": 1
+    },
+    [
+      [
+        "ap/name",
+        "穿甲弹"
+      ],
+      [
+        "ap_large_caliber_tank/name",
+        "穿甲弹 (大口径)"
+      ],
+      [
+        "ap_tank/name",
+        "穿甲弹"
+      ]
+    ]
+  ],
+  [
+    "%s mm ammunition belt for armored targets",
+    {
+      "%s 毫米穿甲弹链配置": 2,
+      "%s 毫米反装甲弹链配置": 1
+    },
+    [
+      [
+        "antitank/name",
+        "%s 毫米穿甲弹链配置"
+      ],
+      [
+        "armor_targets/name",
+        "%s 毫米穿甲弹链配置"
+      ],
+      [
+        "armor_target/name",
+        "%s 毫米反装甲弹链配置"
+      ]
+    ]
+  ],
+  [
+    "%s mm turret ammunition belt with AP and HEF shells",
+    {
+      "自卫武器 %s 毫米通用弹链配置": 1,
+      "自卫武器 %s 毫米对空弹链配置": 2
+    },
+    [
+      [
+        "turret_ap_he/name",
+        "自卫武器 %s 毫米通用弹链配置"
+      ],
+      [
+        "turret_het/name",
+        "自卫武器 %s 毫米对空弹链配置"
+      ],
+      [
+        "turret_he/name",
+        "自卫武器 %s 毫米对空弹链配置"
+      ]
+    ]
+  ],
+  [
+    "Chaff countermeasures",
+    {
+      "干扰箔": 1,
+      "干扰箔 (对抗措施)": 1,
+      "允许发射干扰箔。": 1
+    },
+    [
+      [
+        "weapons/countermeasure_split_launcher_jet_only_chaff_large",
+        "干扰箔"
+      ],
+      [
+        "weapons/countermeasure_chaff_only",
+        "干扰箔 (对抗措施)"
+      ],
+      [
+        "modification/chaff_pods/desc",
+        "允许发射干扰箔。"
+      ]
+    ]
+  ],
+  [
+    "Chaff",
+    {
+      "干扰箔": 7,
+      "箔片": 2
+    },
+    [
+      [
+        "weapons/countermeasure_split_launcher_jet_only_chaff_large/short",
+        "干扰箔"
+      ],
+      [
+        "weapons/countermeasure_chaff_only/short",
+        "干扰箔"
+      ],
+      [
+        "weapons/countermeasure_chaff_only_large/short",
+        "干扰箔"
+      ],
+      [
+        "weapons/countermeasure_chaff_only_large_a32a/short",
+        "干扰箔"
+      ],
+      [
+        "chaffs_launcher/name",
+        "干扰箔"
+      ],
+      [
+        "chaff_bullet_jet/name/short",
+        "箔片"
+      ],
+      [
+        "chff/name",
+        "干扰箔"
+      ],
+      [
+        "chff/name/short",
+        "箔片"
+      ],
+      [
+        "modification/chaff_pods",
+        "干扰箔"
+      ]
+    ]
+  ],
+  [
+    "Flares",
+    {
+      "热焰弹": 16,
+      "热焰": 2
+    },
+    [
+      [
+        "weapons/countermeasure_split_launcher_jet_only_flare_large/short",
+        "热焰弹"
+      ],
+      [
+        "flare/name/short",
+        "热焰"
+      ],
+      [
+        "flare_bullet_jet/name/short",
+        "热焰"
+      ],
+      [
+        "flare_bullet_maw/name/short",
+        "热焰弹"
+      ],
+      [
+        "weapons/flare_launcher",
+        "热焰弹"
+      ],
+      [
+        "weapons/flare_launcher/short",
+        "热焰弹"
+      ],
+      [
+        "weapons/flare_launcher_jet",
+        "热焰弹"
+      ],
+      [
+        "weapons/flare_launcher_jet/short",
+        "热焰弹"
+      ],
+      [
+        "flare_launcher",
+        "热焰弹"
+      ],
+      [
+        "modification/_flares",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_chaff_priority_unchecked",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_flare_priority_unchecked",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_flare_only_unchecked",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_chaff_only_unchecked",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_chaff_priority",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_flare_priority",
+        "热焰弹"
+      ],
+      [
+        "modification/countermeasures_launcher_flare_only",
+        "热焰弹"
+      ],
+      [
+        "modification/ountermeasures_launcher_chaff_only",
+        "热焰弹"
+      ]
+    ]
+  ],
+  [
+    "Rockets",
+    {
+      "火箭": 1,
+      "火箭弹": 2
+    },
+    [
+      [
+        "heat_fs_rocket/name/short",
+        "火箭"
+      ],
+      [
+        "modification/_rockets",
+        "火箭弹"
+      ],
+      [
+        "avionics_sight_rocket",
+        "火箭弹"
+      ]
+    ]
+  ],
+  [
+    "Anti-Tank Guided Missile",
+    {
+      "反坦克导弹": 1,
+      "动能反坦克导弹": 1
+    },
+    [
+      [
+        "atgm_tank/name",
+        "反坦克导弹"
+      ],
+      [
+        "atgm_ke_tank/name",
+        "动能反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "Rocket",
+    {
+      "火箭弹": 1,
+      "火箭": 1
+    },
+    [
+      [
+        "rocket_tank/name",
+        "火箭弹"
+      ],
+      [
+        "plane_engine_type/rocket",
+        "火箭"
+      ]
+    ]
+  ],
+  [
+    "Shrapnel shell with time fuze",
+    {
+      "时间引信榴霰弹": 1,
+      "时间引信预制破片弹": 1
+    },
+    [
+      [
+        "ahead_tank/name",
+        "时间引信榴霰弹"
+      ],
+      [
+        "ahead/name",
+        "时间引信预制破片弹"
+      ]
+    ]
+  ],
+  [
+    "Armor-piercing discarding sabot shell",
+    {
+      "脱壳穿甲弹": 3,
+      "脱壳穿甲弹 (L15)": 1
+    },
+    [
+      [
+        "apds_tank/name",
+        "脱壳穿甲弹"
+      ],
+      [
+        "apds_early_tank/name",
+        "脱壳穿甲弹"
+      ],
+      [
+        "apds_autocannon/name",
+        "脱壳穿甲弹"
+      ],
+      [
+        "apds_l15_tank/name",
+        "脱壳穿甲弹 (L15)"
+      ]
+    ]
+  ],
+  [
+    "Flare",
+    {
+      "热焰弹": 2,
+      "热焰": 1
+    },
+    [
+      [
+        "flare_launcher/name",
+        "热焰弹"
+      ],
+      [
+        "flr/name",
+        "热焰弹"
+      ],
+      [
+        "flr/name/short",
+        "热焰"
+      ]
+    ]
+  ],
+  [
+    "Flares (countermeasure)",
+    {
+      "热焰弹 (红外干扰弹)": 1,
+      "热焰弹 (对抗措施)": 1,
+      "热焰弹": 1
+    },
+    [
+      [
+        "flare/name",
+        "热焰弹 (红外干扰弹)"
+      ],
+      [
+        "flare_bullet_jet/name",
+        "热焰弹 (对抗措施)"
+      ],
+      [
+        "flare_bullet_maw/name",
+        "热焰弹"
+      ]
+    ]
+  ],
+  [
+    "PzGr",
+    {
+      "PzGr.": 6,
+      "PzGr": 1
+    },
+    [
+      [
+        "128mm_pzrg_39_43",
+        "PzGr."
+      ],
+      [
+        "105mm_pzrg",
+        "PzGr."
+      ],
+      [
+        "37mm_pzgr",
+        "PzGr."
+      ],
+      [
+        "37mm_pzgr_belt",
+        "PzGr"
+      ],
+      [
+        "20mm_pzgr",
+        "PzGr."
+      ],
+      [
+        "45mm_pzgr",
+        "PzGr."
+      ],
+      [
+        "152mm_pzgr",
+        "PzGr."
+      ]
+    ]
+  ],
+  [
+    "Sprgr. L/4.5",
+    {
+      "SprGr. L/4.5": 1,
+      "Sprgr. L/4.5": 1
+    },
+    [
+      [
+        "88mm_sprgr",
+        "SprGr. L/4.5"
+      ],
+      [
+        "88mm_sprgr_dist_fuse",
+        "Sprgr. L/4.5"
+      ]
+    ]
+  ],
+  [
+    "Sprgr. 18",
+    {
+      "SprGr. 18": 1,
+      "Sprgr. 18": 1
+    },
+    [
+      [
+        "37mm_sprgr_18",
+        "SprGr. 18"
+      ],
+      [
+        "37mm_sprgr_18_belt",
+        "Sprgr. 18"
+      ]
+    ]
+  ],
+  [
+    "40 mm AP-T",
+    {
+      "穿甲曳光弹": 1,
+      "AP-T": 2
+    },
+    [
+      [
+        "40mm_l70_ap",
+        "穿甲曳光弹"
+      ],
+      [
+        "40mm_M81_AP",
+        "AP-T"
+      ],
+      [
+        "40mm_ap_md",
+        "AP-T"
+      ]
+    ]
+  ],
+  [
+    "40 mm HE-T",
+    {
+      "高爆曳光弹": 1,
+      "HE-T": 4
+    },
+    [
+      [
+        "40mm_l70_he",
+        "高爆曳光弹"
+      ],
+      [
+        "40mm_HF_MKII_TL",
+        "HE-T"
+      ],
+      [
+        "40mm_bofors_mel58_navy_he/name",
+        "HE-T"
+      ],
+      [
+        "40mm_sprgr_patr_flak28_he",
+        "HE-T"
+      ],
+      [
+        "40mm_bofors_flak28_navy_he_t/name",
+        "HE-T"
+      ]
+    ]
+  ],
+  [
+    "Shot Mk 8",
+    {
+      "APCBC Mk VIII": 2,
+      "APC Mk VIII": 2,
+      "Mk VIII": 1
+    },
+    [
+      [
+        "76mm_shot_mk8_apcbc",
+        "APCBC Mk VIII"
+      ],
+      [
+        "57mm_shot_mk8t",
+        "APC Mk VIII"
+      ],
+      [
+        "77mm_shot_mk8_apcbc",
+        "APCBC Mk VIII"
+      ],
+      [
+        "modification/57mm_britain_6pdr_apc_navy_ammo_pack",
+        "APC Mk VIII"
+      ],
+      [
+        "57mm_britain_6pdr_apc_navy/name",
+        "Mk VIII"
+      ]
+    ]
+  ],
+  [
+    "82 mm M-8 rocket",
+    {
+      "82 毫米 M-8 火箭弹": 2,
+      "82 毫米 M8 火箭弹": 1
+    },
+    [
+      [
+        "weapons/82mm_M8_rocket_launcher",
+        "82 毫米 M-8 火箭弹"
+      ],
+      [
+        "weapons/82mm_m8_launcher_user_cannon",
+        "82 毫米 M8 火箭弹"
+      ],
+      [
+        "weapons/82mm_M8_naval_rocket_launcher",
+        "82 毫米 M-8 火箭弹"
+      ]
+    ]
+  ],
+  [
+    "M.C. 250 lb Mk I bomb",
+    {
+      "250 磅 MC Mk I 炸弹": 1,
+      "250 磅 M.C. Mk I 炸弹": 1
+    },
+    [
+      [
+        "weapons/uk_250lbs_mc_mk1_mk2_bomb",
+        "250 磅 MC Mk I 炸弹"
+      ],
+      [
+        "weapons/uk_250lbs_mc_mk1_mk2_bomb_default",
+        "250 磅 M.C. Mk I 炸弹"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 1000 kg bombs.",
+    {
+      "可携带 1,000 千克的炸弹。": 3,
+      "可携带 1,000 千克炸弹。": 2
+    },
+    [
+      [
+        "modification/der-20p/desc",
+        "可携带 1,000 千克的炸弹。"
+      ],
+      [
+        "modification/kd-4_bc/desc",
+        "可携带 1,000 千克炸弹。"
+      ],
+      [
+        "modification/itc_1000/desc",
+        "可携带 1,000 千克的炸弹。"
+      ],
+      [
+        "modification/etc1000_1_mod/desc",
+        "可携带 1,000 千克的炸弹。"
+      ],
+      [
+        "modification/su_fab_1000/desc",
+        "可携带 1,000 千克炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 250 kg bombs.",
+    {
+      "可携带 250 千克炸弹": 2,
+      "可携带 250 千克炸弹。": 15,
+      "可携带 500 千克炸弹。": 1
+    },
+    [
+      [
+        "modification/der-13p/desc",
+        "可携带 250 千克炸弹"
+      ],
+      [
+        "modification/it250_mod/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/swe_minb_m40/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/is_250_50_gp/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/12in_mod30/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/s79a_mbc/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/ki49_12in_mod30/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/etc250_2_mod/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/ki_12in_mod30/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/fr_250kg_type_25c/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/itc250/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/bk_br_250/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/bk_br_500/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/cn_q5_type_250/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/fab_250m_54/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/mi_24_fab_250/desc",
+        "可携带 250 千克炸弹。"
+      ],
+      [
+        "modification/su_fab_250/desc",
+        "可携带 250 千克炸弹"
+      ],
+      [
+        "modification/mig_15_ish_fab_250/desc",
+        "可携带 250 千克炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Type 91",
+    {
+      "九一式爆药": 2,
+      "91 式": 2
+    },
+    [
+      [
+        "explosiveType/tp_91",
+        "九一式爆药"
+      ],
+      [
+        "80mm_type_91",
+        "91 式"
+      ],
+      [
+        "weapons/80mm_type_91/short",
+        "九一式爆药"
+      ],
+      [
+        "105mm_type91",
+        "91 式"
+      ]
+    ]
+  ],
+  [
+    "Type 88",
+    {
+      "八八式爆药": 1,
+      "八八式改一": 1
+    },
+    [
+      [
+        "explosiveType/tp_88",
+        "八八式爆药"
+      ],
+      [
+        "weapons/jp_mine_type88_mod1/short",
+        "八八式改一"
+      ]
+    ]
+  ],
+  [
+    "RZ 65",
+    {
+      "RZ 65": 1,
+      "RZ 65 挂架": 1
+    },
+    [
+      [
+        "weapons/de_rz65_rocket/short",
+        "RZ 65"
+      ],
+      [
+        "modification/Bf-109F_rz_65",
+        "RZ 65 挂架"
+      ]
+    ]
+  ],
+  [
+    "Wgr.41 Spr",
+    {
+      "Wgr.41 Spr": 2,
+      "Wgr.41 Spr.": 2
+    },
+    [
+      [
+        "weapons/de_wgr41/short",
+        "Wgr.41 Spr"
+      ],
+      [
+        "weapons/158mm_NB_Wf_41_rocket_launcher/short",
+        "Wgr.41 Spr."
+      ],
+      [
+        "weapons/152mm_wgr_41/short",
+        "Wgr.41 Spr"
+      ],
+      [
+        "152mm_wgr_41",
+        "Wgr.41 Spr."
+      ]
+    ]
+  ],
+  [
+    "200 kg Sprengbombe",
+    {
+      "200 千克炸弹": 1,
+      "200 千克高爆炸弹": 1
+    },
+    [
+      [
+        "weapons/sws_200_kg_sprengbombe/short",
+        "200 千克炸弹"
+      ],
+      [
+        "modification/sws_200_kg_sprengbombe",
+        "200 千克高爆炸弹"
+      ]
+    ]
+  ],
+  [
+    "400 kg Sprengbombe",
+    {
+      "400 千克炸弹": 1,
+      "400 千克高爆炸弹": 1
+    },
+    [
+      [
+        "weapons/sws_400_kg_sprengbombe/short",
+        "400 千克炸弹"
+      ],
+      [
+        "modification/sws_400_kg_sprengbombe",
+        "400 千克高爆炸弹"
+      ]
+    ]
+  ],
+  [
+    "450 kg Sprengbombe 68/70",
+    {
+      "450 千克 68/70 型": 1,
+      "450 千克 68/70 高爆炸弹": 1
+    },
+    [
+      [
+        "weapons/sws_450_kg_sprengbombe_68_70/short",
+        "450 千克 68/70 型"
+      ],
+      [
+        "modification/sws_450_kg_sprengbombe_68_70",
+        "450 千克 68/70 高爆炸弹"
+      ]
+    ]
+  ],
+  [
+    "3M7 ATGM",
+    {
+      "3M7 反坦克导弹": 1,
+      "3M7 龙 反坦克导弹": 1
+    },
+    [
+      [
+        "weapons/180mm_2k4_rocket_launcher",
+        "3M7 反坦克导弹"
+      ],
+      [
+        "weapons/180mm_2k4_launcher_user_cannon",
+        "3M7 龙 反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "3M7",
+    {
+      "3M7": 2,
+      "3M7 龙": 1
+    },
+    [
+      [
+        "weapons/180mm_2k4_rocket_launcher/short",
+        "3M7"
+      ],
+      [
+        "weapons/180mm_3m7/short",
+        "3M7 龙"
+      ],
+      [
+        "180mm_3m7",
+        "3M7"
+      ]
+    ]
+  ],
+  [
+    "RB 52 A",
+    {
+      "Rb 52": 1,
+      "Rb 52A": 2
+    },
+    [
+      [
+        "weapons/164mm_s11_rocket_launcher/short",
+        "Rb 52"
+      ],
+      [
+        "164mm_robot_52",
+        "Rb 52A"
+      ],
+      [
+        "weapons/swd_rb52/short",
+        "Rb 52A"
+      ]
+    ]
+  ],
+  [
+    "UB-16",
+    {
+      "UB-16": 1,
+      "UB-16 挂架": 1
+    },
+    [
+      [
+        "weapons/57mm_ub_16_rocket_launcher/short",
+        "UB-16"
+      ],
+      [
+        "modification/mig_21_ub16",
+        "UB-16 挂架"
+      ]
+    ]
+  ],
+  [
+    "Mistral",
+    {
+      "西北风 SATCP": 1,
+      "西北风": 4
+    },
+    [
+      [
+        "weapons/90mm_atam_mistral_rocket_launcher/short",
+        "西北风 SATCP"
+      ],
+      [
+        "weapons/90mm_atam_mistral_user_cannon/short",
+        "西北风"
+      ],
+      [
+        "weapons/atam_mistral/short",
+        "西北风"
+      ],
+      [
+        "atam_mistral_sam",
+        "西北风"
+      ],
+      [
+        "weapons/atam_mistral_a129/short",
+        "西北风"
+      ]
+    ]
+  ],
+  [
+    "Rbs 70",
+    {
+      "RBS 70 地对空导弹": 2,
+      "RBS 70": 2
+    },
+    [
+      [
+        "weapons/130mm_Rbs_70B_rocket_launcher",
+        "RBS 70 地对空导弹"
+      ],
+      [
+        "weapons/130mm_Rbs_70B_rocket_launcher/short",
+        "RBS 70"
+      ],
+      [
+        "weapons/130mm_Rbs_70_rocket_launcher",
+        "RBS 70 地对空导弹"
+      ],
+      [
+        "weapons/130mm_Rbs_70_rocket_launcher/short",
+        "RBS 70"
+      ]
+    ]
+  ],
+  [
+    "9M114",
+    {
+      "9M114 蚕茧 反坦克导弹": 1,
+      "9M114 蚕茧": 3,
+      "9M114": 2
+    },
+    [
+      [
+        "weapons/130mm_9M114_rocket_launcher",
+        "9M114 蚕茧 反坦克导弹"
+      ],
+      [
+        "weapons/130mm_9M114_rocket_launcher/short",
+        "9M114 蚕茧"
+      ],
+      [
+        "weapons/130mm_9m114/short",
+        "9M114 蚕茧"
+      ],
+      [
+        "130mm_9m114",
+        "9M114 蚕茧"
+      ],
+      [
+        "weapons/su_9M114/short",
+        "9M114"
+      ],
+      [
+        "weapons/su_9M114_default/short",
+        "9M114"
+      ]
+    ]
+  ],
+  [
+    "9M120",
+    {
+      "9M120 攻击 反坦克导弹": 1,
+      "9M120 攻击": 3,
+      "9M120": 4
+    },
+    [
+      [
+        "weapons/130mm_9M120_rocket_launcher",
+        "9M120 攻击 反坦克导弹"
+      ],
+      [
+        "weapons/130mm_9M120_rocket_launcher/short",
+        "9M120 攻击"
+      ],
+      [
+        "weapons/130mm_9m120/short",
+        "9M120 攻击"
+      ],
+      [
+        "130mm_9m120",
+        "9M120 攻击"
+      ],
+      [
+        "weapons/su_9M120/short",
+        "9M120"
+      ],
+      [
+        "weapons/su_9M120M/short",
+        "9M120"
+      ],
+      [
+        "modification/9m120_improvement",
+        "9M120"
+      ],
+      [
+        "modification/mi_35_su_9M120",
+        "9M120"
+      ]
+    ]
+  ],
+  [
+    "Starstreak HVM",
+    {
+      "星痕 高速导弹": 2,
+      "星痕 HVM": 1
+    },
+    [
+      [
+        "weapons/130mm_Starstreak_hvm_rocket_launcher",
+        "星痕 高速导弹"
+      ],
+      [
+        "weapons/130mm_Starstreak_hvm_rocket_launcher/short",
+        "星痕 HVM"
+      ],
+      [
+        "130mm_starstreak_hvm",
+        "星痕 高速导弹"
+      ]
+    ]
+  ],
+  [
+    "9M37M",
+    {
+      "9M37M": 2,
+      "9M37M 箭": 1
+    },
+    [
+      [
+        "120mm_9m37m",
+        "9M37M"
+      ],
+      [
+        "weapons/120mm_9m37m/short",
+        "9M37M 箭"
+      ],
+      [
+        "weapons/120mm_9m37m_rocket_launcher/short",
+        "9M37M"
+      ]
+    ]
+  ],
+  [
+    "9M311",
+    {
+      "9M311": 3,
+      "9M311-1M": 1
+    },
+    [
+      [
+        "152mm_zur_9m311",
+        "9M311"
+      ],
+      [
+        "weapons/152mm_9M311_rocket_launcher/short",
+        "9M311"
+      ],
+      [
+        "weapons/152mm_9M311/short",
+        "9M311"
+      ],
+      [
+        "weapons/152mm_zur_9m311_1m/short",
+        "9M311-1M"
+      ]
+    ]
+  ],
+  [
+    "125 mm ZPT98 cannon",
+    {
+      "125 毫米 ZPT98 坦克炮": 1,
+      "125 毫米 ZPT98 式坦克炮": 1
+    },
+    [
+      [
+        "weapons/125mm_ZPT_98_vt4b_user_cannon",
+        "125 毫米 ZPT98 坦克炮"
+      ],
+      [
+        "weapons/125mm_ZPT_98_user_cannon",
+        "125 毫米 ZPT98 式坦克炮"
+      ]
+    ]
+  ],
+  [
+    "20 mm AP",
+    {
+      "AP": 7,
+      "穿甲弹": 1
+    },
+    [
+      [
+        "20mm_Oerlikon_AP/name",
+        "AP"
+      ],
+      [
+        "20mm_B",
+        "AP"
+      ],
+      [
+        "20x138B",
+        "穿甲弹"
+      ],
+      [
+        "20mm_oerlikon_navy_ap/name",
+        "AP"
+      ],
+      [
+        "20mm_ger_flak38_AP/name",
+        "AP"
+      ],
+      [
+        "20mm_shvak_navy_ap/name",
+        "AP"
+      ],
+      [
+        "20mm_ger_mg151_20_navy_ap/name",
+        "AP"
+      ],
+      [
+        "20mm_it_breda_ap/name",
+        "AP"
+      ]
+    ]
+  ],
+  [
+    "105 mm OTO Melara 105/52 cannon",
+    {
+      "105 毫米/52 奥托·梅莱拉 坦克炮": 2,
+      "105 毫米/52 奥托·梅莱拉 反坦克炮": 1
+    },
+    [
+      [
+        "weapons/105mm_OTO_Melara_user_cannon",
+        "105 毫米/52 奥托·梅莱拉 坦克炮"
+      ],
+      [
+        "weapons/105mm_OTO_Melara_Mk_2_user_cannon",
+        "105 毫米/52 奥托·梅莱拉 坦克炮"
+      ],
+      [
+        "weapons/105mm_OTO_Melara_ROMOR_user_cannon",
+        "105 毫米/52 奥托·梅莱拉 反坦克炮"
+      ]
+    ]
+  ],
+  [
+    "Mk 7",
+    {
+      "Mk.7": 1,
+      "Mk 7": 1
+    },
+    [
+      [
+        "weapons/127mm_5in_mk50_naval_rocket_launcher/short",
+        "Mk.7"
+      ],
+      [
+        "weapons/us_450mm_mk7_torpedo/short",
+        "Mk 7"
+      ]
+    ]
+  ],
+  [
+    "8 cm/40 3rd Year Type cannon",
+    {
+      "76 毫米四十倍径三年式八厘防空炮": 2,
+      "76 毫米四十口径三年式八厘高角炮": 1
+    },
+    [
+      [
+        "weapons/76mm_40_type_88_naval_user_cannon",
+        "76 毫米四十倍径三年式八厘防空炮"
+      ],
+      [
+        "weapons/76mm_40_type_88_aa_naval_user_cannon",
+        "76 毫米四十口径三年式八厘高角炮"
+      ],
+      [
+        "weapons/80mm_40_3rd_year_type_naval_user_cannon",
+        "76 毫米四十倍径三年式八厘防空炮"
+      ]
+    ]
+  ],
+  [
+    "8 cm Type 0 HE",
+    {
+      "三号常规弹": 1,
+      "零式常规弹": 1
+    },
+    [
+      [
+        "76mm_type0_navy_he",
+        "三号常规弹"
+      ],
+      [
+        "76mm_type0_navy_he_dist_fuse",
+        "零式常规弹"
+      ]
+    ]
+  ],
+  [
+    "WBG depth charge",
+    {
+      "WBG 深水炸弹": 1,
+      "WBG 深水炸弹 (抛射)": 1
+    },
+    [
+      [
+        "weapons/depth_charge_de_wbg",
+        "WBG 深水炸弹"
+      ],
+      [
+        "weapons/depth_charge_de_wbg_mortar",
+        "WBG 深水炸弹 (抛射)"
+      ]
+    ]
+  ],
+  [
+    "76 mm APHE",
+    {
+      "M78 反舰弹": 1,
+      "穿甲榴弹": 2
+    },
+    [
+      [
+        "76mm_m78",
+        "M78 反舰弹"
+      ],
+      [
+        "76mm_40_gr_perf_aphe",
+        "穿甲榴弹"
+      ],
+      [
+        "76mm_it_ansaldo_navy_aphe",
+        "穿甲榴弹"
+      ]
+    ]
+  ],
+  [
+    "30 mm AP-T",
+    {
+      "AP-T": 4,
+      "3UBR6": 1
+    },
+    [
+      [
+        "30mm_china_API",
+        "AP-T"
+      ],
+      [
+        "30mm_UBR6",
+        "3UBR6"
+      ],
+      [
+        "30mm_br_83",
+        "AP-T"
+      ],
+      [
+        "30mm_jpzsv_ap_md",
+        "AP-T"
+      ],
+      [
+        "30mm_2a72_ap_md",
+        "AP-T"
+      ]
+    ]
+  ],
+  [
+    "HOT-1 missiles",
+    {
+      "HOT 反坦克导弹": 1,
+      "HOT-1 反坦克导弹": 1
+    },
+    [
+      [
+        "weapons/euro_hot",
+        "HOT 反坦克导弹"
+      ],
+      [
+        "weapons/euro_hot_default",
+        "HOT-1 反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "HOT-1",
+    {
+      "HOT": 1,
+      "HOT-1": 1
+    },
+    [
+      [
+        "weapons/euro_hot/short",
+        "HOT"
+      ],
+      [
+        "weapons/euro_hot_default/short",
+        "HOT-1"
+      ]
+    ]
+  ],
+  [
+    "Mk 11",
+    {
+      "Mk 11": 1,
+      "Mk.11": 1
+    },
+    [
+      [
+        "weapons/cannonHughesMk11Mod0/short",
+        "Mk 11"
+      ],
+      [
+        "weapons/rocket_mk11_naval_rocket_launcher/short",
+        "Mk.11"
+      ]
+    ]
+  ],
+  [
+    "2A42",
+    {
+      "2A42": 1,
+      "2A42 机炮": 1
+    },
+    [
+      [
+        "weapons/cannon2A42/short",
+        "2A42"
+      ],
+      [
+        "modification/ka_29_2a42",
+        "2A42 机炮"
+      ]
+    ]
+  ],
+  [
+    "M134 Minigun",
+    {
+      "M134“迷你炮”": 1,
+      "M134 迷你炮": 2
+    },
+    [
+      [
+        "weapons/gunM134_Minigun/short",
+        "M134“迷你炮”"
+      ],
+      [
+        "weapons/gunM134_Minigun_ah_56/short",
+        "M134 迷你炮"
+      ],
+      [
+        "weapons/gunM134_Minigun_default/short",
+        "M134 迷你炮"
+      ]
+    ]
+  ],
+  [
+    "Skyflash (Dogfight) air-to-air missiles",
+    {
+      "天闪 空对空格斗导弹": 1,
+      "天闪 (格斗型) 空对空导弹": 3
+    },
+    [
+      [
+        "weapons/uk_skyflash_aim_7_dogfight",
+        "天闪 空对空格斗导弹"
+      ],
+      [
+        "weapons/uk_skyflash_aim_7_dogfight_default",
+        "天闪 (格斗型) 空对空导弹"
+      ],
+      [
+        "weapons/uk_skyflash_aim_7_dogfight_tornado",
+        "天闪 (格斗型) 空对空导弹"
+      ],
+      [
+        "weapons/uk_skyflash_aim_7_dogfight_tornado_default",
+        "天闪 (格斗型) 空对空导弹"
+      ]
+    ]
+  ],
+  [
+    "Python 3",
+    {
+      "怪蛇 3": 3,
+      "蟒蛇 3": 1
+    },
+    [
+      [
+        "weapons/il_pyton_3/short",
+        "怪蛇 3"
+      ],
+      [
+        "weapons/il_pyton_3_default/short",
+        "怪蛇 3"
+      ],
+      [
+        "engine_model/pyton_3",
+        "蟒蛇 3"
+      ],
+      [
+        "modification/il_python_3",
+        "怪蛇 3"
+      ]
+    ]
+  ],
+  [
+    "RB 74(M)",
+    {
+      "Rb 74(M)": 3,
+      "RB 74(M)": 1
+    },
+    [
+      [
+        "weapons/swd_rb74m/short",
+        "Rb 74(M)"
+      ],
+      [
+        "weapons/swd_rb74m_default/short",
+        "Rb 74(M)"
+      ],
+      [
+        "weapons/swd_rb74m_bol_pod/short",
+        "Rb 74(M)"
+      ],
+      [
+        "modification/swd_rb74m",
+        "RB 74(M)"
+      ]
+    ]
+  ],
+  [
+    "9M39",
+    {
+      "9M39 针": 1,
+      "9M39": 1
+    },
+    [
+      [
+        "weapons/su_9M39/short",
+        "9M39 针"
+      ],
+      [
+        "modification/mi_35_9M39",
+        "9M39"
+      ]
+    ]
+  ],
+  [
+    "9M336",
+    {
+      "9M336": 2,
+      "9M336 柳树": 1
+    },
+    [
+      [
+        "weapons/su_9M336/short",
+        "9M336"
+      ],
+      [
+        "weapons/72mm_exo_9M336M_rocket_launcher",
+        "9M336 柳树"
+      ],
+      [
+        "modification/mi_8_9M336",
+        "9M336"
+      ]
+    ]
+  ],
+  [
+    "Matra R550 Magic 1",
+    {
+      "R.550 魔术 1": 1,
+      "马特拉 R.550 魔术 1": 1
+    },
+    [
+      [
+        "weapons/fr_r_550_magic/short",
+        "R.550 魔术 1"
+      ],
+      [
+        "modification/fr_matra_r_550_magic_1",
+        "马特拉 R.550 魔术 1"
+      ]
+    ]
+  ],
+  [
+    "Matra R550 Magic 2",
+    {
+      "R.550 魔术 2": 2,
+      "马特拉 R.550 魔术 2": 1
+    },
+    [
+      [
+        "weapons/fr_r_550_magic_2/short",
+        "R.550 魔术 2"
+      ],
+      [
+        "weapons/fr_r_550_magic_2_default/short",
+        "R.550 魔术 2"
+      ],
+      [
+        "modification/fr_matra_r_550_magic_2",
+        "马特拉 R.550 魔术 2"
+      ]
+    ]
+  ],
+  [
+    "Matra R530E",
+    {
+      "R.530E": 1,
+      "马特拉 R.530E": 1
+    },
+    [
+      [
+        "weapons/fr_r_530_matra_ir/short",
+        "R.530E"
+      ],
+      [
+        "modification/fr_matra_r_530e",
+        "马特拉 R.530E"
+      ]
+    ]
+  ],
+  [
+    "Matra R530",
+    {
+      "R.530": 1,
+      "马特拉 R.530": 1
+    },
+    [
+      [
+        "weapons/fr_r_530_matra_radar/short",
+        "R.530"
+      ],
+      [
+        "modification/fr_matra_r_530",
+        "马特拉 R.530"
+      ]
+    ]
+  ],
+  [
+    "Matra R511",
+    {
+      "R.511": 1,
+      "马特拉 R.511": 1
+    },
+    [
+      [
+        "weapons/fr_r_511_matra/short",
+        "R.511"
+      ],
+      [
+        "modification/fr_matra_r_511",
+        "马特拉 R.511"
+      ]
+    ]
+  ],
+  [
+    "AGM-65A",
+    {
+      "AGM-65A 小牛": 1,
+      "AGM-65A": 1
+    },
+    [
+      [
+        "weapons/us_agm_65a/short",
+        "AGM-65A 小牛"
+      ],
+      [
+        "modification/us_agm_65a",
+        "AGM-65A"
+      ]
+    ]
+  ],
+  [
+    "AGM-65B",
+    {
+      "AGM-65B 小牛": 1,
+      "AGM-65B": 1
+    },
+    [
+      [
+        "weapons/us_agm_65b/short",
+        "AGM-65B 小牛"
+      ],
+      [
+        "modification/us_agm_65b",
+        "AGM-65B"
+      ]
+    ]
+  ],
+  [
+    "AGM-65D",
+    {
+      "AGM-65D 小牛": 1,
+      "AGM-65D": 1
+    },
+    [
+      [
+        "weapons/us_agm_65d/short",
+        "AGM-65D 小牛"
+      ],
+      [
+        "modification/us_agm_65d",
+        "AGM-65D"
+      ]
+    ]
+  ],
+  [
+    "FIM-92E",
+    {
+      "FIM-92E": 1,
+      "FIM-92E 毒刺": 1
+    },
+    [
+      [
+        "70mm_fim_92e",
+        "FIM-92E"
+      ],
+      [
+        "weapons/70mm_fim_92e/short",
+        "FIM-92E 毒刺"
+      ]
+    ]
+  ],
+  [
+    "130 mm Type 75",
+    {
+      "130 毫米 75 式火箭弹": 1,
+      "75 式": 1,
+      "75 式火箭弹": 1
+    },
+    [
+      [
+        "weapons/130mm_Type_75_rocket_launcher",
+        "130 毫米 75 式火箭弹"
+      ],
+      [
+        "weapons/130mm_Type_75_rocket_launcher/short",
+        "75 式"
+      ],
+      [
+        "130mm_type75",
+        "75 式火箭弹"
+      ]
+    ]
+  ],
+  [
+    "120 mm SA46 cannon",
+    {
+      "120 毫米 SA46 反坦克炮": 1,
+      "120 毫米 SA46 坦克炮": 1
+    },
+    [
+      [
+        "weapons/120mm_SA_46_user_cannon",
+        "120 毫米 SA46 反坦克炮"
+      ],
+      [
+        "weapons/120mm_SA_46_Surbaisse_user_cannon",
+        "120 毫米 SA46 坦克炮"
+      ]
+    ]
+  ],
+  [
+    "100 mm SA47 L/58 cannon",
+    {
+      "100 毫米 SA47 L/58 反坦克炮": 1,
+      "100 毫米 SA47 L/58 坦克炮": 1
+    },
+    [
+      [
+        "weapons/100mm_SA_47_CA_user_cannon",
+        "100 毫米 SA47 L/58 反坦克炮"
+      ],
+      [
+        "weapons/100mm_SA_47_user_cannon",
+        "100 毫米 SA47 L/58 坦克炮"
+      ]
+    ]
+  ],
+  [
+    "90 mm SA45 cannon",
+    {
+      "90 毫米 SA45 反坦克炮": 1,
+      "90 毫米 SA45 坦克炮": 1
+    },
+    [
+      [
+        "weapons/90mm_SA45_ARL_user_cannon",
+        "90 毫米 SA45 反坦克炮"
+      ],
+      [
+        "weapons/90mm_SA45_user_cannon",
+        "90 毫米 SA45 坦克炮"
+      ]
+    ]
+  ],
+  [
+    "AAMW",
+    {
+      "AAMW 地对空导弹": 1,
+      "AAMW": 1
+    },
+    [
+      [
+        "weapons/aa_fcv_launcher_user_cannon",
+        "AAMW 地对空导弹"
+      ],
+      [
+        "aa_fcv_missile",
+        "AAMW"
+      ]
+    ]
+  ],
+  [
+    "BGM-71 TOW",
+    {
+      "BGM-71B TOW": 1,
+      "BGM-71 TOW": 1,
+      "BGM-71A TOW": 1
+    },
+    [
+      [
+        "weapons/127mm_bgm_71b_tow_rocket_launcher/short",
+        "BGM-71B TOW"
+      ],
+      [
+        "weapons/127_bgm_71_tow/short",
+        "BGM-71 TOW"
+      ],
+      [
+        "weapons/127mm_TOW_rocket_launcher/short",
+        "BGM-71A TOW"
+      ]
+    ]
+  ],
+  [
+    "ZT3A1",
+    {
+      "ZT3A1": 1,
+      "ZT3A1 豹": 1
+    },
+    [
+      [
+        "127mm_swift",
+        "ZT3A1"
+      ],
+      [
+        "weapons/127mm_swift/short",
+        "ZT3A1 豹"
+      ]
+    ]
+  ],
+  [
+    "ZT3A2",
+    {
+      "ZT3A2": 1,
+      "ZT3A2 豹": 1
+    },
+    [
+      [
+        "127mm_ingwe",
+        "ZT3A2"
+      ],
+      [
+        "weapons/127mm_ingwe/short",
+        "ZT3A2 豹"
+      ]
+    ]
+  ],
+  [
+    "Type 79 ATGM",
+    {
+      "79 式反船舰导弹": 1,
+      "79 式反坦克导弹": 1
+    },
+    [
+      [
+        "weapons/152mm_Type_79_launcher_user_cannon",
+        "79 式反船舰导弹"
+      ],
+      [
+        "weapons/152mm_type_79_rocket_launcher",
+        "79 式反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "Type 79 ASM",
+    {
+      "79 式 (对船舰)": 1,
+      "79 式反船舰导弹": 1
+    },
+    [
+      [
+        "type_79_asm",
+        "79 式 (对船舰)"
+      ],
+      [
+        "weapons/type_79_asm/short",
+        "79 式反船舰导弹"
+      ]
+    ]
+  ],
+  [
+    "HJ-73",
+    {
+      "红箭-73 反坦克导弹": 1,
+      "红箭-73": 1
+    },
+    [
+      [
+        "weapons/125mm_hj_73_rocket_launcher",
+        "红箭-73 反坦克导弹"
+      ],
+      [
+        "125mm_hj_73",
+        "红箭-73"
+      ]
+    ]
+  ],
+  [
+    "HJ-73 ATGM",
+    {
+      "红箭-73": 1,
+      "红箭-73 反坦克导弹": 1
+    },
+    [
+      [
+        "weapons/125mm_hj_73_rocket_launcher/short",
+        "红箭-73"
+      ],
+      [
+        "weapons/125mm_hj_73/short",
+        "红箭-73 反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "HJ-73E",
+    {
+      "红箭-73E 反坦克导弹": 1,
+      "红箭-73E": 3
+    },
+    [
+      [
+        "weapons/125mm_AFT_07_rocket_launcher",
+        "红箭-73E 反坦克导弹"
+      ],
+      [
+        "120_aft_07",
+        "红箭-73E"
+      ],
+      [
+        "125mm_hj_73e",
+        "红箭-73E"
+      ],
+      [
+        "weapons/125mm_hj_73e/short",
+        "红箭-73E"
+      ]
+    ]
+  ],
+  [
+    "HJ-73E ATGM",
+    {
+      "红箭-73E": 1,
+      "红箭-73E 反坦克导弹": 1
+    },
+    [
+      [
+        "weapons/125mm_AFT_07_rocket_launcher/short",
+        "红箭-73E"
+      ],
+      [
+        "weapons/120_aft_07/short",
+        "红箭-73E 反坦克导弹"
+      ]
+    ]
+  ],
+  [
+    "40 mm HE-T-PF",
+    {
+      "HE-T-PF": 1,
+      "预制破片曳光榴弹": 1
+    },
+    [
+      [
+        "40mm_bofors_mel58_navy_he_tf/name",
+        "HE-T-PF"
+      ],
+      [
+        "40mm_he_t_pf",
+        "预制破片曳光榴弹"
+      ]
+    ]
+  ],
+  [
+    "Type 3 HEAT",
+    {
+      "三式破甲弹": 1,
+      "三式穿甲榴弹": 2
+    },
+    [
+      [
+        "105mm_type91_heat",
+        "三式破甲弹"
+      ],
+      [
+        "57mm_type3",
+        "三式穿甲榴弹"
+      ],
+      [
+        "70mm_type3",
+        "三式穿甲榴弹"
+      ]
+    ]
+  ],
+  [
+    "Type 95 depth charge",
+    {
+      "九五式爆雷": 1,
+      "九五式爆雷 (抛射)": 1
+    },
+    [
+      [
+        "weapons/depth_charge_jp_type95",
+        "九五式爆雷"
+      ],
+      [
+        "weapons/depth_charge_jp_type95_mortar",
+        "九五式爆雷 (抛射)"
+      ]
+    ]
+  ],
+  [
+    "Type 93",
+    {
+      "93 式": 1,
+      "九三式": 1,
+      "九三式一型改二": 1,
+      "九三式三型": 1,
+      "九三式一型": 1
+    },
+    [
+      [
+        "105mm_type93",
+        "93 式"
+      ],
+      [
+        "weapons/jp_torpedo_610mm_type93/short",
+        "九三式"
+      ],
+      [
+        "weapons/jp_610mm_type93_model_1_mod2_torpedo/short",
+        "九三式一型改二"
+      ],
+      [
+        "weapons/jp_610mm_type93_model_3_torpedo/short",
+        "九三式三型"
+      ],
+      [
+        "weapons/jp_mine_type93_mod1/short",
+        "九三式一型"
+      ]
+    ]
+  ],
+  [
+    "Mk 15",
+    {
+      "Mk 15": 1,
+      "Mk.15": 1
+    },
+    [
+      [
+        "weapons/us_533mm_21in_mark15_torpedo/short",
+        "Mk 15"
+      ],
+      [
+        "weapons/bomb_uk_mk15_hedgehog/short",
+        "Mk.15"
+      ]
+    ]
+  ],
+  [
+    "100 mm HE",
+    {
+      "防空炮常规弹": 1,
+      "1928 型榴弹": 1
+    },
+    [
+      [
+        "100mm_3_9_inch_he",
+        "防空炮常规弹"
+      ],
+      [
+        "100mm_1928_navy_HE",
+        "1928 型榴弹"
+      ]
+    ]
+  ],
+  [
+    "40 mm HE-F",
+    {
+      "高爆破片弹": 1,
+      "HE-F": 1
+    },
+    [
+      [
+        "40mm_vickers_terni_mod30_he",
+        "高爆破片弹"
+      ],
+      [
+        "40mm_vickers_terni_mod_1930_he/name",
+        "HE-F"
+      ]
+    ]
+  ],
+  [
+    "40 mm HE-TF",
+    {
+      "榴弹 (时间引信)": 3,
+      "HE-TF": 1
+    },
+    [
+      [
+        "40mm_vickers_terni_mod15_17_he",
+        "榴弹 (时间引信)"
+      ],
+      [
+        "40mm_vickers_terni_mod_1915_17_he_df/name",
+        "榴弹 (时间引信)"
+      ],
+      [
+        "40mm_type91_naval_dist_fuse/name",
+        "榴弹 (时间引信)"
+      ],
+      [
+        "modification/40mm_vickers_terni_mod_1915_17_he_df",
+        "HE-TF"
+      ]
+    ]
+  ],
+  [
+    "152 mm HE Dirompente",
+    {
+      "爆破榴弹": 2,
+      "152 毫米爆破榴弹": 1
+    },
+    [
+      [
+        "152mm_53_granata_dirompente_he",
+        "爆破榴弹"
+      ],
+      [
+        "152mm_45_schneider_he",
+        "152 毫米爆破榴弹"
+      ],
+      [
+        "modification/152mm_it_45cal_schneider_naval_he",
+        "爆破榴弹"
+      ]
+    ]
+  ],
+  [
+    "40 mm HE",
+    {
+      "榴弹": 1,
+      "HE": 3
+    },
+    [
+      [
+        "40mm_39_he",
+        "榴弹"
+      ],
+      [
+        "40mm_type91_naval_he/name",
+        "HE"
+      ],
+      [
+        "40mm_bofors_l60_navy_he/name",
+        "HE"
+      ],
+      [
+        "40mm_qf_mkxv_he/name",
+        "HE"
+      ]
+    ]
+  ],
+  [
+    "1.1 inch Mk 1 HE-T",
+    {
+      "Mk 1 曳光榴弹 (自爆)": 1,
+      "Mk 1 HE-T": 1
+    },
+    [
+      [
+        "25mm_mk1_sd",
+        "Mk 1 曳光榴弹 (自爆)"
+      ],
+      [
+        "28mm_usa_navy_he_t/name",
+        "Mk 1 HE-T"
+      ]
+    ]
+  ],
+  [
+    "SF",
+    {
+      "SF": 1,
+      "蹦": 1
+    },
+    [
+      [
+        "football_kick/name/short",
+        "SF"
+      ],
+      [
+        "football_jump/name/short",
+        "蹦"
+      ]
+    ]
+  ],
+  [
+    "40 mm AP",
+    {
+      "穿甲弹": 1,
+      "AP": 3
+    },
+    [
+      [
+        "40mm_158R_ap_mk_ii",
+        "穿甲弹"
+      ],
+      [
+        "40mm_type91_naval_sap/name",
+        "AP"
+      ],
+      [
+        "40mm_bofors_l60_navy_ap/name",
+        "AP"
+      ],
+      [
+        "40mm_qf_mkxv_ap/name",
+        "AP"
+      ]
+    ]
+  ],
+  [
+    "MBU-600 mortar",
+    {
+      "MBU-600 反潜超口径迫击炮": 1,
+      "MBU-600": 1
+    },
+    [
+      [
+        "weapons/bomb_ussr_mbu600",
+        "MBU-600 反潜超口径迫击炮"
+      ],
+      [
+        "weapons/bomb_ussr_mbu600/short",
+        "MBU-600"
+      ]
+    ]
+  ],
+  [
+    "37 mm HE",
+    {
+      "九四式榴弹": 1,
+      "榴弹": 2,
+      "HE": 3
+    },
+    [
+      [
+        "37mm_jp_type_94_he",
+        "九四式榴弹"
+      ],
+      [
+        "37mm_jp_type_11_he",
+        "榴弹"
+      ],
+      [
+        "37mm_ger_flak_navy_he/name",
+        "HE"
+      ],
+      [
+        "37mm_AN_M4_naval_HE/name",
+        "HE"
+      ],
+      [
+        "37mm_ussr_70K_naval_HE/name",
+        "HE"
+      ],
+      [
+        "modification/37mm_fr_50_he",
+        "榴弹"
+      ]
+    ]
+  ],
+  [
+    "20 mm rotary cannon JM61",
+    {
+      "20 毫米 JM61-RFS 机炮": 1,
+      "20 毫米 JM61-M 机炮": 1
+    },
+    [
+      [
+        "weapons/20mm_jm61_rfs_vulcan_naval_user_cannon",
+        "20 毫米 JM61-RFS 机炮"
+      ],
+      [
+        "weapons/20mm_jm61_m_vulcan_naval_user_cannon",
+        "20 毫米 JM61-M 机炮"
+      ]
+    ]
+  ],
+  [
+    "20 mm JM61",
+    {
+      "JM61-RFS": 1,
+      "JM61-M": 1
+    },
+    [
+      [
+        "weapons/20mm_jm61_rfs_vulcan_naval_user_cannon/short",
+        "JM61-RFS"
+      ],
+      [
+        "weapons/20mm_jm61_m_vulcan_naval_user_cannon/short",
+        "JM61-M"
+      ]
+    ]
+  ],
+  [
+    "82 mm BM-37 mortar",
+    {
+      "82 毫米 BM-37 迫击炮": 1,
+      "BM-37 迫击炮": 1
+    },
+    [
+      [
+        "weapons/82mm_bm_37_mortar_naval_user_cannon",
+        "82 毫米 BM-37 迫击炮"
+      ],
+      [
+        "weapons/bomb_ussr_82mm_o_832",
+        "BM-37 迫击炮"
+      ]
+    ]
+  ],
+  [
+    "533 mm Type 89 torpedo",
+    {
+      "533 毫米 八九式鱼雷": 1,
+      "533 毫米 八九式一型鱼雷": 1
+    },
+    [
+      [
+        "weapons/jp_533mm_type89_torpedo",
+        "533 毫米 八九式鱼雷"
+      ],
+      [
+        "weapons/jp_533mm_type89_1929_mod1_torpedo",
+        "533 毫米 八九式一型鱼雷"
+      ]
+    ]
+  ],
+  [
+    "533 mm Type 89",
+    {
+      "八九式": 1,
+      "八九式一型": 1
+    },
+    [
+      [
+        "weapons/jp_533mm_type89_torpedo/short",
+        "八九式"
+      ],
+      [
+        "weapons/jp_533mm_type89_1929_mod1_torpedo/short",
+        "八九式一型"
+      ]
+    ]
+  ],
+  [
+    "375 mm M/50 Bofors anti submarine rocket launcher",
+    {
+      "博福斯 M/50 反潜火箭深弹": 1,
+      "375 毫米 博福斯 反潜火箭深弹发射器": 1
+    },
+    [
+      [
+        "375mm_erika",
+        "博福斯 M/50 反潜火箭深弹"
+      ],
+      [
+        "weapons/bomb_de_375mm_erika",
+        "375 毫米 博福斯 反潜火箭深弹发射器"
+      ]
+    ]
+  ],
+  [
+    "40 mm HEI-T",
+    {
+      "高爆燃烧曳光弹": 1,
+      "HEI-T": 1
+    },
+    [
+      [
+        "40mm_bofors_breda_hei_t",
+        "高爆燃烧曳光弹"
+      ],
+      [
+        "40mm_bofors_breda_l70_he/name",
+        "HEI-T"
+      ]
+    ]
+  ],
+  [
+    "76 mm HE-TF",
+    {
+      "榴弹 (时间引信)": 3,
+      "防空爆破榴弹": 1
+    },
+    [
+      [
+        "76mm_obr1915_hetf",
+        "榴弹 (时间引信)"
+      ],
+      [
+        "76mm_45_ww_i_tf",
+        "榴弹 (时间引信)"
+      ],
+      [
+        "76mm_40_contro_aerea",
+        "防空爆破榴弹"
+      ],
+      [
+        "76mm_it_ansaldo_navy_he_df",
+        "榴弹 (时间引信)"
+      ]
+    ]
+  ],
+  [
+    "3-inch AA HE-TF",
+    {
+      "Mk 23 防空弹": 1,
+      "常规弹 (时间引信)": 1
+    },
+    [
+      [
+        "76mm_aa_mk23_he_tf",
+        "Mk 23 防空弹"
+      ],
+      [
+        "76mm_40_41st_yt_he_tf",
+        "常规弹 (时间引信)"
+      ]
+    ]
+  ],
+  [
+    "533 mm Bliss-Leavitt",
+    {
+      "布利斯-莱维特 Mk 1": 1,
+      "布利斯-莱维特": 1
+    },
+    [
+      [
+        "weapons/us_533mm_21in_bliss_leavitt_mk1_torpedo/short",
+        "布利斯-莱维特 Mk 1"
+      ],
+      [
+        "weapons/us_533mm_21in_bliss_leavitt_mk9_torpedo/short",
+        "布利斯-莱维特"
+      ]
+    ]
+  ],
+  [
+    "76 mm Mk 34 HE",
+    {
+      "Mk 34 榴弹": 1,
+      "Mk 34 防空弹": 1
+    },
+    [
+      [
+        "76mm_mk34_mod1_navy_he",
+        "Mk 34 榴弹"
+      ],
+      [
+        "modification/76mm_us_mk34_navy_he",
+        "Mk 34 防空弹"
+      ]
+    ]
+  ],
+  [
+    "76 mm Mk 34 HE-VT",
+    {
+      "Mk 34 近炸引信榴弹": 1,
+      "Mk 34 近炸引信防空弹": 1
+    },
+    [
+      [
+        "76mm_mk34_mod1_navy_he_vt",
+        "Mk 34 近炸引信榴弹"
+      ],
+      [
+        "modification/76mm_us_mk34_navy_he_radio_fuse",
+        "Mk 34 近炸引信防空弹"
+      ]
+    ]
+  ],
+  [
+    "76 mm OM-2 HE-VT",
+    {
+      "OM-2 (近炸引信)": 1,
+      "OM 2 (近炸引信)": 2
+    },
+    [
+      [
+        "76mm_it_om2_navy_he_vt",
+        "OM-2 (近炸引信)"
+      ],
+      [
+        "modification/76mm_it_om2_he_radio_fuse",
+        "OM 2 (近炸引信)"
+      ],
+      [
+        "modification/76mm_it_om2_he_radio_fuse_ammo_pack",
+        "OM 2 (近炸引信)"
+      ]
+    ]
+  ],
+  [
+    "Light Pillar",
+    {
+      "光柱 机炮": 1,
+      "光柱": 1
+    },
+    [
+      [
+        "weapons/dragonfly_cannon",
+        "光柱 机炮"
+      ],
+      [
+        "weapons/dragonfly_cannon/short",
+        "光柱"
+      ]
+    ]
+  ],
+  [
+    "203 mm Cudgel-33A",
+    {
+      "203 毫米 短棍-33A 火箭炮": 1,
+      "短棍-33A": 1
+    },
+    [
+      [
+        "weapons/mlrs_tank_rocket_launcher",
+        "203 毫米 短棍-33A 火箭炮"
+      ],
+      [
+        "weapons/mlrs_tank_rocket_launcher/short",
+        "短棍-33A"
+      ]
+    ]
+  ],
+  [
+    "12 inch APCBC",
+    {
+      "穿甲弹": 1,
+      "APCBC": 1
+    },
+    [
+      [
+        "305mm_b_50_ap",
+        "穿甲弹"
+      ],
+      [
+        "305mm_sm_33_ap",
+        "APCBC"
+      ]
+    ]
+  ],
+  [
+    "178 mm UP Mk 1",
+    {
+      "178 毫米 7 英寸 UP Mk I 火箭炮": 1,
+      "UP Mk I 火箭": 1
+    },
+    [
+      [
+        "weapons/178mm_up_mk1_naval_rocket_launcher",
+        "178 毫米 7 英寸 UP Mk I 火箭炮"
+      ],
+      [
+        "up_mk1",
+        "UP Mk I 火箭"
+      ]
+    ]
+  ],
+  [
+    "152 mm APHE Perforante",
+    {
+      "152 毫米穿甲榴弹": 1,
+      "穿甲榴弹": 2
+    },
+    [
+      [
+        "152mm_45_schneider_aphe",
+        "152 毫米穿甲榴弹"
+      ],
+      [
+        "modification/152mm_it_45cal_schneider_naval_ap",
+        "穿甲榴弹"
+      ],
+      [
+        "modification/152mm_it_45cal_schneider_naval_ap_ammo_pack",
+        "穿甲榴弹"
+      ]
+    ]
+  ],
+  [
+    "152 mm APHE Perforante da 152/45-50",
+    {
+      "152/45-50 型穿甲榴弹": 2,
+      "152 毫米 152/45-50 型穿甲榴弹": 1
+    },
+    [
+      [
+        "152mm_45_schneider_mod1916_aphe",
+        "152/45-50 型穿甲榴弹"
+      ],
+      [
+        "modification/152mm_it_45cal_schneider_mod1916_naval_ap",
+        "152/45-50 型穿甲榴弹"
+      ],
+      [
+        "modification/152mm_it_45cal_schneider_mod1916_naval_ap_ammo_pack",
+        "152 毫米 152/45-50 型穿甲榴弹"
+      ]
+    ]
+  ],
+  [
+    "410 mm No5 APC",
+    {
+      "五号穿甲弹": 1,
+      "五式穿甲弹": 2
+    },
+    [
+      [
+        "410mm_no5_apc",
+        "五号穿甲弹"
+      ],
+      [
+        "modification/410mm_jp_no5_navy_apc",
+        "五式穿甲弹"
+      ],
+      [
+        "modification/410mm_jp_no5_navy_apc_ammo_pack",
+        "五式穿甲弹"
+      ]
+    ]
+  ],
+  [
+    "410 mm No3 APC",
+    {
+      "三号穿甲弹": 1,
+      "三式穿甲弹": 2
+    },
+    [
+      [
+        "410mm_no3_apc",
+        "三号穿甲弹"
+      ],
+      [
+        "modification/410mm_jp_no3_navy_apc",
+        "三式穿甲弹"
+      ],
+      [
+        "modification/410mm_jp_no3_navy_apc_ammo_pack",
+        "三式穿甲弹"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 30 mm MK 108 cannon.",
+    {
+      "可将桨毂的轴炮更换为 30 毫米 MK 108 机炮。": 1,
+      "允许将桨毂的轴炮更换为 30 毫米 MK 108 机炮。": 1
+    },
+    [
+      [
+        "modification/Bf-109G-10_MK108_mod/desc",
+        "可将桨毂的轴炮更换为 30 毫米 MK 108 机炮。"
+      ],
+      [
+        "modification/Bf-109G-14_MK108_mod/desc",
+        "允许将桨毂的轴炮更换为 30 毫米 MK 108 机炮。"
+      ]
+    ]
+  ],
+  [
+    "W.Gr.21",
+    {
+      "Wfr.Gr.21 火箭发射器": 1,
+      "Wfr.Gr. 21": 1
+    },
+    [
+      [
+        "modification/Bf-109G-6_W",
+        "Wfr.Gr.21 火箭发射器"
+      ],
+      [
+        "modification/me262_wgr21",
+        "Wfr.Gr. 21"
+      ]
+    ]
+  ],
+  [
+    "Rear armor plate",
+    {
+      "座椅靠背装甲": 2,
+      "升级座椅靠背装甲": 2
+    },
+    [
+      [
+        "modification/la-5fn_armorplate_10/short",
+        "座椅靠背装甲"
+      ],
+      [
+        "modification/la-5fn_armorplate_10",
+        "升级座椅靠背装甲"
+      ],
+      [
+        "modification/la-7_armorplate_10/short",
+        "座椅靠背装甲"
+      ],
+      [
+        "modification/la-7_armorplate_10",
+        "升级座椅靠背装甲"
+      ]
+    ]
+  ],
+  [
+    "Armored glass",
+    {
+      "防弹玻璃": 2,
+      "升级防弹玻璃": 2
+    },
+    [
+      [
+        "modification/la-5fn_rear_armorglass_75/short",
+        "防弹玻璃"
+      ],
+      [
+        "modification/la-5fn_rear_armorglass_75",
+        "升级防弹玻璃"
+      ],
+      [
+        "modification/la-7_rear_armorglass_75/short",
+        "防弹玻璃"
+      ],
+      [
+        "modification/la-7_rear_armorglass_75",
+        "升级防弹玻璃"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 50 kg or heavier bombs.",
+    {
+      "可携带 50 或 100 千克炸弹。": 1,
+      "可携带 50 千克或更重的炸弹。": 1
+    },
+    [
+      [
+        "modification/LaGG_dz-40/desc",
+        "可携带 50 或 100 千克炸弹。"
+      ],
+      [
+        "modification/der_21/desc",
+        "可携带 50 千克或更重的炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 500 kg bombs.",
+    {
+      "可携带 500 千克炸弹。": 12,
+      "可携带 500 千克炸弹.": 1
+    },
+    [
+      [
+        "modification/swe_minb_m41/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/sb-2_der-19/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/is_500_50_gp/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/14in_mod30/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/s79a_lbc/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/fr_f222_tgpu/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/itc_500/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/etc500_3_mod/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/cn_q5_type_500/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/fab_500m_54/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/mi_24_fab_500/desc",
+        "可携带 500 千克炸弹。"
+      ],
+      [
+        "modification/su_fab_500/desc",
+        "可携带 500 千克炸弹."
+      ],
+      [
+        "modification/mig_15_ish_fab_500/desc",
+        "可携带 500 千克炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 250 and 500 kg bombs.",
+    {
+      "可携带 250 和 500 千克炸弹。": 2,
+      "可携带 250 和 500 磅炸弹。": 1
+    },
+    [
+      [
+        "modification/er-2_kd-3-240/desc",
+        "可携带 250 和 500 千克炸弹。"
+      ],
+      [
+        "modification/pe-2_dz-40/desc",
+        "可携带 250 和 500 千克炸弹。"
+      ],
+      [
+        "modification/wirraway_sbc/desc",
+        "可携带 250 和 500 磅炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of up to 1000 kg of bombs.",
+    {
+      "可携带最大 1,000 千克的炸弹。": 1,
+      "可携带至多 1,000 千克炸弹。": 2
+    },
+    [
+      [
+        "modification/tu-2_pkd-2/desc",
+        "可携带最大 1,000 千克的炸弹。"
+      ],
+      [
+        "modification/der_19pk/desc",
+        "可携带至多 1,000 千克炸弹。"
+      ],
+      [
+        "modification/der_19u/desc",
+        "可携带至多 1,000 千克炸弹。"
+      ]
+    ]
+  ],
+  [
+    "SBC Mk I",
+    {
+      "SBC Mk I 挂架": 1,
+      "SBC Mk 1 挂架": 1
+    },
+    [
+      [
+        "modification/wellington_sbc",
+        "SBC Mk I 挂架"
+      ],
+      [
+        "modification/btd_sbc",
+        "SBC Mk 1 挂架"
+      ]
+    ]
+  ],
+  [
+    "MBC Mk I",
+    {
+      "MBC Mk I 挂架": 1,
+      "MBC Mk 1 挂架": 1
+    },
+    [
+      [
+        "modification/wellington_mbc",
+        "MBC Mk I 挂架"
+      ],
+      [
+        "modification/btd_mbc",
+        "MBC Mk 1 挂架"
+      ]
+    ]
+  ],
+  [
+    "LBC Mk I",
+    {
+      "LBC Mk I 挂架": 1,
+      "LBC Mk 1 挂架": 1
+    },
+    [
+      [
+        "modification/wellington_lbc",
+        "LBC Mk I 挂架"
+      ],
+      [
+        "modification/btd_lbc",
+        "LBC Mk 1 挂架"
+      ]
+    ]
+  ],
+  [
+    "TC Mk I",
+    {
+      "TC Mk I 挂架": 1,
+      "TC Mk 1 挂架": 1
+    },
+    [
+      [
+        "modification/wellington_tc",
+        "TC Mk I 挂架"
+      ],
+      [
+        "modification/btd_tc",
+        "TC Mk 1 挂架"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 2000 lb bombs.",
+    {
+      "可携带 2,000 磅炸弹。": 6,
+      "可携带 2000 磅炸弹。": 1
+    },
+    [
+      [
+        "modification/wellington_2000/desc",
+        "可携带 2,000 磅炸弹。"
+      ],
+      [
+        "modification/b-17_lbc/desc",
+        "可携带 2,000 磅炸弹。"
+      ],
+      [
+        "modification/us_2000lbs_anm34/desc",
+        "可携带 2,000 磅炸弹。"
+      ],
+      [
+        "modification/us_2000lbs_anm66/desc",
+        "可携带 2000 磅炸弹。"
+      ],
+      [
+        "modification/b-29_lbc/desc",
+        "可携带 2,000 磅炸弹。"
+      ],
+      [
+        "modification/us_2000lb_mk84/desc",
+        "可携带 2,000 磅炸弹。"
+      ],
+      [
+        "modification/us_2000lb_m66/desc",
+        "可携带 2,000 磅炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 100 lb bombs.",
+    {
+      "可携带 100 磅炸弹。": 2,
+      "可携带 100 磅炸弹": 1
+    },
+    [
+      [
+        "modification/b-24_sbc/desc",
+        "可携带 100 磅炸弹。"
+      ],
+      [
+        "modification/fsbc_mk1/desc",
+        "可携带 100 磅炸弹"
+      ],
+      [
+        "modification/mk41_mod/desc",
+        "可携带 100 磅炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Protective vest",
+    {
+      "防破片背心": 4,
+      "防弹背心": 2
+    },
+    [
+      [
+        "modification/b17e_flak_vest",
+        "防破片背心"
+      ],
+      [
+        "modification/b17g_flak_vest",
+        "防破片背心"
+      ],
+      [
+        "modification/b-24_flak_vest",
+        "防破片背心"
+      ],
+      [
+        "modification/b-25_flak_vest",
+        "防破片背心"
+      ],
+      [
+        "modification/lancaster_m1_flyers_vest",
+        "防弹背心"
+      ],
+      [
+        "modification/wellington_m1_flyers_vest",
+        "防弹背心"
+      ]
+    ]
+  ],
+  [
+    "Mk 12",
+    {
+      "Mk 12 挂架": 1,
+      "Mk 12": 1
+    },
+    [
+      [
+        "modification/uk_rp3_mk12",
+        "Mk 12 挂架"
+      ],
+      [
+        "sensors/us_mk12_radar",
+        "Mk 12"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of bombs of up to 250 kg",
+    {
+      "可携带 2 枚二五番二号爆弹或九八式二五番爆弹。": 1,
+      "可携带 2 枚最高 250 千克的炸弹。": 1,
+      "可携带最大 250 千克的炸弹。": 1
+    },
+    [
+      [
+        "modification/h6k_12in_mod30/desc",
+        "可携带 2 枚二五番二号爆弹或九八式二五番爆弹。"
+      ],
+      [
+        "modification/g4m_12in_mod30/desc",
+        "可携带 2 枚最高 250 千克的炸弹。"
+      ],
+      [
+        "modification/ki45_12in_mod30/desc",
+        "可携带最大 250 千克的炸弹。"
+      ]
+    ]
+  ],
+  [
+    "20 mm cannon ammunition belt with increased amount of tracer shells",
+    {
+      "20 毫米机炮曳光弹链配置": 2,
+      "20 毫米机炮强化曳光弹链配置": 1
+    },
+    [
+      [
+        "modification/shvak_tracers",
+        "20 毫米机炮曳光弹链配置"
+      ],
+      [
+        "modification/hispano_tracers",
+        "20 毫米机炮强化曳光弹链配置"
+      ],
+      [
+        "modification/shvak_tracers_r",
+        "20 毫米机炮曳光弹链配置"
+      ]
+    ]
+  ],
+  [
+    "Compressor",
+    {
+      "增压器": 2,
+      "压缩机": 3
+    },
+    [
+      [
+        "modification/new_compressor",
+        "增压器"
+      ],
+      [
+        "modification/new_compressor_mi_4",
+        "压缩机"
+      ],
+      [
+        "modification/new_compressor_jet",
+        "压缩机"
+      ],
+      [
+        "modification/new_compressor_heli",
+        "压缩机"
+      ],
+      [
+        "modification/new_compressor_r",
+        "增压器"
+      ]
+    ]
+  ],
+  [
+    "Set of Countermeasures",
+    {
+      "干扰套件": 1,
+      "解锁更多对抗措施 (干扰弹) 配置，可用于诱使敌方制导导弹错失目标。": 1
+    },
+    [
+      [
+        "modification/countermeasures_belt_pack_unchecked/desc",
+        "干扰套件"
+      ],
+      [
+        "modification/countermeasures_belt_pack/desc",
+        "解锁更多对抗措施 (干扰弹) 配置，可用于诱使敌方制导导弹错失目标。"
+      ]
+    ]
+  ],
+  [
+    "FMBC Mk 1",
+    {
+      "FMBC Mk 1 挂架": 1,
+      "FMBC Mk 2 挂架": 1
+    },
+    [
+      [
+        "modification/fmbc_mk1",
+        "FMBC Mk 1 挂架"
+      ],
+      [
+        "modification/fmbc_mk2",
+        "FMBC Mk 2 挂架"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 250 kg bombs and LS-6 250 guided bombs.",
+    {
+      "可携带 500 磅 Mk82 常规炸弹与 250 千克规格的 雷石-6 滑翔炸弹。": 1,
+      "可携带 250 千克炸弹和 雷石-6 250 制导炸弹。": 1
+    },
+    [
+      [
+        "modification/us_500lb_mk82_ls_6_250/desc",
+        "可携带 500 磅 Mk82 常规炸弹与 250 千克规格的 雷石-6 滑翔炸弹。"
+      ],
+      [
+        "modification/cn_type_250_ls_6/desc",
+        "可携带 250 千克炸弹和 雷石-6 250 制导炸弹。"
+      ]
+    ]
+  ],
+  [
+    "Installation of pontoons",
+    {
+      "浮筒": 1,
+      "安装浮筒，从而获得水上浮渡能力。": 1
+    },
+    [
+      [
+        "modification/ka_chi_hull_improvement",
+        "浮筒"
+      ],
+      [
+        "modification/ka_chi_hull_improvement/desc",
+        "安装浮筒，从而获得水上浮渡能力。"
+      ]
+    ]
+  ],
+  [
+    "Additional Ballistic Protection Package",
+    {
+      "附加装甲套件": 2,
+      "附加弹道防护套件": 1
+    },
+    [
+      [
+        "modification/bmd_4m_improvement",
+        "附加装甲套件"
+      ],
+      [
+        "modification/btr_82a_improvement",
+        "附加装甲套件"
+      ],
+      [
+        "modification/conqeror_armor_improvement",
+        "附加弹道防护套件"
+      ]
+    ]
+  ],
+  [
+    "Side skirts up",
+    {
+      "收起侧面装甲": 2,
+      "收起侧面装甲，以提升防御性能。": 2
+    },
+    [
+      [
+        "modification/zerstorer_skirts_up",
+        "收起侧面装甲"
+      ],
+      [
+        "modification/zerstorer_skirts_up/desc",
+        "收起侧面装甲，以提升防御性能。"
+      ],
+      [
+        "modification/vsw_flak_41_skirts_up",
+        "收起侧面装甲"
+      ],
+      [
+        "modification/vsw_flak_41_skirts_up/desc",
+        "收起侧面装甲，以提升防御性能。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 20 mm MG 151 cannon.",
+    {
+      "可安装 1 门 20 毫米 MG 151/20 机炮。": 1,
+      "可安装 20 毫米 MG 151/20 机炮。": 1
+    },
+    [
+      [
+        "modification/bf-109k-4_MG15120_mod/desc",
+        "可安装 1 门 20 毫米 MG 151/20 机炮。"
+      ],
+      [
+        "modification/morko_morane_mg151/desc",
+        "可安装 20 毫米 MG 151/20 机炮。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of CRV7 unguided rockets.",
+    {
+      "可携带 CRV7 火箭弹。": 1,
+      "可携带 CRV7 无控火箭弹。": 1
+    },
+    [
+      [
+        "modification/uk_lau_5003b_a/desc",
+        "可携带 CRV7 火箭弹。"
+      ],
+      [
+        "modification/uk_lau_51/desc",
+        "可携带 CRV7 无控火箭弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of FFAR Mighty Mouse unguided rockets.",
+    {
+      "可携带 FFAR 太空飞鼠 火箭弹。": 4,
+      "可携带 FFAR 火箭弹。": 1
+    },
+    [
+      [
+        "modification/uk_lau_51_ffar/desc",
+        "可携带 FFAR 太空飞鼠 火箭弹。"
+      ],
+      [
+        "modification/uk_lau_51_ffar_2_75/desc",
+        "可携带 FFAR 太空飞鼠 火箭弹。"
+      ],
+      [
+        "modification/us_2_75_in_ffar/desc",
+        "可携带 FFAR 火箭弹。"
+      ],
+      [
+        "modification/us_f8u_ffar/desc",
+        "可携带 FFAR 太空飞鼠 火箭弹。"
+      ],
+      [
+        "modification/ah_1_m200_2/desc",
+        "可携带 FFAR 太空飞鼠 火箭弹。"
+      ]
+    ]
+  ],
+  [
+    "Otsu mod.",
+    {
+      "一型乙": 1,
+      "乙型": 1
+    },
+    [
+      [
+        "modification/ki_43_1_otsu",
+        "一型乙"
+      ],
+      [
+        "modification/kitsuka_fighter",
+        "乙型"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of 1500 kg bombs.",
+    {
+      "可携带 1,500 千克炸弹。": 2,
+      "可携带 1500 千克炸弹。": 1
+    },
+    [
+      [
+        "modification/bd-4_1500/desc",
+        "可携带 1,500 千克炸弹。"
+      ],
+      [
+        "modification/fab_1500/desc",
+        "可携带 1,500 千克炸弹。"
+      ],
+      [
+        "modification/su_fab_1500/desc",
+        "可携带 1500 千克炸弹。"
+      ]
+    ]
+  ],
+  [
+    "RWR",
+    {
+      "雷达告警接收器": 5,
+      "雷达告警": 1
+    },
+    [
+      [
+        "sensors/cn_helicopter_z_rwr",
+        "雷达告警接收器"
+      ],
+      [
+        "sensors/cn_helicopter_z_late_rwr",
+        "雷达告警接收器"
+      ],
+      [
+        "avionics_sensor_rwr",
+        "雷达告警接收器"
+      ],
+      [
+        "avionics_auto_cm_by_rwr",
+        "雷达告警"
+      ],
+      [
+        "modification/Radar_warning_receiver_system",
+        "雷达告警接收器"
+      ],
+      [
+        "modification/q_5b",
+        "雷达告警接收器"
+      ]
+    ]
+  ],
+  [
+    "Range",
+    {
+      "距离": 1,
+      "探测距离": 1
+    },
+    [
+      [
+        "radar_range_max",
+        "距离"
+      ],
+      [
+        "mlws_range_max",
+        "探测距离"
+      ]
+    ]
+  ],
+  [
+    "HMS",
+    {
+      "头瞄模式": 1,
+      "头盔瞄准具": 1
+    },
+    [
+      [
+        "radar_hms_mode",
+        "头瞄模式"
+      ],
+      [
+        "avionics_hmd",
+        "头盔瞄准具"
+      ]
+    ]
+  ],
+  [
+    "ARM",
+    {
+      "ARM": 1,
+      "反辐射导弹": 4
+    },
+    [
+      [
+        "avionics_sensor_arm",
+        "ARM"
+      ],
+      [
+        "modification/us_arm",
+        "反辐射导弹"
+      ],
+      [
+        "modification/su_arm",
+        "反辐射导弹"
+      ],
+      [
+        "modification/anti_radiation_missile_type_b",
+        "反辐射导弹"
+      ],
+      [
+        "modification/anti_radiation_missile_type_c",
+        "反辐射导弹"
+      ]
+    ]
+  ],
+  [
+    "MAW",
+    {
+      "导弹逼近告警系统": 5,
+      "导弹逼近告警": 1
+    },
+    [
+      [
+        "avionics_sensor_mlws",
+        "导弹逼近告警系统"
+      ],
+      [
+        "avionics_auto_cm_by_mlws",
+        "导弹逼近告警"
+      ],
+      [
+        "modification/MAW_system_heli_false_thermal_targets",
+        "导弹逼近告警系统"
+      ],
+      [
+        "modification/MAW_system_heli_false_thermal_targets_large",
+        "导弹逼近告警系统"
+      ],
+      [
+        "modification/PIDS_false_thermal_targets",
+        "导弹逼近告警系统"
+      ],
+      [
+        "modification/uk_terma_mcp_false_thermal_targets",
+        "导弹逼近告警系统"
+      ]
+    ]
+  ],
+  [
+    "CCRP",
+    {
+      "连续计算投放点": 1,
+      "投放计算": 1
+    },
+    [
+      [
+        "CCRP",
+        "连续计算投放点"
+      ],
+      [
+        "CCRPRocket",
+        "投放计算"
+      ]
+    ]
+  ],
+  [
+    "Mortar",
+    {
+      "迫击炮": 1,
+      "可使用舰载迫击炮。": 1
+    },
+    [
+      [
+        "modification/ship_mortar",
+        "迫击炮"
+      ],
+      [
+        "modification/ship_mortar/desc",
+        "可使用舰载迫击炮。"
+      ]
+    ]
+  ],
+  [
+    "Replacement of worn helicopter blades with a new one.",
+    {
+      "换装新旋翼桨叶。": 1,
+      "换装新旋翼桨叶，从而提高飞行性能。": 2
+    },
+    [
+      [
+        "modification/cd_98_main_rotor/desc",
+        "换装新旋翼桨叶。"
+      ],
+      [
+        "modification/cd_98_main_rotor_type2/desc",
+        "换装新旋翼桨叶，从而提高飞行性能。"
+      ],
+      [
+        "modification/cd_98_main_rotor_type3/desc",
+        "换装新旋翼桨叶，从而提高飞行性能。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of additional 9M114 missiles.",
+    {
+      "可携带额外的 9M114 导弹。": 1,
+      "可携带额外的 9M114 反坦克导弹。": 2
+    },
+    [
+      [
+        "modification/mi_35_9M114_8/desc",
+        "可携带额外的 9M114 导弹。"
+      ],
+      [
+        "modification/mi_24_su_9M114_2/desc",
+        "可携带额外的 9M114 反坦克导弹。"
+      ],
+      [
+        "modification/mi_24_su_9M114_4/desc",
+        "可携带额外的 9M114 反坦克导弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows the installation of Hydra-70 unguided rockets.",
+    {
+      "可携带 九头蛇 70 火箭弹。": 2,
+      "可携带 火蛇 70 火箭弹。": 1
+    },
+    [
+      [
+        "modification/ah_1_m261_hydra_70/desc",
+        "可携带 九头蛇 70 火箭弹。"
+      ],
+      [
+        "modification/us_hydra_70/desc",
+        "可携带 九头蛇 70 火箭弹。"
+      ],
+      [
+        "modification/tr_fz207/desc",
+        "可携带 火蛇 70 火箭弹。"
+      ]
+    ]
+  ],
+  [
+    "Allows shoots off countermeasures.",
+    {
+      "允许发射多种干扰措施诱使敌方制导导弹错失目标，提升自身生存几率。": 2,
+      "允许发射多种干扰物。": 1
+    },
+    [
+      [
+        "modification/heli_false_thermal_targets/desc",
+        "允许发射多种干扰措施诱使敌方制导导弹错失目标，提升自身生存几率。"
+      ],
+      [
+        "modification/aircrafts_false_thermal_targets/desc",
+        "允许发射多种干扰措施诱使敌方制导导弹错失目标，提升自身生存几率。"
+      ],
+      [
+        "modification/q_5b_ltc/desc",
+        "允许发射多种干扰物。"
+      ]
+    ]
+  ],
+  [
+    "250 LB",
+    {
+      "250 磅炸弹": 1,
+      "250 磅": 1
+    },
+    [
+      [
+        "modification/sea_hawk_2x250lb",
+        "250 磅炸弹"
+      ],
+      [
+        "modification/bomb_2x_250lb",
+        "250 磅"
+      ]
+    ]
+  ],
+  [
+    "500 LB",
+    {
+      "500 磅": 1,
+      "500 磅炸弹": 1
+    },
+    [
+      [
+        "modification/bomb_2x_500lb",
+        "500 磅"
+      ],
+      [
+        "modification/sea_hawk_2x500lb",
+        "500 磅炸弹"
+      ]
+    ]
+  ],
+  [
+    "305-mm APCBC",
+    {
+      "穿甲弹": 2,
+      "被帽风帽穿甲弹": 2
+    },
+    [
+      [
+        "modification/305mm_ussr_54_b_50_navy_ap",
+        "穿甲弹"
+      ],
+      [
+        "modification/305mm_ussr_54_b_50_navy_ap_ammo_pack",
+        "穿甲弹"
+      ],
+      [
+        "modification/305mm_ussr_64_sm_33_navy_ap",
+        "被帽风帽穿甲弹"
+      ],
+      [
+        "modification/305mm_ussr_64_sm_33_navy_ap_ammo_pack",
+        "被帽风帽穿甲弹"
+      ]
+    ]
+  ]
+]

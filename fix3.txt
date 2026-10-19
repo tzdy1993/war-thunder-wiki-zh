@@ -1,0 +1,448 @@
+▄F6F-5N
+▄F8F-1B
+F6F-5N
+F8F-1B
+3D model creation
+The Yak-130 is
+MiG-23 / MiG-27
+Pe-2 / Pe-3
+CR.32 / CR.42
+MiG-19
+Mirage 5
+Su-17 / Su-22
+Eurofighter Typhoon
+A-20 Havoc
+AD Skyraider
+SAAB 21
+Su-30
+MS.406
+P-26 Peashooter
+SAAB 18
+DB-3
+He 111
+J-7
+MB.150
+Mirage F1
+SAAB 105
+SAAB 17
+Sea Hawk
+F.220
+IAR-80
+J-8
+Sea Fury
+Mk 77 incendiary bomb
+Type A Mark I mine
+APKWS
+Type 91 torpedo
+7.62 PV-1 machine gun
+SPICE
+Whitehead 450 mm torpedo
+AASM Hammer
+37 mm/54 Breda cannon
+Schräge Musik
+Bloch / Dassault
+Seversky / Republic
+Curtiss-Wright
+General Dynamics
+Focke-Wulf
+Savoia-Marchetti
+Morane-Saulnier
+War Thunder Mobile
+B-18A
+PBY-5 Catalina
+PBY-5A Catalina
+P-40E-1
+P-39
+P-40E-1 TD
+▃Ki-43-II
+P-43A-1
+P-63A-5
+PBJ-1H
+P-63A-10
+P-63C-5
+P-47D-22-RE
+B-17E
+A-26B-10
+A-26B-50
+P-51H-5-NA
+A-26C-45DT
+F-4C Phantom II
+F-4J Phantom II
+AV-8B Plus
+▀Marcolin's C.R.42 CN
+▀G.50 serie 2
+▀G.50 AS serie 7
+▀C. 200 serie 3
+▀C. 200 serie 7
+▀S.M.79 serie 1
+▀S.M.79 serie 8
+▀S.M.79 AS
+▀S.M.79 bis/T.M
+▀S.M.79 B
+▀S.M.79 serie 4
+▀S.M.79 bis/N
+Bf 109 Z-1
+Me 262 A-1a/Jabo
+◄Su-22M4 WTD61
+◄Tornado IDS SLE
+I-153 M-62
+▂PBY-5A Catalina
+▂P-40E-1
+Pe-2-359
+▂P-63A-5
+▂P-63C-5
+▂P-63A-10
+▂L-39ZA Albatros
+▄Su-30MK2 AMV
+Hurricane Mk.I/L FAA M
+Spitfire Mk IX
+F-4J(UK) Phantom II
+Ki-10-I
+Ki-10-II
+Ki-10-I C
+Ki-10-II C
+Ki-27 Otsu
+Ki-21-Ia
+Ki-43-II
+H6K4
+Hagiri's A5M4
+Ki-27 Otsu Tachiarai
+A6M2 mod. 11
+Ki-44-II Hei
+Ki-61-I Otsu
+H8K2
+H8K3
+Ki-61-II Otsu Kai
+Ki-67-I Ko
+▅P-51C-11-NT
+Ki-100-II
+A6M5 Otsu
+A6M5 Hei
+Ki-84 Ko
+N1K1-Ja
+▅B-17E
+A6M6c
+F-4EJ Phantom II
+F-4EJ Kai Phantom II
+F-2A ADTW
+␗Ki-27 Otsu
+␗I-153 M-62
+␗P-40E-1
+␗P-43A-1
+H-81A-2
+␗P-47D-30
+␗Ki-44-II Hei
+␗Ki-61-I Otsu
+␗P-51C-11-NT
+␗Ki-84 Ko
+␗F-16A MLU
+P.108A serie 2
+G.50 serie 2
+G.50 AS serie 7
+S.M.79 serie 1
+S.M.79 serie 8
+Marcolin's C.R.42 CN
+C. 200 serie 3
+C. 200 serie 7
+S.M.79 AS
+S.M.79 bis/T.M
+S.M.79 B
+P.108B serie 1
+P.108B serie 2
+◔Me 210 Ca
+▄P-47D-30
+▄AV-8B Plus
+▄P-63C-5
+▄P-47D-22-RE
+▄Bf 109 G-6 Erla
+A-4
+A-4H
+Vautour IIA
+MiG-21 2000
+F-15I Ra’am
+Name
+Leopard 2
+Pz. IV
+Magach
+Merkava
+Pz. III
+T-54 / T-55
+M.40 / M.41 / M.42 / M.43
+Leopard 1
+T-60 / T-70 / T-80
+CV90
+Type 97 Chi-Ha
+Vickers E / T-26
+Strv m/41
+BMP-1 / BMP-2
+Crusader
+L-60
+MT-LB
+Strv m/42
+AMX-50
+M3
+Sd.Kfz. 234
+Senrai Maidens
+Strv 81/101
+AMD.35 / Panhard 178
+B1 Centauro
+BMD-3 / BMD-4
+KanJPz / RakJPz
+M10 GMC
+Pz. II
+Sd.Kfz. 251
+Strv 103
+StuG III
+Turán
+Valentine
+ZSU-23-4
+BTR-80
+Boxer
+M163 VADS
+MBT/KPz-70
+Ram
+Rooikat
+ZTZ-99
+GAZ-AA
+L.40
+PLZ-83
+Panhard EBR
+Ratel
+SARC
+T-10
+Type 95 Ha-Go
+Wiesel
+CCKW 353
+Pz. I
+SPz Lang HS.30
+U-SH
+VAB
+20 mm/70 Oerlikon cannon
+9M14 Malutka ATGM
+9M120 Ataka ATGM
+Hedgehog mortar
+Multi-Vehicle system
+Electro-optical APS
+Krauss-Maffei
+Daimler-Benz
+Thyssen-Henschel
+Sandock-Austral
+Marmon-Herrington
+Scania-Vabis
+Batignolles-Chatillon
+Hispano-Suiza
+Anti-aircraft vehicles
+M8 LAC
+M16 MGMC
+M5A1 TD
+M18 GMC
+M4A3 (76) W
+M36 GMC
+M48A1
+NASAMS 3
+Pz.II C TD
+Pz.III J1 TD
+Sd.Kfz.234/2 TD
+BT-7 TD
+T-34E STZ
+T-126
+▂M3 Medium
+IS-2 No.321
+Matilda III
+▅M16 MGMC
+Chi-Ha Kai TD
+▅M4A3 (76) W
+␗M8 LAC
+␗M3A3 Stuart
+␗M10 GMC
+T-34-85 Gai
+␗M36 GMC
+␗M18 GMC
+␗M48A1
+WZ1001(E) LCT
+▄M3A3 Stuart
+▄M10 GMC
+Strv m/39 TD
+M109
+Mi-28
+30 mm M230 Chain Gun
+HJ-8 ATGM
+Agusta
+Eurocopter
+Fuji Heavy Industries
+MBB
+Sikorsky
+Hughes
+Kamov
+CAIC
+BO 105 PAH-1A1
+Rooivalk Mk1F CSH
+AH-60
+Condottieri-class cruiser
+Fletcher-class destroyer
+Clemson-class destroyer
+Kongō-class battlecruiser
+Omaha-class cruiser
+Aigle-class destroyer
+Akizuki-class destroyer
+Battle-class destroyer
+Bayern-class battleship
+Chacal-class destroyer
+County-class cruiser
+Daring-class destroyer
+Hunt-class destroyer
+J/N/K-class destroyer
+Mogami-class cruiser
+Porter-class destroyer
+Soldati-class destroyer
+Suffren-class cruiser
+Svetlana-class cruiser
+Town-class cruiser
+Tribal-class destroyer
+V-class destroyer
+Yūgumo-class destroyer
+Baltimore-class cruiser
+Bretagne-class battleship
+Brooklyn-class cruiser
+Colorado-class battleship
+Courbet-class battleship
+Dardo-class destroyers
+Des Moines-class cruiser
+Deutschland-class cruiser
+Duilio-class battleship
+Furutaka-class cruiser
+Fusō-class battleship
+G-class destroyer
+Gearing-class destroyer
+Hatsuharu-class destroyer
+Ise-class battleship
+Kagerō-class destroyer
+Königsberg-class cruiser
+Leipzig-class cruiser
+Leone-class destroyer
+Littorio-class battleship
+Mitscher-class destroyer
+Momi-class destroyers
+Mutsuki-class destroyer
+Myōkō-class cruiser
+Nagato-class battleship
+Nassau-class battleship
+Nelson-class battleship
+Nevada-class battleship
+Somers-class destroyer
+Town-class destroyer
+Turbine-class destroyer
+Wyoming-class battleship
+Yamato-class battleship
+Zara-class cruiser
+5-inch/38 Mk.12 cannon
+25 mm/60 Hotchkiss cannon
+4-inch/45 Mark XVI cannon
+Type 95 depth charge
+5-inch/40 Type 89 cannon
+100 mm/47 O.T.O. cannon
+1.1-inch/75 Mk.1 cannon
+12.8 cm/45 SK C/34 cannon
+3-inch/50 Mk.33 cannon
+4.7-inch/45 Mk.IX cannon
+8-inch/55 Mark 9 cannon
+10.5 cm/60 SK C/33 cannon
+100 mm/56 B-34 cannon
+61 Communards Shipyard
+Schichau-Werke
+Sub-chaser
+Barge
+Anti-air ferry
+S-boot
+CRDA 60ft-type motor boat
+Fairmile D
+Kusentei-type subchaser
+Dark-class motor boat
+G-5-class motor boat
+MAS-500-class motor boat
+Pr. 1124-class gun boat
+Pr. 123-class motor boat
+Pr. 201-class subchaser
+R-boot
+Albatros-class corvette
+Asheville-class gunboat
+D-3-class Torpedo Boat
+Flower-class Corvette
+Freccia-class gunboat
+Gabbiano-class corvette
+Hiburi-class escort ship
+Köln-class frigate
+M-boot
+Nibbio-class hydrofoil
+Peacock-class corvette
+Pr. 122-class subchaser
+River-class frigate
+SGB-class gun boat
+Whitby-class frigate
+30 mm/54 AK-630 cannon
+Saunders-Roe
+Sub-chasers
+Dark Aggressor TD
+Type T-14
+TheSniper_111
+RDXRooster63
+M24 Chaffee
+Taepea
+Renault YR
+Renault ACG
+Wiki Team
+HMS
+Renown
+Glorious
+2 x
+(NATO reporting name:
+Hind-E
+) introduced in
+Fist of the fleet
+The highest fire rate
+M1A1HC
+Stormin Norman
+Punisher
+Two-plane stabilizer
+First-order
+Kronstadt
+-class battleships
+. However,
+M.C. 250 lb Mk.I bomb
+Leopard 2A6 variant
+Leopard 2A4 variant
+Helhest
+AMX-30B
+Chemin des Dames
+Montmirail
+Castilla
+[eSport] Gendarme
+HE patt.1911
+AP patt.1911
+SAP patt.1911
+HE patt.1928
+MegaFangs
+KV-1 variants
+GiMei
+KohleR
+TNTe
+AviatoR_76
+Brawler
+Flanker
+Spearhead
+Notice:
+Heavy Tanks
+Medium Tanks
+VK 3002
+Light Tanks
+ColonelKlink1942
+Gerbil99999999
+HEI-PD
+Inaccurate information;
+FinnSupra
+Intrépide
+Defside7
+3 November 2025
+21 September 2025
+833 days
+Yamato
