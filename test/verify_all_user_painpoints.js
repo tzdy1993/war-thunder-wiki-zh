@@ -35,10 +35,10 @@ console.log('  ✓ PASSED: 8.07 t correctly translated to 8.07 吨 (No 绍特).'
 
 console.log('\n5. Screenshot 3 Verification (Ballistic computer & clean terms):');
 assert.strictEqual(core.translateFixedText('Ballistic Computer'), '弹道计算机');
-assert.strictEqual(core.translateFixedText('CCIP'), '连续计算落点 (CCIP)');
+assert.strictEqual(core.translateFixedText('CCIP'), '连续计算命中点 (CCIP)');
 assert.strictEqual(core.translateFixedText('CCRP'), '连续计算投放点 (CCRP)');
 assert.strictEqual(core.translateFixedText('Focus sensor'), '关注焦点传感器');
-assert.strictEqual(core.translateFixedText('Laser designator'), '激光测距指示器');
+assert.strictEqual(core.translateFixedText('Laser designator'), '激光指示器');
 assert.strictEqual(core.translateFixedText('EEGS'), '增强型航迹射击瞄具 (EEGS)');
 console.log('  ✓ PASSED: Ballistic computer components cleanly translated without \\t.');
 

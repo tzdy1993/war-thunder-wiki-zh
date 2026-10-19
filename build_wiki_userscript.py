@@ -210,10 +210,10 @@ def main() -> None:
         if m_k in unit_name_index:
             unit_name_index[m_k] = m_v
 
-    term_index['Republic of China'] = '中國'
-    unit_name_index['Republic of China'] = '中國'
-    term_index['ROCA ORDC'] = '中國陸軍兵工署'
-    unit_name_index['ROCA ORDC'] = '中國陸軍兵工署'
+    term_index['Republic of China'] = '中国'
+    unit_name_index['Republic of China'] = '中国'
+    term_index['ROCA ORDC'] = '中国陆军兵工署'
+    unit_name_index['ROCA ORDC'] = '中国陆军兵工署'
 
     popover_json_path = HERE / "data" / "popover_terms.json"
     if popover_json_path.exists():
@@ -226,14 +226,17 @@ def main() -> None:
             clean_v = clean_v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
             clean_v = re.sub(r'\s{2,}', ' ', clean_v)
             if "中华民国" in clean_v:
-                clean_v = clean_v.replace("中华民国", "中國")
+                clean_v = clean_v.replace("中华民国", "中国")
             if clean_k and clean_v:
                 term_index[clean_k] = clean_v
 
-    BROKEN_KEYS = {'t', 't Kal Alef', 't Kal Dalet', 't Kal Gimel'}
+    BROKEN_KEYS = {
+        't', 't Kal Alef', 't Kal Dalet', 't Kal Gimel',
+        'type', 'mod', 'GB', 'SA', 'id', 'CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST'
+    }
     for d in (unit_index, unit_name_index, term_index):
         for k in list(d.keys()):
-            # 彻底禁止单字母或残破键进入字典
+            # 彻底禁止单字母、危险短键或残破键进入字典
             if len(k.strip()) <= 1 or k in BROKEN_KEYS or k.startswith('t Kal '):
                 d.pop(k, None)
                 continue
@@ -242,7 +245,16 @@ def main() -> None:
             cleaned_v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
             cleaned_v = re.sub(r'\s{2,}', ' ', cleaned_v)
             if "中华民国" in cleaned_v:
-                cleaned_v = cleaned_v.replace("中华民国", "中國")
+                cleaned_v = cleaned_v.replace("中华民国", "中国")
+            TRAD_MAP = {
+                '副翼': '副翼', '升降舵': '升降舵', '方向舵': '方向舵', '襟翼': '襟翼',
+                '減速板': '减速板', '雷達': '雷达', '導彈': '导弹', '裝甲': '装甲',
+                '飛機': '飞机', '戰鬥機': '战斗机', '魚雷': '鱼雷', '發動機': '发动机',
+                '魚': '鱼', '戰': '战', '機': '机', '彈': '弹', '裝': '装', '減': '减'
+            }
+            for t_k, t_v in TRAD_MAP.items():
+                if t_k in cleaned_v:
+                    cleaned_v = cleaned_v.replace(t_k, t_v)
             d[k] = cleaned_v
 
     # 确保 Sho't 系列载具正确映射
@@ -272,6 +284,9 @@ def main() -> None:
             clean_v = v.replace(r'\t', '').replace('\t', '').replace(r'\n', ' ').replace('\n', ' ').replace('\r', '').strip()
             clean_k = strip_all_markers(clean_k)
             clean_v = strip_all_markers(clean_v)
+            for t_k, t_v in TRAD_MAP.items():
+                if t_k in clean_v:
+                    clean_v = clean_v.replace(t_k, t_v)
             if clean_k and clean_v:
                 unlocks[clean_k] = clean_v
         for k in list(unlocks.keys()):

@@ -1,0 +1,14 @@
+{
+  "dangerous_short_keys": {
+    "popover_terms.json:IR": "红外",
+    "popover_terms.json:TV": "电视制导",
+    "popover_terms.json:DD": "DD 炸药",
+    "popover_terms.json:SA": "亚服",
+    "popover_terms.json:GB": "英",
+    "popover_terms.json:AR": "空射火箭彈（AR）",
+    "popover_terms.json:HE": "高爆彈"
+  },
+  "backslash_terms": {},
+  "foreign_or_non_chinese": {},
+  "flaws": []
+}

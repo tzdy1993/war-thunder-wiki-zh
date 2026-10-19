@@ -1,0 +1,435 @@
+{
+  "totalPagesScanned": 5706,
+  "durationSeconds": 195.6,
+  "metrics": {
+    "totalTextNodes": 1488306,
+    "totalTranslatedNodes": 1063739,
+    "literalTabIssues": 0,
+    "shotWeightBugIssues": 3,
+    "frenchPollutionIssues": 0,
+    "doubleSlashIssues": 0,
+    "atAltitudeBugIssues": 0
+  },
+  "detailShotWeightBugs": [
+    {
+      "text": "绍特",
+      "orig": "Centurions",
+      "loc": "6c38f581943f4a21.html <A>"
+    },
+    {
+      "text": "绍特",
+      "orig": "Русский",
+      "loc": "778d30d3d2caa187.html <A>"
+    },
+    {
+      "text": "绍特",
+      "orig": "Sho’t",
+      "loc": "fcc74627f9e0a462.html <A>"
+    }
+  ],
+  "detailFrenchPollution": [],
+  "detailAtAltitudeBugs": [],
+  "topUntranslatedUI": [
+    [
+      "Usage in Battle",
+      21
+    ],
+    [
+      "1 round",
+      18
+    ],
+    [
+      "Combat usage",
+      14
+    ],
+    [
+      "Hidden content",
+      13
+    ],
+    [
+      "Overview",
+      11
+    ],
+    [
+      "Image Explanation",
+      11
+    ],
+    [
+      "m)",
+      10
+    ],
+    [
+      "Max # of bombs",
+      9
+    ],
+    [
+      "Flight Performance:",
+      9
+    ],
+    [
+      "L / C",
+      9
+    ],
+    [
+      "Option",
+      9
+    ],
+    [
+      "Service",
+      8
+    ],
+    [
+      "Legacy",
+      8
+    ],
+    [
+      "Final Thoughts",
+      8
+    ],
+    [
+      "German",
+      8
+    ],
+    [
+      "Control name",
+      7
+    ],
+    [
+      "Air battles",
+      7
+    ],
+    [
+      "Number",
+      7
+    ],
+    [
+      "Operational History:",
+      7
+    ],
+    [
+      "Symbology",
+      7
+    ],
+    [
+      "Explanation",
+      7
+    ],
+    [
+      "Available Ammunition",
+      6
+    ],
+    [
+      "Deployment",
+      6
+    ],
+    [
+      "Flanking",
+      6
+    ],
+    [
+      "Playstyle:",
+      6
+    ],
+    [
+      "Enemies worth noting:",
+      6
+    ],
+    [
+      "Ammo",
+      6
+    ],
+    [
+      "Wave",
+      6
+    ],
+    [
+      "Requires",
+      6
+    ],
+    [
+      "Engines",
+      6
+    ],
+    [
+      "Explosive mass",
+      6
+    ],
+    [
+      "Armour and Survivability",
+      6
+    ],
+    [
+      "Engine characteristics",
+      6
+    ],
+    [
+      "Translation",
+      6
+    ],
+    [
+      "In practice",
+      6
+    ],
+    [
+      "Content",
+      5
+    ],
+    [
+      "Sniping",
+      5
+    ],
+    [
+      "Design and Development",
+      5
+    ],
+    [
+      "Table of Contents:",
+      5
+    ],
+    [
+      "Mass with fuel",
+      5
+    ],
+    [
+      "Weight (each)",
+      5
+    ],
+    [
+      "Condition",
+      5
+    ],
+    [
+      "The Armament",
+      5
+    ],
+    [
+      "Code and Explanation",
+      5
+    ],
+    [
+      "Usage In Battles:",
+      5
+    ],
+    [
+      "Air Battles:",
+      5
+    ],
+    [
+      "Mixed Battles:",
+      5
+    ],
+    [
+      "Fate",
+      5
+    ],
+    [
+      "Gun belts",
+      5
+    ],
+    [
+      "Firepower and Ammunition:",
+      5
+    ],
+    [
+      "Introduction",
+      5
+    ],
+    [
+      "Logistical services",
+      5
+    ],
+    [
+      "General",
+      5
+    ],
+    [
+      "Notable enemies",
+      5
+    ],
+    [
+      "Armor Comparison",
+      4
+    ],
+    [
+      "Mobility Comparison",
+      4
+    ],
+    [
+      "Cannon",
+      4
+    ],
+    [
+      "Air-to-Ground Capabilities",
+      4
+    ],
+    [
+      "Video",
+      4
+    ],
+    [
+      "Waves",
+      4
+    ],
+    [
+      "Max # of rockets",
+      4
+    ],
+    [
+      "Ground battles",
+      4
+    ],
+    [
+      "Gun",
+      4
+    ],
+    [
+      "Dogfighting",
+      4
+    ],
+    [
+      "The Mobility",
+      4
+    ],
+    [
+      "Altitude in feet",
+      4
+    ],
+    [
+      "Survivability and Armor",
+      4
+    ],
+    [
+      "Launched",
+      4
+    ],
+    [
+      "Commissioned",
+      4
+    ],
+    [
+      "Cockpit",
+      4
+    ],
+    [
+      "The Crew&rsquo;s View",
+      4
+    ],
+    [
+      "Armor and Survivability:",
+      4
+    ],
+    [
+      "Bibliography:",
+      4
+    ],
+    [
+      "Basics",
+      4
+    ],
+    [
+      "Value",
+      4
+    ],
+    [
+      "Desc",
+      4
+    ],
+    [
+      "Development:",
+      4
+    ],
+    [
+      "Design, Development and Variants:",
+      4
+    ],
+    [
+      "In-game",
+      4
+    ],
+    [
+      "Historical Background",
+      4
+    ],
+    [
+      "Installer from Gaijin Entertainment website",
+      4
+    ],
+    [
+      "Download from Steam",
+      4
+    ],
+    [
+      "Main battery",
+      4
+    ],
+    [
+      "Notable Enemies:",
+      4
+    ],
+    [
+      "Medium Tanks:",
+      4
+    ],
+    [
+      "Heavy Tanks:",
+      4
+    ],
+    [
+      "Tank Destroyers:",
+      4
+    ],
+    [
+      "Summary",
+      4
+    ],
+    [
+      "Comparison with analogues",
+      4
+    ],
+    [
+      "Thank You For Reading!",
+      4
+    ],
+    [
+      "Production",
+      3
+    ],
+    [
+      "History:",
+      3
+    ],
+    [
+      "Suspended armaments",
+      3
+    ],
+    [
+      "Vehicles",
+      3
+    ],
+    [
+      "Quick Facts",
+      3
+    ],
+    [
+      "Enemies Worth Noting:",
+      3
+    ],
+    [
+      "Armaments for air combat",
+      3
+    ],
+    [
+      "Armaments for ground targets",
+      3
+    ],
+    [
+      "Ground RB",
+      3
+    ],
+    [
+      "Useful links",
+      3
+    ]
+  ],
+  "topUntranslatedPopover": []
+}

@@ -147,7 +147,7 @@
     'Explosive Mass': '装药质量',
     'TNT equivalent': 'TNT 当量',
     'Caliber': '口径',
-    'Muzzle Velocity': '炮口初速',
+    'Muzzle Velocity': '出膛速度',
     'Guidance': '制导方式',
     'Guidance:': '制导方式：',
     'Guidance system type:': '制导方式：',
@@ -160,28 +160,74 @@
     'Semi-automatic': '半自动制导',
     'Hand aiming': '人工制导',
     'SARH': '半主动雷达寻的',
-    'SARH+IOG': '半主动雷达寻的 + IOG',
-    'SARH+IOG+DL': '半主动雷达寻的 + IOG + 数据链',
+    'SARH+IOG': '半主动雷达寻的 + 惯导',
+    'SARH+IOG+DL': '半主动雷达寻的 + 惯导 + 数据链',
     'ARH': '主动雷达寻的',
-    'ARH+IOG': '主动雷达寻的 + IOG',
-    'ARH+IOG+DL': '主动雷达寻的 + IOG + 数据链',
-    'ARH+IOG+GNSS+DL': '主动雷达寻的 + IOG + 卫星制导 + 数据链',
-    'Laser+IOG': '激光制导 + IOG',
-    'Laser+IOG+GNSS': '激光制导 + IOG + 卫星制导',
-    'IR+IOG': '红外 + IOG',
-    'IR+IOG+DL': '红外 + IOG + 数据链',
-    'IR+IOG+GNSS': '红外 + IOG + 卫星制导',
-    'IR+IOG+GNSS+DL': '红外 + IOG + 卫星制导 + 数据链',
-    'GNSS': '全球导航卫星系统 (GNSS)',
+    'ARH+IOG': '主动雷达寻的 + 惯导',
+    'ARH+IOG+DL': '主动雷达寻的 + 惯导 + 数据链',
+    'ARH+IOG+GNSS+DL': '主动雷达寻的 + 卫星导航 + 数据链',
+    'Laser+IOG': '激光 + 惯导',
+    'Laser+IOG+GNSS': '激光 + 惯导 + 卫星导航',
+    'IR+IOG': '红外 + 惯导',
+    'IR+IOG+DL': '红外 + 惯导 + 数据链',
+    'IR+IOG+GNSS': '红外 + 惯导 + 卫星导航',
+    'IR+IOG+GNSS+DL': '红外 + 卫星导航 + 数据链',
+    'IRCCM': '红外抗干扰',
+    'GNSS': '全球卫星导航系统',
+    'Comp. H6': 'H6 炸药',
+    'Torpex': '托佩克斯炸药',
+    'Tritonal': '特里托纳尔炸药',
+    'Shimose': '下濑火药',
+    'Exp. D': 'D 炸药 (苦味酸铵)',
+    'Launch detection': '发射探测',
+    'Tracking detection': '照射探测',
     'Ballistic Computer': '弹道计算机',
-    'CCIP': '连续计算落点 (CCIP)',
+    'Ballistic computer': '弹道计算机',
+    'CCIP': '连续计算命中点 (CCIP)',
     'CCRP': '连续计算投放点 (CCRP)',
-    'Continuously Computed Impact Point': '连续计算落点 (CCIP)',
-    'Continuously Computed Release Point': '连续计算投放点 (CCRP)',
+    'Continuously Computed Impact Point': '连续计算命中点',
+    'Continuously Computed Release Point': '连续计算投放点',
     'EEGS': '增强型航迹射击瞄具 (EEGS)',
     'Enhanced Envelope Gunsight': '增强型航迹射击瞄具',
     'Focus sensor': '关注焦点传感器',
-    'Laser designator': '激光测距指示器',
+    'Focus Sensor': '关注焦点传感器',
+    'Laser designator': '激光指示器',
+    'Laser Designator': '激光指示器',
+    'Suspended weaponry': '挂载武器',
+    'Offensive weaponry': '前向武器',
+    'Defensive weaponry': '自卫武器',
+    'Additional weaponry': '辅助武器',
+    'Thermal Vision': '热成像',
+    'Thermal vision': '热成像',
+    'Tracking radar': '跟踪雷达',
+    'Search radar': '搜索雷达',
+    'Radar modes': '雷达模式',
+    'Radar search mode': '雷达搜索模式',
+    'Radar range scale': '雷达探测范围',
+    'Laser Warning System (LWS)': '激光告警系统 (LWS)',
+    'Air-to-air missiles': '空对空导弹',
+    'Air-to-surface missiles': '空对地导弹',
+    'Explosive mass': '装药量',
+    'Gun belts': '弹链',
+    'Unguided bombs': '非制导炸弹',
+    'Guided bombs': '制导炸弹',
+    'Incendiary bombs': '燃烧炸弹',
+    'Recommended loadout:': '推荐挂载配置：',
+    'Recommended loadout': '推荐挂载配置',
+    'Custom loadouts editor': '自定义挂载编辑器',
+    'Table of content': '目录',
+    'Contents': '目录',
+    'Specifications': '规格',
+    'Technical data': '技术数据',
+    'Internal armor': '内部装甲',
+    'Max # of bombs': '最大炸弹挂载量',
+    'Max # of rockets': '最大火箭挂载量',
+    'Mass with fuel': '带燃油质量',
+    'Engine characteristics': '发动机特性',
+    'Weight (each)': '单枚重量',
+    'Control name': '控制名称',
+    '1 round': '1 发',
+    'PL-12': '霹雳-12',
     'Cannons': '机炮',
     'Guns': '机枪/机炮',
     'Rockets': '火箭弹',
@@ -206,7 +252,7 @@
     'Rear-aspects': '尾后攻击',
     'Launch detection': '发射告警',
     'Tracking detection': '跟踪告警',
-    'IRCCM': '抗红外干扰能力',
+    'IRCCM': '反红外对抗措施',
     'Flares/Chaff': '热焰弹/干扰箔',
     'Flares/chaff': '热焰弹/干扰箔',
     'Flares / Chaff': '热焰弹 / 干扰箔',
@@ -228,12 +274,42 @@
     'Radar/IRST': '雷达/光电探测系统',
     'Optical tracking': '光学跟踪',
     'Universal': '通用',
-    'Ground targets': '对地',
-    'Air targets': '对空',
+    'Ground targets': '对地目标',
+    'Ground Targets': '对地目标',
+    'Air targets': '对空目标',
+    'Air Targets': '对空目标',
+    'Armoured targets': '对装甲目标',
+    'Armoured Targets': '对装甲目标',
     'Armored targets': '对装甲目标',
+    'Armored Targets': '对装甲目标',
     'Tracers': '曳光',
     'Stealth': '匿踪',
     'Default': '默认',
+    'Belt': '弹链',
+    'Belt filling': '弹链组成',
+    'Armor penetration (max.)': '最大装甲穿透 (mm)',
+    'Armor penetration (mm) at a distance:': '不同距离装甲穿透力（毫米）：',
+    'Armor penetration': '装甲穿透',
+    'Distance / Angle of attack': '距离 / 命中角',
+    'Allows the use of smoke screen system.': '允许使用烟幕系统。',
+    'Allows the use of night vision devices.': '允许使用夜视设备。',
+    'Allows launching an uncrewed aerial vehicle for terrain reconnaissance.': '允许放飞无人机进行战场侦察。',
+    'The ability to quickly reduce aircraft weight by dumping fuel from the main tanks': '允许从主油箱紧急泄油以快速减轻飞机重量。',
+    'Reduces the swing of the gun in two planes while moving': '降低移动射击时的双向晃动。',
+    'Reduces the swing of the gun in one plane while moving': '降低移动射击时的单向晃动。',
+    'Commander can fire': '车长超越射击',
+    'Reverse gearbox': '倒车变速箱',
+    'Drogue parachute': '减速伞',
+    'Arrestor gear': '阻拦索',
+    'One-plane stabilizer': '单向稳定器',
+    'Two-plane stabilizer': '双向稳定器',
+    'Engine Smoke-generating System': '发动机发烟系统',
+    'Gunner: TVD': '炮手：热成像',
+    'Commander: TVD': '车长：热成像',
+    'Driver: TVD': '驾驶员：热成像',
+    'Gunner: NVD': '炮手：夜视设备',
+    'Commander: NVD': '车长：夜视设备',
+    'Driver: NVD': '驾驶员：夜视设备',
     'Anti-air': '对空',
     'Anti-ship': '对舰',
     'Armor-piercing': '穿甲',
@@ -248,6 +324,30 @@
     'Tritonal': '铝末混合炸药 (Tritonal)',
     'TGAF-5': 'TGAF-5',
     'RDX/TNT': '黑索金/TNT',
+    'Table of content': '目录',
+    'Contents': '目录',
+    'Specifications': '技术规格',
+    'Design and development': '设计与研发',
+    'Operational History': '服役历史',
+    'Operational history': '服役历史',
+    'Technical data': '技术数据',
+    'Technical Data': '技术数据',
+    'Firepower and Ammunition': '火力与弹药',
+    'Recommended loadout:': '推荐挂载：',
+    'Recommended loadout': '推荐挂载',
+    'Enemies worth noting': '值得注意的敌人',
+    'Amount': '数量',
+    'Internal armor': '内部装甲',
+    'Mobility & Survivability': '机动性与生存性',
+    'Mobility &amp; Survivability': '机动性与生存性',
+    'How to play': '玩法指南',
+    'Weapon usage': '武器使用',
+    'Fighting cruisers': '对抗巡洋舰',
+    'Fighting coastal vessels': '对抗近岸舰艇',
+    'Development and Prototyping': '研发与原型制造',
+    'Design and Features': '设计与特征',
+    'Production and Variants': '量产与衍生型号',
+    'Currencies': '货币',
     'Torpex': '铝末混合鱼雷炸药 (Torpex)',
     'Shimose': '下濑炸药',
     'Picric acid': '苦味酸',
@@ -3590,6 +3690,71 @@ const FAMILY_COLLECTIONS = Object.freeze({
     'Practice shell': '训练弹',
     'Time fuze shell': '时间引信弹',
     'Variable time fuze shell': '无线电引信弹',
+    'Armor-piercing composite rigid shell': '硬芯穿甲弹',
+    'Armor-piercing composite rigid shot': '硬芯穿甲弹',
+    'Armor-piercing high explosive with ballistic cap shell': '风帽穿甲高爆弹',
+    'Armor-piercing high-explosive with ballistic cap shell': '风帽穿甲高爆弹',
+    'High-explosive squash head shell': '碎甲弹',
+    'High explosive squash head shell': '碎甲弹',
+    'High explosive anti-tank fin stabilized shell': '尾翼稳定破甲弹',
+    'High-explosive anti-tank fin stabilized shell': '尾翼稳定破甲弹',
+    'High-velocity armor-piercing tracer shell': '高速穿甲曳光弹',
+    'High-velocity armor-piercing shell': '高速穿甲弹',
+    'Practice tracer shell': '训练曳光弹',
+    'High-explosive fragmentation bullet': '高爆破片弹',
+    'Semi armor-piercing high-explosive incendiary shell': '半穿甲高爆燃烧弹',
+    'High-explosive variable time fuze shell': '无线电引信高爆弹',
+    'High-explosive with time fuze': '时间引信高爆弹',
+    'High-explosive incendiary shell (minengeschoss)': '高爆燃烧弹（薄壳弹）',
+    'Armor-piercing incendiary bullet (cermet core)': '穿甲燃烧弹（金属陶瓷核心）',
+  });
+
+  const SHELL_ABBREVIATIONS = Object.freeze({
+    'AP': '穿甲弹',
+    'T': '曳光弹',
+    'AP-T': '穿甲曳光弹',
+    'AP-I': '穿甲燃烧弹',
+    'API-T': '穿甲燃烧曳光弹',
+    'I': '燃烧弹',
+    'IAI': '瞬爆燃烧弹',
+    'AI': '校射燃烧弹',
+    'IT': '燃烧曳光弹',
+    'HE': '高爆弹',
+    'HE-T': '高爆曳光弹',
+    'HEF': '高爆破片弹',
+    'HEI': '高爆燃烧弹',
+    'HEI-T': '高爆燃烧曳光弹',
+    'HEF-I': '高爆燃烧破片弹',
+    'HEF-T': '高爆破片曳光弹',
+    'HEFI-T': '高爆燃烧破片曳光弹',
+    'SAP': '半穿甲弹',
+    'SAP-I': '半穿甲燃烧弹',
+    'SAP-T': '半穿甲曳光弹',
+    'SAPHEI': '半穿甲高爆燃烧弹',
+    'SAPBC': '风帽半穿甲弹',
+    'SAPCBC': '被帽风帽半穿甲弹',
+    'APHE': '穿甲高爆弹',
+    'APHE-T': '穿甲高爆曳光弹',
+    'APHEBC': '风帽穿甲高爆弹',
+    'APBC': '风帽穿甲弹',
+    'APCBC': '被帽风帽穿甲弹',
+    'APCR': '硬芯穿甲弹',
+    'APDS': '脱壳穿甲弹',
+    'APDS-T': '脱壳穿甲曳光弹',
+    'APFSDS': '尾翼稳定脱壳穿甲弹',
+    'APFSDS-T': '尾翼稳定脱壳穿甲曳光弹',
+    'HEAT': '破甲弹',
+    'HEATFS': '尾翼稳定破甲弹',
+    'HEAT-FS': '尾翼稳定破甲弹',
+    'HESH': '碎甲弹',
+    'HE-TF': '时间引信高爆弹',
+    'HE-VT': '无线电引信高爆弹',
+    'FI': '破片燃烧弹',
+    'FI-T': '破片燃烧曳光弹',
+    'Ball': '通用弹',
+    'PT': '训练曳光弹',
+    'HVAP': '高速穿甲弹',
+    'HVAP-T': '高速穿甲曳光弹',
   });
 
   const SKIP_TAGS = new Set([
@@ -3663,7 +3828,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
   function officialOrRule(text) {
     const n = normalizeText(text);
-    const official = FIXED_TRANSLATIONS[n] || UNIT_NAME_TRANSLATIONS[n] || TERM_TRANSLATIONS[n];
+    const official = FIXED_TRANSLATIONS[n] || UNIT_NAME_TRANSLATIONS[n] || TERM_TRANSLATIONS[n] || NICKNAMES[n];
     return official || translateFixedText(text) || text;
   }
 
@@ -3689,24 +3854,24 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (familyReplacement) return preserveWhitespace(text, familyReplacement);
 
     const compoundRules = [
-      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+(.+?)\s+bomb$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} ${officialOrRule(m[3])} 炸弹`],
-      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+bomb$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} 炸弹`],
-      [/^(.+?)\s+guided\s+bomb$/i, (m) => `${officialOrRule(m[1])} 制导炸弹`],
-      [/^(.+?)\s+incendiary\s+bomb$/i, (m) => `${officialOrRule(m[1])} 燃烧炸弹`],
-      [/^(.+?)\s+rocket$/i, (m) => `${officialOrRule(m[1])} 火箭弹`],
-      [/^(.+?)\s+torpedo$/i, (m) => `${officialOrRule(m[1])} 鱼雷`],
-      [/^(.+?)\s+(?:naval\s+)?mine$/i, (m) => `${officialOrRule(m[1])} 水雷`],
-      [/^(.+?)\s+depth\s+charge$/i, (m) => `${officialOrRule(m[1])} 深水炸弹`],
-      [/^(\d+(?:\.\d+)?)-inch\/(\d+)\s+(.+?)\s+cannon$/i, (m) => `${m[1]} 英寸/${m[2]} ${nickname(m[3])} 舰炮`],
-      [/^(.+?)\s+chain\s+gun$/i, (m) => `${officialOrRule(m[1])} 链炮`],
-      [/^(.+?)\s*\((20\d{2})\)$/i, (m) => { const base = translateFixedText(m[1]); return base ? `${base}（${m[2]}年）` : null; }],
-      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+(.+?)\s+bomb$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} ${officialOrRule(m[3])} 炸弹`],
-      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+bomb$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} 炸弹`],
-      [/^(.+?)\s+guided\s+bomb$/i, (m) => `${officialOrRule(m[1])} 制导炸弹`],
-      [/^(.+?)\s+rocket$/i, (m) => `${officialOrRule(m[1])} 火箭弹`],
-      [/^(.+?)\s+torpedo$/i, (m) => `${officialOrRule(m[1])} 鱼雷`],
-      [/^(.+?)\s+naval\s+mine$/i, (m) => `${officialOrRule(m[1])} 水雷`],
-      [/^(.+?)\s+depth\s+charge$/i, (m) => `${officialOrRule(m[1])} 深水炸弹`],
+      // 复合武器挂载规则：炸弹、导弹、火箭弹、鱼雷、水雷
+      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+(.+?)\s+bombs?$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} ${officialOrRule(m[3])} 炸弹`],
+      [/^([\d,]+(?:\.\d+)?)\s*(lb|kg)\s+bombs?$/i, (m) => `${m[1]} ${m[2].toLowerCase() === 'lb' ? '磅' : '千克'} 炸弹`],
+      [/^(.+?)\s+guided\s+bombs?$/i, (m) => `${officialOrRule(m[1])} 制导炸弹`],
+      [/^(.+?)\s+incendiary\s+bombs?$/i, (m) => `${officialOrRule(m[1])} 燃烧炸弹`],
+      [/^(.+?)\s+air-to-air\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 空对空导弹`],
+      [/^(.+?)\s+air-to-surface\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 空对地导弹`],
+      [/^(.+?)\s+anti-ship\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 反舰导弹`],
+      [/^(.+?)\s+anti-tank(?:\s+guided)?\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 反坦克导弹`],
+      [/^(.+?)\s+surface-to-air\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 地对空导弹`],
+      [/^(.+?)\s+ATGMs?$/i, (m) => `${officialOrRule(m[1])} 反坦克导弹`],
+      [/^(.+?)\s+missiles?$/i, (m) => `${officialOrRule(m[1])} 导弹`],
+      [/^(.+?)\s+rockets?$/i, (m) => `${officialOrRule(m[1])} 火箭弹`],
+      [/^(.+?)\s+torpedoes?$/i, (m) => `${officialOrRule(m[1])} 鱼雷`],
+      [/^(.+?)\s+(?:naval\s+)?mines?$/i, (m) => `${officialOrRule(m[1])} 水雷`],
+      [/^(.+?)\s+depth\s+charges?$/i, (m) => `${officialOrRule(m[1])} 深水炸弹`],
+      [/^(\d+(?:\.\d+)?)-inch\/(\d+)\s+(.+?)\s+cannons?$/i, (m) => `${m[1]} 英寸/${m[2]} ${nickname(m[3])} 舰炮`],
+      [/^(.+?)\s+chain\s+guns?$/i, (m) => `${officialOrRule(m[1])} 链炮`],
       [/^(.+?)\s*\((20\d{2})\)$/i, (m) => { const base = translateFixedText(m[1]); return base ? `${base}（${m[2]}年）` : null; }],
       [/^Rank\s+([IVX]+)$/i, '等级 $1'],
       [/^([IVX]{1,5})$/i, '$1 级'],
@@ -3719,28 +3884,36 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^(\d+)\s+hours?\s+ago$/i, '$1 小时前'],
       [/^([\d,]+)\s+persons?$/i, '$1 人'],
       [/^([\d,]+)\s+ratings\s+all\s+time$/i, '$1 次评分（总计）'],
-      [/^at\s+([\d,]+)\s*(?:m|米)$/i, '高度 $1 米'],
+      // 性能参数高度与速度
+      [/^at\s+([\d,]+(?:\.\d+)?)\s*(?:m|米)$/i, '高度 $1 米'],
       [/^at\s+sea\s+level$/i, '海平面高度'],
       [/^at\s*$/i, '高度'],
-      [/^([\d,]+(?:\.\d+)?)\s+m$/, '$1 米'],
+      [/^Engine Thrust\s*\((.+?)\)$/i, (m) => {
+        const inner = m[1].replace(/([\d,]+(?:\.\d+)?)\s*m\b/gi, '$1 米')
+                          .replace(/([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)\b/gi, '$1 公里/小时');
+        return `发动机推力（${inner}）`;
+      }],
+      [/^([\d,]+(?:\.\d+)?)\s*m$/, '$1 米'],
       [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 公里'],
       [/^([\d,]+(?:\.\d+)?)\s*G$/i, '$1 G'],
       [/^([\d,]+)\s+rounds$/i, '$1 发'],
       [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
       [/^([\d,]+)\s+shots\/min$/i, '$1 发/分钟'],
-      [/^([\d,]+(?:\.\d+)?)\s+m\/s$/i, '$1 米/秒'],
+      [/^([\d,]+(?:\.\d+)?)\s*m\/s$/i, '$1 米/秒'],
       [/^([\d,]+(?:\.\d+)?)\s+kg\/m²$/i, '$1 千克/平方米'],
-      [/^([\d,]+(?:\.\d+)?)\s+kg$/i, '$1 千克'],
+      [/^([\d,]+(?:\.\d+)?)\s*kg$/i, '$1 千克'],
+      [/^([\d,]+(?:\.\d+)?)\s*(?:lbs?|磅)$/i, '$1 磅'],
+      [/^([\d,]+(?:\.\d+)?)\s*g$/, '$1 克'],
       [/^([\d,]+(?:\.\d+)?)\s+t\s*\((\d+)m\)$/i, '$1 吨（$2 分钟）'],
       [/^([\d,]+(?:\.\d+)?)\s*(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '$1 吨'],
       [/^(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '吨'],
-      [/^([\d.]+)\s+M$/, '$1 马赫'],
+      [/^([\d.]+)\s*M$/, '$1 马赫'],
       [/^≈\s*(-?[\d./]+)\s*G$/i, '约 $1 G'],
-      [/^([\d,]+(?:\.\d+)?)\s+s$/i, '$1 秒'],
+      [/^([\d,]+(?:\.\d+)?)\s*s$/i, '$1 秒'],
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s+s$/i, '$1 → $2 秒'],
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s*°\/s$/i, '$1 → $2 度/秒'],
       [/^([\d.,]+)\s*°\/s$/i, '$1 度/秒'],
-      [/^([\d,]+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
+      [/^([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
       [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
       [/^([\d.,]+)\s*hp\s*\/\s*(?:tonne|t)$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp\/t$/i, '$1 马力/吨'],
@@ -3748,17 +3921,100 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*mm$/i, '$1 毫米'],
       [/^([\d.,]+)\s*mm\s*\((steel)\)$/i, '$1 毫米（钢）'],
       [/^([\d.,]+)x\s*–\s*([\d.,]+)x$/i, '$1–$2 倍'],
+      [/^(\d{3,4})\s*[x×]\s*(\d{3,4})$/i, '$1 × $2'],
+      [/^or\s+([\d.,]+)$/i, '或 $1'],
       [/^(?:Base\s+weight|Mass\s*\(base\))(?::)?$/i, '基础重量：'],
       [/^Empty\s+mass(?::)?$/i, '空重：'],
       [/^Take-off\s+mass(?::)?$/i, '起飞重量：'],
       [/^Mass(?::)?$/i, '质量：'],
-      [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1]}`],
-      [/^([A-Za-z0-9/_-]+):\s*(.+)$/, (m) => {
+      // 弹药链前缀与弹链组成
+      [/^(Default|Universal|Air targets?|Ground targets?|Armoured targets?|Armored targets?|Stealth|Tracers):\s*(.+)$/i, (m) => {
+        const prefixMap = {
+          'default': '默认', 'universal': '通用', 'air targets': '对空目标', 'air target': '对空目标',
+          'ground targets': '对地目标', 'ground target': '对地目标', 'armoured targets': '对装甲目标',
+          'armoured target': '对装甲目标', 'armored targets': '对装甲目标', 'armored target': '对装甲目标',
+          'stealth': '匿踪', 'tracers': '曳光',
+        };
+        const p = prefixMap[m[1].toLowerCase()] || m[1];
+        return `${p}：${m[2].trim()}`;
+      }],
+      [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1].trim()}`],
+      // 弹种缩写与全称映射（冒号与破折号拆解）
+      [/^([A-Za-z0-9/_()\-]+)\s*[:：]\s*(.+)$/, (m) => {
+        const abbr = m[1];
+        let full = m[2].trim();
+        let suffix = '';
+        if (/\(cermet core\)/i.test(full)) {
+          suffix = '（金属陶瓷核心）';
+          full = full.replace(/\s*\(cermet core\)/i, '').trim();
+        } else if (/\(minengescho[sß]+\)/i.test(full)) {
+          suffix = '（薄壳弹）';
+          full = full.replace(/\s*\(minengescho[sß]+\)/i, '').trim();
+        } else if (/\(self-destroying\)/i.test(full)) {
+          suffix = '（自毁）';
+          full = full.replace(/\s*\(self-destroying\)/i, '').trim();
+        }
+        const modelMatch = full.match(/^([A-Za-z0-9_.\-]+)\s+(.+)$/);
+        if (modelMatch) {
+          const candZh = SHELL_TYPES[modelMatch[2]] || FIXED_TRANSLATIONS[modelMatch[2]] || translateFixedText(modelMatch[2]);
+          if (candZh && candZh !== modelMatch[2]) {
+            return `${abbr}：${modelMatch[1]} ${candZh}${suffix}`;
+          }
+        }
+        const zh = SHELL_TYPES[full] || FIXED_TRANSLATIONS[full] || translateFixedText(full);
+        if (zh && zh !== full) return `${abbr}：${zh}${suffix}`;
+        return null;
+      }],
+      [/^([A-Za-z0-9/_()\-]+)\s*-\s*(.+)$/, (m) => {
         const abbr = m[1];
         const full = m[2].trim();
         const zh = SHELL_TYPES[full] || FIXED_TRANSLATIONS[full] || translateFixedText(full);
-        if (zh && zh !== full) return `${abbr}：${zh}`;
+        if (zh && zh !== full) return `${abbr} - ${zh}`;
         return null;
+      }],
+      // 口径 + 弹药缩写 (如 20 mm AP-T, .50 API-T)
+      [/^(\.50|[\d.,]+\s*mm)\s+([A-Za-z0-9/_\-]+)$/i, (m) => {
+        const cal = m[1].replace(/mm$/i, '毫米').trim();
+        const calZh = cal.endsWith('毫米') ? cal : `${cal} 毫米`;
+        const shellZh = SHELL_ABBREVIATIONS[m[2].toUpperCase()] || FIXED_TRANSLATIONS[m[2]] || SHELL_TYPES[m[2]];
+        if (shellZh) {
+          const prefix = m[1].startsWith('.') ? m[1] : calZh;
+          return `${prefix} ${shellZh}`;
+        }
+        return null;
+      }],
+      // 战位与光电设备
+      [/^(Gunner|Commander|Driver|Loader|Pilot|Copilot):\s*(TVD|NVD)$/i, (m) => {
+        const roles = {
+          'gunner': '炮手', 'commander': '车长', 'driver': '驾驶员',
+          'loader': '装填手', 'pilot': '飞行员', 'copilot': '副驾驶'
+        };
+        const devices = { 'tvd': '热成像', 'nvd': '夜视设备' };
+        const roleZh = roles[m[1].toLowerCase()] || m[1];
+        const devZh = devices[m[2].toLowerCase()] || m[2];
+        return `${roleZh}：${devZh}`;
+      }],
+      // 发动机类型与缸数
+      [/^(Inline|Radial|V-type|V|Boxer|Opposed|Rotary),\s*(\d+)-cylinder$/i, (m) => {
+        const engTypes = {
+          'inline': '直列', 'radial': '星型', 'v-type': 'V 型', 'v': 'V 型',
+          'boxer': '水平对置', 'opposed': '对置', 'rotary': '旋翼/转子'
+        };
+        const typeZh = engTypes[m[1].toLowerCase()] || m[1];
+        return `${typeZh} ${m[2]} 缸`;
+      }],
+      // 武器改件说明
+      [/^Set of ([\d.,]+)\s*mm belts for (offensive|turret) weapons\.$/i, (m) => {
+        const isOffensive = m[2].toLowerCase() === 'offensive';
+        return `为 ${m[1]} 毫米${isOffensive ? '前射' : '自卫'}武器提供更多可选弹链配置。`;
+      }],
+      [/^The ([\d.,]+)\s*mm (?:(turret)\s+)?(machine guns?|cannons?)' worn barrels, trigger and striking mechanisms are replaced with new ones, to improve fire density and to decrease the chance of seizure\.$/i, (m) => {
+        const isTurret = Boolean(m[2]);
+        const isCannon = m[3].toLowerCase().startsWith('c');
+        const weaponType = isTurret
+          ? (isCannon ? '自卫机炮' : '自卫机枪')
+          : (isCannon ? '机炮' : '机枪');
+        return `为 ${m[1]} 毫米${weaponType}更换新的${isCannon ? '炮管' : '枪管'}、扳机和击发装置，从而改善弹道散布并降低卡弹几率。`;
       }],
       [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|mm|cm|m|s|min|h|lb|in)$/i, (match) => ({
         'km/h': '公里/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
@@ -3816,10 +4072,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^(\d+)\s+comments?$/i, '$1 条评论'],
       [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
       [/^([\d,]+)\s+collections?$/i, '$1 个收藏'],
-      [/^(\d+)\s+x\s*\((.+)\)\s*%$/i, '$1 ×（$2）%'],
-      [/^(\d+)\s+x\s*([\d.,]+)\s*%$/i, '$1 × $2 %'],
-      [/^(\d+)\s+x\s+(.+)$/i, (match) => `${match[1]} × ${officialOrRule(match[2])}`],
-      [/^(\d+)\s*×\s*(.+)$/i, (match) => `${match[1]} × ${officialOrRule(match[2])}`],
+      [/^(\d+)\s*[x×]\s*\((.+)\)\s*%$/i, '$1 ×（$2）%'],
+      [/^(\d+)\s*[x×]\s*([\d.,]+)\s*%$/i, '$1 × $2 %'],
+      [/^(\d+)\s*[x×]\s*(.+)$/i, (match) => `${match[1]} × ${officialOrRule(match[2])}`],
       [/^Go to slide (\d+)$/i, '转到第 $1 张幻灯片'],
       [/^Note #(\d+)$/i, '提示 #$1'],
       // 挂载位置后缀：如 "7.62 mm PKT machine gun (coaxial)" -> "7.62 毫米 PKT 机枪（同轴）"
@@ -3943,10 +4198,20 @@ const FAMILY_COLLECTIONS = Object.freeze({
     return host.setTimeout(callback, 0);
   }
 
+  const LANG_NAMES = new Set([
+    'русский', 'english', 'français', 'francais', 'deutsch', 'español', 'espanol',
+    'polski', 'português', 'portugues', 'türkçe', 'turkce', 'česky', 'cesky', '한국어', '日本語', '中文'
+  ]);
+
   function translateUnitHref(href, fallbackText) {
     if (!href) return null;
     const cleanText = normalizeText(fallbackText || '');
     if (!cleanText) return null;
+    if (LANG_NAMES.has(cleanText.toLowerCase()) || /(?:wiki-[a-z]{2}\.|\bfrom=[a-z]+_lang)/i.test(href)) {
+      return null;
+    }
+    if (cleanText === 'Centurions') return preserveWhitespace(fallbackText, '百夫长');
+    if (cleanText === 'Centurion') return preserveWhitespace(fallbackText, '百夫长');
     if (/^\d+\s+vehicles?$/i.test(cleanText) || /^\d+$/.test(cleanText)) return null;
     if (/\/collections\/family\//i.test(href)) {
       const match = href.match(/\/collections\/family\/([^/?#]+)/i);
@@ -3964,7 +4229,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
   function isProtectedContext(element) {
     if (!element || typeof element.closest !== 'function') return false;
     return Boolean(element.closest(
-      'article p, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
+      'article, .game-unit_desc, .content-markdown, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
     ));
   }
 
@@ -4242,9 +4507,13 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (parent.classList?.contains('game-unit_chars-value')) {
       const um = firstSegment.match(/^(.*?)(\s*)(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
       if (um && um[1]) {
+        let prefix = um[1];
+        if (/^at\s+/i.test(prefix)) {
+          prefix = prefix.replace(/^at\s+/i, '高度 ');
+        }
         let unitZh = translateFixedText(um[3]);
         if (unitZh) {
-          let combined = um[1] + um[2] + unitZh;
+          let combined = prefix + um[2] + unitZh;
           combined = combined.replace(/公里\s*\/\s*\/\s*小时/g, '公里/小时').replace(/\/\//g, '/');
           return preserveWhitespace(node.nodeValue, combined);
         }

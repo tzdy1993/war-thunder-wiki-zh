@@ -1,0 +1,981 @@
+{
+  "totalPagesScanned": 5706,
+  "durationSeconds": 176.06,
+  "textNodesTotal": 1488306,
+  "textNodesTranslated": 1063833,
+  "coverageRate": "71.5%",
+  "metrics": {
+    "literalTab": 0,
+    "shotWeightBug": 3,
+    "frenchPollution": 0,
+    "doubleSlash": 0,
+    "atAltitudeBug": 0,
+    "deviationsFromOfficial": 250,
+    "traditionalChinese": 4
+  },
+  "topDeviations": [
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Projectile Mass",
+      "current": "弹体质量",
+      "official": [
+        "弹头质量"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "IRCCM",
+      "current": "反红外对抗措施",
+      "official": [
+        "抗红外干扰能力"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Comp. H6",
+      "current": "H6 混合炸药",
+      "official": [
+        "H6 炸药"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Torpex",
+      "current": "铝末混合鱼雷炸药 (Torpex)",
+      "official": [
+        "托佩克斯"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Tritonal",
+      "current": "铝末混合炸药 (Tritonal)",
+      "official": [
+        "特里托纳尔"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Shimose",
+      "current": "下濑炸药",
+      "official": [
+        "下濑火药"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Launch detection",
+      "current": "发射告警",
+      "official": [
+        "导弹发射探测"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Tracking detection",
+      "current": "跟踪告警",
+      "official": [
+        "跟踪状态探测"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Cannons",
+      "current": "机炮",
+      "official": [
+        "枪炮"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Radar/IRST",
+      "current": "雷达/光电探测系统",
+      "official": [
+        "雷达/红外搜索跟踪系统"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Armored targets",
+      "current": "对装甲目标",
+      "official": [
+        "穿甲"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Allows the use of smoke screen system.",
+      "current": "允许使用烟幕系统。",
+      "official": [
+        "可释放烟雾。"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Allows the use of night vision devices.",
+      "current": "允许使用夜视设备。",
+      "official": [
+        "可使用夜视设备。"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "RDX/TNT",
+      "current": "黑索金/TNT",
+      "official": [
+        "黑梯"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Maximum",
+      "current": "最大",
+      "official": [
+        "满值"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Boosters",
+      "current": "助推器",
+      "official": [
+        "增益方案"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Smoke grenades",
+      "current": "烟雾弹",
+      "official": [
+        "发射烟雾弹"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Fuel dumping",
+      "current": "放油",
+      "official": [
+        "应急放油"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "M4A3 (76) W",
+      "current": "M4A3 (76) W",
+      "official": [
+        "M4A3E8"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Allows the installation of 1000 lb bombs.",
+      "current": "可携带 1,000 磅炸弹。",
+      "official": [
+        "\"可携带 1,000 磅炸弹。\""
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Research:",
+      "current": "研发：",
+      "official": [
+        "科技树："
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Electro-optical Active Protection System",
+      "current": "光电主动防护系统",
+      "official": [
+        "光电主动防御系统"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Shenyang",
+      "current": "航空工业沈飞",
+      "official": [
+        "歼-5"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "10.5 cm/45 SK C/32 cannon",
+      "current": "10.5 厘米/45 SK C/32 舰炮",
+      "official": [
+        "105 毫米/45 SK C/32 舰炮"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "100/50 kg G.P. bomb",
+      "current": "100/50 千克 GP 通用炸弹",
+      "official": [
+        "100/50 GP 炸弹"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "36 cm/45 Type 41 cannon",
+      "current": "36 厘米/45 四一式舰炮",
+      "official": [
+        "356 毫米四十五倍径四一式三十六厘炮"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "410 mm/45 Type 3 gun",
+      "current": "410 毫米/45 三年式舰炮",
+      "official": [
+        "410 毫米四五口径三年式四十一厘炮"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Aichi",
+      "current": "爱知",
+      "official": [
+        "零式水侦"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "ESS",
+      "current": "发动机发烟装置",
+      "official": [
+        "引擎烟雾系统"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "IAI",
+      "current": "以色列航太工业 (IAI)",
+      "official": [
+        "IAI",
+        "HEI-T/IAI"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "JDAM",
+      "current": "联合直接攻击弹药 (JDAM)",
+      "official": [
+        "JDAM"
+      ]
+    },
+    {
+      "dict": "FIXED_TRANSLATIONS",
+      "en": "Potez",
+      "current": "波捷",
+      "official": [
+        "P.630/631"
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "10.5 cm L/4.2 AP",
+      "current": "105 毫米 L/4.2 AP",
+      "official": [
+        "PsGr. L/4.2"
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 LB",
+      "current": "1,000 磅炸弹",
+      "official": [
+        "\"1,000 磅炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg BRAB-1000 (1938) armor-piercing bomb",
+      "current": "1000 千克 BRAB-1000 (1938) 穿甲炸弹",
+      "official": [
+        "\"1,000 千克 BRAB-1000 (1938) 穿甲炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg BRAB-1000 armor-piercing bomb",
+      "current": "1000 千克 BRAB-1000 穿甲炸弹",
+      "official": [
+        "\"1,000 千克 BRAB-1000 穿甲炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg FAB-1000 (welded) bomb",
+      "current": "1,000 千克 FAB-1000 炸弹 (焊接)",
+      "official": [
+        "\"1,000 千克 FAB-1000 炸弹 (焊接)\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg FAB-1000M-43 bomb",
+      "current": "1,000 千克 FAB-1000 M-43 炸弹",
+      "official": [
+        "\"1,000 千克 FAB-1000 M-43 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg FAB-1000M-44 bomb",
+      "current": "1,000 千克 FAB-1000 M-44 炸弹",
+      "official": [
+        "\"1,000 千克 FAB-1000 M-44 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg FAB-1000sv bomb",
+      "current": "1,000 千克 FAB-1000sv 炸弹",
+      "official": [
+        "\"1,000 千克 FAB-1000sv 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg PC1000 RS armor-piercing rocket bomb",
+      "current": "1,000 千克 PC1000 RS 火箭助推穿甲炸弹",
+      "official": [
+        "\"1,000 千克 PC1000 RS 火箭助推穿甲炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg PC1000 armor-piercing bomb",
+      "current": "1000 千克 PC1000 穿甲炸弹",
+      "official": [
+        "\"1,000 千克 PC1000 穿甲炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 kg SC1000L2 bomb",
+      "current": "1,000 千克 SC1000L2 炸弹",
+      "official": [
+        "\"1,000 千克 SC1000L2 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb",
+      "current": "1,000 磅",
+      "official": [
+        "\"1,000 磅\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb A.P. AN-MK 33 bomb",
+      "current": "1,000 磅 A.P. AN-MK 33 炸弹",
+      "official": [
+        "\"1,000 磅 A.P. AN-MK 33 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb AN-M65A1 Fin M129 bomb",
+      "current": "1,000 磅 AN-M65A1 炸弹 (M129 型尾翼)",
+      "official": [
+        "\"1,000 磅 AN-M65A1 炸弹 (M129 型尾翼)\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb AN-M65A1 bomb",
+      "current": "1,000 磅 AN-M65A1 炸弹",
+      "official": [
+        "\"1,000 磅 AN-M65A1 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb G.P. Mk.I bomb",
+      "current": "1,000 磅 GP Mk I 炸弹",
+      "official": [
+        "\"1,000 磅 GP Mk I 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb GP M44 bomb",
+      "current": "1,000 磅 GP M44 炸弹",
+      "official": [
+        "\"1,000 磅 GP M44 炸弹\""
+      ]
+    },
+    {
+      "dict": "TERM_TRANSLATIONS",
+      "en": "1000 lb GP Mk9 bomb",
+      "current": "1,000 磅 GP Mk9 炸弹",
+      "official": [
+        "\"1,000 磅 GP Mk9 炸弹\""
+      ]
+    }
+  ],
+  "topUntranslatedParams": [
+    [
+      "m)",
+      10
+    ],
+    [
+      "L / C",
+      9
+    ],
+    [
+      "Option",
+      9
+    ],
+    [
+      "German",
+      8
+    ],
+    [
+      "Number",
+      7
+    ],
+    [
+      "Symbology",
+      7
+    ],
+    [
+      "Explanation",
+      7
+    ],
+    [
+      "Wave",
+      6
+    ],
+    [
+      "Requires",
+      6
+    ],
+    [
+      "Translation",
+      6
+    ],
+    [
+      "Condition",
+      5
+    ],
+    [
+      "Fate",
+      5
+    ],
+    [
+      "Launched",
+      4
+    ],
+    [
+      "Commissioned",
+      4
+    ],
+    [
+      "Value",
+      4
+    ],
+    [
+      "Desc",
+      4
+    ],
+    [
+      "Tactical Use",
+      3
+    ],
+    [
+      "Guidance method",
+      3
+    ],
+    [
+      "Event time",
+      3
+    ],
+    [
+      "Scenario",
+      3
+    ],
+    [
+      "Default Keybind(PC keyboard &amp; mouse)",
+      3
+    ],
+    [
+      "Skill",
+      3
+    ],
+    [
+      "Total",
+      3
+    ],
+    [
+      "Logistical services",
+      3
+    ],
+    [
+      "ID",
+      3
+    ],
+    [
+      "Shell",
+      3
+    ],
+    [
+      "Survivability and armor",
+      3
+    ],
+    [
+      "Laid down",
+      3
+    ],
+    [
+      "Node function",
+      3
+    ],
+    [
+      "Node name",
+      3
+    ],
+    [
+      "Variant",
+      2
+    ],
+    [
+      "First bracket",
+      2
+    ],
+    [
+      "Second bracket",
+      2
+    ],
+    [
+      "Third bracket",
+      2
+    ],
+    [
+      "Fourth bracket",
+      2
+    ],
+    [
+      "Fifth bracket",
+      2
+    ],
+    [
+      "Default Keybind (PC keyboard &amp; mouse)",
+      2
+    ],
+    [
+      "Missile",
+      2
+    ],
+    [
+      "Parameter",
+      2
+    ],
+    [
+      "Magnification",
+      2
+    ],
+    [
+      "FoV",
+      2
+    ],
+    [
+      "Gun",
+      2
+    ],
+    [
+      "Shell type",
+      2
+    ],
+    [
+      "Award in progress points",
+      2
+    ],
+    [
+      "ML nr.",
+      2
+    ],
+    [
+      "Speed",
+      2
+    ],
+    [
+      "Place in the leaderboard",
+      2
+    ],
+    [
+      "Cannon",
+      2
+    ],
+    [
+      "Muzzle velocity",
+      2
+    ],
+    [
+      "Sustained rate of fire per minute",
+      2
+    ]
+  ],
+  "topUntranslatedWeapons": [
+    [
+      "he_bomb/name/short",
+      2
+    ],
+    [
+      "Detailed information for the 30 mm 2A72 Autocannon",
+      1
+    ],
+    [
+      "100mm/55 MLE model 53 cannon",
+      1
+    ],
+    [
+      "375mm M/50 Bofors anti submarine rocket launcher",
+      1
+    ],
+    [
+      "#tank_cannons",
+      1
+    ],
+    [
+      "Dive-bombing, the Blitzkrieg&rsquo;s secret weapon",
+      1
+    ],
+    [
+      "The Stuka: perfectly engineered for dive bombing",
+      1
+    ],
+    [
+      "Ground (bombs):",
+      1
+    ],
+    [
+      "Ground (rockets):",
+      1
+    ],
+    [
+      "Armor and loadout",
+      1
+    ],
+    [
+      "Unidentified objects (typically bombs)",
+      1
+    ],
+    [
+      "Unguided bombs (parachute)",
+      1
+    ],
+    [
+      "Low-altitude bomber-attacker/interceptor",
+      1
+    ],
+    [
+      "General information about the hydra rockets",
+      1
+    ],
+    [
+      "Tips on how to use XM301 cannon",
+      1
+    ],
+    [
+      "30mm 2A42 automatic cannon",
+      1
+    ],
+    [
+      "Air to ground missiles: AGM-65D",
+      1
+    ],
+    [
+      "Guided bombs (AKA GBUs)",
+      1
+    ],
+    [
+      "GNSS bombs",
+      1
+    ],
+    [
+      "GSh-23L autocannon",
+      1
+    ],
+    [
+      "Guided missiles (Kh-23M)",
+      1
+    ],
+    [
+      "Gunpods (23 mm GSh-23L cannons)",
+      1
+    ],
+    [
+      "Junkers Ju 86 — German bomber and airliner",
+      1
+    ],
+    [
+      "76mm M1 cannon",
+      1
+    ],
+    [
+      "75mm KwK42 cannon",
+      1
+    ],
+    [
+      "76mm QF 17-pounder cannon",
+      1
+    ],
+    [
+      "M168 rotary cannon",
+      1
+    ],
+    [
+      "Unguided rocket pods",
+      1
+    ],
+    [
+      "Caged vs uncaged missile seekers",
+      1
+    ],
+    [
+      "Creating enemy bombers",
+      1
+    ],
+    [
+      "Creating targets for the Stalingrad factory bomb run",
+      1
+    ],
+    [
+      "Marking the bombers as targets",
+      1
+    ],
+    [
+      "Showing a bomber counter",
+      1
+    ],
+    [
+      "Checking whether all the bombers have been killed",
+      1
+    ],
+    [
+      "Assigning a bombing objective to the enemy bombers",
+      1
+    ],
+    [
+      "Evacuating the bombers",
+      1
+    ],
+    [
+      "Determining the end of the bombing run",
+      1
+    ],
+    [
+      "Checking the success of the bombing run",
+      1
+    ],
+    [
+      "Assigning an objective to the enemy fighters to protect the bombers",
+      1
+    ],
+    [
+      "#autocannon",
+      1
+    ],
+    [
+      "Code of autocannon",
+      1
+    ],
+    [
+      "H.E. M.C. Mk. II (500 lb) bomb",
+      1
+    ],
+    [
+      "Main Armament&nbsp;&mdash; the&nbsp;85 mm D-58 cannon",
+      1
+    ],
+    [
+      "2. The&nbsp;105 mm CN105-57 cannon (or CN105 G1)",
+      1
+    ],
+    [
+      "Default loadout:",
+      1
+    ],
+    [
+      "Base bombing",
+      1
+    ],
+    [
+      "How are these missiles fired?",
+      1
+    ],
+    [
+      "CCIP for rockets",
+      1
+    ],
+    [
+      "CCIP for bombs",
+      1
+    ],
+    [
+      "Weapon 2&nbsp;&mdash; Dual autocannons",
+      1
+    ]
+  ],
+  "topUntranslatedAvionics": [
+    [
+      "[Isaac&#039;s Vision] How to play with the F-84G",
+      1
+    ],
+    [
+      "Dipole Radar Confusing Reflectors (Chaff)",
+      1
+    ],
+    [
+      "Radar and optics",
+      1
+    ],
+    [
+      "Hull, sensors and armament",
+      1
+    ],
+    [
+      "[Isaac&#039;s Vision] How to play with the Wyvern S4",
+      1
+    ],
+    [
+      "Radar: AN/APG-70I",
+      1
+    ],
+    [
+      "Typical reasons for a LWS warning",
+      1
+    ],
+    [
+      "Radar stats",
+      1
+    ],
+    [
+      "RWR&nbsp;&mdash; Radar Warning Receiver",
+      1
+    ],
+    [
+      "Radar (N001VEP):",
+      1
+    ],
+    [
+      "Radar and Radar Modes",
+      1
+    ],
+    [
+      "1. Early Bombing Computers",
+      1
+    ],
+    [
+      "2. Intermediate Bombing Computer with preprogrammed targets",
+      1
+    ],
+    [
+      "3. Modern Bombing Computer with detailed HUD",
+      1
+    ],
+    [
+      "4. Bombing Computers in connection with Targeting Equipment",
+      1
+    ],
+    [
+      "Radar operation",
+      1
+    ],
+    [
+      "Radar scan patterns",
+      1
+    ],
+    [
+      "Radar gunsights",
+      1
+    ],
+    [
+      "Typical reasons for an LWS warning",
+      1
+    ],
+    [
+      "Radar search modes",
+      1
+    ],
+    [
+      "SPAA radars and sensors",
+      1
+    ],
+    [
+      "Ground radar/sensors controls",
+      1
+    ],
+    [
+      "Radars and Sensors User Interface",
+      1
+    ],
+    [
+      "Radar Display",
+      1
+    ],
+    [
+      "Radar Target Types",
+      1
+    ],
+    [
+      "Active Radar",
+      1
+    ],
+    [
+      "Combined Search/Track Radars",
+      1
+    ],
+    [
+      "Radar Range Finders",
+      1
+    ],
+    [
+      "Sector Scan Radar Mode",
+      1
+    ],
+    [
+      "Line of Sight Scan Radar Mode",
+      1
+    ],
+    [
+      "Drawbacks of Using the Radar",
+      1
+    ],
+    [
+      "Ballistic Computer in the Cockpit",
+      1
+    ],
+    [
+      "RWR (Radar Warning Receiver)",
+      1
+    ],
+    [
+      "Usage of the Radar",
+      1
+    ],
+    [
+      "Radar Missiles:",
+      1
+    ],
+    [
+      "How to Read Radar",
+      1
+    ],
+    [
+      "Radar and electronics",
+      1
+    ],
+    [
+      "Common reasons for an LWR warning",
+      1
+    ],
+    [
+      "Radar specs",
+      1
+    ]
+  ]
+}

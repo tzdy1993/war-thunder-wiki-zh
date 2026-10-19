@@ -1,0 +1,2407 @@
+{
+  "suspicious_mappings": [
+    [
+      "popover_terms.json",
+      "Model",
+      "型号"
+    ],
+    [
+      "popover_terms.json",
+      "Range",
+      "距离"
+    ],
+    [
+      "popover_terms.json",
+      "Type",
+      "类型"
+    ],
+    [
+      "popover_terms.json",
+      "Engine",
+      "发动机"
+    ],
+    [
+      "popover_terms.json",
+      "Air",
+      "气冷"
+    ],
+    [
+      "popover_terms.json",
+      "Water",
+      "水冷"
+    ],
+    [
+      "popover_terms.json",
+      "Turret",
+      "炮塔"
+    ],
+    [
+      "popover_terms.json",
+      "Mass",
+      "质量"
+    ],
+    [
+      "wt-zh-all.csv",
+      "type",
+      "id"
+    ],
+    [
+      "wt-zh-all.csv",
+      "mod",
+      "CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST"
+    ]
+  ],
+  "traditional_chinese_terms": [
+    [
+      "collections_categories.json",
+      "Vehicle families",
+      "载具家族"
+    ],
+    [
+      "collections_categories.json",
+      "Game roles",
+      "游戏角色"
+    ],
+    [
+      "collections_categories.json",
+      "Features",
+      "载具特性"
+    ],
+    [
+      "collections_categories.json",
+      "Vehicles by events",
+      "活动载具"
+    ],
+    [
+      "official_events.json",
+      "Operation F.R.O.S.T. (2019)",
+      "“严寒”行动（2019年）"
+    ],
+    [
+      "official_events.json",
+      "Operation H.E.A.T. (2019)",
+      "“炽焰”行动（2019年）"
+    ],
+    [
+      "official_events.json",
+      "Thunder League (2015)",
+      "雷霆联赛（2015年）"
+    ],
+    [
+      "official_events.json",
+      "Operation “Shipyard” (2019)",
+      "“造船厂”行动（2019年）"
+    ],
+    [
+      "official_events.json",
+      "Operation \"Shipyard\" (2019)",
+      "“造船厂”行动（2019年）"
+    ],
+    [
+      "official_events.json",
+      "War Thunder birthday (2014)",
+      "《战争雷霆》周年庆（2014年）"
+    ],
+    [
+      "official_events.json",
+      "War Thunder's 5th anniversary (2017)",
+      "《战争雷霆》5 周年庆（2017年）"
+    ],
+    [
+      "official_events.json",
+      "War Thunder Mobile",
+      "战争雷霆手游"
+    ],
+    [
+      "official_events.json",
+      "Nuclear Thunder (1 April 2026)",
+      "“核雷霆”（2026年4月1日）"
+    ],
+    [
+      "popover_terms.json",
+      "Armored targets",
+      "对装甲目标"
+    ],
+    [
+      "popover_terms.json",
+      "Armored targets:",
+      "对装甲目标："
+    ],
+    [
+      "popover_terms.json",
+      "Launch range",
+      "发射距离"
+    ],
+    [
+      "popover_terms.json",
+      "Firing range",
+      "射程"
+    ],
+    [
+      "popover_terms.json",
+      "Maximum range",
+      "最大射程"
+    ],
+    [
+      "popover_terms.json",
+      "Aspect",
+      "目标迎角/探测相位"
+    ],
+    [
+      "popover_terms.json",
+      "SARH",
+      "半主动雷达寻的"
+    ],
+    [
+      "popover_terms.json",
+      "SARH+IOG",
+      "半主动雷达寻的 + IOG"
+    ],
+    [
+      "popover_terms.json",
+      "SARH+IOG+DL",
+      "半主动雷达寻的 + IOG + 数据链"
+    ],
+    [
+      "popover_terms.json",
+      "ARH",
+      "主动雷达寻的"
+    ],
+    [
+      "popover_terms.json",
+      "ARH+IOG",
+      "主动雷达寻的 + IOG"
+    ],
+    [
+      "popover_terms.json",
+      "ARH+IOG+DL",
+      "主动雷达寻的 + IOG + 数据链"
+    ],
+    [
+      "popover_terms.json",
+      "ARH+IOG+GNSS+DL",
+      "主动雷达寻的 + IOG + 卫星制导 + 数据链"
+    ],
+    [
+      "popover_terms.json",
+      "Countermeasures to distract IR- and radar-seekers",
+      "用于干扰红外与雷达导引头的对抗措施"
+    ],
+    [
+      "popover_terms.json",
+      "Radar Warning System",
+      "雷达告警系统 (RWR)"
+    ],
+    [
+      "popover_terms.json",
+      "Radar Warning Receiver",
+      "雷达告警接收器 (RWR)"
+    ],
+    [
+      "popover_terms.json",
+      "Notifies about the vehicle's exposure to radar emissions",
+      "提示载具暴露在敌方雷达辐射之下"
+    ],
+    [
+      "popover_terms.json",
+      "Look-down/shoot-down",
+      "下视/下射能力"
+    ],
+    [
+      "popover_terms.json",
+      "Azimuth",
+      "方位角"
+    ],
+    [
+      "popover_terms.json",
+      "Elevation",
+      "俯仰角"
+    ],
+    [
+      "popover_terms.json",
+      "Sight",
+      "瞄具"
+    ],
+    [
+      "popover_terms.json",
+      "Armor penetration (max.)",
+      "最大装甲穿透深度"
+    ],
+    [
+      "popover_terms.json",
+      "TNT",
+      "TNT（三硝基甲苯）"
+    ],
+    [
+      "popover_terms.json",
+      "Regular maintaining of cover and replacement of damaged cover parts increases overall plane's durability and flight performance, due to weight reduction.",
+      "保养并修复破损的蒙皮，从而提高防御强度和飞行性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Replacement of damaged airframe elements increases overall plane's durability and flight performance due to weight reduction. For some planes it means that you get a new plane with undamaged airframe.",
+      "更换受损的机体组件，提高结构强度的同时减去冗余重量，从而改善飞行性能。部分型号战机将直接换装为未受损的新机体。"
+    ],
+    [
+      "popover_terms.json",
+      "Repair parts and tools. A kit of spare parts and tools for performing minor repairs in the field.",
+      "包含维修工具和备用零部件。装配后可在战场上进行一定程度的紧急维修。"
+    ],
+    [
+      "popover_terms.json",
+      "Improved Fire Prevention Equipment. Includes manual fire extinguishers or automatic sprinkler systems, allows second use on fire that may arise in a vehicle, increases the speed of fire extinguishing.",
+      "包含手动灭火器和自动灭火系统。装备进阶灭火套件的载具可扑灭 2 次载具火灾，并加快灭火处置速度。"
+    ],
+    [
+      "popover_terms.json",
+      "Gun calibration. Eliminates errors of misalignment between the gun and the target, improves fire accuracy.",
+      "校正主炮瞄准基线，消除与目标之间的偏差，从而提高射击精度。"
+    ],
+    [
+      "popover_terms.json",
+      "Suspension maintenance and adjustment. Replacement of damaged and worn elastic elements, lubrication of guide roller and tank wheel bearings. These manipulations improve suspension damping capacity, decrease pitch, and increase fire accuracy in motion.",
+      "调试保养悬挂系统装置组件。更换损坏的弹性部件、润滑导轮与车轮轴承，从而改善悬挂系统的减震能力、改善行驶平稳性并提升移动射击精度。"
+    ],
+    [
+      "popover_terms.json",
+      "Radar",
+      "雷达"
+    ],
+    [
+      "popover_terms.json",
+      "Smoke grenades",
+      "发射烟雾弹"
+    ],
+    [
+      "popover_terms.json",
+      "Cleaning the ship’s bottom from seashells and algae. Increases maximum forward speed.",
+      "在干船坞对舰船进行维护，清理船体上附着的贝类和海藻，从而提升最大前进航速。"
+    ],
+    [
+      "popover_terms.json",
+      "Damage control division training allows repair of damaged modules of a naval vessel more quickly and efficiently",
+      "对舰艇损管部门进行训练，提高对舰艇受损部位的维修效率"
+    ],
+    [
+      "popover_terms.json",
+      "Fire division training allows fire extinguishing to a naval vessel more quickly",
+      "对舰上消防部门进行训练，加快扑灭舰艇火灾的效率"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing capped ballistic capped shell",
+      "被帽风帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Shoot down",
+      "下射能力"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-Piercing Fin-Stabilized Discarding Sabot shot",
+      "尾翼稳定脱壳穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "EEGS",
+      "增强型航迹射击瞄具 (EEGS)"
+    ],
+    [
+      "popover_terms.json",
+      "Launch detection",
+      "导弹发射探测"
+    ],
+    [
+      "popover_terms.json",
+      "40 mm AP",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "High explosive anti-tank fin stabilized shell",
+      "尾翼稳定破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Torpedo Mode",
+      "鱼雷模式调节"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to increase the maximum torpedo travelling distance by reducing their speed, or vice versa.",
+      "允许调整鱼雷航速，以改变鱼雷的最大射程。"
+    ],
+    [
+      "popover_terms.json",
+      "20 mm AP",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing high explosive shell",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing high explosive with ballistic cap shell",
+      "风帽穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing composite rigid shell",
+      "硬芯穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing shell",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Engine smoke generating system. Allows smoke screening by injection of fuel into the engine exhaust manifold.",
+      "安装引擎烟雾系统。允许将燃料注射至引擎排气歧管以产生烟雾。"
+    ],
+    [
+      "popover_terms.json",
+      "Suspension maintenance and adjustment. Replacement of damaged and worn elastic elements, lubrication of bearings. These manipulations improve suspension damping capacity, decrease pitch, and increase fire accuracy in motion.",
+      "调试保养悬挂系统装置组件。更换损坏的弹性部件、润滑车轮轴承，从而改善悬挂系统的减震能力、改善行驶平稳性并提升移动射击精度。"
+    ],
+    [
+      "popover_terms.json",
+      "High-explosive squash head shell",
+      "碎甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Battleship's main caliber support",
+      "可呼叫战列舰使用主炮进行火力支援。"
+    ],
+    [
+      "popover_terms.json",
+      "AP-T",
+      "徹甲曳光弾"
+    ],
+    [
+      "popover_terms.json",
+      "HVAR rockets",
+      "高速空射火箭彈（HVAR）"
+    ],
+    [
+      "popover_terms.json",
+      "High explosive anti-tank shell",
+      "破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Bomb mortar",
+      "深水炸弹投射装置"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to carry bomb mortar",
+      "可使用深水炸弹投射装置，如抛射器、发射器、榴弹炮、迫击炮、超口径迫击炮、反潜火箭深弹等。"
+    ],
+    [
+      "popover_terms.json",
+      "Semi-armor-piercing shell",
+      "半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Replacement of worn helicopter blades with a new one.",
+      "换装新旋翼桨叶，从而提高飞行性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Replacement of damaged airframe elements increases overall durability and flight performance due to weight reduction.",
+      "更换受损的机体组件，提高结构强度的同时减去冗余重量，从而改善飞行性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Regular maintaining of cover and replacement of damaged cover parts increases overall durability and flight performance, due to weight reduction.",
+      "保养并修复破损的蒙皮，从而提高防御强度和飞行性能。"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to carry and launch a scout UAV",
+      "可发射无人侦察机。"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing capped shell",
+      "被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing discarding sabot shell",
+      "脱壳穿甲弹 (L15)"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-piercing ballistic capped shell",
+      "风帽穿甲弹 (美制)"
+    ],
+    [
+      "popover_terms.json",
+      "Semi-armor-piercing ballistic capped shell",
+      "风帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to carry and launch a scout hydroplane",
+      "可发射水上侦察机。"
+    ],
+    [
+      "popover_terms.json",
+      "Type 95 depth charge",
+      "九五式爆雷 (抛射)"
+    ],
+    [
+      "popover_terms.json",
+      "Semi-armor-piercing capped ballistic capped shell",
+      "被帽风帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "4 inch SAP",
+      "半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "PBXN-4",
+      "PBXN-4（尼龍甲醛二氨基三硝基苯）"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm G7a torpedo",
+      "533 毫米 G 7a 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 1 torpedo.",
+      "可携带 1 枚鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "Missile approach warning system, allowing false heat target shoot off.",
+      "安装导弹逼近告警系统，侦测到敌方导弹迫近轨迹时自动发射干扰弹。"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.6 mortar depth charge",
+      "Mk 6 深水炸弹抛射器"
+    ],
+    [
+      "popover_terms.json",
+      "M48 shell",
+      "M48砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Y-gun Mk.VII depth charge",
+      "Mk VII 深水炸弹 (Y 炮抛射)"
+    ],
+    [
+      "popover_terms.json",
+      "M62 shell",
+      "M62砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "1600 lb AN-Mk 1 armor-piercing bomb",
+      "1,600 磅 AN-Mk 1 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Mines",
+      "水雷"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to carry and set naval mines",
+      "可携带并布设水雷。"
+    ],
+    [
+      "popover_terms.json",
+      "Shell Mk.1 AP/T",
+      "砲弾 Mk.1 AP/T"
+    ],
+    [
+      "popover_terms.json",
+      "220 kg BRAB-220 (1930) armor-piercing bomb",
+      "220 千克 BRAB-220 (1930) 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Add-on Armor",
+      "附加装甲"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined Mk.15 torpedo",
+      "533 毫米 Mk 15 蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "17pdr Shell SS Mk.1",
+      "17ポンド砲弾 SS Mk.1"
+    ],
+    [
+      "popover_terms.json",
+      "M71 shell",
+      "M71砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.VIII torpedo",
+      "533 毫米 Mk VIII 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "1000 lbs Type A Mark I aircraft laid magnetic mine",
+      "1,000 磅 A 型 Mk I 空投磁性水雷"
+    ],
+    [
+      "popover_terms.json",
+      "M431 shell",
+      "M431 砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "550 mm model 1923DT torpedo",
+      "550 毫米 1923 DT 型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "WBG depth charge",
+      "WBG 深水炸弹 (抛射)"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.13-6 Case Torpedo (2216 lbs)",
+      "Mk 13-1 鱼雷 (盒式稳定器，2,216 磅)"
+    ],
+    [
+      "popover_terms.json",
+      "Rocket Launcher",
+      "火箭弹(导弹)发射器"
+    ],
+    [
+      "popover_terms.json",
+      "Allows launching missiles or rocket-propelled bombs.",
+      "可发射火箭弹、导弹或火箭推进式炸弹。"
+    ],
+    [
+      "popover_terms.json",
+      "30 mm APDS",
+      "30 毫米 脱壳穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "100 mm APHE Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "76 mm APHE",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.IX** torpedo",
+      "533 毫米 Mk IX** 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "250 kg BRAB-250 armor-piercing bomb",
+      "250 千克 BRAB-250 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "76 mm AP Mk.29",
+      "Mk 29 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpgr m/39",
+      "m/39 曳光穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "B-8M1",
+      "B-8M1 发射器"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 1000 lb mines.",
+      "可携带 1,000 磅水雷。"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm 53-39 torpedo",
+      "533 毫米 53-39 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "1000 kg PC1000 armor-piercing bomb",
+      "1000 千克 PC1000 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm 53-38 torpedo",
+      "533 毫米 53-38 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "BB-1 large depth charge",
+      "BB-1 大型深水炸弹 (抛射)"
+    ],
+    [
+      "popover_terms.json",
+      "M42A1 shell",
+      "M42A1砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Rocket Launcher M10",
+      "M10“巴祖卡”火箭发射架"
+    ],
+    [
+      "popover_terms.json",
+      "4.5 inch SAP",
+      "半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "9M119",
+      "9M119 反射"
+    ],
+    [
+      "popover_terms.json",
+      "610 mm Type 93 Model 1, Mod 2 torpedo",
+      "610 毫米 九三式一型鱼雷改二"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm APCBC Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 1985-I APFSDS",
+      "DTW-1钨合金尾翼稳定脱壳穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm APHEBC Palla",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 1 APHE",
+      "一式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm steam turbined W.200/450X5,75 torpedo",
+      "450 毫米 W 200/450x5.75 蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "4.7 inch SAP Mk.VA",
+      "Mk VA 半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Improved torpedo",
+      "改进型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of torpedoes with improved discharge characteristics.",
+      "可携带改善了投放性能的鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "400 mm SET-40 torpedo",
+      "400 毫米 SET-40 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 90-1 HEAT rockets",
+      "90-1 型破甲火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "500 kg PC500 armor-piercing bomb",
+      "500 千克 PC500 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "500 kg BRAB-500 (1938) armor-piercing bomb",
+      "500 千克 BRAB-500 (1938) 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante mod.39",
+      "39 型穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "138.6 mm OPFA Mle 1924",
+      "1924 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "High explosive Anti-Tank, Multi-purpose shell",
+      "多用途破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M348 shell",
+      "M348砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined torpedo S.I. 270/533,4X7,2 Tipo I",
+      "533 毫米 Si 270/533.4x7.2 I 型蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "20pdr Shell SS Mk.1",
+      "20ポンド砲弾 SS Mk.1"
+    ],
+    [
+      "popover_terms.json",
+      "3,7 cm slpprj m/49",
+      "m/49 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "14,5 cm psrak m/49B rockets",
+      "m/49B 破甲火箭榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "37 mm Psgr L'spur Zerl",
+      "穿甲曳光弹"
+    ],
+    [
+      "popover_terms.json",
+      "slspgr m/61",
+      "m/61 曳光碎甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "500 kg BRAB-500 armor-piercing bomb",
+      "500 千克 BRAB-500 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "EMC moored contact mine",
+      "EMC 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "610 mm Type 93 Model 3 torpedo",
+      "610 毫米 九三式三型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.13-6 torpedo (2216 lbs)",
+      "Mk 13-6 鱼雷 (2,216 磅)"
+    ],
+    [
+      "popover_terms.json",
+      "Mine protection",
+      "地雷防护"
+    ],
+    [
+      "popover_terms.json",
+      "Additional mine protection",
+      "安装额外的地雷防护装甲，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "569 mm Mk.13 torpedo",
+      "569 毫米 Mk 13 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Armor-Piercing Fin-Stabilized Discarding Sabot (steel) shot",
+      "尾翼稳定脱壳穿甲弹 (全钢制弹体)"
+    ],
+    [
+      "popover_terms.json",
+      "DTP-125",
+      "DTP-125尾翼稳定破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm wet-heating 45-36NU torpedo",
+      "450 毫米 45-36NU 湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "18 inch Mark XII torpedo (1548 lbs)",
+      "450 毫米 18 英寸 Mk XII 鱼雷 (1,548 磅)"
+    ],
+    [
+      "popover_terms.json",
+      "20.3 cm Type 91 AP",
+      "九一式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpgr m/43",
+      "m/43 曳光穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "5 inch APC",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 91 Model 3 torpedo (850 kg)",
+      "九一式航空鱼雷改三 (850 千克)"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm Type 2 torpedo",
+      "450 毫米 二式鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mark 35 torpedo",
+      "533 毫米 Mk 35 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "138.6 mm OPF Mle 1910 SAP",
+      "1910 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "15 inch 4crh Mark XIIa APC",
+      "Mk XIIa 被帽穿甲弹 (4crh)"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 2 torpedoes.",
+      "可携带 2 枚鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "13,5 cm psrak m/70 rockets",
+      "m/70 破甲火箭榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Perforante mod.35",
+      "35 型穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined torpedo S.I. 270/533,4X7,2 Tipo M",
+      "533 毫米 Si 270/533.4x7.2 M 型蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "160 kg A.P 160 bomb",
+      "160 千克穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 3 HEAT",
+      "三式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "8-cm Flz.-Rakete Oerlikon rockets",
+      "厄利孔空射火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "356 mm Type 91 APC",
+      "九一式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Semi armor-piercing high-explosive incendiary shell",
+      "半穿甲燃烧榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm OPF Mle 1943 APCBC",
+      "1943 型被帽风帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "130 mm OPFA Mle 1923",
+      "1923 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "135 mm APHEBC Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "12-inch AP patt.1911",
+      "1911 型被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "12-inch SAP patt.1911",
+      "1911 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "1000 kg BRAB-1000 armor-piercing bomb",
+      "1000 千克 BRAB-1000 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "21 inch Type 54 model 3 torpedo",
+      "533 毫米 试制五四式三型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "12.75 inch Mark 44 torpedo",
+      "324 毫米 12.75 英寸 Mk 44 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "6 inch Mk.35 AP",
+      "Mk 35 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "14 inch Mk.8 APCBC",
+      "Mk 8 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "800 kg Navy Type 99 Number 80 AP bomb",
+      "九九式八〇番五号爆弹 (800 千克穿甲)"
+    ],
+    [
+      "popover_terms.json",
+      "155 mm Type 91 APHE",
+      "九一式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "8 inch Mk.21 APCBC",
+      "Mk 21 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "610 mm Type 90 torpedo",
+      "610 毫米 九〇式鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 APCBC",
+      "56 式被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "375 mm M/50 Bofors anti submarine rocket launcher",
+      "375 毫米 博福斯 反潜火箭深弹发射器"
+    ],
+    [
+      "popover_terms.json",
+      "8 inch Mk.19 APCBC",
+      "Mk 19 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "320 mm APHEBC Palla",
+      "被帽穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined torpedo S.I. 250/533,4X7,5 Tipo A",
+      "533 毫米 Si 250/533.4x7.5 A 型蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined Mk.V torpedo",
+      "533 毫米 Mk V 蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Semi-armor-piercing flat-nosed ballistic capped shell",
+      "风帽平头半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of AERO-7 FFAR Mighty Mouse unguided rockets.",
+      "可携带 AERO-7 发射架以挂载 FFAR 太空飞鼠 火箭弹。"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of torpedo weaponry.",
+      "可携带鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "M63 shell",
+      "M63砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "18 cm hprak m/49 rockets",
+      "m/49 半穿甲火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm APBC Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm patt.1911 SAP",
+      "1911 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "21 in wet-heating Mk.8 torpedo",
+      "533 毫米 21 英寸 Mk 8 湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/38",
+      "m/38 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.IV torpedo",
+      "533 毫米 Mk IV 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Type 6 wet-heater torpedo",
+      "533 毫米 六年式湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 91 Model 2 torpedo (835 kg)",
+      "九一式航空鱼雷改二 (835 千克)"
+    ],
+    [
+      "popover_terms.json",
+      "8 inch Mark I.B. SAPCBC",
+      "Mk IB 被帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "18 inch Mk.XII torpedo",
+      "450 毫米 18 英寸 Mk XII 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of AERO-6 FFAR Mighty Mouse unguided rockets.",
+      "可携带 AERO-6 发射架以挂载 FFAR 太空飞鼠 火箭弹。"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/40B",
+      "m/40B 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "138.6 mm OPF Mle 1921 SAPBC",
+      "1921 型风帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "13.5 inch APC Mk.Ia",
+      "Mk Ia 被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "203 mm APHEBC Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 93 mod1 moored contact mine",
+      "九三式一型触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 4 Kou",
+      "四式穿甲弹甲型"
+    ],
+    [
+      "popover_terms.json",
+      "305 mm APCBC",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "320 mm Mark 108 Weapon alfa antisubmarine rocket launcher",
+      "320 毫米 Mk 108 阿尔法武器 反潜火箭深弹发射器"
+    ],
+    [
+      "popover_terms.json",
+      "RWR",
+      "雷达告警接收器"
+    ],
+    [
+      "popover_terms.json",
+      "Type 92 APHE",
+      "九二式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "F5W torpedo",
+      "F 5w 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/66",
+      "m/66 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/80",
+      "m/80 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "1123/1323 lbs Type M Mark I moored contact mine",
+      "1123/1323 磅 M 型 Mk I 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "FZ49 HEAT rockets",
+      "FZ 49 破甲火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "76/62 SAPOM",
+      "奥托半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "1000 kg BRAB-1000 (1938) armor-piercing bomb",
+      "1000 千克 BRAB-1000 (1938) 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of torpedo.",
+      "可携带鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "YAM-43 small moored contact coastal mine",
+      "YaM-43 小型触发近岸系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.IX wet-heater torpedo",
+      "533 毫米 Mk IX 湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "M352 shell",
+      "M352砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "12-inch APC",
+      "被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 HEAT-FS",
+      "56 式气缸破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/54",
+      "m/54 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "75 mm OPF Mle 1917 SAP",
+      "1917 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "8-cm Flz.-Rakete",
+      "空射火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of unguided 8-cm Flz.-Rakete Oerlicon rockets.",
+      "可携带厄利孔空射火箭弹。"
+    ],
+    [
+      "popover_terms.json",
+      "320 mm Granata Perforante",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "5.25 inch Mark II SAP",
+      "Mk II 半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "EMF moored magnetic mine",
+      "EMF 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "155 mm M1924 SAP",
+      "1924 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 100 AP-T",
+      "一〇〇式曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "203 mm OPF Mle 1927 SAPBC",
+      "1927 型风帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Rear armor plate",
+      "升级座椅靠背装甲"
+    ],
+    [
+      "popover_terms.json",
+      "8.5 mm rear armor plate will be replaced with 10 mm armor plate.",
+      "用 10 毫米座椅靠背装甲板替换原来的 8.5 毫米型号。"
+    ],
+    [
+      "popover_terms.json",
+      "slhpgr m/43",
+      "m/43 曳光半穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm 53-56 torpedo",
+      "533 毫米 53-56 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpgr m/42",
+      "m/42 曳光穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "45 cm 1909R torpedo",
+      "450 毫米 1909R 型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "356 mm 3rd Year Type APC",
+      "三年式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante mod.35",
+      "35 型穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "410 mm No3 APC",
+      "三式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "410 mm No5 APC",
+      "五式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "B4M moored contact mine",
+      "B4M 触发引信系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm wet-heater torpedo S.I.170/450X5,25",
+      "450 毫米 Si 170/450x5.25 湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 APBC",
+      "56 式风帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante mod.43",
+      "43 型穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "305 mm Mark VIa APC",
+      "Mk VIa 被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 87 AP",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "100 kg SAP 100M bomb",
+      "100 千克 100M 半穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 HVAP",
+      "56 式超速穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm SET-53M torpedo",
+      "533 毫米 SET-53M 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "1600 kg PC1600 armor-piercing bomb",
+      "1600 千克 PC1600 穿甲炸弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/95",
+      "m/95 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "KB-1 pattern 1931 moored contact mine",
+      "KB-1 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "550 mm L3 torpedo",
+      "550 毫米 L3 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "M496 shell",
+      "M496砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Type 59 APDS",
+      "59 式脱壳穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "610 mm Type 8 No.2 wet-heater torpedo",
+      "610 毫米 八年式二号湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "K-gun Mk.9 depth charge",
+      "Mk 9 深水炸弹 (K 炮抛射)"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined torpedo S.I. 270/533X6.84 Tipo L",
+      "533 毫米 Si 270/533x6.84 L 型蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "305 mm SAP",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "ERA installed",
+      "安装额外的爆炸反应装甲，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/90",
+      "m/90 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante 75/32",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "14 inch Mk.16 APCBC",
+      "Mk 16 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Bollo P.125/1932 moored contact mine",
+      "博洛 P.125 型触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "18 inch Mark XV torpedo (1801 lbs)",
+      "450 毫米 18 英寸 Mk XV 鱼雷 (1,801 磅)"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm wet-heater torpedo pattern 1912",
+      "456 毫米 1912 型湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm Mk XV torpedo",
+      "450 毫米 Mk XV 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "W.Gr.21",
+      "Wfr.Gr.21 火箭发射器"
+    ],
+    [
+      "popover_terms.json",
+      "Ha-9-2A",
+      "Ha-9-II 甲"
+    ],
+    [
+      "popover_terms.json",
+      "100 mm Obus de rupture",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "600 mm H/8 torpedo",
+      "H/8 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 40 mm M129 automatic grenade launchers.",
+      "可携带 40 毫米 M129 自动榴弹发射器。"
+    ],
+    [
+      "popover_terms.json",
+      "70 mm Skyfire-70 AC/AP rocket",
+      "天火-70 反装甲/人员火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "Side skirts up",
+      "收起侧面装甲，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Slat armor",
+      "格栅装甲"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm 53-65 torpedo",
+      "533 毫米 53-65 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "21 inch Type 43 (1910) torpedo",
+      "533 毫米 四三式五十三厘鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "130 mm AP patt.1911",
+      "1911 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "12 inch Mk.15 APC",
+      "Mk 15 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "12 inch APCBC",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "500 mm G6c torpedo",
+      "500 毫米 G 6c 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/40",
+      "m/40 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "340 mm OPF Mle 1912 APC",
+      "1912 型被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "340 mm OPF Mle 1921 APCBC",
+      "1921 型被帽风帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "13.5 inch APC Mk.IIIa",
+      "Mk IIIa 被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "37 mm APHE",
+      "九四式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Type 89 torpedo",
+      "533 毫米 八九式一型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "305 mm OPF Mle 1910 APC",
+      "1910 型被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 94 APHE",
+      "九四式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm APHE Perforante",
+      "152 毫米穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "7,5 cm slpprj m/49",
+      "m/49 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "130 mm pat.1928 SAP",
+      "1928 型半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "6-inch APC",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj",
+      "曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "T42 shell",
+      "T42砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "AMASE",
+      "AMASE（“阿帕奇”模塊化航空器生存能力裝置）"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm LT 1A/1 torpedo",
+      "450 毫米 F 5b 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "76/62 APFSDS",
+      "尾翼穩定脫殼穿甲彈"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/41",
+      "m/41 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm 45-36MAN torpedo",
+      "450 毫米 45-36MAN 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm Whitehead A 110/450 torpedo",
+      "450 毫米 白头 A 110/450 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm Obus de rupture",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "14,5 cm psrak m/49/56 rockets",
+      "m/49/56 破甲火箭榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of m/49/56 unguided rockets.",
+      "可携带 m/49/56 破甲火箭榴弹。"
+    ],
+    [
+      "popover_terms.json",
+      "AR rockets",
+      "空射火箭弹"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.16 torpedo",
+      "533 毫米 Mk 16 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 40 mm M75 automatic grenade launchers.",
+      "可携带 40 毫米 M75 自动榴弹发射器。"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante da 90",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante mod.32",
+      "32 型穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 95 APHE",
+      "九五式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "psgr m/49",
+      "m/49 破甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "12.75 inch Mark 46 torpedo",
+      "324 毫米 12.75 英寸 Mk 46 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm SAP",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/61",
+      "m/61 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "500 kg Number Type 2 50 Model 1 GP(SAP) bomb",
+      "二式五〇番通常爆弹一型 (500 千克半穿甲)"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Mk.8-3 C/D torpedo",
+      "533 毫米 Mk 8 Mod 3 C/D 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Seal DM2A1 torpedo",
+      "533 毫米 DM2A1 海豹 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm SET-65 torpedo",
+      "533 毫米 SET-65 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 3 depth charge",
+      "三式爆雷一型"
+    ],
+    [
+      "popover_terms.json",
+      "550 mm model 1919V torpedo",
+      "550 毫米 1919V 型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Dorchester 2E",
+      "多切斯特 2E 级附加装甲"
+    ],
+    [
+      "popover_terms.json",
+      "Dorchester 2E armor kit",
+      "安装 多切斯特 2E 级附加装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "12-inch Mk.18 AP",
+      "Mk 18 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/43",
+      "m/43 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "War kit",
+      "WAR 附加装甲防护套件"
+    ],
+    [
+      "popover_terms.json",
+      "War kit additional armor pack",
+      "安装 WAR 附加装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/01",
+      "m/01 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M469 shell",
+      "M469砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.13-1 torpedo (2216 lbs)",
+      "Mk 13-1 鱼雷 (2,216 磅)"
+    ],
+    [
+      "popover_terms.json",
+      "ME-140/MR-126 radar",
+      "ME-140/MR-126 雷达"
+    ],
+    [
+      "popover_terms.json",
+      "Type 71 APDS-FS",
+      "71 式超速穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "MIRAB magnetic ground mine",
+      "MIRAB 磁性沉底水雷"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm Palla APC",
+      "被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm Perforante SAPHE",
+      "半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Universal ground mine UDM-E",
+      "通用型 UDM-E 地雷"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm 53-57 torpedo",
+      "533 毫米 53-57 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/42B",
+      "m/42B 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "13.5 inch APC Mk.IIa",
+      "Mk IIa 被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "AR",
+      "空射火箭彈（AR）"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm APDS-FS",
+      "尾翼稳定脱壳穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm HE",
+      "高爆彈"
+    ],
+    [
+      "popover_terms.json",
+      "PCO-50",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M261 LWL",
+      "M261 轻型发射器"
+    ],
+    [
+      "popover_terms.json",
+      "Additional ERA Package",
+      "附加爆炸反应装甲套件"
+    ],
+    [
+      "popover_terms.json",
+      "18-inch Mk.7 wet-heater torpedo",
+      "450 毫米 18 英寸 Mk 7 湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Magach-3 \"Blazer\"",
+      "夹克衫 爆炸反应装甲"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 APCR",
+      "56 式超速穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "75 mm type 95 AP",
+      "九五式破甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "120 mm stgr M/39 SAP",
+      "m/39 半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.13",
+      "Mark 13 鱼雷挂架"
+    ],
+    [
+      "popover_terms.json",
+      "Mounting Vismod elements",
+      "安装外观改造套件，改变载具外观"
+    ],
+    [
+      "popover_terms.json",
+      "21 inch Mk.20 Bidder torpedo",
+      "Mk 20 投标人 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "MBU-600 mortar",
+      "MBU-600 迫撃砲"
+    ],
+    [
+      "popover_terms.json",
+      "Type 44 AP",
+      "44 式被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/68",
+      "m/68 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "40 mm AP-T",
+      "穿甲曳光弹"
+    ],
+    [
+      "popover_terms.json",
+      "21 inch Mark I torpedo",
+      "21 英寸 Mk I 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "200 mm Type 3 APC",
+      "三式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "18 inch Type 38 No.2 B torpedo",
+      "450 毫米 三八式二号 B 型鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm 45-36AN torpedo",
+      "450 毫米 45-36AN 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 2 HEAT",
+      "二式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "7.5 inch SAPC",
+      "被帽半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "m/38 torpedo",
+      "m/38 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/90c",
+      "m/90C 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 2 APHE",
+      "二式穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante da 105",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm Type 44 No.2 torpedo",
+      "450 毫米 四四式二号鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm C/06D torpedo",
+      "C/06 D 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm APHE Perforante da 152/45-50",
+      "152/45-50 型穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Mk.6 mod1 moored contact mine",
+      "Mk 6 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "Mle1934 TP (Ch.F)",
+      "1934 型曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "6 inch AP",
+      "穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "200 mm Type 88 APCBC",
+      "八八式穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "120-II",
+      "试制 II 型穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "120-HEAT",
+      "尾翼稳定破甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M8",
+      "M8 轻型装甲车"
+    ],
+    [
+      "popover_terms.json",
+      "30 mm APDS-FS",
+      "30mm 装弾筒付翼安定徹甲弾"
+    ],
+    [
+      "popover_terms.json",
+      "DKP01A",
+      "DKP01A 曳光穿甲爆破燃烧弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 4 APCR",
+      "硬芯穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm R.G.F. Mark VI** torpedo",
+      "450 毫米 Mk VI** 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Bollo P.200/1936 moored contact mine",
+      "博洛 P.200 型触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "12-inch Mk.7 APCBC",
+      "Mk VII 穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "5-inch APC",
+      "被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpsgr m/65",
+      "m/65 曳光破甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Type 59 APCBC",
+      "59 式被帽穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/49",
+      "m/49 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M356 shell",
+      "M356砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Sakae 31a",
+      "荣三一型甲"
+    ],
+    [
+      "popover_terms.json",
+      "57х438 AP-T",
+      "57х438 穿甲曳光弹"
+    ],
+    [
+      "popover_terms.json",
+      "Kontakt-I",
+      "接触-1 爆炸反应装甲"
+    ],
+    [
+      "popover_terms.json",
+      "Additional ERA Kit",
+      "附加装甲套件"
+    ],
+    [
+      "popover_terms.json",
+      "A kit of additional ERA and slat armor for the T-90M tank.",
+      "为 T-90M 坦克加装额外的格栅装甲与侧面“化石”反应装甲软包。"
+    ],
+    [
+      "popover_terms.json",
+      "152 mm HEAT-FS",
+      "尾翼稳定反坦克高爆彈"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante da 37 mm",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "m/41 torpedo",
+      "m/41 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "M-17",
+      "1935 型扫雷艇"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm wet-heater torpedo pattern 1910",
+      "456 毫米 1910 型湿式热动力鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Type 56 AP",
+      "56 式尖头穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "Shell H.E./A.T.",
+      "対戦車榴弾"
+    ],
+    [
+      "popover_terms.json",
+      "Schneider-Canet SAP",
+      "半穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "M54 shell",
+      "M54砲弾"
+    ],
+    [
+      "popover_terms.json",
+      "Thales RDY",
+      "泰雷兹 RDY"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of additional block with Flares/Chaff",
+      "可携带额外的热焰弹/干扰箔发射模块。"
+    ],
+    [
+      "popover_terms.json",
+      "DTW-125",
+      "DTW-125尾翼稳定穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "KB-3 pattern 1940 moored contact mine",
+      "KB-3 触发系留水雷"
+    ],
+    [
+      "popover_terms.json",
+      "Gyron Junior DGJ.2 (Mk.101)",
+      "小三角徽 DGJ.2 (Mk 101)"
+    ],
+    [
+      "popover_terms.json",
+      "PARS 3 LR",
+      "PARS 3 长射程型导弹"
+    ],
+    [
+      "popover_terms.json",
+      "Add-on Hydra 70 launcher",
+      "可安装 九头蛇 70 火箭弹发射器。"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm steam turbined S.I.270",
+      "533 毫米 Si 270 蒸汽轮机鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "1500 kg Navy Type 3 Number 150 AP bomb",
+      "三式一五〇番五号爆弹 (1500 千克穿甲)"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of armor-piercing bombs up to 1500 kg.",
+      "可携带规格最高 1,500 千克的穿甲炸弹。"
+    ],
+    [
+      "popover_terms.json",
+      "slpprj m/44",
+      "m/44 曳光穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "40 mm/70 Breda-Bofors type 107 autocannon",
+      "40 毫米/70 布雷达-博福斯 107 型机炮炮座"
+    ],
+    [
+      "popover_terms.json",
+      "Torpedo tubes",
+      "换装鱼雷发射管"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to install two torpedo tubes instead of the second 40 mm/70 Breda-Bofors type 107 auto cannon",
+      "拆下第二座 40 毫米/70 布雷达-博福斯 107 型防空炮座，以安装两座额外的鱼雷发射管。"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Type 72 mod.1 torpedo",
+      "533 毫米 72 式一号鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "PSO Tipo 2",
+      "PSO 2 型附加装甲"
+    ],
+    [
+      "popover_terms.json",
+      "PSO Tipo 2 additional armor pack",
+      "安装 PSO 2 型附加装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Side skirts",
+      "附加装甲裙板"
+    ],
+    [
+      "popover_terms.json",
+      "Additional side skirts",
+      "安装额外的装甲裙板，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "120-I",
+      "试制 I 型穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "slpsgr m/72",
+      "m/72 曳光破甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "HVAR",
+      "高速航空火箭彈(HVAR)"
+    ],
+    [
+      "popover_terms.json",
+      "API",
+      "穿甲燃燒彈"
+    ],
+    [
+      "popover_terms.json",
+      "Add-on 16 mm plate on the UFP",
+      "额外安装 16 毫米首上装甲，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "75 mm OR Mle.44",
+      "44 型穿甲弹"
+    ],
+    [
+      "popover_terms.json",
+      "F5b torpedo",
+      "F5b 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "T-72B3 UBH — increased protection and change engine.",
+      "升级至 T-72B3 UBH，提升装甲防护并换装新型发动机。"
+    ],
+    [
+      "popover_terms.json",
+      "Granata Perforante da 75",
+      "穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Additional Ballistic Protection armor pack",
+      "安装额外的弹道测试用靶车装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "533 mm Bliss-Leavitt Mk.1 torpedo",
+      "533 毫米 21 英寸布利斯-莱维特 Mk 1 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Installation of offensive armament consisting of a 37 mm cannon and four large-caliber machine guns.",
+      "可将前射武器更换为两门 37 毫米航炮和四门大口径机枪。"
+    ],
+    [
+      "popover_terms.json",
+      "Installation of offensive armament consisting of two 37 mm cannons.",
+      "可将前射武器更换为两门 37 毫米航炮。"
+    ],
+    [
+      "popover_terms.json",
+      "400 mm SET-72 torpedo",
+      "400 毫米 SET-72 鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "hpgr M/50",
+      "m/50 半穿甲榴弹"
+    ],
+    [
+      "popover_terms.json",
+      "Additional Protection Package",
+      "附加装甲防护套件"
+    ],
+    [
+      "popover_terms.json",
+      "Additional Protection armor pack",
+      "安装额外的装甲防护，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "Level 3",
+      "III 级附加装甲"
+    ],
+    [
+      "popover_terms.json",
+      "Level 3 armor kit",
+      "安装 III 级附加装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "HE",
+      "高爆彈"
+    ],
+    [
+      "popover_terms.json",
+      "Dorchester 2F",
+      "多切斯特 2F 级附加装甲"
+    ],
+    [
+      "popover_terms.json",
+      "Dorchester Level 2F armor kit",
+      "安装 多切斯特 2F 级附加装甲套件，以提升防御性能。"
+    ],
+    [
+      "popover_terms.json",
+      "450 mm Type 43 torpedo",
+      "450 毫米 四三式四十五厘鱼雷"
+    ],
+    [
+      "popover_terms.json",
+      "Allows the installation of 1 torpedo LTF-5b.",
+      "可携带 1 枚 F 5b 鱼雷。"
+    ],
+    [
+      "popover_terms.json",
+      "130 mm Mark 36 SRBOC decoy system",
+      "130 毫米 Mk 36 SRBOC 发射系统"
+    ],
+    [
+      "popover_terms.json",
+      "An ability to carry a 20 mm JM61 autocannon with lower fire rate of 450 shots per minute",
+      "可使用射速较低(每分钟 450 发)的 20 毫米 JM61-M 机炮作为武器。"
+    ],
+    [
+      "popover_terms.json",
+      "Enhanced Envelope Gunsight",
+      "增强型航迹射击瞄具"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Thunderbolt",
+      "雷电"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Thunderjet",
+      "雷霆喷气"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Viggen",
+      "雷"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Flying Fortress",
+      "飞行堡垒"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Raiden",
+      "雷电"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Folgore",
+      "雷电"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Thunderbolt II",
+      "雷电 II"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Bradley",
+      "布雷德利"
+    ],
+    [
+      "vehicle_nicknames.json",
+      "Kürassier",
+      "胸甲骑兵"
+    ]
+  ],
+  "escape_corruptions": []
+}

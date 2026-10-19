@@ -80,7 +80,7 @@ assert.equal(translateFixedText('AB / RB / SB'), '街机 / 历史 / 全真');
 assert.equal(translateFixedText('1 person'), '1 人');
 assert.equal(translateFixedText('31 ratings all time'), '31 次评分（总计）');
 assert.equal(translateFixedText('14 August'), '8月14日');
-assert.equal(translateFixedText('at 6,096 m'), '在 6,096 米高度');
+assert.equal(translateFixedText('at 6,096 m'), '高度 6,096 米');
 assert.equal(translateFixedText('720 rounds'), '720 发');
 assert.equal(translateFixedText('600 shots/min'), '600 发/分钟');
 assert.equal(translateFixedText('22.5 m/s'), '22.5 米/秒');
@@ -368,5 +368,97 @@ assert.equal(translateFixedText('Explosive Mass'), '装药质量');
 assert.equal(translateFixedText('TNT equivalent'), 'TNT 当量');
 assert.equal(translateFixedText('Missile Approach Warning system'), '导弹逼近告警系统');
 assert.equal(translateFixedText('Flares/Chaff'), '热焰弹/干扰箔');
+
+// 7. 复合语法与挂载弹药正则规则增强专项测试
+// A. 挂载数量倍数与武器组装
+assert.equal(translateFixedText('2 × PL-12'), '2 × 霹雳-12');
+assert.equal(translateFixedText('4 x AIM-120A'), '4 × AIM-120A');
+assert.equal(translateFixedText('20 × S-8KO rockets'), '20 × S-8KO 火箭弹');
+assert.equal(translateFixedText('1 x 250 kg bomb'), '1 × 250 千克 炸弹');
+assert.equal(translateFixedText('16 × 50 kg FAB-50 bombs'), '16 × 50 千克 FAB-50 炸弹');
+assert.equal(translateFixedText('AIM-120A air-to-air missiles'), 'AIM-120A 空对空导弹');
+assert.equal(translateFixedText('S-8KO rockets'), 'S-8KO 火箭弹');
+assert.equal(translateFixedText('Kh-29L missiles'), 'Kh-29L 导弹');
+assert.equal(translateFixedText('Type 23 SNEB rockets'), 'Type 23 SNEB 火箭弹');
+
+// B. 弹药链前缀与预设
+assert.equal(translateFixedText('Default: HEF-I / AP-I / HEF-I / T'), '默认：HEF-I / AP-I / HEF-I / T');
+assert.equal(translateFixedText('Air targets: AP-I / HEI'), '对空目标：AP-I / HEI');
+assert.equal(translateFixedText('Ground targets: AP / T'), '对地目标：AP / T');
+assert.equal(translateFixedText('Armoured targets'), '对装甲目标');
+assert.equal(translateFixedText('Air targets'), '对空目标');
+assert.equal(translateFixedText('Ground targets'), '对地目标');
+assert.equal(translateFixedText('Belt'), '弹链');
+assert.equal(translateFixedText('Belt filling'), '弹链组成');
+assert.equal(translateFixedText('Belt filling: AP/T'), '弹链组成：AP/T');
+assert.equal(translateFixedText('Belt filling: HEI/SAP-I/T'), '弹链组成：HEI/SAP-I/T');
+
+// C. 弹药定义与口径复合
+assert.equal(translateFixedText('AP: M2 Armor-piercing bullet'), 'AP：M2 穿甲弹');
+assert.equal(translateFixedText('I: M1 Incendiary bullet'), 'I：M1 燃烧弹');
+assert.equal(translateFixedText('AP-I(c): Armor-piercing incendiary bullet (cermet core)'), 'AP-I(c)：穿甲燃烧弹（金属陶瓷核心）');
+assert.equal(translateFixedText('APCR - Armor-piercing composite rigid shell'), 'APCR - 硬芯穿甲弹');
+assert.equal(translateFixedText('APHEBC - Armor-piercing high explosive with ballistic cap shell'), 'APHEBC - 风帽穿甲高爆弹');
+assert.equal(translateFixedText('HESH - High-explosive squash head shell'), 'HESH - 碎甲弹');
+assert.equal(translateFixedText('HEATFS - High explosive anti-tank fin stabilized shell'), 'HEATFS - 尾翼稳定破甲弹');
+assert.equal(translateFixedText('20 mm AP-T'), '20 毫米 穿甲曳光弹');
+assert.equal(translateFixedText('.50 API-T'), '.50 穿甲燃烧曳光弹');
+assert.equal(translateFixedText('25 mm HEI-T'), '25 毫米 高爆燃烧曳光弹');
+assert.equal(translateFixedText('APCBC'), '被帽风帽穿甲弹');
+
+// D. 性能与单位
+assert.equal(translateFixedText('at 8,500 m'), '高度 8,500 米');
+assert.equal(translateFixedText('1,200 km/h'), '1,200 公里/小时');
+assert.equal(translateFixedText('750 km/h'), '750 公里/小时');
+assert.equal(translateFixedText('750 km / h'), '750 公里/小时');
+assert.equal(translateFixedText('35 m/s'), '35 米/秒');
+assert.equal(translateFixedText('24.5 s'), '24.5 秒');
+assert.equal(translateFixedText('0.001 s'), '0.001 秒');
+assert.equal(translateFixedText('1,000 lbs'), '1,000 磅');
+assert.equal(translateFixedText('531 lbs'), '531 磅');
+assert.equal(translateFixedText('50 g'), '50 克');
+assert.equal(translateFixedText('800x600'), '800 × 600');
+assert.equal(translateFixedText('or 310'), '或 310');
+assert.equal(translateFixedText('Engine Thrust (0 m / 0 km/h)'), '发动机推力（0 米 / 0 公里/小时）');
+
+// E. 传感器与航电
+assert.equal(translateFixedText('Helmet-mounted display'), '头盔显示器');
+assert.equal(translateFixedText('Laser designator'), '激光指示器');
+assert.equal(translateFixedText('Focus sensor'), '关注焦点传感器');
+assert.equal(translateFixedText('Ballistic computer'), '弹道计算机');
+assert.equal(translateFixedText('CCIP'), '连续计算命中点 (CCIP)');
+assert.equal(translateFixedText('Gunner: TVD'), '炮手：热成像');
+assert.equal(translateFixedText('Commander: TVD'), '车长：热成像');
+assert.equal(translateFixedText('Driver: NVD'), '驾驶员：夜视设备');
+assert.equal(translateFixedText('One-plane stabilizer'), '单向稳定器');
+assert.equal(translateFixedText('Two-plane stabilizer'), '双向稳定器');
+
+// F. 改件升级描述与发动机类型
+assert.equal(
+  translateFixedText('Set of 20 mm belts for offensive weapons.'),
+  '为 20 毫米前射武器提供更多可选弹链配置。'
+);
+assert.equal(
+  translateFixedText("The 20 mm cannons' worn barrels, trigger and striking mechanisms are replaced with new ones, to improve fire density and to decrease the chance of seizure."),
+  '为 20 毫米机炮更换新的炮管、扳机和击发装置，从而改善弹道散布并降低卡弹几率。'
+);
+assert.equal(translateFixedText('Inline, 12-cylinder'), '直列 12 缸');
+assert.equal(translateFixedText('Radial, 14-cylinder'), '星型 14 缸');
+assert.equal(translateFixedText('Allows the use of smoke screen system.'), '允许使用烟幕系统。');
+
+// G. 严格反污染校验（无 \t、无 //）
+const allTestSamples = [
+  '2 × PL-12', '4 x AIM-120A', '20 × S-8KO rockets', '1 x 250 kg bomb',
+  'Default: HEF-I / AP-I / HEF-I / T', 'Armoured targets', 'Air targets', 'Ground targets',
+  'at 8,500 m', '1,200 km/h', '750 km/h', '35 m/s', '24.5 s',
+  'Helmet-mounted display', 'Laser designator', 'Focus sensor', 'Ballistic computer',
+  'CCIP', 'AIM-120A air-to-air missiles', 'S-8KO rockets', 'Engine Thrust (0 m / 0 km/h)'
+];
+for (const sample of allTestSamples) {
+  const result = translateFixedText(sample);
+  assert(result, `Failed to translate sample: ${sample}`);
+  assert(!result.includes('\t') && !result.includes('\\t'), `Sample contains tab character: ${sample} -> ${result}`);
+  assert(!result.includes('//'), `Sample contains double slash: ${sample} -> ${result}`);
+}
 
 console.log('core tests passed');

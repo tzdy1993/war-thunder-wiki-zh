@@ -1,0 +1,314 @@
+[
+  {
+    "file": "manufacturers.json",
+    "key": "Shenyang",
+    "current": "航空工业沈飞",
+    "official": "歼-5"
+  },
+  {
+    "file": "manufacturers.json",
+    "key": "de Havilland",
+    "current": "德哈维兰",
+    "official": "德·哈维兰"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Armored targets",
+    "current": "对装甲目标",
+    "official": "穿甲"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Default",
+    "current": "默认",
+    "official": "默认头像"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Guidance system type:",
+    "current": "制导方式：",
+    "official": "制导方式"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Aspect",
+    "current": "目标迎角/探测相位",
+    "official": "攻击能力"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "All-aspect",
+    "current": "全向",
+    "official": "全向攻击"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "All-aspects",
+    "current": "全向",
+    "official": "全向攻击"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Rear-aspect",
+    "current": "尾后",
+    "official": "尾后攻击"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Head-on",
+    "current": "迎头",
+    "official": "迎头攻击"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Laser",
+    "current": "激光制导",
+    "official": "激光"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Laser+IOG",
+    "current": "激光制导 + IOG",
+    "official": "激光 + IOG"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "IR+IOG",
+    "current": "红外 + IOG",
+    "official": "红外+IOG"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "IRCCM",
+    "current": "红外抗干扰 (IRCCM)",
+    "official": "反红外对抗措施"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "IRCM",
+    "current": "红外对抗 (IRCM)",
+    "official": "红外对抗措施"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "GNSS",
+    "current": "全球导航卫星系统 (GNSS)",
+    "official": "全球导航卫星系统"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Optical director",
+    "current": "光学指挥仪",
+    "official": "光学火炮指挥仪"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "TV",
+    "current": "电视制导",
+    "official": "电视"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Auto tracker",
+    "current": "自动跟踪器",
+    "official": "自动跟踪"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "IRST",
+    "current": "红外搜索与跟踪系统 (IRST)",
+    "official": "红外搜索跟踪系统"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Laser Warning System",
+    "current": "激光告警系统 (LWS)",
+    "official": "安装激光告警系统，从而提升对导弹的规避能力。"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "CCIP",
+    "current": "连续计算落点 (CCIP)",
+    "official": "连续计算命中点"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "CCRP",
+    "current": "连续计算投放点 (CCRP)",
+    "official": "连续计算投放点"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "IFF",
+    "current": "敌我识别 (IFF)",
+    "official": "敌我识别"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Track",
+    "current": "跟踪",
+    "official": "/追踪"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "TWS",
+    "current": "边扫描边跟踪 (TWS)",
+    "official": "边扫描边跟踪"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Band",
+    "current": "波段",
+    "official": "频段"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Gunner",
+    "current": "炮手",
+    "official": "嗜血枪手"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Commander",
+    "current": "车长",
+    "official": "上校"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Fuze Delay",
+    "current": "引信延时",
+    "official": "引信延迟"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Muzzle Velocity",
+    "current": "炮口初速",
+    "official": "出膛速度"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Projectile Mass",
+    "current": "弹丸质量",
+    "official": "弹头质量"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "TNT equivalent",
+    "current": "TNT 等效质量",
+    "official": "TNT 当量"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Engine Power",
+    "current": "发动机功率",
+    "official": "发动机输出功率"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Cooling type",
+    "current": "冷却类型",
+    "official": "冷却方式"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "EEGS",
+    "current": "增强型航迹射击瞄具 (EEGS)",
+    "official": "增强型航迹射击瞄具"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Cannons",
+    "current": "机炮",
+    "official": "枪炮"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Rockets",
+    "current": "火箭弹",
+    "official": "火箭"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "m/56d",
+    "current": "m/56D 挂架",
+    "official": "m/57 挂架"
+  },
+  {
+    "file": "popover_terms.json",
+    "key": "Mass",
+    "current": "质量",
+    "official": "载具质量"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Sherman",
+    "current": "谢尔曼",
+    "official": "谢尔曼 II"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Abrams",
+    "current": "艾布拉姆斯",
+    "official": "艾布蘭"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Corsair",
+    "current": "海盗",
+    "official": "“海盗”"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Hornet",
+    "current": "大黄蜂",
+    "official": "刺探胡蜂"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Hawk",
+    "current": "鹰",
+    "official": "战鹰"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Flying Fortress",
+    "current": "飞行堡垒",
+    "official": "“空中堡垒”"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Raiden",
+    "current": "雷电",
+    "official": "来田"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Matilda II",
+    "current": "玛蒂尔达 II",
+    "official": "“玛蒂尔达”"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Crusader II",
+    "current": "十字军 II",
+    "official": "十字军 Mk II"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Bradley",
+    "current": "布雷德利",
+    "official": "布拉德利"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Scott",
+    "current": "斯考特",
+    "official": "斯科特"
+  },
+  {
+    "file": "vehicle_nicknames.json",
+    "key": "Hudson",
+    "current": "哈德逊",
+    "official": "哈德森"
+  }
+]

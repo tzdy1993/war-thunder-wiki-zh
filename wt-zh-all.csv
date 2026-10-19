@@ -1037,13 +1037,13 @@ unit,us_t32e1_shop,T32E1,T32E1
 unit,us_t32e1_0,Heavy Tank T32E1,重型坦克 T32E1
 unit,us_t32e1_1,T32E1,T32E1
 unit,us_t32e1_2,Heavy tank,重型坦克
-unit,us_t32_shop,T32,T32
+unit,us_t32_shop,T32,T32 重型坦克
 unit,us_t32_0,Heavy Tank T32,重型坦克 T32
-unit,us_t32_1,T32,T32
+unit,us_t32_1,T32,T32 重型坦克
 unit,us_t32_2,Heavy tank,重型坦克
-unit,us_t32_tutorial_shop,T32,T32
+unit,us_t32_tutorial_shop,T32,T32 重型坦克
 unit,us_t32_tutorial_0,Heavy Tank T32,重型坦克 T32
-unit,us_t32_tutorial_1,T32,T32
+unit,us_t32_tutorial_1,T32,T32 重型坦克
 unit,us_t32_tutorial_2,Heavy tank,重型坦克
 unit,uk_fv4005_shop,FV4005,FV4005
 unit,uk_fv4005_0,FV4005 Stage II,FV4005 构型 II
@@ -2755,9 +2755,9 @@ unit,uk_ttd_shop,TTD,TTD
 unit,uk_ttd_0,TTD,坦克技术验证车
 unit,uk_ttd_1,TTD,TTD
 unit,uk_ttd_2,MBT,主战坦克
-unit,uk_ratel_zt3_shop,ZT3A2,ZT3A2
+unit,uk_ratel_zt3_shop,ZT3A2,ZT3A2 豹
 unit,uk_ratel_zt3_0,ZT3A2 Ratel,蜜獾 ZT3A2
-unit,uk_ratel_zt3_1,ZT3A2,ZT3A2
+unit,uk_ratel_zt3_1,ZT3A2,ZT3A2 豹
 unit,uk_ratel_zt3_2,SPG,自行火炮
 unit,uk_rooikat_za_35_shop,ZA-35,ZA-35
 unit,uk_rooikat_za_35_0,Rooikat ZA-35,大山猫 ZA-35
@@ -2968,7 +2968,7 @@ unit,uk_sherman_vc_firefly_kit_3rank_0,Sherman VC Firefly (Overlord),谢尔曼 V
 unit,uk_sherman_vc_firefly_kit_3rank_1,Firefly (Overlord),萤火虫 (“霸王回响”)
 unit,uk_sherman_vc_firefly_kit_3rank_2,Medium tank,中型坦克
 unit,uk_a_34_comet_iron_duke_shop,"Comet I ""Iron Duke IV""",彗星 I (“铁公爵四世”)
-unit,uk_a_34_comet_iron_duke_0,"Tank, Cruiser, Comet I (A34) ""Iron Duke IV""",巡洋坦克 彗星  I (A34) (“铁公爵四世”)
+unit,uk_a_34_comet_iron_duke_0,"Tank, Cruiser, Comet I (A34) ""Iron Duke IV""",巡洋坦克 彗星 I (A34) (“铁公爵四世”)
 unit,uk_a_34_comet_iron_duke_1,"Comet I ""Iron Duke IV""",彗星 I (“铁公爵四世”)
 unit,uk_a_34_comet_iron_duke_2,Medium tank,中型坦克
 unit,uk_a_34_comet_shop,Comet I,彗星 I
@@ -4779,7 +4779,7 @@ unit,os2u_1_shop,OS2U-1,OS2U-1
 unit,os2u_1_0,OS2U-1 Kingfisher,OS2U-1 翠鸟
 unit,os2u_1_1,OS2U,OS2U
 unit,os2u_1_2,OS2U,OS2U
-unit,os2u_3_shop,OS2U-3,OS2U-3
+unit,os2u_3_shop,OS2U-3,OS2U-3“翠鸟”
 unit,os2u_3_0,OS2U-3 Kingfisher,OS2U-3 翠鸟
 unit,os2u_3_1,OS2U,OS2U
 unit,os2u_3_2,OS2U,OS2U
@@ -4927,10 +4927,10 @@ unit,walrus_mk1_shop,Walrus Mk.I,海象 Mk I
 unit,walrus_mk1_0,Walrus Mk.I,海象 Mk I
 unit,walrus_mk1_1,Walrus Mk.I,海象
 unit,walrus_mk1_2,Walrus,海象
-unit,soc_1_shop,SOC-1,SOC-1
+unit,soc_1_shop,SOC-1,SOC-1“海鸥”
 unit,soc_1_0,SOC-1 Seagull,SOC-1 海鸥
-unit,soc_1_1,SOC-1,SOC-1
-unit,soc_1_2,SOC-1,SOC-1
+unit,soc_1_1,SOC-1,SOC-1“海鸥”
+unit,soc_1_2,SOC-1,SOC-1“海鸥”
 unit,sc_1_shop,SC-1,SC-1
 unit,sc_1_0,SC-1 Seahawk,SC-1 海鹰
 unit,sc_1_1,SC-1,SC-1
@@ -7896,7 +7896,7 @@ unit,sm_79_1943_italy_0,S.M.79 Sparviero bis/T.M (1943),SM.79 食雀鹰 bis 跨�
 unit,sm_79_1943_italy_1,S.M.79,SM.79
 unit,sm_79_1943_italy_2,S.M.79,SM.79
 unit,sm_79_iar_italy_shop,S.M.79 B,SM.79B
-unit,sm_79_iar_italy_0,S.M.79 Sparviero B (1936),SM.79 食雀鹰  双引擎型 (1936 型)
+unit,sm_79_iar_italy_0,S.M.79 Sparviero B (1936),SM.79 食雀鹰 双引擎型 (1936 型)
 unit,sm_79_iar_italy_1,S.M.79,SM.79
 unit,sm_79_iar_italy_2,S.M.79,SM.79
 unit,shop/group/sm_79_1941_group,S.M.79 (l),SM.79 后期型
@@ -9345,9 +9345,9 @@ unit,us_m1a1_abrams_shop,M1A1,M1A1
 unit,us_m1a1_abrams_0,"Tank, Combat, Full Tracked, 120-mm Gun M1A1",120 毫米火炮履带式战斗坦克 M1A1
 unit,us_m1a1_abrams_1,M1A1,M1A1
 unit,us_m1a1_abrams_2,MBT,主战坦克
-unit,us_m247_shop,M247,M247
+unit,us_m247_shop,M247,M247 “约克中士”
 unit,us_m247_0,"Gun, Air Defence Artillery, Self-Propelled, 40-mm, M247",40 毫米自行防空炮 M247
-unit,us_m247_1,M247,M247
+unit,us_m247_1,M247,M247 “约克中士”
 unit,us_m247_2,SPAA,自行防空炮
 unit,us_xm246_shop,XM246,XM246
 unit,us_xm246_0,"Gun, Air Defence Artillery, Self-Propelled, 35-mm, XM246",35 毫米自行防空炮 M246
@@ -11060,11 +11060,11 @@ unit,f_16a_block_10_netz_mod_shop,Netz (Mod),鹰 改造型
 unit,f_16a_block_10_netz_mod_0,F-16A Block 10 Netz (Mod),F-16A Block 10 鹰 改造型
 unit,f_16a_block_10_netz_mod_1,Netz,鹰
 unit,f_16a_block_10_netz_mod_2,Netz,鹰
-unit,f_16a_block_20_mlu_shop,␗F-16A MLU,␗F-16A  MLU
+unit,f_16a_block_20_mlu_shop,␗F-16A MLU,␗F-16A MLU
 unit,f_16a_block_20_mlu_0,␗F-16A Block 20 MLU Fighting Falcon,␗F-16A Block 20 中期延寿型 战隼
 unit,f_16a_block_20_mlu_1,␗F-16A,␗F-16A
 unit,f_16a_block_20_mlu_2,␗F-16,␗F-16
-unit,f_16a_block_20_mlu_killstreak_shop,☢F-16A MLU,☢F-16A  MLU
+unit,f_16a_block_20_mlu_killstreak_shop,☢F-16A MLU,☢F-16A MLU
 unit,f_16a_block_20_mlu_killstreak_0,☢F-16A Block 20 MLU Fighting Falcon,☢F-16A Block 20 中期延寿型 战隼
 unit,f_16a_block_20_mlu_killstreak_1,☢F-16A,☢F-16A
 unit,f_16a_block_20_mlu_killstreak_2,☢F-16,☢F-16
@@ -11977,9 +11977,9 @@ unit,cn_su_100_1945_shop,␗SU-100,␗SU-100
 unit,cn_su_100_1945_0,␗SU-100,␗SU-100
 unit,cn_su_100_1945_1,␗SU-100,␗SU-100
 unit,cn_su_100_1945_2,SPG,自行火炮
-unit,cn_type_64_shop,M64,M64
+unit,cn_type_64_shop,M64,六四式战车
 unit,cn_type_64_0,M64,六四式战车
-unit,cn_type_64_1,M64,M64
+unit,cn_type_64_1,M64,六四式战车
 unit,cn_type_64_2,Light tank,轻型坦克
 unit,cn_type_63_I_shop,Type 63,ZTS63
 unit,cn_type_63_I_0,Type 63,ZTS63 式水陆坦克 (WZ211)
@@ -16347,7 +16347,7 @@ weapon,weapons/us_2000lb_gbu_15v1/short,GBU-15(V)1/B,GBU-15(V)1/B
 weapon,weapons/us_2000lb_gbu_15v2,GBU-15(V)2/B guided bomb,GBU-15(V)2/B 制导炸弹
 weapon,weapons/us_2000lb_gbu_15v2/short,GBU-15(V)2/B,GBU-15(V)2/B
 weapon,weapons/us_2000lb_gbu_8_hobos,GBU-8,GBU-8 制导炸弹
-weapon,weapons/us_2000lb_gbu_8_hobos/short,GBU-8,GBU-8
+weapon,weapons/us_2000lb_gbu_8_hobos/short,GBU-8,GBU-8 制导炸弹
 weapon,weapons/us_500lb_gbu38_usaf,GBU-38 JDAM guided bomb,GBU-38 联合直接攻击弹药
 weapon,weapons/us_500lb_gbu38_usaf/short,GBU-38 JDAM,GBU-38 JDAM
 weapon,weapons/us_500lb_gbu38_usnavy,GBU-38(V)2/B JDAM guided bomb,GBU-38(V)2/B 联合直接攻击弹药
@@ -16375,7 +16375,7 @@ weapon,weapons/us_1000lb_gbu32_navy/short,GBU-32 JDAM,GBU-32 JDAM
 weapon,weapons/us_agm_62a_er,AGM-62A Walleye I ER guided bomb,AGM-62A 白星眼 I ER 型制导炸弹
 weapon,weapons/us_agm_62a_er/short,AGM-62A ER,AGM-62A ER
 weapon,weapons/us_agm_62a,AGM-62A Walleye I guided bomb,AGM-62A 白星眼 I 制导炸弹
-weapon,weapons/us_agm_62a/short,AGM-62A,AGM-62A
+weapon,weapons/us_agm_62a/short,AGM-62A,AGM-62A“鼓眼魚”
 weapon,weapons/us_agm_62a_2_erdl,AGM-62A Walleye II ER/DL guided bomb,AGM-62A 白星眼 II ER/DL 制导炸弹
 weapon,weapons/us_agm_62a_2_erdl/short,AGM-62 ER/DL,AGM-62 ER/DL
 weapon,weapons/jp_500lb_mk82_gcs_1,Mk 82 GCS-1 guided bomb,Mk 82 (GSC-1 制导系统)制导炸弹
@@ -16486,21 +16486,21 @@ weapon,weapons/swd_rb_05a/short,Rb05A,Rb 05A
 weapon,weapons/swd_75mm_m57b,"7,5 cm srak m/57B rockets",m/57B 火箭榴弹
 weapon,weapons/swd_75mm_m57b/short,m/57B,m/57B
 weapon,weapons/swd_75mm_frida,"7,5 cm srak m/55 Frida rockets",m/55 弗里达 火箭榴弹
-weapon,weapons/swd_75mm_frida/short,m/55,m/55
+weapon,weapons/swd_75mm_frida/short,m/55,m/55 挂架
 weapon,weapons/swd_135mm_srak_m56d,m/56D rockets,m/56D 火箭弹
 weapon,weapons/swd_135mm_srak_m56d/short,m/56D,m/56D
 weapon,weapons/swd_145mm_psrak_m49a,"14,5 cm psrak m/49B rockets",m/49B 破甲火箭榴弹
-weapon,weapons/swd_145mm_psrak_m49a/short,m/49B,m/49B
+weapon,weapons/swd_145mm_psrak_m49a/short,m/49B,m/49A 挂架
 weapon,weapons/swd_145mm_psrak_m49a_mount,"14,5 cm psrak m/49B rockets",m/49B 破甲火箭榴弹
-weapon,weapons/swd_145mm_psrak_m49a_mount/short,m/49B,m/49B
+weapon,weapons/swd_145mm_psrak_m49a_mount/short,m/49B,m/49A 挂架
 weapon,weapons/swd_145mm_psrak_m49_56,"14,5 cm psrak m/49/56 rockets",m/49/56 破甲火箭榴弹
 weapon,weapons/swd_145mm_psrak_m49_56/short,m/49/56,m/49/56
 weapon,weapons/swd_150mm_srak_m51,15 cm srak m/51 rockets,m/51 火箭榴弹
-weapon,weapons/swd_150mm_srak_m51/short,m/51,m/51
+weapon,weapons/swd_150mm_srak_m51/short,m/51,m/51 挂架
 weapon,weapons/swd_150mm_srak_m51_mount,15 cm srak m/51 rockets,m/51 火箭榴弹
-weapon,weapons/swd_150mm_srak_m51_mount/short,m/51,m/51
+weapon,weapons/swd_150mm_srak_m51_mount/short,m/51,m/51 挂架
 weapon,weapons/swd_180mm_hpsrak_m49,18 cm hprak m/49 rockets,m/49 半穿甲火箭弹
-weapon,weapons/swd_180mm_hpsrak_m49/short,m/49,m/49
+weapon,weapons/swd_180mm_hpsrak_m49/short,m/49,m/49 挂架
 weapon,weapons/us_2_75_in_ffar_mighty_mouse,FFAR Mighty Mouse rockets,FFAR 太空飞鼠 火箭弹
 weapon,weapons/us_2_75_in_ffar_mighty_mouse/short,FFAR,FFAR
 weapon,weapons/us_2_75_in_ffar_mighty_mouse_fn_m3p,FFAR Mighty Mouse rockets,FFAR 太空飞鼠 火箭弹
@@ -17285,7 +17285,7 @@ weapon,weapons/57mm_s_5kp,S-5KP rockets,S-5KP 火箭弹
 weapon,weapons/57mm_s_5kp/short,S-5KP,S-5KP
 weapon,weapons/cn_hf5_rocket,Type 57-1 rockets,57-1 型火箭弹
 weapon,weapons/su_s_3k_rocket,S-3K rockets,S-3K 火箭弹
-weapon,weapons/su_s_3k_rocket/short,S-3K,S-3K
+weapon,weapons/su_s_3k_rocket/short,S-3K,S-3K 挂架
 weapon,weapons/su_s_5m_rocket,S-5M rockets,S-5M 火箭弹
 weapon,weapons/su_s_21_rocket,S-21 rockets,S-21 火箭弹
 weapon,weapons/su_s_24_rocket,S-24 rockets,S-24 火箭弹
@@ -17330,11 +17330,11 @@ weapon,weapons/uk_rp3_2_late/short,RP-3,RP-3
 weapon,weapons/uk_rp3_late,RP-3 rockets,RP-3 火箭弹
 weapon,weapons/uk_rp3_late/short,RP-3,RP-3
 weapon,weapons/swd_m41_torpedo,m/41 torpedo,m/41 鱼雷
-weapon,weapons/swd_m41_torpedo/short,m/41,m/41
+weapon,weapons/swd_m41_torpedo/short,m/41,m/41 挂架
 weapon,weapons/swd_m36_torpedo,m/36 torpedo,m/36 鱼雷
 weapon,weapons/swd_m36_torpedo/short,m/36,m/36
 weapon,weapons/swd_m38_torpedo,m/38 torpedo,m/38 鱼雷
-weapon,weapons/swd_m38_torpedo/short,m/38,m/38
+weapon,weapons/swd_m38_torpedo/short,m/38,m/38 挂架
 weapon,weapons/il_100_50_kg_gp,100/50 kg G.P. bomb,100/50 GP 炸弹
 weapon,weapons/il_100_50_kg_gp/short,100 kg,100 千克
 weapon,weapons/il_250_50_kg_gp,250/50 kg G.P. bomb,250/50 GP 炸弹
@@ -17453,9 +17453,9 @@ weapon,weapons/lau_131a_x3/short,lau 131A,LAU-131/A
 weapon,weapons/us_500lb_mk_82_x3_ter9a_1,500 lb MK 82 bomb,500 磅 Mk 82 炸弹
 weapon,weapons/us_500lb_mk_82_x3_ter9a_1/short,MK82 500 lb,MK82 500 磅
 weapon,weapons/dra_lau_105a_aim_9l_lm,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/dra_lau_105a_aim_9l_lm/short,AIM-9L,AIM-9L
+weapon,weapons/dra_lau_105a_aim_9l_lm/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons/dra_lau_105a_aim_9l_rm,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/dra_lau_105a_aim_9l_rm/short,AIM-9L,AIM-9L
+weapon,weapons/dra_lau_105a_aim_9l_rm/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons_types/short/guns,M,M
 weapon,weapons_types/short/cannons,C,C
 weapon,weapons_types/short/turrets,T,T
@@ -17489,7 +17489,7 @@ weapon,weapons/100mm_D10S_user_cannon,100 mm D-10S cannon,100 毫米 D-10S 反�
 weapon,weapons/100mm_D10T_user_cannon,100 mm D-10T cannon,100 毫米 D-10T 坦克炮
 weapon,weapons/105mm_Kwk46_user_cannon,105 mm KwK L/68 cannon,105 毫米 KwK L/68 坦克炮
 weapon,weapons/105mm_M4_user_cannon,105 mm M4 howitzer,105 毫米 M4 榴弹炮
-weapon,weapons/380mm_RW_61_user_cannon,380 mm RW61 mortar,380 毫米 RW61  迫击炮
+weapon,weapons/380mm_RW_61_user_cannon,380 mm RW61 mortar,380 毫米 RW61 迫击炮
 weapon,380mm_sprgr4581,38 cm R Spgr.4581,R Spgr.4581
 weapon,weapons/380mm_sprgr4581/short,38 cm R Spgr.4581,R Spgr.4581
 weapon,weapons/105mm_StuH42_user_cannon,105 mm StuH42 howitzer,105 毫米 StuH 42 榴弹炮
@@ -17634,7 +17634,7 @@ weapon,weapons/25mm_PG87_user_cannon,25 mm PG87 cannon,25 毫米 PG87 式双管�
 weapon,25mm_type_87_api,Type 87 AP,AP
 weapon,25mm_type_87_he,Type 87 HE,HE
 weapon,weapons/57mm_WA_318_user_cannon,57 mm WA318 cannon,57 毫米 WA318 型高射炮
-weapon,57mm_dky_1,DKY-1,DKY-1
+weapon,57mm_dky_1,DKY-1,DKYI 式预制破片榴弹
 weapon,type_59_he,Type 59 HE,59 式杀伤爆破榴弹
 weapon,type_59_ap,Type 59 APCBC,59 式被帽穿甲弹
 weapon,type_59_apcbc,Type 59 APCBC,59 式被帽穿甲弹
@@ -17868,9 +17868,9 @@ weapon,t_ball/name/short,T,T
 weapon,i_ball/name,Incendiary bullet,燃烧弹
 weapon,i_ball/name/short,I,I
 weapon,ap_ball/name,Armor-piercing bullet,穿甲弹
-weapon,ap_ball/name/short,AP,AP
+weapon,ap_ball/name/short,AP,穿甲
 weapon,ap_t_ball/name,Armor-piercing tracer bullet,穿甲曳光弹
-weapon,ap_t_ball/name/short,AP-T,AP-T
+weapon,ap_t_ball/name/short,AP-T,穿甲曳光弹
 weapon,pele_t/name,Armor-piercing fragmentation tracer shell with enhanced lateral effect,横向效应增强穿甲破片曳光弹
 weapon,pele_t/name/short,PELE-T,PELE-T
 weapon,ap_i_ball/name,Armor-piercing incendiary bullet,穿甲燃烧弹
@@ -17911,7 +17911,7 @@ weapon,t_ball_M48A2/name,M48A2 spotter-tracer bullet,M48A2 测距曳光弹
 weapon,t_ball_M48A2/name/short,S,S
 weapon,t_ball_M48A2,M48A2,M48A2
 weapon,ap_ball_M2/name,M2 Armor-piercing bullet,M2 穿甲弹
-weapon,ap_ball_M2/name/short,AP,AP
+weapon,ap_ball_M2/name/short,AP,穿甲
 weapon,ball_M2/name,M2 Omni-purpose bullet,M2 通用弹
 weapon,ball_M2/name/short,Ball,Ball
 weapon,ap_i_t_ball_M20/name,M20 Armor-piercing incendiary tracer bullet,M20 穿甲燃烧曳光弹
@@ -17965,7 +17965,7 @@ weapon,he_frag_i/name/short,HEF-I,HEFI
 weapon,sapi/name,Semi-armor-piercing incendiary shell,半穿甲燃烧弹
 weapon,sapi/name/short,SAP-I,SAPI
 weapon,ap/name,Armor-piercing shell,穿甲弹
-weapon,ap/name/short,AP,AP
+weapon,ap/name/short,AP,穿甲
 weapon,aphe/name,Armor-piercing high-explosive shell,穿甲榴弹
 weapon,aphe/name/short,APHE,APHE
 weapon,aphe_t/name,Armor-piercing high-explosive tracer shell,穿甲高爆曳光弹
@@ -17973,7 +17973,7 @@ weapon,aphe_t/name/short,APHET,APHE-T
 weapon,apc_t/name,Armor-piercing capped shell,被帽穿甲弹
 weapon,apc_t/name/short,APC,APC
 weapon,ap_t/name,Armor-piercing tracer shell,穿甲曳光弹
-weapon,ap_t/name/short,AP-T,AP-T
+weapon,ap_t/name/short,AP-T,穿甲曳光弹
 weapon,ap_i/name,Armor-piercing incendiary shell,穿甲燃烧弹
 weapon,ap_i/name/short,AP-I,API
 weapon,ap_i_t/name,Armor-piercing incendiary tracer shell,穿甲燃烧曳光弹
@@ -17989,7 +17989,7 @@ weapon,he_frag_radio_fuse/name,High-explosive variable time fuze shell,榴弹 (�
 weapon,he_frag_radio_fuse/name/short,HE-VT,HE-VT
 weapon,he_frag_dist_fuse/name,High-explosive with time fuze,榴弹 (时间引信)
 weapon,he_frag_base_fuse_tank/name,High-explosive with base fuze,榴弹 (弹底引信)
-weapon,he_frag_base_fuse_tank/name/short,HE,HE
+weapon,he_frag_base_fuse_tank/name/short,HE,高爆弹
 weapon,he_frag_dist_fuse/name/short,HE-TF,HE-TF
 weapon,slap/name,Saboted Light Armor Penetrator bullet,次口径脱壳穿甲弹
 weapon,slap/name/short,SLAP,SLAP
@@ -18040,7 +18040,7 @@ weapon,night/name/short,Night,夜战
 weapon,apit/name,%s mm ammunition belt with API-T shells,%s 毫米 API-T 弹链配置
 weapon,apit/name/short,API-T,API-T
 weapon,apt/name,%s mm ammunition belt with AP-T shells,%s 毫米 AP-T 弹链配置
-weapon,apt/name/short,AP-T,AP-T
+weapon,apt/name/short,AP-T,穿甲曳光弹
 weapon,api_apt/name,%s mm ammunition belt with AP-T and API shells,%s 毫米 AP-T 与 API 弹链配置
 weapon,api_apt/name/short,AP-T/API,AP-T/API
 weapon,heit/name,%s mm ammunition belt with HEI-T or IAI shells,%s 毫米 HEI-T 或 IAI 弹链配置
@@ -18184,7 +18184,7 @@ weapon,weapon/torpedoIcon,└,└
 weapon,weapon/additionalGunsIcon,┖,┖
 weapon,weapon/bigAmountNumberIcon,...,...
 weapon,turret_ap_t/name,%s mm turret ammunition belt with AP-T shells,自卫武器 %s 毫米通用弹链配置
-weapon,turret_ap_t/name/short,AP-T,AP-T
+weapon,turret_ap_t/name/short,AP-T,穿甲曳光弹
 weapon,turret_he/name,%s mm turret ammunition belt with AP and HEF shells,自卫武器 %s 毫米对空弹链配置
 weapon,turret_he/name/short,Air targets,对空
 weapon,turret_apt/name,%s mm turret ammunition belt with AP shells,自卫武器 %s 毫米穿甲弹链配置
@@ -18212,9 +18212,9 @@ weapon,apcbc_solid_medium_caliber_tank/name/short,APCBC,APCBC
 weapon,apcbc_tank/name,Armor-piercing capped ballistic capped shell,被帽风帽穿甲弹
 weapon,apcbc_tank/name/short,APCBC,APCBC
 weapon,ap_large_caliber_tank/name,Armor-piercing shell,穿甲弹 (大口径)
-weapon,ap_large_caliber_tank/name/short,AP,AP
+weapon,ap_large_caliber_tank/name/short,AP,穿甲
 weapon,ap_tank/name,Armor-piercing shell,穿甲弹
-weapon,ap_tank/name/short,AP,AP
+weapon,ap_tank/name/short,AP,穿甲
 weapon,practice_tank/name,Target practice,射击训练弹
 weapon,practice_tank/name/short,TP,TP
 weapon,heat_fs_tank/name,High explosive anti-tank fin stabilized shell,尾翼稳定破甲弹
@@ -18238,7 +18238,7 @@ weapon,mp/name/short,MP,MP
 weapon,fap/name,Frangible armour-piercing projectile,易碎穿甲弹
 weapon,fap/name/short,FAP,FAP
 weapon,he_at/name,High explosive anti-tank projectile,破甲弹
-weapon,he_at/name/short,HEAT,HEAT
+weapon,he_at/name/short,HEAT,破甲弹
 weapon,he_at_grenade/name,High explosive anti-tank grenade,破甲榴弹
 weapon,he_at_grenade/name/short,HEATGR,HEATGR
 weapon,he_dp/name,High explosive Dual Purpose,多用途榴弹
@@ -18250,19 +18250,19 @@ weapon,atgm_vt_fuze_tank/name/short,ATGM-VT,ATGM-VT
 weapon,atgm_tandem_tank/name,Anti-Tank Guided Missile (tandem-charge),反坦克导弹 (串联装药)
 weapon,atgm_tandem_tank/name/short,ATGM (tandem),ATGM (串联)
 weapon,atgm_tank/name,Anti-Tank Guided Missile,反坦克导弹
-weapon,atgm_tank/name/short,ATGM,ATGM
+weapon,atgm_tank/name/short,ATGM,反坦克
 weapon,atgm_ke_tank/name,Anti-Tank Guided Missile,动能反坦克导弹
-weapon,atgm_ke_tank/name/short,ATGM,ATGM
+weapon,atgm_ke_tank/name/short,ATGM,反坦克
 weapon,sam_tank/name,Surface-to-air missile,地对空导弹
-weapon,sam_tank/name/short,SAM,SAM
+weapon,sam_tank/name/short,SAM,地对空
 weapon,rocket_tank/name,Rocket,火箭弹
 weapon,rocket_tank/name/short,R,R
 weapon,heat_grenade_tank/name,Anti-Tank grenade,反坦克榴弹
-weapon,heat_grenade_tank/name/short,HEAT,HEAT
+weapon,heat_grenade_tank/name/short,HEAT,破甲弹
 weapon,he_grenade_tank/name,High-explosive fragmentation grenade,高爆破片杀伤榴弹
-weapon,he_grenade_tank/name/short,HE,HE
+weapon,he_grenade_tank/name/short,HE,高爆弹
 weapon,heat_tank/name,High explosive anti-tank shell,破甲弹
-weapon,heat_tank/name/short,HEAT,HEAT
+weapon,heat_tank/name/short,HEAT,破甲弹
 weapon,heat_mp_vt_tank/name,"High explosive Anti-Tank, Multi-purpose shell",多用途破甲弹
 weapon,heat_mp_vt_tank/name/short,HEAT MP,HEAT MP
 weapon,he_or_tank/name,High explosive obstacle reduction shell,高爆破障弹
@@ -18284,13 +18284,13 @@ weapon,apds_autocannon/name/short,APDS,APDS
 weapon,apds_l15_tank/name,Armor-piercing discarding sabot shell,脱壳穿甲弹 (L15)
 weapon,apds_l15_tank/name/short,APDS,APDS
 weapon,apds_fs_full_body_steel_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot (steel) shot,尾翼稳定脱壳穿甲弹 (全钢制弹体)
-weapon,apds_fs_full_body_steel_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_full_body_steel_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,apds_fs_tungsten_l10_l15_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_tungsten_l10_l15_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_tungsten_l10_l15_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,apds_fs_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,apds_fs_tungsten_small_core_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_tungsten_small_core_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_tungsten_small_core_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,ac_shell_tank/name,Anti-concrete shell,混凝土破坏弹
 weapon,ac_shell_tank/name/short,AC shell,AC
 weapon,hesh_tank/name,High-explosive squash head shell,碎甲弹
@@ -18302,7 +18302,7 @@ weapon,incendiary_tank/name/short,I,I
 weapon,smoke_grenade_tank/name,Smoke Grenade,烟雾弹
 weapon,smoke_grenade_tank/name/short,Smoke,烟雾
 weapon,he_frag_tank/name,High-explosive fragmentation shell,杀伤榴弹
-weapon,he_frag_tank/name/short,HE,HE
+weapon,he_frag_tank/name/short,HE,高爆弹
 weapon,he_frag_vog/name,VOG high-explosive fragmentation grenade,破片榴弹 (俄制)
 weapon,he_frag_vog/name/short,VOG,HEF(VOG)
 weapon,he_frag_i_tank/name,High-explosive fragmentation incendiary shell,高爆破片燃烧弹
@@ -18310,9 +18310,9 @@ weapon,he_frag_i_tank/name/short,HEF-I,HEFI
 weapon,tphv_tank/name,High velocity target practice projectile,高速训练弹
 weapon,tphv_tank/name/short,HVTP,HVTP
 weapon,tp_tank/name,Target practice projectile,训练弹
-weapon,tp_tank/name/short,HE,HE
+weapon,tp_tank/name/short,HE,高爆弹
 weapon,aam/name,Air-to-Air Missile,空对空导弹
-weapon,aam/name/short,AAM,AAM
+weapon,aam/name/short,AAM,空对空
 weapon,agm/name,Air-to-Ground Missile,空对地导弹
 weapon,agm/name/short,AGM,AGM
 weapon,us_2_75_in_ffar_mighty_mouse_rockets/name,Mighty Mouse,太空飞鼠
@@ -18519,7 +18519,7 @@ weapon,105mm_m1,M1 shell,M1
 weapon,105mm_m67,M67 shot,M67
 weapon,105mm_t29e3,T29E3,T29E3
 weapon,105mm_t30e1,T30E1,T30E1
-weapon,105mm_t32,T32,T32
+weapon,105mm_t32,T32,T32 重型坦克
 weapon,105mm_dm12,DM12,DM12
 weapon,105mm_dm13,DM13,DM13
 weapon,105mm_dm23,DM23,DM23
@@ -18631,7 +18631,7 @@ weapon,explosiveType/oshiyaku,Oshiyaku,黄脂药
 weapon,explosiveType/rdx_tnt,RDX/TNT,黑梯
 weapon,explosiveType/octol_tnt,Octol/TNT,奥克托尔/TNT
 weapon,explosiveType/explosive_d,Explosive D,D 炸药
-weapon,explosiveType/sw_39a,SW39a,SW39a
+weapon,explosiveType/sw_39a,SW39a,SW39a（含铝硝酸铵/黑喜儿/TNT）
 weapon,explosiveType/tp_97,Type 97,九七式爆药
 weapon,explosiveType/tp_91,Type 91,九一式爆药
 weapon,explosiveType/tp_88,Type 88,八八式爆药
@@ -18639,14 +18639,14 @@ weapon,explosiveType/picric_acid_tnt,Picric acid/TNT 34/66,苦味酸/TNT 34/66
 weapon,explosiveType/picric_acid,Picric acid,苦味酸
 weapon,explosiveType/shellite,Shellite,施立德
 weapon,explosiveType/dd,DD,DD 炸药
-weapon,explosiveType/mmn,MMn,MMn
+weapon,explosiveType/mmn,MMn,MMn 炸药
 weapon,explosiveType/rdx,RDX,黑索今
 weapon,explosiveType/cyclonite,Cyclonite,黑索今
 weapon,explosiveType/rdx_aluminium,RDX/Aluminium,RDX 基含铝炸药
 weapon,explosiveType/h761,H 761,H.761
 weapon,explosiveType/ha_41,HA 41,HA 41
-weapon,explosiveType/tga_16,TGA-16,TGA-16
-weapon,explosiveType/tgaf_5,TGAF-5,TGAF-5
+weapon,explosiveType/tga_16,TGA-16,TGA-16（含铝黑索今 加 TNT）
+weapon,explosiveType/tgaf_5,TGAF-5,TGAF-5（含铝钝化黑索今 加 TNT）
 weapon,explosiveType/tgag_5,TGAG-5,TGAG-5
 weapon,explosiveType/tgaf_5m,TGAF-5M,TGAF-5M
 weapon,explosiveType/smoke_composition,Smoke composition,发烟剂
@@ -18666,9 +18666,9 @@ weapon,explosiveType/torpex,Torpex,托佩克斯
 weapon,explosiveType/trialen_105,Trialen 105,特里亚伦 105
 weapon,explosiveType/trialen_106,Trialen 106,特里亚伦 106
 weapon,explosiveType/trianilite,Trianilite,特安尼
-weapon,explosiveType/hbx,HBX,HBX
+weapon,explosiveType/hbx,HBX,HBX（含铝钝化黑索金 加 TNT）
 weapon,explosiveType/hbx_3,HBX-3,HBX-3
-weapon,explosiveType/hta,HTA,HTA
+weapon,explosiveType/hta,HTA,HTA（含铝黑索金 加 TNT）
 weapon,explosiveType/hta_petn,HTA/PETN,HTA/太安
 weapon,explosiveType/rdx_petn,RDX/PETN,RDX/太安
 weapon,explosiveType/nipolit,Nipolit,Nipolit
@@ -18690,35 +18690,35 @@ weapon,explosiveType/exp_d,Exp. D,D 炸药 (三硝基苯铵)
 weapon,explosiveType/fp60_40,Fp.60/40,Fp.60/40 (TNT/硝酸铵 60/40)
 weapon,explosiveType/fp02,Fp.02,Fp.02 (TNT)
 weapon,explosiveType/fp02_tetraxhlornaphtalin,Fp.02 and naphthalene tetrachloride,Fp.02 加 四氯化萘
-weapon,explosiveType/tnt,TNT,TNT
+weapon,explosiveType/tnt,TNT,TNT（三硝基甲苯）
 weapon,explosiveType/tetryl,Tetryl,特屈儿
 weapon,explosiveType/tritonal,Tritonal,特里托纳尔
 weapon,explosiveType/pbxn_110,PBXN-110,PBXN-110
 weapon,explosiveType/pbxn_109,PBXN-109,PBXN-109
 weapon,explosiveType/pbxn_107,PBXN-107,PBXN-107
-weapon,explosiveType/pbxn_102,PBXN-102,PBXN-102
+weapon,explosiveType/pbxn_102,PBXN-102,PBXN-102（聚酯树脂粘结含铝奥克托今）
 weapon,explosiveType/pbxn_5,PBXN-5,PBXN-5
-weapon,explosiveType/pbxn_4,PBXN-4,PBXN-4
-weapon,explosiveType/pbxn_3,PBXN-3,PBXN-3
+weapon,explosiveType/pbxn_4,PBXN-4,PBXN-4（尼龍甲醛二氨基三硝基苯）
+weapon,explosiveType/pbxn_3,PBXN-3,PBXN-3（尼龙粘结奥克托今）
 weapon,explosiveType/pbxn_9,PBXN-9,PBXN-9
 weapon,explosiveType/pbxn_104,PBXN-104,PBXN-104
 weapon,explosiveType/pbxn_af_108,PBX(AF)-108,PBX(AF)-108
 weapon,explosiveType/liEx_S13df,Liquid explosives,液体炸药
 weapon,explosiveType/ph_salz,EDNA,乙二硝胺
 weapon,explosiveType/hexal,Hexal,海萨尔
-weapon,explosiveType/a_ix_2,A-IX-2,A-IX-2
+weapon,explosiveType/a_ix_2,A-IX-2,A-IX-2（含铝钝化黑索金）
 weapon,explosiveType/mc,MC,MC
-weapon,explosiveType/a_ix_1,A-IX-1,A-IX-1
-weapon,explosiveType/h10,H.10,H.10
-weapon,explosiveType/h5,H.5,H.5
+weapon,explosiveType/a_ix_1,A-IX-1,A-IX-1（钝化黑索金）
+weapon,explosiveType/h10,H.10,H.10（10% 石蜡钝化黑索金）
+weapon,explosiveType/h5,H.5,H.5（5% 石蜡钝化黑索金）
 weapon,explosiveType/comp_h6,Comp. H6,H6 炸药
 weapon,explosiveType/xp3264,XP3264,XP3264
 weapon,explosiveType/comp_a4w,Comp. A-4,A-4 炸药
 weapon,explosiveType/s_r_379,Comp. S.R. 379,S.R. 379 复合燃烧剂
-weapon,explosiveType/np_10,Np.10,Np.10
-weapon,explosiveType/np_15,Np.15,Np.15
+weapon,explosiveType/np_10,Np.10,Np.10（10% 石蜡钝化太安）
+weapon,explosiveType/np_15,Np.15,Np.15（15% 石蜡钝化太安）
 weapon,explosiveType/petn,PETN,太安
-weapon,explosiveType/ocfol,OKFOL,OKFOL
+weapon,explosiveType/ocfol,OKFOL,OKFOL（钝化奥克托今）
 weapon,explosiveType/clx_663,CLX663,CLX663
 weapon,explosiveType/octol,Octol,奥梯
 weapon,explosiveType/hmx,HMX,奥克托今
@@ -18728,10 +18728,10 @@ weapon,explosiveType/comp_a,Comp. A,A 炸药
 weapon,explosiveType/nitrolit,Nitrolite,硝铵
 weapon,explosiveType/tg_40,TG-40,TG-40
 weapon,explosiveType/tg_50,TG-50,TG-50
-weapon,explosiveType/tg_20,TG-20,TG-20
+weapon,explosiveType/tg_20,TG-20,TG-20（黑索金 加 TNT）
 weapon,explosiveType/hlp_n,HLP-N,六方层状聚合氮
 weapon,explosiveType/minol,Minol,迈纳尔
-weapon,explosiveType/okfol_20,OKFOL-20,OKFOL-20
+weapon,explosiveType/okfol_20,OKFOL-20,OKFOL-20 炸药
 weapon,explosiveType/okfol_3_5,OKFOL-3.5,OKFOL-3.5
 weapon,explosiveType/melinite,Melinite,苦味酸
 weapon,explosiveType/mn_f_dn,Melinite 80/20,苦味酸 80/20
@@ -18741,8 +18741,8 @@ weapon,explosiveType/destex,Destex,DESTEX
 weapon,weapons/su_fab5000,5000 kg bomb FAB-5000,"5,000 千克 FAB-5000 炸弹"
 weapon,20mm_oerlikon_he_t,HE-T,HE-T
 weapon,20mm_oerlikon_he_i,HEI,HEI
-weapon,20mm_oerlikon_ap,AP-T,AP-T
-weapon,20mm_oerlikon_he,HE,HE
+weapon,20mm_oerlikon_ap,AP-T,穿甲曳光弹
+weapon,20mm_oerlikon_he,HE,高爆弹
 weapon,30_170mm_apds_t,30х170 APDS-T,30х170 APDS-T
 weapon,30_170mm_aphe_i,30x170 APHE-I,30x170 APHEI
 weapon,30_170mm_he_i,30x170 HE-I,30x170 HEI
@@ -18960,7 +18960,7 @@ weapon,weapons/107mm_ZIS6_user_cannon,107 mm ZIS-6 cannon,107 毫米 ZiS-6 坦�
 weapon,107mm_b420,B-420,B-420
 weapon,107mm_of_420,OF-420,OF-420
 weapon,weapons/de_f5w_torpedo/short,F5W,F 5w
-weapon,weapons/de_rz65_rocket/short,RZ 65,RZ 65
+weapon,weapons/de_rz65_rocket/short,RZ 65,RZ 65 挂架
 weapon,weapons/de_r4m_orkan_rocket/short,R4M,R4M
 weapon,weapons/uk_mk15_torpedo/short,Mark XV,Mk XV
 weapon,weapons/it_f200_450_torpedo/short,W 170/450,W 170/450
@@ -18990,12 +18990,12 @@ weapon,weapons/jp_navy_rocket_type3_number1_9kg/short,Type 3 No.1 Mod.28 Mk.1,�
 weapon,weapons/jp_navy_rocket_type5_number1_13kg/short,Type 5 No.1 Mod.9,五式一番九号
 weapon,weapons/jp_navy_rocket_type3_number6_66kg/short,Type 3 No.6 Mod.27 Mk.1,三式六番二七号一型
 weapon,weapons/jp_navy_rocket_type5_number6_84kg/short,Type 5 No.6 Mod.9,五式六番九号
-weapon,weapons/us_5_in_hvar/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_c/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_c_default/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_d/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_2/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_b/short,HVAR,HVAR
+weapon,weapons/us_5_in_hvar/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_c/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_c_default/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_d/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_2/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_b/short,HVAR,高速航空火箭弹 (HVAR)
 weapon,weapons/sws_oerlikon_oe82,8-cm Flz.-Rakete Oerlikon rockets,厄利孔空射火箭弹
 weapon,weapons/sws_oerlikon_oe82/short,8-cm Flz.-Rakete,空射火箭弹
 weapon,weapons/sws_flz_lwf_63_80,Flz Lwf 63/80 air-to-air missiles,Flz Lwf 63/80 空对空导弹
@@ -19021,11 +19021,11 @@ weapon,weapons/su_s_5m_rocket/short,S-5M,S-5M
 weapon,weapons/su_s_21_rocket/short,S-21,S-21
 weapon,weapons/su_s_24_rocket/short,S-24,S-24
 weapon,weapons/us_11_75_in_tiny_tim/short,Tiny Tim,小蒂姆
-weapon,weapons/us_5_in_hvar_a/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_a_default/short,HVAR,HVAR
-weapon,weapons/us_5_in_hvar_b_default/short,HVAR,HVAR
+weapon,weapons/us_5_in_hvar_a/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_a_default/short,HVAR,高速航空火箭弹 (HVAR)
+weapon,weapons/us_5_in_hvar_b_default/short,HVAR,高速航空火箭弹 (HVAR)
 weapon,weapons/us_11_75_in_tiny_tim_army/short,Tiny Tim,小蒂姆
-weapon,weapons/uk_hvar/short,HVAR,HVAR
+weapon,weapons/uk_hvar/short,HVAR,高速航空火箭弹 (HVAR)
 weapon,weapons/uk_rocket/short,RP-3,RP-3
 weapon,weapons/de_r4m_pb2_rocket/short,Pb2,Pb2
 weapon,weapons/uk_rp3/short,RP-3,RP-3
@@ -19056,7 +19056,7 @@ weapon,weapons/90mm_Kanone_M41_user_cannon,90 mm M41 cannon,90 毫米 M41 坦克
 weapon,weapons/90mm_M41_user_cannon,90 mm M41 cannon,90 毫米 M41 坦克炮
 weapon,weapons/180mm_2k4_rocket_launcher,3M7 ATGM,3M7 反坦克导弹
 weapon,weapons/180mm_2k4_launcher_user_cannon,3M7 ATGM,3M7 龙 反坦克导弹
-weapon,weapons/180mm_2k4_rocket_launcher/short,3M7,3M7
+weapon,weapons/180mm_2k4_rocket_launcher/short,3M7,3M7 龙
 weapon,weapons/180mm_3m7/short,3M7,3M7 龙
 weapon,weapons/164mm_s11_rocket_launcher,Robot 52 (SS.11) ATGM,Rb 52 (SS.11) 反坦克导弹
 weapon,weapons/164mm_s11_rocket_launcher/short,RB 52 A,Rb 52
@@ -19065,7 +19065,7 @@ weapon,weapons/82mm_m_8/short,M-8,M-8
 weapon,weapons/158mm_NB_Wf_41_rocket_launcher/short,Wgr.41 Spr,Wgr.41 Spr.
 weapon,weapons/152mm_wgr_41/short,Wgr.41 Spr,Wgr.41 Spr
 weapon,weapons/110mm_M8_rocket_launcher/short,M8,M8
-weapon,weapons/57mm_ub_16_rocket_launcher/short,UB-16,UB-16
+weapon,weapons/57mm_ub_16_rocket_launcher/short,UB-16,UB-16 挂架
 weapon,weapons/110mm_M8/short,M8,M8
 weapon,weapons/128mm_K40_user_cannon,128 mm K.40 cannon,128 毫米 K 40 反坦克炮
 weapon,weapons/57mm_Ch51M_user_cannon,57 mm Ch-51M cannon,57 毫米 Ch-51M 反坦克炮
@@ -19086,7 +19086,7 @@ weapon,weapons/160mm_sam_1c/short,Type 81C,81C 式
 weapon,weapons/160mm_sam_1c_launcher_user_cannon,Type 81 SAM-1C,81 式短距离防空导弹 (C 标准)
 weapon,weapons/160mm_sam_1c_slave_launcher_user_cannon,Type 81 SAM-1C,81 式短距离防空导弹 (C 标准)
 weapon,weapons/127mm_IRIS_T_user_cannon,RBS 98 SAM,RBS 98 地对空导弹
-weapon,weapons/127mm_aim_9x_nomads_user_cannon,NOMADS SAM,NOMADS  地对空导弹
+weapon,weapons/127mm_aim_9x_nomads_user_cannon,NOMADS SAM,NOMADS 地对空导弹
 weapon,weapons/105mm_T5E2_user_cannon,105 mm T5E2 cannon,105 毫米 T5E2 坦克炮
 weapon,weapons/105mm_T140_user_cannon,105 mm T140E2 cannon,105 毫米 T140E2 坦克炮
 weapon,weapons/105mm_t140e3_user_cannon,105 mm T140E3 cannon,105 毫米 T140E3 坦克炮
@@ -19097,8 +19097,8 @@ weapon,weapons/164mm_lfk_ss_11/short,LFK SS.11,SS.11
 weapon,weapons/164mm_robot_52/short,LFK SS.11,SS.11
 weapon,weapons/136mm_mephisto_launcher_user_cannon,HOT ATGM,HOT 反坦克导弹
 weapon,weapons/136mm_HOT_rocket_launcher,HOT ATGM,HOT 反坦克导弹
-weapon,weapons/136mm_HOT_rocket_launcher/short,HOT,HOT
-weapon,weapons/136mm_k3s_hot/short,HOT,HOT
+weapon,weapons/136mm_HOT_rocket_launcher/short,HOT,“霍特”
+weapon,weapons/136mm_k3s_hot/short,HOT,“霍特”
 weapon,weapons/136mm_k3s_hot_launcher_user_cannon,HOT-K3S ATGM,HOT K3S 反坦克导弹发射器
 weapon,weapons/136mm_k3s_hot_rocket_launcher,HOT-K3S ATGM,HOT K3S 反坦克导弹发射器
 weapon,weapons/136mm_k3s_hot_rocket_launcher/short,HOT-K3S,HOT K3S
@@ -19213,8 +19213,8 @@ weapon,weapons/152mm_9m123/short,9M123,9M123 菊花
 weapon,152mm_9m123f,9M123F,9M123F 菊花
 weapon,weapons/152mm_9m123f/short,9M123F,9M123F 菊花
 weapon,130mm_starstreak_hvm,Starstreak HVM,星痕 高速导弹
-weapon,136mm_k3s_hot,HOT,HOT
-weapon,150mm_k3s_hot_2,HOT-2,HOT-2
+weapon,136mm_k3s_hot,HOT,“霍特”
+weapon,150mm_k3s_hot_2,HOT-2,“霍特”2
 weapon,130mm_9m114,9M114,9M114 蚕茧
 weapon,130mm_9m120,9M120,9M120 攻击
 weapon,130mm_9m120_1,9M120-1,9M120-1
@@ -19226,10 +19226,10 @@ weapon,152mm_3c1,3C1,3C1
 weapon,weapons/152mm_3c1/short,3C1,3C1
 weapon,weapons/130mm_9m220o/short,9M220O,9M220O 攻击
 weapon,152mm_mim14,MIM146,MIM-146
-weapon,180mm_3m7,3M7,3M7
-weapon,120mm_9m37m,9M37M,9M37M
+weapon,180mm_3m7,3M7,3M7 龙
+weapon,120mm_9m37m,9M37M,9M37M 箭
 weapon,weapons/120mm_9m37m/short,9M37M,9M37M 箭
-weapon,152mm_zur_9m311,9M311,9M311
+weapon,152mm_zur_9m311,9M311,9M311 导弹
 weapon,152mm_zur_9m311_1m,9M311-1M,9M311-1M
 weapon,164mm_robot_52,RB 52 A,Rb 52A
 weapon,164mm_lfk_ss_11,LFK SS.11,SS.11
@@ -19406,7 +19406,7 @@ weapon,weapons/105mm_Ansaldo_105_25_user_cannon,105 mm Cannone Ansaldo da 105/25
 weapon,105mm_gr_perforante,Granata Perforante da 105,穿甲榴弹
 weapon,105mm_ep_m43,Effetto Pronto mod.43,E.P. 43 型
 weapon,weapons/20mm_M168_user_cannon,20 mm M168 cannon,20 毫米 M168 机炮
-weapon,20mm_m52a1,API,API
+weapon,20mm_m52a1,API,穿甲燃烧弹
 weapon,20mm_m53,AP-I,API
 weapon,20mm_m56a3,HE-I,HEI
 weapon,20mm_m242a1,HEI,HEI
@@ -19421,13 +19421,13 @@ weapon,weapons/23mm_2A14_user_cannon,23 mm ZU-23 cannon,23 毫米 ZU-23 机炮
 weapon,23mm_apit,API-T,API-T
 weapon,23mm_heit,HEI-T,HEI-T
 weapon,23mm_hei,HEI,HEI
-weapon,20mm_shvak_api,API,API
+weapon,20mm_shvak_api,API,穿甲燃烧弹
 weapon,20mm_shvak_apit,API-T,API-T
 weapon,20mm_shvak_frag,FI,FI
 weapon,20mm_shvak_frag_t,FI-T,FI-T
 weapon,30mm_vog_30,VOG-30,VOG-30
 weapon,37mm_heit_1955,HEI-T,HEI-T
-weapon,37mm_apit_1955,AP-T,AP-T
+weapon,37mm_apit_1955,AP-T,穿甲曳光弹
 weapon,weapons/30mm_AG_30_user_cannon,30 mm AG-30M automatic grenade launcher,30 毫米 AG-30M 自动榴弹发射器
 weapon,weapons/30mm_AG_17_user_cannon,30 mm AG-17 automatic grenade launcher,30 毫米 AG-17 自动榴弹发射器
 weapon,weapons/152mm_9M133_launcher_user_cannon,9M133 ATGM,9M133 短号 反坦克导弹
@@ -19435,12 +19435,12 @@ weapon,weapons/130mm_barrier_launcher_user_cannon,Barrier ATGM,屏障 反坦克�
 weapon,weapons/152mm_9M133_btr_82at_launcher_user_cannon,9M133 ATGM,9M133 短号 反坦克导弹
 weapon,weapons/152mm_9M123_launcher_user_cannon,9M123 ATGM,9M123 菊花 反坦克导弹
 weapon,weapons/120mm_9m37m_rocket_launcher,AAM 9M37M,9M37M 地对空导弹
-weapon,weapons/120mm_9m37m_rocket_launcher/short,9M37M,9M37M
+weapon,weapons/120mm_9m37m_rocket_launcher/short,9M37M,9M37M 箭
 weapon,weapons/152mm_9M311_1M_rocket_launcher,AAM 9M311-1M,9M311-1M 地对空导弹
 weapon,weapons/152mm_9M311_1M_rocket_launcher/short,9M311-1M,9M311-1M
 weapon,weapons/152mm_9M311_rocket_launcher,AAM 9M311,9M311 地对空导弹
-weapon,weapons/152mm_9M311_rocket_launcher/short,9M311,9M311
-weapon,weapons/152mm_9M311/short,9M311,9M311
+weapon,weapons/152mm_9M311_rocket_launcher/short,9M311,9M311 导弹
+weapon,weapons/152mm_9M311/short,9M311,9M311 导弹
 weapon,weapons/152mm_zur_9m311_1m/short,9M311,9M311-1M
 weapon,weapons/170mm_bae_swingfire_rocket_launcher,BAe Swingfire ATGM,旋火 反坦克导弹
 weapon,weapons/170mm_bae_swingfire_rocket_launcher/short,BAe Swingfire,旋火
@@ -19511,8 +19511,8 @@ weapon,weapons/130mm_M65_user_cannon,130 mm M-65 cannon,130 毫米 M-65 坦克�
 weapon,weapons/130mm_C70_user_cannon,130 mm S-70 cannon,130 毫米 S-70 坦克炮
 weapon,weapons/7_62mm_RP46_user_machinegun,7.62 mm RP-46 machine gun,7.62 毫米 RP-46 机枪
 weapon,weapons/35mm_PG_99_35_2_user_cannon,35 mm PG99-35-2 cannon,35 毫米 PG99 式双管高射炮
-weapon,35mm_dkp_01a,DKP01A,DKP01A
-weapon,35mm_dkg_01a,DKG01A,DKG01A
+weapon,35mm_dkp_01a,DKP01A,DKP01A 曳光穿甲爆破燃烧弹
+weapon,35mm_dkg_01a,DKG01A,DKG01A 曳光爆破燃烧弹
 weapon,weapons/105mm_FMK4_Modelo_1L_2IP_user_cannon,105 mm FMK.4 Modelo 1L cannon,105 毫米 FMK-4 1L 型坦克炮
 weapon,weapons/105mm_FMK4_Modelo_1L_2C_user_cannon,105 mm FMK.4 Modelo 1L cannon,105 毫米 FMK-4 1L 型坦克炮
 weapon,weapons/105mm_FMK4_Modelo_1L_user_cannon,105 mm FMK.4 Modelo 1L cannon,105 毫米 FMK-4 1L 型坦克炮
@@ -19605,11 +19605,11 @@ weapon,weapons/euro_hot/short,HOT-1,HOT
 weapon,weapons/euro_hot_default,HOT-1 missiles,HOT-1 反坦克导弹
 weapon,weapons/euro_hot_default/short,HOT-1,HOT-1
 weapon,weapons/euro_hot2,HOT-2 TOW missiles,HOT-2 反坦克导弹
-weapon,weapons/euro_hot2/short,HOT-2,HOT-2
+weapon,weapons/euro_hot2/short,HOT-2,“霍特”2
 weapon,weapons/su_9M114,9M114 Shturm missiles,9M114 蚕茧 反坦克导弹
-weapon,weapons/su_9M114/short,9M114,9M114
+weapon,weapons/su_9M114/short,9M114,9M114 蚕茧 反坦克导弹
 weapon,weapons/su_9M114_default,9M114 Shturm missiles,9M114 蚕茧 反坦克导弹
-weapon,weapons/su_9M114_default/short,9M114,9M114
+weapon,weapons/su_9M114_default/short,9M114,9M114 蚕茧 反坦克导弹
 weapon,weapons/fr_ss_11,AS.11 missiles,AS.11 反坦克导弹
 weapon,weapons/fr_ss_11/short,AS.11,AS.11
 weapon,weapons/fr_ss_12,AS.12 missiles,AS.12 反坦克导弹
@@ -19733,7 +19733,7 @@ weapon,weapons/cannonNR30_early/short,NR-30(e),NR-30 (早期型)
 weapon,weapons/cannonType30_1,30 mm Type 30-1 cannon,30 毫米 30-1 型机炮
 weapon,weapons/cannonType30_1/short,Type 30-1,30-1
 weapon,weapons/cannon2A42,30 mm 2A42 cannon,30 毫米 2A42 机炮
-weapon,weapons/cannon2A42/short,2A42,2A42
+weapon,weapons/cannon2A42/short,2A42,2A42 机炮
 weapon,weapons/gunGShG,7.62 mm GShG-7.62 machine gun,7.62 毫米 GShG-7.62 机枪
 weapon,weapons/gunGShG_guv,7.62 mm GShG-7.62 machine gun,7.62 毫米 GShG-7.62 机枪
 weapon,weapons/gunGShG_guv/short,7.62 mm GShG,7.62 毫米 GShG 机枪
@@ -19760,11 +19760,11 @@ weapon,weapons/su_9m14m_default/short,9M14M,9M14M
 weapon,weapons/su_9M14-2,9M14-2 Malyutka-2 missiles,9M14-2 婴儿-2 反坦克导弹
 weapon,weapons/su_9M14-2/short,9M14-2,9M14-2
 weapon,weapons/su_9M120,9M120 Ataka missiles,9M120 攻击 反坦克导弹
-weapon,weapons/su_9M120/short,9M120,9M120
+weapon,weapons/su_9M120/short,9M120,9M120 攻击 反坦克导弹
 weapon,weapons/su_9M123,9M123M Khrizantema-VM missiles,9M123M 菊花-VM 导弹
 weapon,weapons/su_9M123/short,9M123M,9M123M
 weapon,weapons/su_9M120M,9M120 Ataka missiles,9M120 攻击 反坦克导弹
-weapon,weapons/su_9M120M/short,9M120,9M120
+weapon,weapons/su_9M120M/short,9M120,9M120 攻击 反坦克导弹
 weapon,weapons/su_9M120M_laser_guided,9M120-1 Ataka missiles,9M120-1 攻击 反坦克导弹
 weapon,weapons/su_9M120M_laser_guided/short,9M120-1,9M120-1
 weapon,weapons/su_9M120M_laser_guided_default,9M120-1 Ataka missiles,9M120-1 攻击 反坦克导弹
@@ -19807,11 +19807,11 @@ weapon,weapons/sws_flz_lwf_ll_64/short,FL 64/79,FL 64/79
 weapon,weapons/us_aim7c_sparrow,AIM-7C Sparrow air-to-air missiles,AIM-7C 麻雀 空对空导弹
 weapon,weapons/us_aim7c_sparrow/short,AIM-7C,AIM-7C
 weapon,weapons/us_aim7d_sparrow,AIM-7D Sparrow air-to-air missiles,AIM-7D 麻雀 空对空导弹
-weapon,weapons/us_aim7d_sparrow/short,AIM-7D,AIM-7D
+weapon,weapons/us_aim7d_sparrow/short,AIM-7D,AIM-7D“麻雀”
 weapon,weapons/us_aim7e_sparrow,AIM-7E Sparrow air-to-air missiles,AIM-7E 麻雀 空对空导弹
-weapon,weapons/us_aim7e_sparrow/short,AIM-7E,AIM-7E
+weapon,weapons/us_aim7e_sparrow/short,AIM-7E,AIM-7E“麻雀”
 weapon,weapons/us_aim7e2_sparrow,AIM-7E-2 Sparrow air-to-air missiles,AIM-7E-2 麻雀 空对空导弹
-weapon,weapons/us_aim7e2_sparrow/short,AIM-7E-2,AIM-7E-2
+weapon,weapons/us_aim7e2_sparrow/short,AIM-7E-2,AIM-7E-2“麻雀”
 weapon,weapons/us_aim7f_sparrow,AIM-7F Sparrow air-to-air missiles,AIM-7F 麻雀 空对空导弹
 weapon,weapons/us_aim7f_sparrow/short,AIM-7F,AIM-7F
 weapon,weapons/us_aim7f_sparrow_default,AIM-7F Sparrow air-to-air missiles,AIM-7F 麻雀 空对空导弹
@@ -19863,23 +19863,23 @@ weapon,weapons/swd_rb99/short,RB 99,Rb 99
 weapon,weapons/swd_rb99_default,RB 99 air-to-air missiles,Rb 99 空对空导弹
 weapon,weapons/swd_rb99_default/short,RB 99,Rb 99
 weapon,weapons/us_aim9b_sidewinder,AIM-9B Sidewinder air-to-air missiles,AIM-9B 响尾蛇 空对空导弹
-weapon,weapons/us_aim9b_sidewinder/short,AIM-9B,AIM-9B
+weapon,weapons/us_aim9b_sidewinder/short,AIM-9B,AIM-9B“响尾蛇”
 weapon,weapons/us_aim9b_sidewinder_default,AIM-9B Sidewinder air-to-air missiles,AIM-9B 响尾蛇 空对空导弹
-weapon,weapons/us_aim9b_sidewinder_default/short,AIM-9B,AIM-9B
+weapon,weapons/us_aim9b_sidewinder_default/short,AIM-9B,AIM-9B“响尾蛇”
 weapon,weapons/us_aim9b_sidewinder_default_group,AIM-9B Sidewinder air-to-air missiles,AIM-9B 响尾蛇 空对空导弹
-weapon,weapons/us_aim9b_sidewinder_default_group/short,AIM-9B,AIM-9B
+weapon,weapons/us_aim9b_sidewinder_default_group/short,AIM-9B,AIM-9B“响尾蛇”
 weapon,weapons/us_aim9b_sidewinder_cwp,AIM-9B Sidewinder air-to-air missiles,AIM-9B 响尾蛇 空对空导弹
-weapon,weapons/us_aim9b_sidewinder_cwp/short,AIM-9B,AIM-9B
+weapon,weapons/us_aim9b_sidewinder_cwp/short,AIM-9B,AIM-9B“响尾蛇”
 weapon,weapons/us_aim9b_fgw_2_sidewinder,AIM-9B FGW.2 Sidewinder air-to-air missiles,AIM-9B FGW.2 响尾蛇 空对空导弹
-weapon,weapons/us_aim9b_fgw_2_sidewinder/short,AIM-9B FGW.2,AIM-9B FGW.2
+weapon,weapons/us_aim9b_fgw_2_sidewinder/short,AIM-9B FGW.2,AIM-9B“响尾蛇”FGW.2
 weapon,weapons/us_aim9p4_sidewinder,AIM-9P-4 Sidewinder air-to-air missiles,AIM-9P-4 响尾蛇 空对空导弹
 weapon,weapons/us_aim9p4_sidewinder/short,AIM-9P-4,AIM-9P-4
 weapon,weapons/us_aim9p4_sidewinder_default,AIM-9P-4 Sidewinder air-to-air missiles,AIM-9P-4 响尾蛇 空对空导弹
 weapon,weapons/us_aim9p4_sidewinder_default/short,AIM-9P-4,AIM-9P-4
 weapon,weapons/us_aim9p_sidewinder,AIM-9P Sidewinder air-to-air missiles,AIM-9P 响尾蛇 空对空导弹
-weapon,weapons/us_aim9p_sidewinder/short,AIM-9P,AIM-9P
+weapon,weapons/us_aim9p_sidewinder/short,AIM-9P,AIM-9P “响尾蛇”
 weapon,weapons/us_aim9p_sidewinder_default,AIM-9P Sidewinder air-to-air missiles,AIM-9P 响尾蛇 空对空导弹
-weapon,weapons/us_aim9p_sidewinder_default/short,AIM-9P,AIM-9P
+weapon,weapons/us_aim9p_sidewinder_default/short,AIM-9P,AIM-9P “响尾蛇”
 weapon,weapons/us_aim9c_sidewinder,AIM-9C Sidewinder air-to-air missiles,AIM-9C 响尾蛇 空对空导弹
 weapon,weapons/us_aim9c_sidewinder/short,AIM-9C,AIM-9C
 weapon,weapons/us_aim9c_sidewinder_default,AIM-9C Sidewinder air-to-air missiles,AIM-9C 响尾蛇 空对空导弹
@@ -19887,23 +19887,23 @@ weapon,weapons/us_aim9c_sidewinder_default/short,AIM-9C,AIM-9C
 weapon,weapons/us_aim9c_sidewinder_default_group,AIM-9C Sidewinder air-to-air missiles,AIM-9C 响尾蛇 空对空导弹
 weapon,weapons/us_aim9c_sidewinder_default_group/short,AIM-9C,AIM-9C
 weapon,weapons/us_aim9d_sidewinder,AIM-9D Sidewinder air-to-air missiles,AIM-9D 响尾蛇 空对空导弹
-weapon,weapons/us_aim9d_sidewinder/short,AIM-9D,AIM-9D
+weapon,weapons/us_aim9d_sidewinder/short,AIM-9D,AIM-9D “响尾蛇”
 weapon,weapons/us_aim9d_sidewinder_default,AIM-9D Sidewinder air-to-air missiles,AIM-9D 响尾蛇 空对空导弹
-weapon,weapons/us_aim9d_sidewinder_default/short,AIM-9D,AIM-9D
+weapon,weapons/us_aim9d_sidewinder_default/short,AIM-9D,AIM-9D “响尾蛇”
 weapon,weapons/us_aim9d_sidewinder_default_group,AIM-9D Sidewinder air-to-air missiles,AIM-9D 响尾蛇 空对空导弹
-weapon,weapons/us_aim9d_sidewinder_default_group/short,AIM-9D,AIM-9D
+weapon,weapons/us_aim9d_sidewinder_default_group/short,AIM-9D,AIM-9D “响尾蛇”
 weapon,weapons/us_aim9d_sidewinder_cwp,AIM-9D Sidewinder air-to-air missiles,AIM-9D 响尾蛇 空对空导弹
-weapon,weapons/us_aim9d_sidewinder_cwp/short,AIM-9D,AIM-9D
+weapon,weapons/us_aim9d_sidewinder_cwp/short,AIM-9D,AIM-9D “响尾蛇”
 weapon,weapons/us_aim9g_sidewinder,AIM-9G Sidewinder air-to-air missiles,AIM-9G 响尾蛇 空对空导弹
-weapon,weapons/us_aim9g_sidewinder/short,AIM-9G,AIM-9G
+weapon,weapons/us_aim9g_sidewinder/short,AIM-9G,AIM-9G“响尾蛇”
 weapon,weapons/us_aim9g_sidewinder_default,AIM-9G Sidewinder air-to-air missiles,AIM-9G 响尾蛇 空对空导弹
-weapon,weapons/us_aim9g_sidewinder_default/short,AIM-9G,AIM-9G
+weapon,weapons/us_aim9g_sidewinder_default/short,AIM-9G,AIM-9G“响尾蛇”
 weapon,weapons/us_aim9h_sidewinder,AIM-9H Sidewinder air-to-air missiles,AIM-9H 响尾蛇 空对空导弹
 weapon,weapons/us_aim9h_sidewinder/short,AIM-9H,AIM-9H
 weapon,weapons/us_aim9j_sidewinder,AIM-9J Sidewinder air-to-air missiles,AIM-9J 响尾蛇 空对空导弹
-weapon,weapons/us_aim9j_sidewinder/short,AIM-9J,AIM-9J
+weapon,weapons/us_aim9j_sidewinder/short,AIM-9J,AIM-9J“响尾蛇”
 weapon,weapons/us_aim9j_sidewinder_default,AIM-9J Sidewinder air-to-air missiles,AIM-9J 响尾蛇 空对空导弹
-weapon,weapons/us_aim9j_sidewinder_default/short,AIM-9J,AIM-9J
+weapon,weapons/us_aim9j_sidewinder_default/short,AIM-9J,AIM-9J“响尾蛇”
 weapon,weapons/us_aim9n_sidewinder,AIM-9N Sidewinder air-to-air missiles,AIM-9N 响尾蛇 空对空导弹
 weapon,weapons/us_aim9n_sidewinder/short,AIM-9N,AIM-9N
 weapon,weapons/us_aim4g_falcon,AIM-4G Super Falcon air-to-air missiles,AIM-4G 超级猎鹰 空对空导弹
@@ -19990,20 +19990,20 @@ weapon,weapons/r_darter,R-Darter air-to-air missiles,R-短矛 空对空导弹
 weapon,weapons/r_darter/short,R-Darter,R-短矛
 weapon,weapons/r_darter_default,R-Darter air-to-air missiles,R-短矛 空对空导弹
 weapon,weapons/r_darter_default/short,R-Darter,R-短矛
-weapon,us_aim9b_sidewinder,AIM-9B,AIM-9B
+weapon,us_aim9b_sidewinder,AIM-9B,AIM-9B“响尾蛇”
 weapon,us_aim9c_sidewinder,AIM-9C,AIM-9C
-weapon,us_aim9d_sidewinder,AIM-9D,AIM-9D
-weapon,us_aim9e_sidewinder,AIM-9E,AIM-9E
-weapon,us_aim9g_sidewinder,AIM-9G,AIM-9G
+weapon,us_aim9d_sidewinder,AIM-9D,AIM-9D “响尾蛇”
+weapon,us_aim9e_sidewinder,AIM-9E,AIM-9E“响尾蛇”
+weapon,us_aim9g_sidewinder,AIM-9G,AIM-9G“响尾蛇”
 weapon,us_aim9h_sidewinder,AIM-9H,AIM-9H
-weapon,us_aim9j_sidewinder,AIM-9J,AIM-9J
-weapon,us_aim9l_sidewinder,AIM-9L,AIM-9L
+weapon,us_aim9j_sidewinder,AIM-9J,AIM-9J“响尾蛇”
+weapon,us_aim9l_sidewinder,AIM-9L,AIM-9L“响尾蛇”
 weapon,us_aim9l_i_sidewinder,AIM-9L/I,AIM-9L/I
 weapon,us_aim9l_i_sidewinder_default,AIM-9L/I,AIM-9L/I
-weapon,us_aim9l_sidewinder_default,AIM-9L,AIM-9L
-weapon,us_aim9l_sidewinder_default_bol_pod,AIM-9L,AIM-9L
-weapon,us_aim9l_sidewinder_bol_pod,AIM-9L,AIM-9L
-weapon,us_aim9p_sidewinder,AIM-9P,AIM-9P
+weapon,us_aim9l_sidewinder_default,AIM-9L,AIM-9L“响尾蛇”
+weapon,us_aim9l_sidewinder_default_bol_pod,AIM-9L,AIM-9L“响尾蛇”
+weapon,us_aim9l_sidewinder_bol_pod,AIM-9L,AIM-9L“响尾蛇”
+weapon,us_aim9p_sidewinder,AIM-9P,AIM-9P “响尾蛇”
 weapon,us_aim9m_sidewinder,AIM-9M,AIM-9M
 weapon,us_aim9m_sidewinder_default,AIM-9M,AIM-9M
 weapon,us_aim9m_sidewinder_bol_pod,AIM-9M,AIM-9M
@@ -20082,17 +20082,17 @@ weapon,weapons/su_r_27t1/short,R-27T1,R-27T1
 weapon,weapons/su_r_27er1,R-27ER1 air-to-air missiles,R-27ER1 空对空导弹
 weapon,weapons/su_r_27er1/short,R-27ER1,R-27ER1
 weapon,weapons/us_aim9l_sidewinder,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/us_aim9l_sidewinder/short,AIM-9L,AIM-9L
+weapon,weapons/us_aim9l_sidewinder/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons/us_aim9l_i_sidewinder,AIM-9L/I Sidewinder air-to-air missiles,AIM-9L/I 响尾蛇 空对空导弹
 weapon,weapons/us_aim9l_i_sidewinder/short,AIM-9L/I,AIM-9L/I
 weapon,weapons/us_aim9l_i_sidewinder_default,AIM-9L/I Sidewinder air-to-air missiles,AIM-9L/I 响尾蛇 空对空导弹
 weapon,weapons/us_aim9l_i_sidewinder_default/short,AIM-9L/I,AIM-9L/I
 weapon,weapons/us_aim9l_sidewinder_default,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/us_aim9l_sidewinder_default/short,AIM-9L,AIM-9L
+weapon,weapons/us_aim9l_sidewinder_default/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons/us_aim9l_sidewinder_bol_pod,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/us_aim9l_sidewinder_bol_pod/short,AIM-9L,AIM-9L
+weapon,weapons/us_aim9l_sidewinder_bol_pod/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons/us_aim9l_sidewinder_default_bol_pod,AIM-9L Sidewinder air-to-air missiles,AIM-9L 响尾蛇 空对空导弹
-weapon,weapons/us_aim9l_sidewinder_default_bol_pod/short,AIM-9L,AIM-9L
+weapon,weapons/us_aim9l_sidewinder_default_bol_pod/short,AIM-9L,AIM-9L“响尾蛇”
 weapon,weapons/us_aim9m_sidewinder,AIM-9M Sidewinder air-to-air missiles,AIM-9M 响尾蛇 空对空导弹
 weapon,weapons/us_aim9m_sidewinder/short,AIM-9M,AIM-9M
 weapon,weapons/us_aim9m_sidewinder_default,AIM-9M Sidewinder air-to-air missiles,AIM-9M 响尾蛇 空对空导弹
@@ -20124,13 +20124,13 @@ weapon,weapons/swd_rb74m_default/short,RB 74(M),Rb 74(M)
 weapon,weapons/swd_rb74m_bol_pod,RB 74(M) air-to-air missiles,Rb 74(M) 空对空导弹
 weapon,weapons/swd_rb74m_bol_pod/short,RB 74(M),Rb 74(M)
 weapon,weapons/us_aim9e_sidewinder,AIM-9E Sidewinder air-to-air missiles,AIM-9E 响尾蛇 空对空导弹
-weapon,weapons/us_aim9e_sidewinder/short,AIM-9E,AIM-9E
+weapon,weapons/us_aim9e_sidewinder/short,AIM-9E,AIM-9E“响尾蛇”
 weapon,weapons/us_aim9e_sidewinder_default,AIM-9E Sidewinder air-to-air missiles,AIM-9E 响尾蛇 空对空导弹
-weapon,weapons/us_aim9e_sidewinder_default/short,AIM-9E,AIM-9E
+weapon,weapons/us_aim9e_sidewinder_default/short,AIM-9E,AIM-9E“响尾蛇”
 weapon,weapons/su_9M39,9M39 Igla air-to-air missiles,9M39 针 空对空导弹
 weapon,weapons/su_9M39/short,9M39,9M39 针
 weapon,weapons/su_9M336,9M336 Verba air-to-air missiles,9M336 柳树 空对空导弹
-weapon,weapons/su_9M336/short,9M336,9M336
+weapon,weapons/su_9M336/short,9M336,9M336 柳树
 weapon,weapons/atam_mistral,Mistral air-to-air missiles,西北风 空对空导弹
 weapon,weapons/atam_mistral/short,Mistral,西北风
 weapon,weapons/atam_mistral_sam,Mistral surface-to-air missiles,西北风 地对空导弹
@@ -20174,11 +20174,11 @@ weapon,weapons/fr_matra_super_530d/short,Matra Super 530D,超级 530D
 weapon,weapons/fr_matra_super_530d_default,Matra Super 530D air-to-air missiles,超级 530D 空对空导弹
 weapon,weapons/fr_matra_super_530d_default/short,Matra Super 530D,超级 530D
 weapon,weapons/fr_mica_em,MICA-EM air-to-air missiles,MICA-EM 空对空导弹
-weapon,weapons/fr_mica_em/short,MICA-EM,MICA-EM
+weapon,weapons/fr_mica_em/short,MICA-EM,雲母-EM
 weapon,weapons/fr_mica_em_default,MICA-EM air-to-air missiles,MICA-EM 空对空导弹
-weapon,weapons/fr_mica_em_default/short,MICA-EM,MICA-EM
+weapon,weapons/fr_mica_em_default/short,MICA-EM,雲母-EM
 weapon,weapons/su_r_3s,R-3S air-to-air missiles,R-3S 空对空导弹
-weapon,weapons/su_r_3s/short,R-3S,R-3S
+weapon,weapons/su_r_3s/short,R-3S,R-3S 空对空导弹
 weapon,weapons/su_r_3r,R-3R air-to-air missiles,R-3R 空对空导弹
 weapon,weapons/su_r_3r/short,R-3R,R-3R
 weapon,weapons/su_pl2,PL-2 air-to-air missiles,霹雳-2 空对空导弹
@@ -20240,9 +20240,9 @@ weapon,weapons/br_maa_1/short,MAA-1,MAA-1
 weapon,weapons/br_maa_1_default,MAA-1 Piranha air-to-air missiles,MAA-1 食人鱼 空对空导弹
 weapon,weapons/br_maa_1_default/short,MAA-1,MAA-1
 weapon,weapons/su_r_3s_default,R-3S air-to-air missiles,R-3S 空对空导弹
-weapon,weapons/su_r_3s_default/short,R-3S,R-3S
+weapon,weapons/su_r_3s_default/short,R-3S,R-3S 空对空导弹
 weapon,weapons/su_r_13m,R-13M air-to-air missiles,R-13M 空对空导弹
-weapon,weapons/su_r_13m/short,R-13M,R-13M
+weapon,weapons/su_r_13m/short,R-13M,R-13M 空对空导弹
 weapon,weapons/su_r_13m1,R-13M1 air-to-air missiles,R-13M1 空对空导弹
 weapon,weapons/su_r_13m1/short,R-13M1,R-13M1
 weapon,weapons/su_r_13m1_default,R-13M1 air-to-air missiles,R-13M1 空对空导弹
@@ -20283,9 +20283,9 @@ weapon,weapons/sa_zt_35_ingwe/short,ZT3A2 Ingwe,ZT3A2 豹
 weapon,weapons/sa_zt_35_ingwe_default,ZT3A2 Ingwe air-to-ground missiles,ZT3A2 豹 空对地导弹
 weapon,weapons/sa_zt_35_ingwe_default/short,ZT3A2 Ingwe,ZT3A2 豹
 weapon,weapons/euro_hot3,HOT-3 air-to-ground missiles,HOT-3 反坦克导弹
-weapon,weapons/euro_hot3/short,HOT-3,HOT-3
+weapon,weapons/euro_hot3/short,HOT-3,“霍特”3
 weapon,weapons/euro_atgw3,PARS 3 LR air-to-ground missiles,PARS 3 长程型导弹
-weapon,weapons/euro_atgw3/short,PARS 3 LR,PARS 3 LR
+weapon,weapons/euro_atgw3/short,PARS 3 LR,PARS 3 长射程型导弹
 weapon,weapons/euro_trigat_lr,TRIGAT-LR air-to-ground missiles,TRIGAT-LR 空对地导弹
 weapon,weapons/euro_trigat_lr/short,TRIGAT-LR,TRIGAT-LR
 weapon,weapons/us_agm_65a,AGM-65A air-to-ground missile,AGM-65A 小牛 空对地导弹
@@ -20371,7 +20371,7 @@ weapon,weapons/swd_120kg_sb_m71/short,m/71,m/71
 weapon,weapons/swd_120kg_sb_m71_retarded,120 kg m/71 high-drag tail fin retarded,120 千克 m/71 尾翼减速高阻炸弹
 weapon,weapons/swd_120kg_sb_m71_retarded/short,m/71,m/71
 weapon,weapons/swd_120kg_sb_m61,120 kg sb m/61 bomb,120 千克 m/61 杀伤炸弹
-weapon,weapons/swd_120kg_sb_m61/short,m/61,m/61
+weapon,weapons/swd_120kg_sb_m61/short,m/61,m/61 挂架
 weapon,weapons/swd_50kg_sb_m37a,50 kg mb m/37AT bomb,50 千克 m/37AT 爆破炸弹
 weapon,weapons/swd_50kg_sb_m37a/short,m/37a,m/37A
 weapon,weapons/swd_50kg_sb_m42,50 kg sb m/42 bomb,50 千克 m/42 杀伤炸弹
@@ -20385,7 +20385,7 @@ weapon,weapons/swd_250kg_minb_m40/short,m/40,m/40
 weapon,weapons/swd_250kg_minb_m50,250 kg mb m/50 bomb,250 千克 m/50 爆破炸弹
 weapon,weapons/swd_250kg_minb_m50/short,m/50,m/50
 weapon,weapons/swd_500kg_minb_m41,500 kg mb m/41 bomb,500 千克 m/41 爆破炸弹
-weapon,weapons/swd_500kg_minb_m41/short,m/41,m/41
+weapon,weapons/swd_500kg_minb_m41/short,m/41,m/41 挂架
 weapon,weapons/swd_500kg_minb_m56,500 kg mb m/56 bomb,500 千克 m/56 爆破炸弹
 weapon,weapons/swd_500kg_minb_m56/short,m/56,m/56
 weapon,weapons/swd_600kg_minb_m50,600 kg mb m/50 bomb,600 千克 m/50 爆破炸弹
@@ -20558,7 +20558,7 @@ weapon,weapons/105mm_bolide/short,BOLIDE,火流星
 weapon,weapons/72mm_HN_6_launcher_user_cannon,HN-6 SAM,红缨-6 便携式防空导弹
 weapon,72mm_hn_6,HN-6,红缨-6
 weapon,weapons/72mm_hn_6/short,HN-6,红缨-6
-weapon,70mm_fim_92e,FIM-92E,FIM-92E
+weapon,70mm_fim_92e,FIM-92E,FIM-92E 毒刺
 weapon,weapons/70mm_fim_92e/short,FIM-92E,FIM-92E 毒刺
 weapon,70mm_fim_92k,FIM-92K,FIM-92K
 weapon,weapons/70mm_FIM_92E_Stinger_launcher_user_cannon,Fliegerfaust 2 Stinger,飞拳-2 便携式防空导弹 (毒刺)
@@ -20662,7 +20662,7 @@ weapon,105mm_TYPE83_HESH,Type-83 HESH,DTJ1-105
 weapon,weapons/105mm_AT_WMA_user_cannon,105 mm WMA301 cannon,105 毫米反坦克炮
 weapon,weapons/105mm_88B_105T_user_cannon,105 mm 88B-105T cannon,105 毫米 83 式坦克炮
 weapon,weapons/105mm_ZPL94_user_cannon,105 mm ZPL94 cannon,105 毫米 ZPL94 式坦克炮
-weapon,105mm_dtb_1_he,DTB-1,DTB-1
+weapon,105mm_dtb_1_he,DTB-1,DTB-1尾翼稳定杀爆弹
 weapon,105mm_btm_1,BTM1,BTM1
 weapon,weapons/105mm_Type_83_user_cannon,105 mm Type 83 cannon,105 毫米 83 年式坦克炮
 weapon,28_20mm_pzgr41,2.8/2cm Pzgr.41,PzGr. 41
@@ -20686,9 +20686,9 @@ weapon,120mm_m829a2,M829A2,M829A2
 weapon,120mm_m829a3,M829A3,M829A3
 weapon,105mm_gp_105,GP105,GP105
 weapon,100mm_dyw_pt_86_100,DYW PT86-100,DYW PT86-100
-weapon,125mm_dtp_125,DTP-125,DTP-125
-weapon,125mm_dtb_125,DTB-125,DTB-125
-weapon,125mm_dtw_125,DTW-125,DTW-125
+weapon,125mm_dtp_125,DTP-125,DTP-125尾翼稳定破甲弹
+weapon,125mm_dtb_125,DTB-125,DTB-125尾翼稳定杀爆弹
+weapon,125mm_dtw_125,DTW-125,DTW-125尾翼稳定穿甲弹
 weapon,125mm_GP125,GP125,GP125
 weapon,125mm_dtb_12_he,DTB12-125,DTB12-125
 weapon,125mm_dtc10_125,DTC10-125,DTC10-125
@@ -20804,7 +20804,7 @@ weapon,weapons/7_5mm_AAT_52_user_machinegun,7.5 mm AAT-52 machine gun,7.5 毫米
 weapon,weapons/90mm_SA45_ARL_user_cannon,90 mm SA45 cannon,90 毫米 SA45 反坦克炮
 weapon,weapons/90mm_SA45_user_cannon,90 mm SA45 cannon,90 毫米 SA45 坦克炮
 weapon,weapons/90mm_SA47_user_cannon,90 mm SA47 cannon,90 毫米 SA47 坦克炮
-weapon,90mm_sa45_apc,PCO-50,PCO-50
+weapon,90mm_sa45_apc,PCO-50,穿甲弹
 weapon,90mm_sa45_he,90 mm Obus explosif,榴弹
 weapon,weapons/20mm_M_693_user_cannon,20 mm CN20 F2 automatic cannon,20 毫米 CN20 F2 机炮
 weapon,weapons/13_2mm_Hotchkiss_Mle_1930_user_machinegun,13.2 mm Hotchkiss Mle 1930 machine gun,13.2 毫米 霍奇基斯 1930 型机枪
@@ -20870,21 +20870,21 @@ weapon,weapons/102mm_uk_smoke_grenade_launcher,102 mm smoke grenade launcher,102
 weapon,weapons/102mm_uk_smoke_grenade_launcher/short,Smoke,烟雾弹
 weapon,weapons/127mm_bgm_71b_tow_rocket_launcher,BGM-71B TOW ATGM,BGM-71B TOW 反坦克导弹
 weapon,weapons/127mm_bgm_71b_tow_rocket_launcher/short,BGM-71 TOW,BGM-71B TOW
-weapon,weapons/127_bgm_71_tow/short,BGM-71 TOW,BGM-71 TOW
-weapon,127_bgm_71_tow,TOW,TOW
+weapon,weapons/127_bgm_71_tow/short,BGM-71 TOW,BGM-71A“陶”式
+weapon,127_bgm_71_tow,TOW,“陶”式
 weapon,weapons/127mm_TOW_rocket_launcher,BGM-71A TOW ATGM,BGM-71A TOW 反坦克导弹
 weapon,weapons/127mm_TOW_rocket_launcher/short,BGM-71 TOW,BGM-71A TOW
-weapon,127mm_atgm_tow,TOW,TOW
-weapon,weapons/127mm_atgm_tow/short,TOW,TOW
+weapon,127mm_atgm_tow,TOW,“陶”式
+weapon,weapons/127mm_atgm_tow/short,TOW,“陶”式
 weapon,152mm_hj9,HJ-9,红箭-9
 weapon,weapons/152mm_hj9/short,HJ-9,红箭-9
 weapon,weapons/cn_hj_9/short,HJ-9,红箭-9
 weapon,weapons/cn_hj_9,HJ-9 missiles,红箭-9 反坦克导弹
 weapon,weapons/127mm_BGM_71_tow_Wiesel_launcher_user_cannon,BGM-71 TOW ATGM,BGM-71 TOW 反坦克导弹
 weapon,weapons/127mm_BGM_71_tow_M3A3_launcher_user_cannon,BGM-71 TOW ATGM,BGM-71 TOW 反坦克导弹
-weapon,70mm_m247,M247,M247
+weapon,70mm_m247,M247,M247 “约克中士”
 weapon,57mm_s_5kp,S-5KP,S-5KP
-weapon,weapons/70mm_m247/short,M247,M247
+weapon,weapons/70mm_m247/short,M247,M247 “约克中士”
 weapon,50mm_arf_8m3,ARF/8M3,ARF/8M3
 weapon,weapons/50mm_arf_8m3/short,ARF/8M3,ARF/8M3
 weapon,40mm_ctc_ke_ab_ahead,KE-AB,KE-AB
@@ -20912,22 +20912,22 @@ weapon,weapons/30mm_xm_813_user_cannon,30 mm Orbital ATK XM813 cannon,30 毫米 
 weapon,weapons/35mm_bushmaster_3_user_cannon,35 mm Bushmaster 3 cannon,35 毫米 巨蝮 III 机炮
 weapon,weapons/105mm_PzK_M57_user_cannon,105 mm PzK M57 cannon,105 毫米 M57 坦克炮
 weapon,weapons/127mm_ZT_3_launcher_user_cannon,ZT3 ATGM,ZT3 反坦克导弹
-weapon,127mm_swift,ZT3A1,ZT3A1
+weapon,127mm_swift,ZT3A1,ZT3A1 豹
 weapon,weapons/127mm_swift/short,ZT3A1,ZT3A1 豹
-weapon,127mm_ingwe,ZT3A2,ZT3A2
+weapon,127mm_ingwe,ZT3A2,ZT3A2 豹
 weapon,weapons/127mm_ingwe/short,ZT3A2,ZT3A2 豹
 weapon,weapons/127mm_iTOW_launcher_user_cannon,BGM-71C I-TOW ATGM,BGM-71C TOW 改进型 反坦克导弹
 weapon,weapons/127mm_BGM_71_tow_launcher_user_cannon,BGM-71 TOW ATGM,BGM-71 TOW 反坦克导弹
 weapon,weapons/127mm_bgm_71_tow_begleitpanzer_launcher_user_cannon,BGM-71 TOW ATGM,BGM-71 TOW 反坦克导弹
 weapon,127mm_i_tow,I-TOW,TOW 改进型
-weapon,152mm_tow_2,TOW-2,TOW-2
+weapon,152mm_tow_2,TOW-2,“陶”-2 式
 weapon,152mm_tow_2a,TOW-2A,TOW-2A
-weapon,127mm_tow_2b,TOW-2B,TOW-2B
+weapon,127mm_tow_2b,TOW-2B,“陶”-2B 式
 weapon,weapons/103mm_milan_launcher_user_cannon,MILAN ATGM,MILAN 反坦克导弹
 weapon,weapons/103mm_MILAN_rocket_launcher,MILAN ATGM,MILAN 反坦克导弹
-weapon,weapons/103mm_MILAN_rocket_launcher/short,MILAN,MILAN
-weapon,weapons/103_milan/short,MILAN,MILAN
-weapon,103_milan,MILAN,MILAN
+weapon,weapons/103mm_MILAN_rocket_launcher/short,MILAN,米兰
+weapon,weapons/103_milan/short,MILAN,米兰
+weapon,103_milan,MILAN,米兰
 weapon,weapons/120mm_122TM_user_cannon,120mm Cannon Type 71,120 毫米 71 式坦克炮
 weapon,120mm_122tm_he,120-HE,杀伤爆破榴弹
 weapon,120mm_122tm_steel,120-I,试制 I 型穿甲弹
@@ -20938,9 +20938,9 @@ weapon,weapons/120mm_302_atgm_rocket_launcher/short,302 ATGM,302 反坦克导弹
 weapon,weapons/atgm_302/short,302 ATGM,302 反坦克导弹
 weapon,atgm_302,302 Anti-tank Missile,302 反坦克导弹
 weapon,weapons/115mm_MILAN_2_rocket_launcher,MILAN 2 ATGM,MILAN 2 反坦克导弹
-weapon,weapons/115mm_MILAN_2_rocket_launcher/short,MILAN 2,MILAN 2
-weapon,weapons/115_milan_2/short,MILAN,MILAN
-weapon,115_milan_2,MILAN 2,MILAN 2
+weapon,weapons/115mm_MILAN_2_rocket_launcher/short,MILAN 2,米兰2
+weapon,weapons/115_milan_2/short,MILAN,米兰
+weapon,115_milan_2,MILAN 2,米兰2
 weapon,weapons/152mm_Type_79_launcher_user_cannon,Type 79 ATGM,79 式反船舰导弹
 weapon,weapons/152mm_Type_79_launcher_user_cannon/short,Type 79,79 式
 weapon,type_79_asm,Type 79 ASM,79 式 (对船舰)
@@ -20978,12 +20978,12 @@ weapon,weapons/178mm_nasams_user_cannon,NASAMS 3 SAM,NASAMS 3 地对空导弹
 weapon,weapons/127mm_aim_9x_user_cannon,AIM-9X SAM,AIM-9X 地对空导弹
 weapon,weapons/152mm_MIM146_launcher_user_cannon,MIM146 ATGM/SAM,MIM-146 防空/反坦克导弹
 weapon,weapons/127mm_bgm_71c_itow_rocket_launcher,BGM-71C I-TOW ATGM,BGM-71C TOW 改进型 反坦克导弹
-weapon,weapons/127mm_bgm_71c_itow_rocket_launcher/short,BGM-71C I-TOW,BGM-71C I-TOW
+weapon,weapons/127mm_bgm_71c_itow_rocket_launcher/short,BGM-71C I-TOW,BGM-71C“陶改”式
 weapon,weapons/127mm_bgm_71c_itow_rocket_launchr_user_cannon,BGM-71C I-TOW ATGM,BGM-71C TOW 改进型 反坦克导弹
-weapon,weapons/127mm_bgm_71c_itow_rocket_launchr_user_cannon/short,BGM-71C I-TOW,BGM-71C I-TOW
+weapon,weapons/127mm_bgm_71c_itow_rocket_launchr_user_cannon/short,BGM-71C I-TOW,BGM-71C“陶改”式
 weapon,weapons/140mm_akeron_mp_rocket_launchr_user_cannon,Akeron MP ATGM,Akeron MP 反坦克导弹
 weapon,weapons/140mm_akeron_mp_rocket_launchr_user_cannon/short,Akeron MP,Akeron MP
-weapon,weapons/127_bgm_71_itow/short,BGM-71C I-TOW,BGM-71C I-TOW
+weapon,weapons/127_bgm_71_itow/short,BGM-71C I-TOW,BGM-71C“陶改”式
 weapon,127_bgm_71_itow,I-TOW,TOW 改进型
 weapon,weapons/75mm_43M_user_cannon,75 mm 43.M cannon,75 毫米 43M 坦克炮
 weapon,75mm_43m,43.M páncélgránát,43M 穿甲弹
@@ -20999,13 +20999,13 @@ weapon,57_438mm_he,57х438 HE-T,高爆曳光弹
 weapon,57_438mm_he_vt,57х438 HE-VT,近炸榴弹
 weapon,57_438mm_sap,57х438 SAP,半穿甲弹
 weapon,apds_fs_long_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_long_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_long_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,apds_fs_tungsten_caliber_fins_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_tungsten_caliber_fins_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_tungsten_caliber_fins_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,apds_fs_long_l30_tank/name,Armor-Piercing Fin-Stabilized Discarding Sabot shot,尾翼稳定脱壳穿甲弹
-weapon,apds_fs_long_l30_tank/name/short,APFSDS,APFSDS
+weapon,apds_fs_long_l30_tank/name/short,APFSDS,尾翼稳定脱壳穿甲弹
 weapon,he_frag_fs_tank/name,High-explosive fragmentation shell,高爆破片杀伤榴弹
-weapon,he_frag_fs_tank/name/short,HE,HE
+weapon,he_frag_fs_tank/name/short,HE,高爆弹
 weapon,weapons/7_62mm_PKT_beltfed_user_machinegun,7.62 mm PKT machine gun,7.62 毫米 PKT 机枪
 weapon,weapons/7_62mm_PKT_user_machinegun,7.62 mm PKT machine gun,7.62 毫米 PKT 机枪
 weapon,weapons/7_62mm_PKTM_user_machinegun,7.62 mm PKTM machine gun,7.62 毫米 PKTM 机枪
@@ -21069,7 +21069,7 @@ weapon,125mm_3bm15,3BM15,3BM15
 weapon,125mm_3bm22,3BM22,3BM22
 weapon,125mm_3of_19,3OF19,3OF19
 weapon,125mm_3of_26,3OF26,3OF26
-weapon,125mm_3of_26_edkv,3OF26 EDKV,3OF26 EDKV
+weapon,125mm_3of_26_edkv,3OF26 EDKV,3OF26 (可编程引信)
 weapon,125mm_3of_82,3OF82,3OF82
 weapon,125mm_9M14,9M14M,9M14M
 weapon,125mm_bta4,BTA4,BTA4
@@ -21531,7 +21531,7 @@ weapon,105mm_f_h_gr_nb,F.H.Gr.Nb.,F.H.Gr.Nb.
 weapon,75mm_k_gr_rot_nb,K.Gr.Rot Nb.,K.Gr.rot. Nb.
 weapon,75mm_m89,M89,M89
 weapon,75mm_m88,M88,M88
-weapon,75mm_m64,M64,M64
+weapon,75mm_m64,M64,六四式战车
 weapon,75mm_m361,M361,M361
 weapon,90mm_m313,M313,M313
 weapon,105mm_m84,M84,M84
@@ -21990,7 +21990,7 @@ weapon,weapons/purposeType/ARMORED,To hit armored targets,对装甲目标
 weapon,weapons/purposeType/UNIVERSAL,Multi-purpose weapon,多用途武器
 weapon,weapons/purposeType/FAVORITE,Favorite weapon,常用武器
 weapon,weapons/purposeType/CUSTOM,User weapon,自定义武器
-weapon,weapons/203mm_50_8inch_mk8_naval_user_cannon,8 inch/50 Mark VIII cannon,203 毫米 8 英寸 Mk VIII  舰炮
+weapon,weapons/203mm_50_8inch_mk8_naval_user_cannon,8 inch/50 Mark VIII cannon,203 毫米 8 英寸 Mk VIII 舰炮
 weapon,203mm_50_mk_ib_sapcbc,8 inch Mark I.B. SAPCBC,Mk IB 被帽半穿甲弹
 weapon,203mm_50_mk8_he,8 inch HE,榴弹
 weapon,weapons/45mm_89_sm_20_zif_naval_user_cannon,45 mm/89 SM-20-ZIF automatic cannon,45 毫米/89 SM-20-ZIF 防空炮座
@@ -22444,7 +22444,7 @@ weapon,rim_66c,SM-2MR Block 1,标准-2MR Block 1
 weapon,weapons/rocket_mk11_naval_rocket_launcher,Mk.11 missile launcher,Mk.11 导弹发射架
 weapon,weapons/rocket_mk11_naval_rocket_launcher/short,Mk.11,Mk.11
 weapon,weapons/rocket_mk13_naval_rocket_launcher,Mk.13 missile launcher,Mk.13 导弹发射架
-weapon,weapons/rocket_mk13_naval_rocket_launcher/short,Mk.13,Mk.13
+weapon,weapons/rocket_mk13_naval_rocket_launcher/short,Mk.13,Mk 13 鱼雷
 weapon,weapons/52mm_55_skl55_naval_user_cannon,52 mm/55 SK L/55 cannon,52 毫米 SK L/55 防空炮
 weapon,52mm_sprgr_he,52 mm HE,榴弹
 weapon,weapons/bomb_ussr_rku36u,RKU-36U mortar,RKU-36U 反潜火箭深弹
@@ -22520,7 +22520,7 @@ weapon,weapons/fr_550mm_mod1923dt_torpedo,550 mm model 1923DT torpedo,550 毫米
 weapon,weapons/fr_550mm_mod1923dt_torpedo/short,23DT,23DT
 weapon,weapons/fr_550mm_mod1919v_torpedo,550 mm model 1919V torpedo,550 毫米 1919V 型鱼雷
 weapon,weapons/fr_550mm_mod1919v_torpedo/short,19V,19V
-weapon,weapons/fr_550mm_l3_torpedo,550 mm L3 torpedo,550 毫米 L3  鱼雷
+weapon,weapons/fr_550mm_l3_torpedo,550 mm L3 torpedo,550 毫米 L3 鱼雷
 weapon,weapons/fr_550mm_l3_torpedo/short,L3,L3
 weapon,37mm_oea1925_he,37 mm OEA Mle 1925,1925 型榴弹
 weapon,37mm_oea1935_he,37 mm OEA Mle 1935,1935 型榴弹
@@ -22588,7 +22588,7 @@ weapon,weapons/8_6mm_exo_MG338_user_machinegun,8.6 mm MG338 machine gun,8.6 毫�
 weapon,weapons/70mm_exo_FIM_92X_rocket_launcher,FIM-92 Stinger,FIM-92 毒刺
 weapon,weapons/72mm_exo_9M336M_rocket_launcher,9M336,9M336 柳树
 weapon,weapons/110mm_exo_spike_sr_rocket_launcher,Spike ATGM,长钉 反坦克导弹
-weapon,weapons/130mm_exo_9M115M_rocket_launcher,9M115M ATGM,9M115  混血儿 反坦克导弹
+weapon,weapons/130mm_exo_9M115M_rocket_launcher,9M115M ATGM,9M115 混血儿 反坦克导弹
 weapon,weapons/90mm_50_mle_1926_naval_user_cannon,90 mm/50 model 1926 gun,90 毫米/50 1926 型舰炮
 weapon,weapons/90mm_50_mle_1926_naval_user_cannon/short,90 mm/50 model 1926,90 毫米/50 1926 型
 weapon,90mm_oea_mle1925,90 mm OEA Mle 1925 HE,1925 型榴弹
@@ -22816,7 +22816,7 @@ mod,modification/progressModsText,Research of all modifications: {earnedExp} / {
 mod,modification/progressModsAllResearchedText,◕ All mods researched,◕ 已研发所有改装件
 mod,modification/f2a3_2x100lb,Mk.41,Mk 41 挂架
 mod,modification/f2a3_2x100lb/desc,Allows the installation of 2 x 100 lb bombs.,可携带 2 枚 100 磅炸弹。
-mod,modification/g50_2xSC50,SC 50,SC 50
+mod,modification/g50_2xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/g50_2xSC50/desc,Allows the installation of 2 x 50 kg bombs.,可携带 2 枚 50 千克炸弹。
 mod,modification/it50_mod,GP50,GP50
 mod,modification/it50_mod/desc,Allows the installation of 50 kg bombs.,可携带 50 千克炸弹。
@@ -22834,29 +22834,29 @@ mod,modification/it630_ap_mod,630PD,630PD
 mod,modification/it630_ap_mod/desc,Allows the installation of 630 kg bombs.,可携带 630 千克炸弹。
 mod,modification/it800_mod,GP800,GP800
 mod,modification/it800_mod/desc,Allows the installation of 800 kg bombs.,可携带 800 千克炸弹。
-mod,modification/he51_6xsd10,SD 10,SD 10
+mod,modification/he51_6xsd10,SD 10,ETC 10/VId 掛架
 mod,modification/he51_6xsd10/desc,Allows the installation of 6 x 10 kg bombs.,可携带 6 枚 10 千克炸弹。
-mod,modification/Hs-123_4xSC50,SC 50,SC 50
+mod,modification/Hs-123_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Hs-123_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Hs-123_SC250,SC 250,SC 250
+mod,modification/Hs-123_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Hs-123_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109E-3_4xSC50,SC 50,SC 50
+mod,modification/Bf-109E-3_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-109E-3_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Bf-109E-3_SC250,SC 250,SC 250
+mod,modification/Bf-109E-3_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109E-3_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109F-4_4xSC50,SC 50,SC 50
+mod,modification/Bf-109F-4_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-109F-4_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Bf-109F-4_SC250,SC 250,SC 250
+mod,modification/Bf-109F-4_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109F-4_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109F-4_SC500,SC 500,SC 500
+mod,modification/Bf-109F-4_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Bf-109F-4_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Bf-109F-4_R1,R1 modification,R1 套件
 mod,modification/Bf-109F-4_R1/desc,Allows the installation of 2 x 15 mm MG151/15 cannons under the wings.,可在机翼下安装 2 门 15 毫米 MG 151/15 机炮。
 mod,modification/Bf-109G-10_R5,R5 modification,R5 套件
 mod,modification/Bf-109G-10_R5/desc,Allows the installation of 2 x 30 mm MK 108 cannons under the wings.,可在机翼下安装 2 门 30 毫米 MK 108 机炮。
-mod,modification/Bf-109G-10_SC250,SC 250,SC 250
+mod,modification/Bf-109G-10_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109G-10_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109G-10_SC500,SC 500,SC 500
+mod,modification/Bf-109G-10_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Bf-109G-10_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Bf-109G-10_MK108_mod,MK 108 cannon,MK 108 机炮
 mod,modification/Bf-109G-10_MK108_mod/desc,Allows the installation of 30 mm MK 108 cannon.,可将桨毂的轴炮更换为 30 毫米 MK 108 机炮。
@@ -22866,11 +22866,11 @@ mod,modification/me_210ca_1_40_mm_wgr41,W.Gr.41,W.Gr.41
 mod,modification/me_210ca_1_40_mm_wgr41/desc,Allows the installation of 150 mm rockets W.Gr.41,可携带 150 毫米 W.Gr.41 火箭弹。
 mod,modification/hs129_r2,R2 modification,R2 套件
 mod,modification/hs129_r2/desc,Allows the installation of 30 mm MK 103 cannon.,可安装 1 门 30 毫米 MK 103 机炮。
-mod,modification/Bf-109G-2_4xSC50,SC 50,SC 50
+mod,modification/Bf-109G-2_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-109G-2_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Bf-109G-2_SC250,SC 250,SC 250
+mod,modification/Bf-109G-2_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109G-2_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109G-2_SC500,SC 50,SC 50
+mod,modification/Bf-109G-2_SC500,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-109G-2_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Bf-109G-2_R6,R6 modification,R6 套件
 mod,modification/Bf-109G-2_R6/desc,Allows the installation of 2 x 20 mm MG151/20 cannons under the wings.,可在机翼下安装 2 门 20 毫米 MG 151/20 机炮。
@@ -22878,11 +22878,11 @@ mod,modification/Bf-109G-6_R6,R6 modification,R6 套件
 mod,modification/Bf-109G-6_R6/desc,Allows the installation of 2 x 20 mm MG151/20 cannons under the wings.,可在机翼下安装 2 门 20 毫米 MG 151/20 机炮。
 mod,modification/Bf-109G-6_R5,R5 modification,R5 套件
 mod,modification/Bf-109G-6_R5/desc,Allows the installation of 2 x 30 mm MK 108 cannons under the wings.,可在机翼下安装 2 门 30 毫米 MK 108 机炮。
-mod,modification/Bf-109G-6_4xSC50,SC 50,SC 50
+mod,modification/Bf-109G-6_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-109G-6_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Bf-109G-6_SC250,SC 250,SC 250
+mod,modification/Bf-109G-6_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109G-6_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Bf-109G-6_SC500,SC 500,SC 500
+mod,modification/Bf-109G-6_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Bf-109G-6_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Bf-109G-6_W,W.Gr.21,Wfr.Gr.21 火箭发射器
 mod,modification/Bf-109G-6_W/desc,Allows the installation of 2 x 210 mm rockets BR.21.,可携带 2 枚 210 毫米 BR 21 火箭弹。
@@ -22890,29 +22890,29 @@ mod,modification/bf-109g6_u4_mod,U4 modification,U4 套件
 mod,modification/bf-109g6_u4_mod/desc,Allows the installation of 30 mm MK 108 motor-cannon.,可安装 30 毫米 MK 108 机炮
 mod,modification/Bf-109K-4_R5,R5 modification,R5 套件
 mod,modification/Bf-109K-4_R5/desc,Allows the installation of 2 x 20 mm MG151/20 cannons under the wings.,可在机翼下安装 2 门 20 毫米 MG 151/20 机炮。
-mod,modification/Bf-110C-4_8xSC50,SC 50,SC 50
+mod,modification/Bf-110C-4_8xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Bf-110C-4_8xSC50/desc,Allows the installation of 50 kg bombs.,可携带 50 千克炸弹。
-mod,modification/Bf-110C-4_2xSC250,SC 250,SC 250
+mod,modification/Bf-110C-4_2xSC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-110C-4_2xSC250/desc,Allows the installation of 2 x 250 kg bombs.,可携带 2 枚 250 千克炸弹。
-mod,modification/Bf-110C-4_SC50_SC250,SC 250,SC 250
+mod,modification/Bf-110C-4_SC50_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-110C-4_SC50_SC250/desc,Allows the installation of two up to 250 kg bombs.,可携带 2 枚最大 250 千克的炸弹。
-mod,modification/Bf-110C-4_SC500,SC 500,SC 500
+mod,modification/Bf-110C-4_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Bf-110C-4_SC500/desc,Allows the installation of 500 kg bomb.,可携带 500 千克炸弹。
-mod,modification/Bf-110C-7_SC1000,ESC 1000,ESC 1000
+mod,modification/Bf-110C-7_SC1000,ESC 1000,ETC 1000/IXb I 掛架
 mod,modification/Bf-110C-7_SC1000/desc,Allows the installation of 1000 kg bomb.,"可携带 1,000 千克的炸弹。"
-mod,modification/Bf-110C-7_SC1000_SC250,SC 250,SC 250
+mod,modification/Bf-110C-7_SC1000_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-110C-7_SC1000_SC250/desc,Allows the installation of up to 1000 kg bombs.,可携带最大 1000 千克的炸弹
-mod,modification/he-111h-2_8xSC250,SC 250,SC 250
+mod,modification/he-111h-2_8xSC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/he-111h-2_8xSC250/desc,Allows the installation of 8 x 250 kg bombs.,可携带 8 枚 250 千克炸弹。
-mod,modification/he-111_2x1000kg_250kg_pylon,C 1000/SC 250,C 1000/SC 250
+mod,modification/he-111_2x1000kg_250kg_pylon,C 1000/SC 250,ETC PVC II 掛架
 mod,modification/he-111_2x1000kg_250kg_pylon/desc,Allows the installation of 2 x 1000 kg bombs and 1 x 250 kg bomb.,"可携带 2 枚 1,000 千克和 1 枚 250 千克炸弹。"
-mod,modification/he-111_2x1000kg_pylon,SC 1000,SC 1000
+mod,modification/he-111_2x1000kg_pylon,SC 1000,ETC 1000/I 掛架
 mod,modification/he-111_2x1000kg_pylon/desc,Allows the installation of 2 x 1000 kg bombs.,"可携带 2 枚 1,000 千克炸弹。"
-mod,modification/Fw-190A-5_4xSC50,SC 50,SC 50
+mod,modification/Fw-190A-5_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Fw-190A-5_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Fw-190A-5_SC250,SC 250,SC 250
+mod,modification/Fw-190A-5_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Fw-190A-5_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
-mod,modification/Fw-190A-5_SC500,SC 500,SC 500
+mod,modification/Fw-190A-5_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Fw-190A-5_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Fw-190A-5_R1,R1 modification,R1 套件
 mod,modification/Fw-190A-5_R1/desc,Allows to install 4 x 20 mm MG151/20 cannons under the wings.,可在机翼下安装 4 门 20 毫米 MG 151/20 机炮。
@@ -22920,19 +22920,19 @@ mod,modification/Fw-190A-5_R6,R6 modification,R6 套件
 mod,modification/Fw-190A-5_R6/desc,Allows the installation of 210 mm rockets Wfr.Gr.21,可携带 210 毫米 Wfr.Gr.21 火箭弹。
 mod,modification/bf_110f-2_rz65,EG RZ.65 modification,EG RZ 65 挂架
 mod,modification/bf_110f-2_rz65/desc,Allows the installation of rockets EG RZ.65,可携带 EG RZ 65 火箭弹。
-mod,modification/Fw-190D-12_4xSC50,SC 50,SC 50
+mod,modification/Fw-190D-12_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Fw-190D-12_4xSC50/desc,Allows the installation of 4 x 50 kg bombs.,可携带 4 枚 50 千克炸弹。
-mod,modification/Fw-190D-12_8xSC50,SC 50,SC 50
+mod,modification/Fw-190D-12_8xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Fw-190D-12_8xSC50/desc,Allows the installation of 8 x 50 kg bombs.,可携带 8 枚 50 千克炸弹。
-mod,modification/Fw-190D-12_SC250,SC 250,SC 250
+mod,modification/Fw-190D-12_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Fw-190D-12_SC250/desc,Allows the installation of 250 kg bomb.,可携带 250 千克炸弹。
 mod,modification/Fw-190D-12_SC250_4xSC50,SC 250/SC 50,SC 250/SC 50
 mod,modification/Fw-190D-12_SC250_4xSC50/desc,Allows the installation of 1 x 250 kg and 4 x 50 kg bombs.,可携带 1 枚 250 千克和 4 枚 50 千克炸弹。
-mod,modification/Fw-190D-12_SC500,SC 500,SC 500
+mod,modification/Fw-190D-12_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Fw-190D-12_SC500/desc,Allows the installation of 500 kg bomb.,可携带 500 千克炸弹。
-mod,modification/Fw-190D-12_SC500_4xSC50,SC 50,SC 50
+mod,modification/Fw-190D-12_SC500_4xSC50,SC 50,ETC 50/IV 掛架
 mod,modification/Fw-190D-12_SC500_4xSC50/desc,Allows the installation of 1 x 500 kg and 4 x 50 kg bombs.,可携带 1 枚 500 千克和 4 枚 50 千克炸弹。
-mod,modification/Fw-190F-8_SC500,SC 500,SC 500
+mod,modification/Fw-190F-8_SC500,SC 500,ETC 500/III 掛架
 mod,modification/Fw-190F-8_SC500/desc,Allows the installation of 1 x 500 kg bomb.,可携带 1 枚 500 千克炸弹。
 mod,modification/Fw-190F-8_SC500_4xSC50,SC 500 / SC 50,SC 500/SC 50
 mod,modification/Fw-190F-8_SC500_4xSC50/desc,Allows the installation of 1 x 500 kg and 4 x 50 kg bombs.,可携带 1 枚 500 千克和 4 枚 50 千克炸弹。
@@ -22942,7 +22942,7 @@ mod,modification/Fw-190F-8_SC1000_4xSC50,SC 1000/SC 50,SC 1000/SC 50
 mod,modification/Fw-190F-8_SC1000_4xSC50/desc,Allows the installation of 1 x 1000 kg and 4 x 50 kg bombs.,"可携带 1 枚 1,000 千克和 4 枚 50 千克炸弹。"
 mod,modification/Fw-190F-8_R3,R3 modification,R3 套件
 mod,modification/Fw-190F-8_R3/desc,Allows the installation of 2 x 30 mm MK103 cannons under the wings.,可在机翼下安装 2 门 30 毫米 MK 103 机炮。
-mod,modification/ar234_SC1000,SC 1000,SC 1000
+mod,modification/ar234_SC1000,SC 1000,ETC 1000/I 掛架
 mod,modification/ar234_SC1000/desc,Allows the installation of 1 x 1000 kg bomb.,"可携带 1 枚 1,000 千克炸弹。"
 mod,modification/p_40_fuel_100,100 octane fuel,100 号航空燃油
 mod,modification/p_40_fuel_100/desc,Allows usage of 100 octane fuel. Engine performance will be improved.,使用 100 号航空燃油，从而提升发动机的性能。
@@ -22972,13 +22972,13 @@ mod,modification/LaGG_dz-40,DZ-40,DZ-40 挂架
 mod,modification/LaGG_dz-40/desc,Allows the installation of 50 kg or heavier bombs.,可携带 50 或 100 千克炸弹。
 mod,modification/C5,S-5,S-5
 mod,modification/C5/desc,Allows the installation of S-5 unguided rockets.,可携带 S-5 火箭弹。
-mod,modification/swd_j29_75mm_m55,m/55,m/55
+mod,modification/swd_j29_75mm_m55,m/55,m/55 挂架
 mod,modification/swd_j29_75mm_m55/desc,Allows the installation of m/55 unguided rockets.,可携带 m/55 火箭弹。
-mod,modification/swd_j29_145mm_m49a,m/49B,m/49B
+mod,modification/swd_j29_145mm_m49a,m/49B,m/49A 挂架
 mod,modification/swd_j29_145mm_m49a/desc,Allows the installation of m/49B unguided rockets.,可携带 m/49B 火箭弹。
-mod,modification/swd_j29_150mm_m51,m/51,m/51
+mod,modification/swd_j29_150mm_m51,m/51,m/51 挂架
 mod,modification/swd_j29_150mm_m51/desc,Allows the installation of m/51 unguided rockets.,可携带 m/51 火箭弹。
-mod,modification/swd_j29_180mm_m49,m/49,m/49
+mod,modification/swd_j29_180mm_m49,m/49,m/49 挂架
 mod,modification/swd_j29_180mm_m49/desc,Allows the installation of m/49 unguided rockets.,可携带 m/49 火箭弹。
 mod,modification/swd_aj37_120kg_m71,m/71,m/71
 mod,modification/swd_aj37_120kg_m71/desc,Allows the installation of 120 kg bombs.,可携带 120 千克炸弹。
@@ -22989,16 +22989,16 @@ mod,modification/swd_rb75t/desc,Allows the installation of RB 75T guided missile
 mod,modification/swe_minb_m37a/desc,Allows the installation of 50 kg bombs.,可携带 50 千克炸弹。
 mod,modification/swe_minb_m37a,m/37a,m/37A
 mod,modification/swe_minb_m61/desc,Allows the installation of 120 kg bombs.,可携带 120 千克炸弹。
-mod,modification/swe_minb_m61,m/61,m/61
+mod,modification/swe_minb_m61,m/61,m/61 挂架
 mod,modification/swe_minb_m40/desc,Allows the installation of 250 kg bombs.,可携带 250 千克炸弹。
 mod,modification/swe_minb_m40,m/40(250),m/40 (250 千克)
 mod,modification/swe_minb_m41/desc,Allows the installation of 500 kg bombs.,可携带 500 千克炸弹。
-mod,modification/swe_minb_m41,m/41,m/41
+mod,modification/swe_minb_m41,m/41,m/41 挂架
 mod,modification/swe_minb_m50/desc,Allows the installation of 600 kg bombs.,可携带 600 千克炸弹。
 mod,modification/swe_minb_m50,m/50(600),m/50 (600 千克)
-mod,modification/swe_torp_m41,m/41 (m/38),m/41 (m/38)
+mod,modification/swe_torp_m41,m/41 (m/38),m/41 挂架
 mod,modification/swe_torp_m41/desc,Allows the installation of torpedo.,可携带鱼雷。
-mod,modification/swe_torp_t18b_1,m/38,m/38
+mod,modification/swe_torp_t18b_1,m/38,m/38 挂架
 mod,modification/swe_torp_t18b_1/desc,Allows the installation of torpedo.,可携带鱼雷。
 mod,modification/fin_50kg/desc,Allows the installation of 50 kg bombs.,可携带 50 千克炸弹。
 mod,modification/fin_50kg,50 kg,50 千克
@@ -23034,7 +23034,7 @@ mod,modification/mig_21_ub32,UB-32,UB-32 挂架
 mod,modification/mig_21_ub32/desc,Allows the installation of additional S5 unguided rockets.,可携带额外的 S-5 火箭弹。
 mod,modification/C21,S-21,S-21
 mod,modification/C21/desc,Allows the installation of S-21 unguided rockets.,可携带 S-21 火箭弹。
-mod,modification/su_7b_s3,S-3K,S-3K
+mod,modification/su_7b_s3,S-3K,S-3K 挂架
 mod,modification/su_7b_s3/desc,Allows the installation of S-3K unguided rockets.,可携带 S-3K 火箭弹。
 mod,modification/a_26b_10_2x37_mod,M9,M9
 mod,modification/a_26b_10_2x37_mod/desc,Installation of offensive armament consisting of two 37 mm cannons.,可将前射武器更换为两门 37 毫米航炮。
@@ -23185,9 +23185,7 @@ mod,modification/lancaster_m1_flyers_vest/desc,Allows partial protection of the 
 mod,modification/wellington_m1_flyers_vest,Protective vest,防弹背心
 mod,modification/wellington_m1_flyers_vest/desc,Allows partial protection of the crew from fragmentation effect of flak and aerial shells.,防破片服覆盖机组成员身体部位提高防护能力，减轻地面与空中火力对乘员的威胁。
 mod,spare/spare,Backup vehicle,备用载具
-mod,spare/spare/desc,"Allows you to control a vehicle in a mission twice (but no more per mission). You can only use a backup vehicle in battle modes allowing several respawns.
-The specified price is the cost of one backup vehicle. You can have several backup vehicles, which are spent as far as they're used.","购买后，在每场街机娱乐模式的游戏中便能出击两次。
-该价格仅对应一台备用载具的开销——可提前购买多台，但作为消耗品每次出击都会用掉一份。"
+mod,spare/spare/desc,"Allows you to control a vehicle in a mission twice (but no more per mission). You can only use a backup vehicle in battle modes allowing several respawns. The specified price is the cost of one backup vehicle. You can have several backup vehicles, which are spent as far as they're used.",购买后，在每场街机娱乐模式的游戏中便能出击两次。 该价格仅对应一台备用载具的开销——可提前购买多台，但作为消耗品每次出击都会用掉一份。
 mod,spare/spare/short,Backup,备用载具
 mod,modification/b5n2_17-34in_mod45,17 3/4 in (mod45),17.75 英寸 45 型挂架
 mod,modification/b5n2_17-34in_mod45/desc,Allows the installation of 1 torpedo.,可携带 1 枚鱼雷。
@@ -23681,25 +23679,25 @@ mod,modification/ar_rocket,AR,AR
 mod,modification/ar_rocket/desc,Allows the installation of AR unguided rockets.,可携带 AR 火箭弹。
 mod,modification/mk41_mod,Mk.41,Mk 41 挂架
 mod,modification/mk41_mod/desc,Allows the installation of 100 lb bombs.,可携带 100 磅炸弹。
-mod,modification/ju-88_4xSC250,SC 250,SC 250
+mod,modification/ju-88_4xSC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/ju-88_4xSC250/desc,Allows the installation of 250 kg bombs,可携带 250 千克炸弹。
-mod,modification/ju-88_2xSC500,SC 500,SC 500
+mod,modification/ju-88_2xSC500,SC 500,ETC 500/III 掛架
 mod,modification/ju-88_2xSC500/desc,Allows the installation of 500 kg bombs,可携带 500 千克炸弹。
-mod,modification/ju-88_etc1000,SC 1000,SC 1000
+mod,modification/ju-88_etc1000,SC 1000,ETC 1000/I 掛架
 mod,modification/ju-88_etc1000/desc,Allows the installation of 1000 kg bomb,"可携带 1,000 千克炸弹。"
-mod,modification/ju-88_itc50,SC 50,SC 50
+mod,modification/ju-88_itc50,SC 50,ETC 50/IV 掛架
 mod,modification/ju-88_itc50/desc,Allows the installation of additional 50 kg bombs,可携带额外的 50 千克炸弹。
-mod,modification/etc1800,SC 1800,SC 1800
+mod,modification/etc1800,SC 1800,SC-1800 级
 mod,modification/etc1800/desc,Allows the installation of 1800 kg bombs,"可携带 1,800 千克炸弹。"
-mod,modification/etc2500,SC 2500,SC 2500
+mod,modification/etc2500,SC 2500,ETC 2500 掛架
 mod,modification/etc2500/desc,Allows the installation of 2500 kg bomb,"可携带 2,500 千克炸弹。"
-mod,modification/ju_88_SC250,SC 250,SC 250
+mod,modification/ju_88_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/ju_88_SC250/desc,Allows the installation of 250 kg bombs,可携带 250 千克炸弹。
-mod,modification/ju_88_SC500,SC 500,SC 500
+mod,modification/ju_88_SC500,SC 500,ETC 500/III 掛架
 mod,modification/ju_88_SC500/desc,Allows the installation of 500 kg bombs,可携带 500 千克炸弹。
-mod,modification/ju_88_SC1000,SC 1000,SC 1000
+mod,modification/ju_88_SC1000,SC 1000,ETC 1000/I 掛架
 mod,modification/ju_88_SC1000/desc,Allows the installation of 1000 kg bomb,"可携带 1,000 千克炸弹。"
-mod,modification/ju_88_SC1800,SC 1800,SC 1800
+mod,modification/ju_88_SC1800,SC 1800,SC-1800 级
 mod,modification/ju_88_SC1800/desc,Allows the installation of 1800 kg bombs,"可携带 1,800 千克炸弹。"
 mod,modification/fx1400,FX 1400,FX 1400 挂架
 mod,modification/fx1400/desc,Allows the installation of radio-guided glide bombs PC 1400 X.,可携带 PC 1400X 无线电制导滑翔炸弹。
@@ -23772,9 +23770,9 @@ mod,modification/gloster_rc_add,GRC mk.9,GRC Mk IX 挂架
 mod,modification/gloster_rc_add/desc,Allows the installation of additional RP-3 / AP unguided rockets.,可携带额外的 RP-3 和 AP 火箭弹。
 mod,modification/gloster_lbc,GLBC mk.3,GLBC Mk III 挂架
 mod,modification/gloster_lbc/desc,Allows the installation of 1000 lb bombs.,"可携带 1,000 磅炸弹。"
-mod,modification/etc50_4_mod,SC 50,SC 50
+mod,modification/etc50_4_mod,SC 50,ETC 50/IV 掛架
 mod,modification/etc50_4_mod/desc,Allows the installation of 50 kg bombs.,可携带 50 千克炸弹。
-mod,modification/etc250_2_mod,SC 250,SC 250
+mod,modification/etc250_2_mod,SC 250,ETC 500/IXb I 掛架
 mod,modification/etc250_2_mod/desc,Allows the installation of 250 kg bombs.,可携带 250 千克炸弹。
 mod,modification/su_25_x38ml,Kh-38ML,Kh-38ML
 mod,modification/su_25_x38ml/desc,Allows the installation of Kh-38ML guided missiles.,可携带 Kh-38ML 导弹。
@@ -23848,8 +23846,8 @@ mod,modification/su_kab_1500l/desc,Allows the installation of guided KAB-1500L b
 mod,modification/su_kab_1500l,KAB-1500L,KAB-1500L
 mod,modification/su_kab_1500lg/desc,Allows the installation of guided KAB-1500LG bombs.,可携带 KAB-1500LG 制导炸弹。
 mod,modification/su_kab_1500lg,KAB-1500LG,KAB-1500LG
-mod,modification/us_agm_62/desc,Allows the installation of AGM-62A Walleye guided bombs.,可携带 AGM-62A 白星眼  制导炸弹。
-mod,modification/us_agm_62,AGM-62A,AGM-62A
+mod,modification/us_agm_62/desc,Allows the installation of AGM-62A Walleye guided bombs.,可携带 AGM-62A 白星眼 制导炸弹。
+mod,modification/us_agm_62,AGM-62A,AGM-62A“鼓眼魚”
 mod,modification/us_agm_62_2_erdl/desc,Allows the installation of AGM-62 Walleye 2 ER/DL guided bombs.,可携带 AGM-62 白星眼 II ER/DL 型制导炸弹。
 mod,modification/us_agm_62_2_erdl,AGM-62 ER/DL,AGM-62 ER/DL
 mod,modification/us_gbu_15v1/desc,Allows the installation of GBU-15 guided bombs.,可携带 GBU-15 制导炸弹。
@@ -23959,7 +23957,7 @@ mod,modification/us_gbu_27,GBU-27,GBU-27
 mod,modification/us_gbu_10_gbu_24/desc,Allows the installation of GBU-10 / GBU-24 guided bombs.,可携带 GBU-10 或 GBU-24 制导炸弹。
 mod,modification/us_gbu_10_gbu_24,GBU-10/24,GBU-10/24
 mod,modification/us_gbu_8/desc,Allows the installation of GBU-8 guided bombs.,可携带 GBU-8 制导炸弹。
-mod,modification/us_gbu_8,GBU-8,GBU-8
+mod,modification/us_gbu_8,GBU-8,GBU-8 制导炸弹
 mod,modification/us_agm_123/desc,Allows the installation of AGM-123 Skipper guided missiles.,可携带 AGM-123 船长 导弹。
 mod,modification/us_agm_123,AGM-123 Skipper,AGM-123 船长
 mod,modification/us_agm_119a/desc,Allows the installation of AGM-119A Penguin guided missiles.,可携带 AGM-119A 企鹅 反舰导弹。
@@ -24137,14 +24135,11 @@ mod,modification/new_tank_vertical_aiming/desc,Maintenance and cleaning of the g
 mod,modification/modern_tank_stereo_rangefinder,Rangefinder,测距仪
 mod,modification/modern_tank_stereo_rangefinder/desc,"Setting and adjustment of the tank rangefinder, allows you to more accurately measure the distance to the target.",安装并调试测距仪，从而获得更精准的目标距离信息。
 mod,modification/laser_rangefinder_lws,LWS/LR,激光测距仪/告警系统
-mod,modification/laser_rangefinder_lws/desc,Laser warning system and Laser rangefinder,"安装并调试测距仪，从而获得更精准的目标距离信息。
-同时安装激光告警系统，从而提升对导弹的规避能力。"
+mod,modification/laser_rangefinder_lws/desc,Laser warning system and Laser rangefinder,安装并调试测距仪，从而获得更精准的目标距离信息。 同时安装激光告警系统，从而提升对导弹的规避能力。
 mod,modification/laser_rangefinder_lws_sep,LWS/LR,激光测距仪/告警系统
-mod,modification/laser_rangefinder_lws_sep/desc,Laser warning system and Laser rangefinder,"安装并调试测距仪，从而获得更精准的目标距离信息。
-同时安装激光告警系统，从而提升对导弹的规避能力。"
+mod,modification/laser_rangefinder_lws_sep/desc,Laser warning system and Laser rangefinder,安装并调试测距仪，从而获得更精准的目标距离信息。 同时安装激光告警系统，从而提升对导弹的规避能力。
 mod,modification/laser_rangefinder_ircm_lws_t_90a,LWS/LR,激光测距仪/告警系统
-mod,modification/laser_rangefinder_ircm_lws_t_90a/desc,Laser warning system and Laser rangefinder,"安装并调试测距仪，从而获得更精准的目标距离信息。
-同时安装激光告警系统，从而提升对导弹的规避能力。"
+mod,modification/laser_rangefinder_ircm_lws_t_90a/desc,Laser warning system and Laser rangefinder,安装并调试测距仪，从而获得更精准的目标距离信息。 同时安装激光告警系统，从而提升对导弹的规避能力。
 mod,modification/laser_warning_system,LWS,激光告警系统
 mod,modification/laser_warning_system/desc,Laser warning system,安装激光告警系统，从而提升对导弹的规避能力。
 mod,modification/modern_tank_laser_rangefinder,Laser rangefinder,激光测距仪
@@ -24177,9 +24172,7 @@ mod,modification/type_86_turret_improvement/desc,Upgrading the ZBD86 by installi
 mod,modification/tog_project_upgrade,TOG II GWP,TOG II GWP
 mod,modification/tog_project_upgrade/desc,TOG II Great War Pattern,TOG II 大战模式改装；车体两侧加装机枪舷台，正面增设 1 门 76 毫米榴弹炮。
 mod,modification/bmp_2d_improvement,BMP-2D,BMP-2D
-mod,modification/bmp_2d_improvement/desc,"Upgrading the BMP-2 by enhancing its side armor.
-The BMP-2D lost its ability to cross rivers by swimming due to the increased mass.","升级 BMP-2 的型号，提升侧面装甲防护。
-由于战斗全重增加，BMP-2D 将失去水上浮渡能力。"
+mod,modification/bmp_2d_improvement/desc,Upgrading the BMP-2 by enhancing its side armor. The BMP-2D lost its ability to cross rivers by swimming due to the increased mass.,升级 BMP-2 的型号，提升侧面装甲防护。 由于战斗全重增加，BMP-2D 将失去水上浮渡能力。
 mod,modification/bmd_4m_improvement,Additional Ballistic Protection Package,附加装甲套件
 mod,modification/bmd_4m_improvement/desc,Upgrading BMD-4M by enhancing its side and frontal armor.,为 BMD-4M 车体侧面与正面加装附加装甲。
 mod,modification/camouflage_net_certezza,War kit,WAR 附加装甲套件
@@ -24198,7 +24191,7 @@ mod,modification/lav_ad_hydra_70,Hydra 70,九头蛇 70
 mod,modification/lav_ad_hydra_70/desc,Add-on Hydra 70 launcher,可安装 九头蛇 70 火箭弹发射器。
 mod,modification/9p149m_upgrade_modification,9P149M,9P149M
 mod,modification/9p149m_upgrade_modification/desc,9P149M upgrade kit,将 9P149 升级为 9P149M，以提升整体战斗性能。
-mod,modification/2s6_upgrade_modification,2S6M1,2S6M1
+mod,modification/2s6_upgrade_modification,2S6M1,2S6M1 升级
 mod,modification/2s6_upgrade_modification/desc,2S6M1 upgrade kit,将 2S6 升级为 2S6M1，以提升整体战斗性能。
 mod,modification/type_74_tire,Tires,轮胎
 mod,modification/type_74_tire/desc,Mounting/dismounting tires from the stern of the hull,加装/拆卸车体后部用作伪装的轮胎与柴捆堆
@@ -24220,7 +24213,7 @@ mod,modification/challenger_dorchester_protection_improvement,Dorchester 2F,多�
 mod,modification/challenger_dorchester_protection_improvement/desc,Dorchester Level 2F armor kit,安装 多切斯特 2F 级附加装甲套件，以提升防御性能。
 mod,modification/bmp_3_upgrade_modification,"Thermal sight ""Sodema""",索杰马 热成像观瞄设备
 mod,modification/bmp_3_upgrade_modification/desc,"Thermal sight ""Sodema"" upgrade kit",换装 索杰马 热成像观瞄设备。
-mod,modification/t_72b3_2017_improvement,T-72B3 UBH,T-72B3 UBH
+mod,modification/t_72b3_2017_improvement,T-72B3 UBH,T-72B3 UBH升级方案
 mod,modification/t_72b3_2017_improvement/desc,T-72B3 UBH — increased protection and change engine.,升级至 T-72B3 UBH，提升装甲防护并换装新型发动机。
 mod,modification/t_72a_1983_protection_improvement,T-72A (1983),T-72A 1983 型
 mod,modification/t_72a_1983_protection_improvement/desc,Add-on 16 mm plate on the UFP,额外安装 16 毫米首上装甲，以提升防御性能。
@@ -24230,7 +24223,7 @@ mod,modification/zerstorer_skirts_up,Side skirts up,收起侧面装甲
 mod,modification/zerstorer_skirts_up/desc,Side skirts up,收起侧面装甲，以提升防御性能。
 mod,modification/vsw_flak_41_skirts_up,Side skirts up,收起侧面装甲
 mod,modification/vsw_flak_41_skirts_up/desc,Side skirts up,收起侧面装甲，以提升防御性能。
-mod,modification/t_64b_protection_improvement,T-64BV,T-64BV
+mod,modification/t_64b_protection_improvement,T-64BV,T-64BV 升级套件
 mod,modification/t_64b_protection_improvement/desc,ERA installed,安装额外的爆炸反应装甲，以提升防御性能。
 mod,modification/t_80b_protection_improvement,Kontakt-I,接触-1 爆炸反应装甲
 mod,modification/t_80b_protection_improvement/desc,ERA installed,安装额外的爆炸反应装甲，以提升防御性能。
@@ -24252,16 +24245,14 @@ mod,modification/pvrbv_TOW_2_upgrade,RB 55C,Rb 55C
 mod,modification/pvrbv_TOW_2_upgrade/desc,Added RB 55C ATGM,增加 Rb 55C 反坦克导弹
 mod,modification/begleitpanzer_57_improvement_TOW,I-TOW,TOW 改进型
 mod,modification/begleitpanzer_57_improvement_TOW/desc,Added I-TOW ATGM,增加 TOW 改进型 反坦克导弹
-mod,modification/9m120_improvement,9M120,9M120
+mod,modification/9m120_improvement,9M120,9M120 攻击 反坦克导弹
 mod,modification/9m120_improvement/desc,Added 9M120 ATGM,增加 9M120 反坦克导弹
 mod,modification/roland_3_improvement,Roland 3,罗兰 3
 mod,modification/roland_3_improvement/desc,Added Roland 3 AAM,增加 罗兰 3 地对空导弹
-mod,modification/fv510_MILAN_2,MILAN 2,MILAN 2
+mod,modification/fv510_MILAN_2,MILAN 2,米兰2
 mod,modification/fv510_MILAN_2/desc,Added MILAN 2 ATGM,增加 MILAN 2 反坦克导弹
 mod,modification/airstrike,Airstrike,空中支援
-mod,modification/airstrike/desc,"Allows you to join an air battle activated by an ally on bomber or attacker (for example, in Tank Arcade Battles).
-In modes with respawn points, you can additionally reduce the aircraft spawn cost for each scouted player killed by an ally (for example, in Tank Realistic Battles).","与空军基地保持联络，从而在一些游戏模式 (如陆战 • 街机娱乐) 中使用轰炸机、攻击机加入友军的空战事件。
-在使用重生点的游戏模式 (如陆战 • 历史性能) 中，每当你所侦察的敌方单位被击毁，就能降低空军的重生点数需求。"
+mod,modification/airstrike/desc,"Allows you to join an air battle activated by an ally on bomber or attacker (for example, in Tank Arcade Battles). In modes with respawn points, you can additionally reduce the aircraft spawn cost for each scouted player killed by an ally (for example, in Tank Realistic Battles).",与空军基地保持联络，从而在一些游戏模式 (如陆战 • 街机娱乐) 中使用轰炸机、攻击机加入友军的空战事件。 在使用重生点的游戏模式 (如陆战 • 历史性能) 中，每当你所侦察的敌方单位被击毁，就能降低空军的重生点数需求。
 mod,modification/improved_optics,Improved optics,改进观瞄设备
 mod,modification/improved_optics/desc,Increases the opponents detection radius.,提升对敌方目标的探测距离。
 mod,modification/md_loot_imager_1_gen,Loot Imager,资源显像仪
@@ -24329,9 +24320,9 @@ mod,modification/fr_200_gp_standart,200 GPs,200 GPs 挂架
 mod,modification/fr_f222_s/desc,Allows the installation of 200 kg bombs.,可携带 200 千克炸弹。
 mod,modification/fr_f222_s,200 GPs,200 GPs 挂架
 mod,modification/fr_f222_s5/desc,Allows the installation of additional 200 kg bombs.,可携带额外的 200 千克炸弹。
-mod,modification/fr_f222_s5,200 GPs S5,200 GPs S5
+mod,modification/fr_f222_s5,200 GPs S5,200 GPs S5 挂架
 mod,modification/fr_f222_tgpu/desc,Allows the installation of 500 kg bombs.,可携带 500 千克炸弹。
-mod,modification/fr_f222_tgpu,500 GPs,500 GPs
+mod,modification/fr_f222_tgpu,500 GPs,500 GPs 挂架
 mod,modification/fr_250kg_type_25c/desc,Allows the installation of 250 kg bombs.,可携带 250 千克炸弹。
 mod,modification/fr_250kg_type_25c,Type 25C,25C 型
 mod,modification/fr_400kg_type_21b/desc,Allows the installation of 400 kg bombs.,可携带 400 千克炸弹。
@@ -24477,7 +24468,7 @@ mod,modification/us_2_75_in_ffar_aero_7d,AERO-7,AERO-7 挂架
 mod,modification/us_2_75_in_ffar_aero_7d/desc,Allows the installation of AERO-7 FFAR Mighty Mouse unguided rockets.,可携带 AERO-7 发射架以挂载 FFAR 太空飞鼠 火箭弹。
 mod,modification/us_2_75_in_ffar_aero_6a,AERO-6,AERO-6 挂架
 mod,modification/us_2_75_in_ffar_aero_6a/desc,Allows the installation of AERO-6 FFAR Mighty Mouse unguided rockets.,可携带 AERO-6 发射架以挂载 FFAR 太空飞鼠 火箭弹。
-mod,modification/do217_etc2000,SC 2000,SC 2000
+mod,modification/do217_etc2000,SC 2000,ETC 2000/XII 掛架
 mod,modification/do217_etc2000/desc,Allows the installation of two additional 1000 kg bombs under the wings,"可在机翼下携带 2 枚额外的 1,000 千克炸弹。"
 mod,modification/me262_r1,R1 modification,R1 套件
 mod,modification/me262_r1/desc,Allows the installation of 24 rockets R4M,可携带 24 枚 R4M 火箭弹。
@@ -24529,7 +24520,7 @@ mod,modification/bd-4_1500,BD-4 1500,BD-4 1500 挂架
 mod,modification/bd-4_1500/desc,Allows the installation of 1500 kg bombs.,"可携带 1,500 千克炸弹。"
 mod,modification/bd-4_3000,BD-4 3000,BD-4 3000 挂架
 mod,modification/bd-4_3000/desc,Allows the installation of 3000 kg bomb.,"可携带 3,000 千克炸弹。"
-mod,modification/EEMBC_mark_1,EEMBC No.2 Mark 1,EEMBC No.2  Mk I 挂架
+mod,modification/EEMBC_mark_1,EEMBC No.2 Mark 1,EEMBC No.2 Mk I 挂架
 mod,modification/EEMBC_mark_1/desc,Allows the installation of 1000 lb bombs.,"可携带 1,000 磅炸弹。"
 mod,modification/EELBC_mark_4,EELBC No.2 Mark 4,EEMBC No.2 Mk IV 挂架
 mod,modification/EELBC_mark_4/desc,Allows the installation of bombs in excess of 1000 lbs.,"可携带超过 1,000 磅的炸弹。"
@@ -24601,11 +24592,11 @@ mod,modification/EERC_mark_1,EERC No.3 Mark 1,EERC No.3 Mk 1 挂架
 mod,modification/EERC_mark_1/desc,Allows the installation of HVAR unguided rockets.,可携带 HVAR 火箭弹。
 mod,modification/EERC_mark_2,EERC No.3 Mark 2,EERC No.3 Mk 2 挂架
 mod,modification/EERC_mark_2/desc,Allows the installation of additional HVAR unguided rockets.,可携带额外的 HVAR 火箭弹。
-mod,modification/uk_hvar,HVAR,HVAR
+mod,modification/uk_hvar,HVAR,高速航空火箭弹 (HVAR)
 mod,modification/uk_hvar/desc,Allows the installation of HVAR unguided rockets.,可携带 HVAR 火箭弹。
 mod,modification/Bf-109G-14_R5,R5 modification,R5 套件
 mod,modification/Bf-109G-14_R5/desc,Allows the installation of 2 x 30 mm MK 108 cannons under the wings.,可在机翼下安装 2 门 30 毫米 MK 108 机炮。
-mod,modification/Bf-109G-14_SC250,SC 250,SC 250
+mod,modification/Bf-109G-14_SC250,SC 250,ETC 500/IXb I 掛架
 mod,modification/Bf-109G-14_SC250/desc,Allows the installation of 1 x 250 kg bomb.,可携带 1 枚 250 千克炸弹。
 mod,modification/Bf-109G-14_MK108_mod,MK 108 cannon,MK 108 机炮
 mod,modification/Bf-109G-14_MK108_mod/desc,Allows the installation of 30 mm MK 108 cannon.,允许将桨毂的轴炮更换为 30 毫米 MK 108 机炮。
@@ -24658,16 +24649,16 @@ mod,modification/us_gpu_2a/desc,Allows the installation of additional GPU-2/A gu
 mod,modification/us_gau_19,GP-19 gun pod,GP-19 吊舱
 mod,modification/us_gau_19/desc,Allows the installation of GP-19 gun pods.,可携带 GP-19 机枪吊舱。
 mod,modification/us_cannon_lr30,LR30 cannon,LR30 机炮
-mod,modification/us_cannon_lr30/desc,Allows the installation of 30 mm LR30 cannon.,可安装 1 门 30 毫米 LR30  机炮。
+mod,modification/us_cannon_lr30/desc,Allows the installation of 30 mm LR30 cannon.,可安装 1 门 30 毫米 LR30 机炮。
 mod,modification/fn_hmp400_lcc,FN HMP400 LCC / LTC.,FN HMP400 LCC / LTC
 mod,modification/fn_hmp400_lcc/desc,Allows the installation of FN HMP400 LCC gun pods and LTC.,可携带 FN HMP400 LCC 及 LTC 吊舱。
-mod,modification/fn_hmp400,FN HMP400 LCC,FN HMP400 LCC
+mod,modification/fn_hmp400,FN HMP400 LCC,FN HMP400 LCC 吊舱挂架
 mod,modification/fn_hmp400/desc,Allows the installation of FN HMP400 LCC gun pods.,可携带 FN HMP400 LCC 吊舱。
 mod,modification/uk_mgp,MGP,MGP
 mod,modification/uk_mgp/desc,Allows the installation of MGP gun pods.,可携带 MGP 机枪吊舱。
 mod,modification/fn_rmp_lc,FN RMP LC / LTC,FN RMP LC / LTC
 mod,modification/fn_rmp_lc/desc,Allows the installation of FN RMP LC gun pods and LTC.,可携带 FN RMP LC 及 LTC 吊舱。
-mod,modification/fn_rmp,FN RMP LC,FN RMP LC
+mod,modification/fn_rmp,FN RMP LC,FN RMP LC 吊舱挂架
 mod,modification/fn_rmp/desc,Allows the installation of FN RMP LC gun pods.,可携带 FN RMP LC 吊舱。
 mod,modification/ffv_uni_pod,FFV UNI-pod,FFV UNI-POD
 mod,modification/ffv_uni_pod/desc,Allows the installation of FFV UNI-pod 0127 gun pods.,可携带 FFV UNI-POD 0127 机枪吊舱。
@@ -24719,9 +24710,9 @@ mod,modification/mb_175_lbt_130/desc,Allows the installation of 1 torpedo LTF-5b
 mod,modification/partHpMult_change,%s to overall module strength,%s 内部组件总体强度
 mod,modification/etc502_pylon,ETC 502,ETC 502 挂架
 mod,modification/etc502_pylon/desc,Allows the installation of torpedo.,可携带鱼雷。
-mod,modification/etc500_3_mod,SC 500,SC 500
+mod,modification/etc500_3_mod,SC 500,ETC 500/III 掛架
 mod,modification/etc500_3_mod/desc,Allows the installation of 500 kg bombs.,可携带 500 千克炸弹。
-mod,modification/etc1000_1_mod,SC 1000,SC 1000
+mod,modification/etc1000_1_mod,SC 1000,ETC 1000/I 掛架
 mod,modification/etc1000_1_mod/desc,Allows the installation of 1000 kg bombs.,"可携带 1,000 千克的炸弹。"
 mod,modification/subc_mk1,SUBC mk.I,SUBC Mk 1 挂架
 mod,modification/subc_mk1/desc,Allows the installation of 500 lb bombs.,可携带 500 磅炸弹。
@@ -25070,7 +25061,7 @@ mod,CCRP/desc,Continuously computed release point,连续计算投放点 (CCRP)
 mod,CCRPRocket,CCRP,投放计算
 mod,CCRPRocket/desc,Continuously computed release point,连续计算投放点 (CCRP)
 mod,fuelTank/neutralGasSystem,with neutral gas pressurization system,具备机载制氮系统
-mod,fuelTank/fillingPolyurethane,Filling - Polyurethane,阻燃剂・注入聚氨酯
+mod,fuelTank/fillingPolyurethane,Filling - Polyurethane,阻燃剂·注入聚氨酯
 mod,engine_model/nk-12m,NK-12M,NK-12M
 mod,engine_model/maxxforce_13,MaxxForce 13,迈福斯 13
 mod,engine_model/vk_105p,VK-105P,VK-105P
@@ -25342,7 +25333,7 @@ mod,engine_model/pyton_3,Python 3,蟒蛇 3
 mod,engine_model/12y45,12Y-45,12Y-45
 mod,engine_model/orenda_10,Orenda 10,奥伦达 10 型
 mod,engine_model/am_34n,AM-34N,AM-34N
-mod,engine_model/m_17,M-17,M-17
+mod,engine_model/m_17,M-17,1935 型扫雷艇
 mod,engine_model/jumo_213a,Jumo 213А,Jumo 213А
 mod,engine_model/bmw_6,VI,VI
 mod,engine_model/jumo_210d,Jumo 210D,Jumo 210D
@@ -25756,11 +25747,11 @@ mod,modification/ah_1g_M75,M75,M75
 mod,modification/as_12_atgm/desc,Allows the installation of AS.12 missiles.,可携带 AS.12 导弹。
 mod,modification/as_12_atgm,AS.12,AS.12
 mod,modification/ah_1_TOW/desc,Allows the installation of TOW missiles.,可携带 TOW 反坦克导弹。
-mod,modification/ah_1_TOW,TOW,TOW
+mod,modification/ah_1_TOW,TOW,“陶”式
 mod,modification/ah_1_TOW_2/desc,Allows the installation of additional TOW missiles.,可携带额外的 TOW 反坦克导弹。
 mod,modification/ah_1_TOW_2,TOW 4,TOW×4
 mod,modification/ah_1_TOW2/desc,Allows the installation of TOW-2 missiles.,可携带 TOW-2 反坦克导弹。
-mod,modification/ah_1_TOW2,TOW-2,TOW-2
+mod,modification/ah_1_TOW2,TOW-2,“陶”-2 式
 mod,modification/tr_umtas_x4/desc,Allows the installation of UMTAS missiles.,可携带 UMTAS 反坦克导弹。
 mod,modification/tr_umtas_x4,UMTAS,UMTAS
 mod,modification/ah_1_TOW2_2/desc,Allows the installation of additional guided TOW-2missiles.,可携带额外的 TOW-2 反坦克导弹。
@@ -25788,7 +25779,7 @@ mod,modification/uh_1_xm159,XM159,XM159
 mod,modification/ah_AGM_22/desc,Allows the installation of AGM-22 missiles.,可携带 AGM-22 导弹。
 mod,modification/ah_AGM_22,M156 AGM,M156 AGM 挂架
 mod,modification/mi_35_su_9M120/desc,Allows the installation of 9M120 missiles.,可携带 9M120 导弹。
-mod,modification/mi_35_su_9M120,9M120,9M120
+mod,modification/mi_35_su_9M120,9M120,9M120 攻击 反坦克导弹
 mod,modification/mi_28_C13/desc,Allows the installation of S-13 unguided rockets.,可携带 S-13 火箭弹。
 mod,modification/mi_28_C13,B-13L,B-13L
 mod,modification/mi_28nm_9M123/desc,Allows the installation of 9M123M missiles.,可携带 9M123M 导弹。
@@ -25858,7 +25849,7 @@ mod,modification/mig_15bis_ish_c1of/desc,Allows the installation of TRS-212 ungu
 mod,modification/mig_15bis_ish_c1of,ORO-212,ORO-212
 mod,modification/swe_m49_56,M/49/56,m/49/56
 mod,modification/swe_m49_56/desc,Allows the installation of m/49/56 unguided rockets.,可携带 m/49/56 破甲火箭榴弹。
-mod,modification/swe_m57b,m/57,m/57
+mod,modification/swe_m57b,m/57,m/57 挂架
 mod,modification/swe_m57b/desc,Allows the installation of m/57 unguided rockets.,可携带 m/57 火箭弹。
 mod,modification/swe_m56d,m/56d,m/56D
 mod,modification/swe_m56d/desc,Allows the installation of m/56d unguided rockets.,可携带 m/56D 火箭弹。
@@ -25875,13 +25866,13 @@ mod,modification/swd_rb99,RB 99,Rb 99
 mod,modification/sws_flz_lwf_ll_64/desc,Allows the installation of Flz Lwf LL 64/79 FALCO air-to-air missiles.,可携带 Flz Lwf LL 64/79 FALCO 空对空导弹。
 mod,modification/sws_flz_lwf_ll_64,Flz Lwf LL 64/79,Flz Lwf LL 64/79
 mod,modification/us_aim_7d/desc,Allows the installation of AIM-7D air-to-air missiles.,可携带 AIM-7D 空对空导弹。
-mod,modification/us_aim_7d,AIM-7D,AIM-7D
+mod,modification/us_aim_7d,AIM-7D,AIM-7D“麻雀”
 mod,modification/us_aim_7c/desc,Allows the installation of AIM-7С air-to-air missiles.,可携带 AIM-7C 空对空导弹。
 mod,modification/us_aim_7c,AIM-7С,AIM-7C
 mod,modification/us_aim_7e/desc,Allows the installation of AIM-7E air-to-air missiles.,可携带 AIM-7E 空对空导弹。
-mod,modification/us_aim_7e,AIM-7E,AIM-7E
+mod,modification/us_aim_7e,AIM-7E,AIM-7E“麻雀”
 mod,modification/us_aim_7e2/desc,Allows the installation of AIM-7E-2 air-to-air missiles.,可携带 AIM-7E-2 空对空导弹。
-mod,modification/us_aim_7e2,AIM-7E-2,AIM-7E-2
+mod,modification/us_aim_7e2,AIM-7E-2,AIM-7E-2“麻雀”
 mod,modification/us_aim_7f/desc,Allows the installation of AIM-7F air-to-air missiles.,可携带 AIM-7F 空对空导弹。
 mod,modification/us_aim_7f,AIM-7F,AIM-7F
 mod,modification/us_aim_7m/desc,Allows the installation of AIM-7M air-to-air missiles.,可携带 AIM-7M 空对空导弹。
@@ -25923,17 +25914,17 @@ mod,modification/us_aim_4g,AIM-4G,AIM-4G
 mod,modification/us_aim_4f/desc,Allows the installation of AIM-4F air-to-air missiles.,可携带 AIM-4F 空对空导弹。
 mod,modification/us_aim_4f,AIM-4F,AIM-4F
 mod,modification/us_aim_9b/desc,Allows the installation of AIM-9B air-to-air missiles.,可携带 AIM-9B 空对空导弹。
-mod,modification/us_aim_9b,AIM-9B,AIM-9B
+mod,modification/us_aim_9b,AIM-9B,AIM-9B“响尾蛇”
 mod,modification/us_aim_9b_fgw_2/desc,Allows the installation of AIM-9B FGW.2 air-to-air missiles.,可携带 AIM-9B FGW.2 空对空导弹。
-mod,modification/us_aim_9b_fgw_2,AIM-9B FGW.2,AIM-9B FGW.2
+mod,modification/us_aim_9b_fgw_2,AIM-9B FGW.2,AIM-9B“响尾蛇”FGW.2
 mod,modification/us_aim_9d/desc,Allows the installation of AIM-9D air-to-air missiles.,可携带 AIM-9D 空对空导弹。
-mod,modification/us_aim_9d,AIM-9D,AIM-9D
+mod,modification/us_aim_9d,AIM-9D,AIM-9D “响尾蛇”
 mod,modification/us_aim_9g/desc,Allows the installation of AIM-9G air-to-air missiles.,可携带 AIM-9G 空对空导弹。
-mod,modification/us_aim_9g,AIM-9G,AIM-9G
+mod,modification/us_aim_9g,AIM-9G,AIM-9G“响尾蛇”
 mod,modification/us_aim_9h/desc,Allows the installation of AIM-9H air-to-air missiles.,可携带 AIM-9H 空对空导弹。
 mod,modification/us_aim_9h,AIM-9H,AIM-9H
 mod,modification/us_aim_9l/desc,Allows the installation of AIM-9L air-to-air missiles.,可携带 AIM-9L 空对空导弹。
-mod,modification/us_aim_9l,AIM-9L,AIM-9L
+mod,modification/us_aim_9l,AIM-9L,AIM-9L“响尾蛇”
 mod,modification/us_aim_9l_i/desc,Allows the installation of AIM-9L/I air-to-air missiles.,可携带 AIM-9L/I 空对空导弹。
 mod,modification/us_aim_9l_i,AIM-9L/I-1,AIM-9L/I-1
 mod,modification/us_aim_9l_i_1/desc,Allows the installation of AIM-9L/I-1 air-to-air missiles.,可携带 AIM-9L/I-1 空对空导弹。
@@ -25947,7 +25938,7 @@ mod,modification/swd_rb74,RB 74,Rb 74
 mod,modification/swd_rb74m/desc,Allows the installation of RB 74(M) air-to-air missiles.,可携带 Rb 74(M) 空对空导弹。
 mod,modification/swd_rb74m,RB 74(M),RB 74(M)
 mod,modification/us_aim_9p/desc,Allows the installation of AIM-9P air-to-air missiles.,可携带 AIM-9P 空对空导弹。
-mod,modification/us_aim_9p,AIM-9P,AIM-9P
+mod,modification/us_aim_9p,AIM-9P,AIM-9P “响尾蛇”
 mod,modification/us_aim_9p4/desc,Allows the installation of AIM-9P-4 air-to-air missiles.,可携带 AIM-9P-4 空对空导弹。
 mod,modification/us_aim_9p4,AIM-9P-4,AIM-9P-4
 mod,modification/f5_us_aim_9b/desc,Allows the installation of AIM-9B air-to-air missiles and Flares/Chaff.,可携带 AIM-9B 空对空导弹并使用干扰物。
@@ -25969,7 +25960,7 @@ mod,modification/fr_matra_r_550_magic_1,Matra R550 Magic 1,马特拉 R.550 魔�
 mod,modification/fr_matra_r_550_magic_2/desc,Allows the installation of Matra R550 Magic 2 air-to-air missiles.,可携带 马特拉 R.550 魔术 2 空对空导弹。
 mod,modification/fr_matra_r_550_magic_2,Matra R550 Magic 2,马特拉 R.550 魔术 2
 mod,modification/fr_mica_em/desc,Allows the installation of MICA-EM air-to-air missiles.,可携带 MICA-EM 空对空导弹。
-mod,modification/fr_mica_em,MICA-EM,MICA-EM
+mod,modification/fr_mica_em,MICA-EM,雲母-EM
 mod,modification/uk_fireflash/desc,Allows the installation of Fireflash air-to-air missiles.,可携带 火闪 空对空导弹。
 mod,modification/uk_fireflash,Fireflash,火闪
 mod,modification/uk_aim_sraam/desc,Allows the installation of SRAAM air-to-air missiles.,可携带 SRAAM 空对空导弹。
@@ -25981,15 +25972,15 @@ mod,modification/ah_mk1_starstreak,ATASK,空对空星痕
 mod,modification/stinger_heli_false_thermal_targets/desc,Allows the installation of AIM-92 air-to-air missiles and ICM.,可携带 AIM-92 空对空导弹并使用红外对抗系统。
 mod,modification/stinger_heli_false_thermal_targets,AIM-92/ICM,AIM-92/红外对抗
 mod,modification/AMASE_heli_false_thermal_targets/desc,Allows the installation of MAV and additional ICM blocks.,可携带导弹逼近告警系统，以及额外的红外对抗模块。
-mod,modification/AMASE_heli_false_thermal_targets,AMASE,AMASE
+mod,modification/AMASE_heli_false_thermal_targets,AMASE,AMASE（“阿帕奇”模块化航空器生存能力装置）
 mod,modification/us_aim_9e/desc,Allows the installation of AIM-9E air-to-air missiles.,可携带 AIM-9E 空对空导弹。
-mod,modification/us_aim_9e,AIM-9E,AIM-9E
+mod,modification/us_aim_9e,AIM-9E,AIM-9E“响尾蛇”
 mod,modification/us_aim_9j/desc,Allows the installation of AIM-9J air-to-air missiles.,可携带 AIM-9J 空对空导弹。
-mod,modification/us_aim_9j,AIM-9J,AIM-9J
+mod,modification/us_aim_9j,AIM-9J,AIM-9J“响尾蛇”
 mod,modification/nord_aa_20/desc,Allows the installation of Nord AA.20 air-to-air missiles.,可携带 AA.20 空对空导弹。
 mod,modification/nord_aa_20,Nord AA.20,AA.20
 mod,modification/sea_hawk_mk101/desc,Allows the installation of AIM-9B air-to-air missiles.,可携带 AIM-9B 空对空导弹。
-mod,modification/sea_hawk_mk101,Mk.101,Mk.101
+mod,modification/sea_hawk_mk101,Mk.101,海鷹 Mk.101
 mod,modification/us_aim_9c/desc,Allows the installation of AIM-9C air-to-air missiles.,可携带 AIM-9C 空对空导弹。
 mod,modification/us_aim_9c,AIM-9C,AIM-9C
 mod,modification/aam_firestreak/desc,Allows the installation of Firestreak air-to-air missiles.,可携带 火痕 空对空导弹。
@@ -26011,7 +26002,7 @@ mod,modification/mi_24_r_60m,R-60M,R-60M
 mod,modification/mig_23mf_r_60mk/desc,Allows the installation of R-60MK air-to-air missiles.,可携带 R-60MK 空对空导弹。
 mod,modification/mig_23mf_r_60mk,R-60MK,R-60MK
 mod,modification/mig_19_r3s/desc,Allows the installation of R-3S air-to-air missiles.,可携带 R-3S 空对空导弹。
-mod,modification/mig_19_r3s,R-3S,R-3S
+mod,modification/mig_19_r3s,R-3S,R-3S 空对空导弹
 mod,modification/mig_21_r3r/desc,Allows the installation of R-3R air-to-air missiles.,可携带 R-3R 空对空导弹。
 mod,modification/mig_21_r3r,R-3R,R-3R
 mod,modification/mig_23_r_23/desc,Allows the installation of R-23R / R-23T air-to-air missiles.,可携带 R-23R／R-23T 空对空导弹。
@@ -26055,7 +26046,7 @@ mod,modification/cn_sd10,SD-10,SD-10A
 mod,modification/cn_pf10/desc,Allows the installation of PF-10 air-to-air missiles.,可使用 PF-10 挂载空对空导弹。
 mod,modification/cn_pf10,PF-10,PF-10 导弹发射装置
 mod,modification/mig_19_r13m/desc,Allows the installation of R-13M air-to-air missiles.,可携带 R-13M 空对空导弹。
-mod,modification/mig_19_r13m,R-13M,R-13M
+mod,modification/mig_19_r13m,R-13M,R-13M 空对空导弹
 mod,modification/us_arm/desc,Allows the installation of anti-radiation missiles: {unlockWeapons},可携带反辐射导弹：{unlockWeapons}
 mod,modification/us_arm,ARM,反辐射导弹
 mod,modification/su_arm/desc,Allows the installation of anti-radiation missiles: {unlockWeapons},可携带反辐射导弹：{unlockWeapons}
@@ -26067,7 +26058,7 @@ mod,modification/anti_radiation_missile_type_c,ARM,反辐射导弹
 mod,modification/anti_radiation_missile_agm_122/desc,Allows the installation of AGM-122 anti-radiation missiles.,可携带 AGM-122 反辐射导弹。
 mod,modification/anti_radiation_missile_agm_122,AGM-122,AGM-122
 mod,modification/us_500lb_m64/desc,Allows the installation of 500 lb bombs.,可携带 500 磅炸弹。
-mod,modification/us_500lb_m64,M64,M64
+mod,modification/us_500lb_m64,M64,六四式战车
 mod,modification/us_500lb_m82/desc,Allows the installation of 500 lb bombs.,可携带 500 磅炸弹。
 mod,modification/us_500lb_m82,M82,M82
 mod,modification/us_500lb_m82_2/desc,Allows the installation of additional 500 lb bombs.,可携带额外的 500 磅炸弹。
@@ -26161,7 +26152,7 @@ mod,modification/us_agm_114b,AGM-114B,AGM-114B
 mod,modification/us_agm_114k/desc,Allows the installation of AGM-114K Hellfire missiles.,可携带 AGM-114K 地狱火 反坦克导弹。
 mod,modification/us_agm_114k,AGM-114K,AGM-114K
 mod,modification/ah_1_AGM_114_8/desc,Allows the installation of AGM-114 Hellfire missiles.,可携带 AGM-114 地狱火 反坦克导弹。
-mod,modification/ah_1_AGM_114_8,AGM-114,AGM-114
+mod,modification/ah_1_AGM_114_8,AGM-114,AGM-114 地獄火
 mod,modification/ah_1_AGM_114_16/desc,Allows the installation of additional AGM-114 Hellfire missiles.,可携带额外的 AGM-114 地狱火 反坦克导弹。
 mod,modification/ah_1_AGM_114_16,AGM-114 2,AGM-114×2
 mod,modification/us_agm_179/desc,Allows the installation of AGM-179 (SAL) missiles.,可携带 AGM-179 (半主动激光) 空对地导弹。
@@ -26197,13 +26188,13 @@ mod,modification/heli_atam_mistral,ATAM,西北风 ATAM
 mod,modification/cn_ty_90/desc,Allows the installation of TY-90 missiles.,可携带 天燕-90 空对空导弹。
 mod,modification/cn_ty_90,TY-90,天燕-90
 mod,modification/mi_35_9M39/desc,Allows the installation of 9M39 Igla missiles.,可携带 9M39 针 空对空导弹。
-mod,modification/mi_35_9M39,9M39,9M39
+mod,modification/mi_35_9M39,9M39,9M39 针
 mod,modification/mi_8_9M336/desc,Allows the installation of 9M336 Verba missiles.,可携带 9M336 柳树 导弹。
-mod,modification/mi_8_9M336,9M336,9M336
+mod,modification/mi_8_9M336,9M336,9M336 柳树
 mod,modification/sa_heli_hot/desc,Allows the installation of HOT missiles.,可携带 HOT 反坦克导弹。
-mod,modification/sa_heli_hot,HOT,HOT
+mod,modification/sa_heli_hot,HOT,“霍特”
 mod,modification/sa_heli_hot_2/desc,Allows the installation of HOT-2 missiles.,可携带 HOT-2 反坦克导弹。
-mod,modification/sa_heli_hot_2,HOT-2,HOT-2
+mod,modification/sa_heli_hot_2,HOT-2,“霍特”2
 mod,modification/cn_hj8/desc,Allows the installation of HJ-8A missiles.,可携带 红箭-8A 反坦克导弹。
 mod,modification/cn_hj8,HJ-8A,红箭-8A
 mod,modification/cn_hj8_c/desc,Allows the installation of HJ-8C missiles.,可携带 红箭-8C 反坦克导弹。
@@ -26259,11 +26250,11 @@ mod,modification/plab_350_m73,PLAB-350,PLAB-350
 mod,modification/us_agm_65/desc,Allows the installation of AGM-65 missiles: {unlockWeapons},可携带 AGM-65 电视制导导弹：{unlockWeapons}
 mod,modification/us_agm_65,AGM-65,AGM-65
 mod,modification/us_agm_65a/desc,Allows the installation of AGM-65A missiles.,可携带 AGM-65A 空对地导弹。
-mod,modification/us_agm_65a,AGM-65A,AGM-65A
+mod,modification/us_agm_65a,AGM-65A,AGM-65A 小牛
 mod,modification/us_agm_65b/desc,Allows the installation of AGM-65B missiles.,可携带 AGM-65B 空对地导弹。
-mod,modification/us_agm_65b,AGM-65B,AGM-65B
+mod,modification/us_agm_65b,AGM-65B,AGM-65B 小牛
 mod,modification/us_agm_65d/desc,Allows the installation of AGM-65D missiles.,可携带 AGM-65D 空对地导弹。
-mod,modification/us_agm_65d,AGM-65D,AGM-65D
+mod,modification/us_agm_65d,AGM-65D,AGM-65D 小牛
 mod,modification/us_agm_65g/desc,Allows the installation of AGM-65G missiles.,可携带 AGM-65G 空对地导弹。
 mod,modification/us_agm_65g,AGM-65G,AGM-65G
 mod,modification/us_agm_65h/desc,Allows the installation of AGM-65H missiles.,可携带 AGM-65H 空对地导弹。
@@ -26287,9 +26278,9 @@ mod,modification/atgm_mokopa,ZT-6 Mokopa,ZT-6 黑曼巴
 mod,modification/sa_zt_35_ingwe/desc,Allows the installation of ZT3A2 Ingwe missiles.,可携带 ZT3A2 豹 导弹。
 mod,modification/sa_zt_35_ingwe,ZT3A2 Ingwe,ZT3A2 豹
 mod,modification/tiger_hot3/desc,Allows the installation of HOT-3 missiles.,可携带 HOT-3 反坦克导弹。
-mod,modification/tiger_hot3,HOT-3,HOT-3
+mod,modification/tiger_hot3,HOT-3,“霍特”3
 mod,modification/tiger_atgw3/desc,Allows the installation of PARS 3 LR missiles.,可携带 PARS 3 长程型反坦克导弹。
-mod,modification/tiger_atgw3,PARS 3 LR,PARS 3 LR
+mod,modification/tiger_atgw3,PARS 3 LR,PARS 3 长射程型导弹
 mod,modification/tiger_trigat_lr/desc,Allows the installation of TRIGAT-LR missiles.,可携带 TRIGAT-LR 导弹。
 mod,modification/tiger_trigat_lr,TRIGAT-LR,TRIGAT-LR
 mod,modification/tr_cirit_x4/desc,Allows the installation of CIRIT missiles.,可携带 CIRIT 反坦克导弹。
@@ -26308,9 +26299,9 @@ mod,modification/atgm_spike_x4/desc,Allows the installation of additional Spike 
 mod,modification/atgm_spike_x4,Spike ER /4,长钉 ER×4
 mod,modification/tiger_tel12/desc,Allows the installation of additional TDA unguided rockets.,可携带额外的 TDA 火箭弹。
 mod,modification/tiger_tel12,TELSON 12,TELSON 12
-mod,modification/tiger_hmp400_lcc,FN HMP400 LCC,FN HMP400 LCC
+mod,modification/tiger_hmp400_lcc,FN HMP400 LCC,FN HMP400 LCC 吊舱挂架
 mod,modification/tiger_hmp400_lcc/desc,Allows the installation of FN HMP400 LCC gun pods.,可携带 FN HMP400 LCC 吊舱。
-mod,modification/tiger_rmp_lc,FN RMP LC,FN RMP LC
+mod,modification/tiger_rmp_lc,FN RMP LC,FN RMP LC 吊舱挂架
 mod,modification/tiger_rmp_lc/desc,Allows the installation of FN RMP LC gun pods.,可携带 FN RMP LC 吊舱。
 mod,modification/ka_9K121/desc,Allows the installation of 9K127 Vikhr missiles.,可携带 9M127 涡流 反坦克导弹。
 mod,modification/ka_9K121,9K127 Vikhr,9M127 涡流
@@ -26953,3 +26944,33 @@ mod,engine_model/j57_p_13,J57-P-13,J57-P-13
 mod,engine_model/merlin-72,Merlin-72,灰背隼-72
 mod,engine_model/merlin-73,Merlin-73,灰背隼-73
 mod,CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST,,
+mod,wiki/term/active_protection_system,Active Protection System,主动防御系统
+mod,wiki/term/autoloader,Autoloader,自动装弹机
+mod,wiki/term/boosters,Boosters,增益方案
+mod,wiki/term/caliber,Caliber,口径
+mod,wiki/term/commander,Commander,车长
+mod,wiki/term/default,Default,默认
+mod,wiki/term/driver,Driver,驾驶员
+mod,wiki/term/electro_optical_active_protection_system,Electro-optical Active Protection System,光电主动防御系统
+mod,wiki/term/engine_power,Engine Power,发动机输出功率
+mod,wiki/term/explosive_mass,Explosive Mass,装药质量
+mod,wiki/term/explosive_type,Explosive Type,装药类型
+mod,wiki/term/fuel_dumping,Fuel dumping,应急放油
+mod,wiki/term/fuze_delay,Fuze Delay,引信延迟
+mod,wiki/term/fuze_sensitivity,Fuze Sensitivity,引信灵敏度
+mod,wiki/term/gunner,Gunner,炮手
+mod,wiki/term/ir_spotlight,IR spotlight,红外探照灯
+mod,wiki/term/laser_warning_system,Laser Warning System,激光告警系统 (LWS)
+mod,wiki/term/maximum,Maximum,满值
+mod,wiki/term/model,Model,型号
+mod,wiki/term/muzzle_velocity,Muzzle Velocity,出膛速度
+mod,wiki/term/night_vision_device,Night vision device,夜视设备
+mod,wiki/term/projectile_mass,Projectile Mass,弹头质量
+mod,wiki/term/purchase,Purchase:,购买：
+mod,wiki/term/research,Research:,科技树：
+mod,wiki/term/smoke_grenades,Smoke grenades,发射烟雾弹
+mod,wiki/term/tnt_equivalent,TNT equivalent,TNT 当量
+mod,wiki/term/tws,TWS,边扫描边跟踪
+mod,wiki/term/track,Track,跟踪
+mod,wiki/term/voice_warning_system,Voice warning system,语音告警系统
+mod,wiki/term/wep,WEP,加力
