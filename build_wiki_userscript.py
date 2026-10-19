@@ -133,8 +133,44 @@ def replace_between(source: str, start: str, end: str, body: str) -> str:
     return source[:start_index] + start + "\n" + body + "\n" + source[end_index:]
 
 
+BASELINE_PATH = HERE / "release" / "wt-wiki-zh-v1.1.0.user.js"
+
+
+def extract_baseline(code: str, name: str) -> dict[str, str]:
+    m = re.search(rf'const {name} = Object\.freeze\((\{{[\s\S]*?\}})\);', code)
+    if not m:
+        return {}
+    res = {}
+    for kv in re.finditer(r'["\']([^"\']+)["\']\s*:\s*["\']([^"\']*)["\']', m.group(1)):
+        res[kv.group(1)] = kv.group(2)
+    return res
+
+
 def main() -> None:
     unit_index, unit_name_index, term_index = load_indexes()
+    unlocks = {}
+
+    if BASELINE_PATH.exists():
+        base_code = BASELINE_PATH.read_text(encoding="utf-8")
+        base_units = extract_baseline(base_code, "UNIT_TRANSLATIONS")
+        base_unit_names = extract_baseline(base_code, "UNIT_NAME_TRANSLATIONS")
+        base_terms = extract_baseline(base_code, "TERM_TRANSLATIONS")
+        base_unlocks = extract_baseline(base_code, "UNLOCKS_TRANSLATIONS")
+
+        full_units = dict(base_units)
+        full_units.update(unit_index)
+        unit_index = full_units
+
+        full_unit_names = dict(base_unit_names)
+        full_unit_names.update(unit_name_index)
+        unit_name_index = full_unit_names
+
+        full_terms = dict(base_terms)
+        full_terms.update(term_index)
+        term_index = full_terms
+
+        unlocks.update(base_unlocks)
+
     core = CORE_PATH.read_text(encoding="utf-8")
     core = replace_between(
         core,
@@ -151,7 +187,6 @@ def main() -> None:
     if UNLOCKS_PATH.exists():
         import json as _json
         unlocks_raw = _json.loads(UNLOCKS_PATH.read_text(encoding="utf-8"))
-        unlocks = {}
         for k, v in unlocks_raw.items():
             clean_k = k.replace(r'\t', ' ').replace('\t', ' ').replace(r'\n', ' ').replace('\n', ' ').strip()
             clean_v = v.replace(r'\t', '').replace('\t', '').replace(r'\n', ' ').replace('\n', ' ').replace('\r', '').strip()
@@ -170,7 +205,7 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.1.3
+// @version      1.2.0
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
