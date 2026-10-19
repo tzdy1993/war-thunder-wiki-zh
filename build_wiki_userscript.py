@@ -170,7 +170,7 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.1.0
+// @version      1.1.1
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆

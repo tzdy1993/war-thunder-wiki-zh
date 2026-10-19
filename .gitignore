@@ -21,3 +21,7 @@ test/runtime-*.html
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Scratch and temporary analysis artifacts
+scratch/
+
