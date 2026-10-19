@@ -149,7 +149,44 @@
     'Caliber': '口径',
     'Muzzle Velocity': '炮口初速',
     'Guidance': '制导方式',
+    'Guidance:': '制导方式：',
+    'Guidance system type:': '制导方式：',
+    'Guidance system type': '制导方式',
     'Missile guidance time': '导弹制导时长',
+    'Missile guidance time:': '导弹制导时长：',
+    'Beam riding': '驾束制导',
+    'Manual (MCLOS)': '人工指令瞄准线 (MCLOS)',
+    'Semi-Automatic (SACLOS)': '半自动指令瞄准线 (SACLOS)',
+    'Semi-automatic': '半自动制导',
+    'Hand aiming': '人工制导',
+    'SARH': '半主动雷达寻的',
+    'SARH+IOG': '半主动雷达寻的 + IOG',
+    'SARH+IOG+DL': '半主动雷达寻的 + IOG + 数据链',
+    'ARH': '主动雷达寻的',
+    'ARH+IOG': '主动雷达寻的 + IOG',
+    'ARH+IOG+DL': '主动雷达寻的 + IOG + 数据链',
+    'ARH+IOG+GNSS+DL': '主动雷达寻的 + IOG + 卫星制导 + 数据链',
+    'Laser+IOG': '激光制导 + IOG',
+    'Laser+IOG+GNSS': '激光制导 + IOG + 卫星制导',
+    'IR+IOG': '红外 + IOG',
+    'IR+IOG+DL': '红外 + IOG + 数据链',
+    'IR+IOG+GNSS': '红外 + IOG + 卫星制导',
+    'IR+IOG+GNSS+DL': '红外 + IOG + 卫星制导 + 数据链',
+    'GNSS': '全球导航卫星系统 (GNSS)',
+    'Ballistic Computer': '弹道计算机',
+    'CCIP': '连续计算落点 (CCIP)',
+    'CCRP': '连续计算投放点 (CCRP)',
+    'Continuously Computed Impact Point': '连续计算落点 (CCIP)',
+    'Continuously Computed Release Point': '连续计算投放点 (CCRP)',
+    'Night vision device': '夜视设备',
+    'Thermal imager': '热成像仪',
+    'Laser rangefinder': '激光测距仪',
+    'Laser Warning System': '激光告警系统 (LWS)',
+    'Radar Warning System': '雷达告警系统 (RWR)',
+    'Radar Warning Receiver': '雷达告警接收器 (RWR)',
+    'Missile Approach Warning system': '导弹逼近告警系统 (MAW)',
+    'Base weight:': '基础重量：',
+    'Base weight': '基础重量',
     'Maximum overload': '最大过载',
     'With full filling of main tanks': '主油箱满油状态下',
     'Lock range in rear-aspect': '尾后攻击锁定距离',
@@ -178,11 +215,11 @@
     'Radar/IRST': '雷达/光电探测系统',
     'Optical tracking': '光学跟踪',
     'Universal': '通用',
-    'Ground targets': '对地目标',
-    'Air targets': '对空目标',
-    'Armored targets': '装甲目标',
+    'Ground targets': '对地',
+    'Air targets': '对空',
+    'Armored targets': '对装甲目标',
     'Tracers': '曳光',
-    'Stealth': '隐蔽',
+    'Stealth': '匿踪',
     'Default': '默认',
     'Anti-air': '对空',
     'Anti-ship': '对舰',
@@ -1420,7 +1457,7 @@
     'Wager': '作战指令',
     'Pros:': '优点：',
     'Cons:': '缺点：',
-    'Stealth:': '隐蔽：',
+    'Stealth:': '匿踪：',
     'Default:': '默认：',
     'Warning:': '警告：',
     'Legend:': '图例：',
@@ -3680,7 +3717,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d,]+(?:\.\d+)?)\s+kg\/m²$/i, '$1 千克/平方米'],
       [/^([\d,]+(?:\.\d+)?)\s+kg$/i, '$1 千克'],
       [/^([\d,]+(?:\.\d+)?)\s+t\s*\((\d+)m\)$/i, '$1 吨（$2 分钟）'],
-      [/^([\d,]+(?:\.\d+)?)\s+t$/i, '$1 吨'],
+      [/^([\d,]+(?:\.\d+)?)\s*(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '$1 吨'],
+      [/^(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '吨'],
       [/^([\d.]+)\s+M$/, '$1 马赫'],
       [/^≈\s*(-?[\d./]+)\s*G$/i, '约 $1 G'],
       [/^([\d,]+(?:\.\d+)?)\s+s$/i, '$1 秒'],
@@ -3689,11 +3727,16 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d.,]+)\s*°\/s$/i, '$1 度/秒'],
       [/^([\d,]+)\s*km\/h$/i, '$1 公里/小时'],
       [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*km\/h$/i, '$1 公里/小时'],
+      [/^([\d.,]+)\s*hp\s*\/\s*(?:tonne|t)$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp\/t$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp$/i, '$1 马力'],
       [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*mm$/i, '$1 毫米'],
       [/^([\d.,]+)\s*mm\s*\((steel)\)$/i, '$1 毫米（钢）'],
       [/^([\d.,]+)x\s*–\s*([\d.,]+)x$/i, '$1–$2 倍'],
+      [/^(?:Base\s+weight|Mass\s*\(base\))(?::)?$/i, '基础重量：'],
+      [/^Empty\s+mass(?::)?$/i, '空重：'],
+      [/^Take-off\s+mass(?::)?$/i, '起飞重量：'],
+      [/^Mass(?::)?$/i, '质量：'],
       [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1]}`],
       [/^([A-Za-z0-9/_-]+):\s*(.+)$/, (m) => {
         const abbr = m[1];
@@ -3702,11 +3745,12 @@ const FAMILY_COLLECTIONS = Object.freeze({
         if (zh && zh !== full) return `${abbr}：${zh}`;
         return null;
       }],
-      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|mm|cm|m|s|min|h|lb|in)$/i, (match) => ({
+      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|mm|cm|m|s|min|h|lb|in)$/i, (match) => ({
         'km/h': '公里/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
         'kg/m2': '千克/平方米', 'kg/m²': '千克/平方米', 'kgf': '千克力', 'kN': '千牛',
         'rpm': '转/分钟', 'shots/min': '发/分钟', 'rounds': '发', 'hp': '马力', 'kg': '千克',
-        't': '吨', 'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
+        't': '吨', 'tonne': '吨', 'tonnes': '吨', 'short t': '吨', 'sh tn': '吨',
+        'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
         'h': '小时', 'lb': '磅', 'in': '英寸',
       }[match[0].toLowerCase()])],
       [/^New\s+([\d.,]+\s*mm)\s+(cannons?|MGs?|machine guns?|guns?)$/i, (m) => `新 ${m[1]} ${m[2].toLowerCase().startsWith('c') ? '机炮' : '机枪'}`],
@@ -3958,37 +4002,82 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
   function createToggleButton(doc) {
     try {
+      if (doc.getElementById('wt-zh-toggle')) return;
+
+      // 优先插入到左侧导航栏的“作者支持计划”正下方
+      const wspTarget = doc.querySelector('.layout-nav_wsp') || doc.querySelector('a[href*="/author_guide"]');
+
       const btn = doc.createElement('button');
       btn.id = 'wt-zh-toggle';
-      btn.textContent = '原文';
-      btn.setAttribute('title', '切换显示英文原文 / 中文翻译');
-      const style = btn.style;
-      style.position = 'fixed';
-      style.right = '16px';
-      style.bottom = '16px';
-      style.zIndex = '2147483000';
-      style.padding = '6px 14px';
-      style.borderRadius = '6px';
-      style.border = '1px solid rgba(128,128,128,.5)';
-      style.background = 'rgba(32,32,32,.92)';
-      style.color = '#fff';
-      style.fontSize = '13px';
-      style.cursor = 'pointer';
-      style.boxShadow = '0 2px 10px rgba(0,0,0,.4)';
-      style.fontFamily = 'system-ui, -apple-system, sans-serif';
-      style.lineHeight = '1.4';
-      btn.addEventListener('click', () => {
+      btn.type = 'button';
+      btn.setAttribute('title', '点击切换显示英文原文 / 中文汉化');
+
+      const updateBtnText = () => {
         if (zhMode) {
-          setZhMode(false);
-          btn.textContent = '中文';
+          btn.innerHTML = '<span style="margin-right:6px;font-size:1.15em;">🌐</span><span>显示原文</span>';
+          btn.style.color = '#fff';
+          btn.style.background = 'rgba(40, 50, 60, 0.95)';
         } else {
-          setZhMode(true);
-          btn.textContent = '原文';
+          btn.innerHTML = '<span style="margin-right:6px;font-size:1.15em;">🇨🇳</span><span>切换翻译</span>';
+          btn.style.color = '#ffd54f';
+          btn.style.background = 'rgba(30, 30, 30, 0.95)';
         }
-      });
-      doc.body.appendChild(btn);
+      };
+
+      if (wspTarget && wspTarget.parentNode) {
+        // 作为导航项插入在“作者支持计划”下方
+        const container = doc.createElement('div');
+        container.className = 'wt-zh-toggle-container px-3 py-2 text-center';
+        container.style.marginTop = '4px';
+
+        btn.className = 'layout-nav_wsp px-3 py-2 text-center w-100';
+        btn.style.border = '1px solid rgba(255, 255, 255, 0.15)';
+        btn.style.borderRadius = '4px';
+        btn.style.fontSize = '0.9em';
+        btn.style.fontWeight = '500';
+        btn.style.cursor = 'pointer';
+        btn.style.display = 'inline-flex';
+        btn.style.alignItems = 'center';
+        btn.style.justifyContent = 'center';
+        btn.style.transition = 'all 0.2s ease';
+        btn.style.boxShadow = '0 2px 6px rgba(0,0,0,0.3)';
+
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          setZhMode(!zhMode);
+          updateBtnText();
+        });
+
+        updateBtnText();
+        container.appendChild(btn);
+        wspTarget.parentNode.insertBefore(container, wspTarget.nextSibling);
+      } else {
+        // 保底：若页面无导航栏（如独立或移动端隐藏），悬浮在左下方或右下角优雅展示
+        btn.style.position = 'fixed';
+        btn.style.left = '16px';
+        btn.style.bottom = '16px';
+        btn.style.zIndex = '2147483000';
+        btn.style.padding = '8px 16px';
+        btn.style.borderRadius = '6px';
+        btn.style.border = '1px solid rgba(255,255,255,0.2)';
+        btn.style.fontSize = '13px';
+        btn.style.cursor = 'pointer';
+        btn.style.boxShadow = '0 3px 12px rgba(0,0,0,0.5)';
+        btn.style.fontFamily = 'system-ui, -apple-system, sans-serif';
+        btn.style.display = 'inline-flex';
+        btn.style.alignItems = 'center';
+
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          setZhMode(!zhMode);
+          updateBtnText();
+        });
+
+        updateBtnText();
+        doc.body.appendChild(btn);
+      }
     } catch (e) {
-      /* 按钮创建失败不影响翻译 */
+      /* 按钮创建失败不影响核心翻译 */
     }
   }
 
@@ -4203,10 +4292,30 @@ const FAMILY_COLLECTIONS = Object.freeze({
     const tag = String(element.tagName || '').toUpperCase();
     if (SKIP_TAGS.has(tag) && !['INPUT', 'TEXTAREA', 'SELECT', 'OPTION'].includes(tag)) return;
     if (isProtectedContext(element)) return;
-    for (const name of ['title', 'aria-label']) {
+
+    // 辅助设备与特性浮层卡片 HTML 预处理
+    if (element.hasAttribute && element.hasAttribute('data-feature-popover')) {
+      const rawHtml = element.getAttribute('data-feature-popover');
+      if (rawHtml && !element.hasAttribute('data-wt-zh-original-feature-popover')) {
+        element.setAttribute('data-wt-zh-original-feature-popover', rawHtml);
+        const translatedHtml = rawHtml.replace(/>([^<]+)</g, (match, textContent) => {
+          const trimmed = textContent.replace(/\xa0/g, ' ').trim();
+          if (!trimmed || !/[a-zA-Z]/.test(trimmed)) return match;
+          const rep = translateFixedText(trimmed);
+          if (rep && rep !== trimmed) {
+            return '>' + textContent.replace(trimmed, rep) + '<';
+          }
+          return match;
+        });
+        element.setAttribute('data-feature-popover', translatedHtml);
+      }
+    }
+
+    for (const name of ['title', 'aria-label', 'data-bs-content', 'data-bs-original-title', 'data-content']) {
       // 涂装名保留原文（UGC/市场涂装，与游戏内显示一致）
       if (name === 'title' && (element.classList?.contains('game-unit_camo') || element.closest?.('.game-unit_camo-list'))) continue;
       const value = element.getAttribute(name);
+      if (!value) continue;
       const replacement = translateFixedText(value);
       if (replacement && replacement !== value) {
         if (!element.hasAttribute('data-wt-zh-original-' + name)) {
@@ -4252,7 +4361,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     }
 
     const elements = root.querySelectorAll
-      ? root.querySelectorAll('[title], [aria-label]')
+      ? root.querySelectorAll('[title], [aria-label], [data-feature-popover], [data-bs-content], [data-bs-original-title]')
       : [];
     for (const element of elements) translateElementAttributes(element);
     if (root.nodeType === 1) translateElementAttributes(root);

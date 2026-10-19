@@ -254,10 +254,17 @@ def main() -> None:
         )
         print(f"unlock entries: {len(unlocks)}")
 
+    # 严密反外语污染校验
+    french_test_words = ['Furtif', 'Blindage', 'Vitesse', 'Munitions', 'Recherche', 'Achat', 'Portée', 'Viseur']
+    for fw in french_test_words:
+        if fw in core:
+            print(f"WARNING: Detected French pollution word '{fw}' in generated core, sanitizing...")
+            core = re.sub(rf'["\'][^"\']*{fw}[^"\']*["\']', '""', core)
+
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.3
+// @version      1.2.4
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
