@@ -381,17 +381,18 @@ assert.equal(translateFixedText('S-8KO rockets'), 'S-8KO 火箭弹');
 assert.equal(translateFixedText('Kh-29L missiles'), 'Kh-29L 导弹');
 assert.equal(translateFixedText('Type 23 SNEB rockets'), 'Type 23 SNEB 火箭弹');
 
-// B. 弹药链前缀与预设
+// B. 弹药链前缀与预设（严格对齐官方 CSV：对空、对地、穿甲）
 assert.equal(translateFixedText('Default: HEF-I / AP-I / HEF-I / T'), '默认：HEF-I / AP-I / HEF-I / T');
-assert.equal(translateFixedText('Air targets: AP-I / HEI'), '对空目标：AP-I / HEI');
-assert.equal(translateFixedText('Ground targets: AP / T'), '对地目标：AP / T');
-assert.equal(translateFixedText('Armoured targets'), '对装甲目标');
-assert.equal(translateFixedText('Air targets'), '对空目标');
-assert.equal(translateFixedText('Ground targets'), '对地目标');
+assert.equal(translateFixedText('Air targets: AP-I / HEI'), '对空：AP-I / HEI');
+assert.equal(translateFixedText('Ground targets: AP / T'), '对地：AP / T');
+assert.equal(translateFixedText('Armoured targets'), '穿甲');
+assert.equal(translateFixedText('Air targets'), '对空');
+assert.equal(translateFixedText('Ground targets'), '对地');
 assert.equal(translateFixedText('Belt'), '弹链');
 assert.equal(translateFixedText('Belt filling'), '弹链组成');
 assert.equal(translateFixedText('Belt filling: AP/T'), '弹链组成：AP/T');
 assert.equal(translateFixedText('Belt filling: HEI/SAP-I/T'), '弹链组成：HEI/SAP-I/T');
+assert.equal(translateFixedText('HEF-I/HEF-I/API-T/HEF-I/HEF-I/AP-I'), null); // 弹链缩写保持完整，不拆碎
 
 // C. 弹药定义与口径复合
 assert.equal(translateFixedText('AP: M2 Armor-piercing bullet'), 'AP：M2 穿甲弹');
@@ -421,13 +422,19 @@ assert.equal(translateFixedText('800x600'), '800 × 600');
 assert.equal(translateFixedText('or 310'), '或 310');
 assert.equal(translateFixedText('Engine Thrust (0 m / 0 km/h)'), '发动机推力（0 米 / 0 公里/小时）');
 
-// E. 传感器与航电
+// E. 传感器、航电与飞行状态
 assert.equal(translateFixedText('Helmet-mounted display'), '头盔显示器');
 assert.equal(translateFixedText('Laser designator'), '激光指示器');
 assert.equal(translateFixedText('Focus sensor'), '关注焦点传感器');
 assert.equal(translateFixedText('Ballistic computer'), '弹道计算机');
 assert.equal(translateFixedText('CCIP'), '连续计算命中点 (CCIP)');
 assert.equal(translateFixedText('Gunner: TVD'), '炮手：热成像');
+assert.equal(translateFixedText('Auto tracker'), '自动跟踪');
+assert.equal(translateFixedText('AN/APG-83, AN/ASQ-213, Auto tracker'), 'AN/APG-83, AN/ASQ-213, 自动跟踪');
+assert.equal(translateFixedText('Combat'), '战斗');
+assert.equal(translateFixedText('Air brake'), '减速板');
+assert.equal(translateFixedText('Separate antennas'), '独立天线');
+assert.equal(translateFixedText('TWS ESA + Separate antennas'), '边扫描边跟踪（相控阵）+ 独立天线');
 assert.equal(translateFixedText('Commander: TVD'), '车长：热成像');
 assert.equal(translateFixedText('Driver: NVD'), '驾驶员：夜视设备');
 assert.equal(translateFixedText('One-plane stabilizer'), '单向稳定器');

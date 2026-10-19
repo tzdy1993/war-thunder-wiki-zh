@@ -274,14 +274,14 @@
     'Radar/IRST': '雷达/光电探测系统',
     'Optical tracking': '光学跟踪',
     'Universal': '通用',
-    'Ground targets': '对地目标',
-    'Ground Targets': '对地目标',
-    'Air targets': '对空目标',
-    'Air Targets': '对空目标',
-    'Armoured targets': '对装甲目标',
-    'Armoured Targets': '对装甲目标',
-    'Armored targets': '对装甲目标',
-    'Armored Targets': '对装甲目标',
+    'Ground targets': '对地',
+    'Ground Targets': '对地',
+    'Air targets': '对空',
+    'Air Targets': '对空',
+    'Armoured targets': '穿甲',
+    'Armoured Targets': '穿甲',
+    'Armored targets': '穿甲',
+    'Armored Targets': '穿甲',
     'Tracers': '曳光',
     'Stealth': '匿踪',
     'Default': '默认',
@@ -430,16 +430,21 @@
     'Armor protection:': '装甲防护：',
     'Armament:': '武器：',
     'Mobility:': '机动性：',
-    'Landing': '降落',
+    'Landing': '着陆',
     'flaps': '襟翼',
     'Take-off': '起飞',
-    'Combat': '空战',
-    'Air': '空中',
+    'Takeoff': '起飞',
+    'Combat': '战斗',
     'brake': '制动器',
     'Landing flaps': '着陆襟翼',
     'Take-off flaps': '起飞襟翼',
+    'Takeoff flaps': '起飞襟翼',
     'Combat flaps': '战斗襟翼',
     'Air brake': '减速板',
+    'Air brakes': '减速板',
+    'Auto tracker': '自动跟踪',
+    'Separate antennas': '独立天线',
+    'TWS ESA + Separate antennas': '边扫描边跟踪（相控阵）+ 独立天线',
     'L / T / C': '着陆 / 起飞 / 战斗',
     'General characteristics': '一般特性',
     'Engine': '发动机',
@@ -1293,8 +1298,8 @@
     'Separate antennas': '独立天线',
     'Armed Forces of Greece': '希腊武装部队',
     'CVR(T) family of vehicles': 'CVR(T) 载具家族',
-    'Radial, 14-cylinder': '星形，14 缸',
-    'Radial, 18-cylinder': '星形，18 缸',
+    'Radial, 14-cylinder': '星型 14 缸',
+    'Radial, 18-cylinder': '星型 18 缸',
     'Installation of pontoons': '安装浮筒，从而获得水上浮渡能力。',
     'Electro-optical Active Protection System': '光电主动防护系统',
     'Semi-Armour Piercing': '半穿甲',
@@ -1315,9 +1320,9 @@
     'Commander can drive': '车长可驾驶',
     'P: Practice shell': 'P：练习弹',
     '+ Separate antennas': '+ 独立天线',
-    'Radial, 9-cylinder': '星形，9 缸',
-    'Radial, 28-cylinder': '星形，28 缸',
-    'Radial, 5-cylinder': '星形，5 缸',
+    'Radial, 9-cylinder': '星型 9 缸',
+    'Radial, 28-cylinder': '星型 28 缸',
+    'Radial, 5-cylinder': '星型 5 缸',
     'Destroyer Anti-Submarine': '反潜驱逐舰',
     'Medium Extended Air Defense System': '中程增程防空系统',
     'Cleaning the ship’s bottom from seashells and algae. Increases maximum forward speed.': '在干船坞对舰船进行维护，清理船体上附着的贝类和海藻，从而提升最大前进航速。',
@@ -3852,6 +3857,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (unlocksReplacement) return preserveWhitespace(text, unlocksReplacement);
     const familyReplacement = FAMILY_COLLECTIONS[normalized];
     if (familyReplacement) return preserveWhitespace(text, familyReplacement);
+    const shellAbbrReplacement = SHELL_ABBREVIATIONS[normalized];
+    if (shellAbbrReplacement) return preserveWhitespace(text, shellAbbrReplacement);
 
     const compoundRules = [
       // 复合武器挂载规则：炸弹、导弹、火箭弹、鱼雷、水雷
@@ -3895,7 +3902,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }],
       [/^([\d,]+(?:\.\d+)?)\s*m$/, '$1 米'],
       [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 公里'],
-      [/^([\d,]+(?:\.\d+)?)\s*G$/i, '$1 G'],
+      [/^([\d,]+(?:\.\d+)?)\s*G$/, '$1 G'],
       [/^([\d,]+)\s+rounds$/i, '$1 发'],
       [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
       [/^([\d,]+)\s+shots\/min$/i, '$1 发/分钟'],
@@ -3930,15 +3937,33 @@ const FAMILY_COLLECTIONS = Object.freeze({
       // 弹药链前缀与弹链组成
       [/^(Default|Universal|Air targets?|Ground targets?|Armoured targets?|Armored targets?|Stealth|Tracers):\s*(.+)$/i, (m) => {
         const prefixMap = {
-          'default': '默认', 'universal': '通用', 'air targets': '对空目标', 'air target': '对空目标',
-          'ground targets': '对地目标', 'ground target': '对地目标', 'armoured targets': '对装甲目标',
-          'armoured target': '对装甲目标', 'armored targets': '对装甲目标', 'armored target': '对装甲目标',
+          'default': '默认', 'universal': '通用', 'air targets': '对空', 'air target': '对空',
+          'ground targets': '对地', 'ground target': '对地', 'armoured targets': '穿甲',
+          'armoured target': '穿甲', 'armored targets': '穿甲', 'armored target': '穿甲',
           'stealth': '匿踪', 'tracers': '曳光',
         };
         const p = prefixMap[m[1].toLowerCase()] || m[1];
         return `${p}：${m[2].trim()}`;
       }],
       [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1].trim()}`],
+      // 航电设备/雷达列表拆分（如 AN/APG-83, AN/ASQ-213, Auto tracker）
+      [/^([A-Za-z0-9/_\-.\s]+,\s*)+[A-Za-z0-9/_\-.\s]+$/, (m) => {
+        const parts = m[0].split(/,\s*/);
+        if (parts.length > 1) {
+          let hasZh = false;
+          const translatedParts = parts.map(part => {
+            const trimmed = part.trim();
+            const zh = FIXED_TRANSLATIONS[trimmed] || translateFixedText(trimmed);
+            if (zh && zh !== trimmed) {
+              hasZh = true;
+              return zh;
+            }
+            return trimmed;
+          });
+          if (hasZh) return translatedParts.join(', ');
+        }
+        return null;
+      }],
       // 弹种缩写与全称映射（冒号与破折号拆解）
       [/^([A-Za-z0-9/_()\-]+)\s*[:：]\s*(.+)$/, (m) => {
         const abbr = m[1];
@@ -3965,9 +3990,10 @@ const FAMILY_COLLECTIONS = Object.freeze({
         if (zh && zh !== full) return `${abbr}：${zh}${suffix}`;
         return null;
       }],
-      [/^([A-Za-z0-9/_()\-]+)\s*-\s*(.+)$/, (m) => {
+      [/^([A-Za-z0-9_()]+)\s*-\s*([A-Za-z].{3,})$/, (m) => {
         const abbr = m[1];
         const full = m[2].trim();
+        if (abbr.includes('/') || full.includes('/') || m[0].includes('/')) return null;
         const zh = SHELL_TYPES[full] || FIXED_TRANSLATIONS[full] || translateFixedText(full);
         if (zh && zh !== full) return `${abbr} - ${zh}`;
         return null;
@@ -4229,7 +4255,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
   function isProtectedContext(element) {
     if (!element || typeof element.closest !== 'function') return false;
     return Boolean(element.closest(
-      'article, .game-unit_desc, .content-markdown, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
+      'article p, article, .game-unit_desc, .content-markdown, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
     ));
   }
 
@@ -4503,17 +4529,17 @@ const FAMILY_COLLECTIONS = Object.freeze({
     const fixedReplacement = translateFixedText(node.nodeValue);
     if (fixedReplacement) return fixedReplacement;
 
-    // 数值容器：整串不命中时拆分尾部单位翻译（"27.22451.842.1 hp/t" → "…马力/吨"）
+    // 数值容器：整串不命中时拆分尾部单位翻译（必须前置数字，防止 Separate antennas 末尾 s 误当秒）
     if (parent.classList?.contains('game-unit_chars-value')) {
-      const um = firstSegment.match(/^(.*?)(\s*)(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
+      const um = firstSegment.match(/^([\s\S]*?\d)\s*(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
       if (um && um[1]) {
         let prefix = um[1];
         if (/^at\s+/i.test(prefix)) {
           prefix = prefix.replace(/^at\s+/i, '高度 ');
         }
-        let unitZh = translateFixedText(um[3]);
+        let unitZh = translateFixedText(um[2]);
         if (unitZh) {
-          let combined = prefix + um[2] + unitZh;
+          let combined = prefix + ' ' + unitZh;
           combined = combined.replace(/公里\s*\/\s*\/\s*小时/g, '公里/小时').replace(/\/\//g, '/');
           return preserveWhitespace(node.nodeValue, combined);
         }
@@ -4543,6 +4569,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (!element || element.nodeType !== 1 || shouldSkipElement(element)) return;
     const tag = String(element.tagName || '').toUpperCase();
     if (['A', 'BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'OPTION', 'PRE', 'CODE', 'SCRIPT', 'STYLE'].includes(tag)) return;
+    // 严禁跨越交互元素（链接、按钮等）或块级布局/多列表格元素进行文本合并，彻底杜绝掏空 <a> 标签和多列粘连
+    if (element.querySelector && element.querySelector('a, button, input, textarea, select, div, p, table, tr, td, th')) return;
     if (element.getClientRects) {
       let visible = false;
       try {
@@ -4672,7 +4700,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
           }
         }
       }
-      const containers = root.querySelectorAll('span, div, td, th');
+      const containers = root.querySelectorAll('span, td, th');
       for (const element of containers) translateCombinedText(element);
     }
   }

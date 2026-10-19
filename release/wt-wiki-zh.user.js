@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.5
+// @version      1.2.6
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -290,14 +290,14 @@
     'Radar/IRST': '雷达/光电探测系统',
     'Optical tracking': '光学跟踪',
     'Universal': '通用',
-    'Ground targets': '对地目标',
-    'Ground Targets': '对地目标',
-    'Air targets': '对空目标',
-    'Air Targets': '对空目标',
-    'Armoured targets': '对装甲目标',
-    'Armoured Targets': '对装甲目标',
-    'Armored targets': '对装甲目标',
-    'Armored Targets': '对装甲目标',
+    'Ground targets': '对地',
+    'Ground Targets': '对地',
+    'Air targets': '对空',
+    'Air Targets': '对空',
+    'Armoured targets': '穿甲',
+    'Armoured Targets': '穿甲',
+    'Armored targets': '穿甲',
+    'Armored Targets': '穿甲',
     'Tracers': '曳光',
     'Stealth': '匿踪',
     'Default': '默认',
@@ -446,16 +446,21 @@
     'Armor protection:': '装甲防护：',
     'Armament:': '武器：',
     'Mobility:': '机动性：',
-    'Landing': '降落',
+    'Landing': '着陆',
     'flaps': '襟翼',
     'Take-off': '起飞',
-    'Combat': '空战',
-    'Air': '空中',
+    'Takeoff': '起飞',
+    'Combat': '战斗',
     'brake': '制动器',
     'Landing flaps': '着陆襟翼',
     'Take-off flaps': '起飞襟翼',
+    'Takeoff flaps': '起飞襟翼',
     'Combat flaps': '战斗襟翼',
     'Air brake': '减速板',
+    'Air brakes': '减速板',
+    'Auto tracker': '自动跟踪',
+    'Separate antennas': '独立天线',
+    'TWS ESA + Separate antennas': '边扫描边跟踪（相控阵）+ 独立天线',
     'L / T / C': '着陆 / 起飞 / 战斗',
     'General characteristics': '一般特性',
     'Engine': '发动机',
@@ -12905,6 +12910,7 @@
     "1.1 inch Mk.1 HE-T": "Mk 1 曳光榴弹 (自爆)",
     "1.1 inch/75 Mk 1": "1.1 英寸/75 Mk I",
     "1.1 inch/75 Mk 1 automatic gun": "28 毫米 1.1 英寸/75 Mk I 芝加哥钢琴 防空炮",
+    "1.1 inch/75 Mk.1 automatic gun": "28 毫米 1.1 英寸/75 Mk I 芝加哥钢琴 防空炮",
     "10 in (mod24)": "10 英寸 24 型挂架",
     "10 kg SD10C bomb": "10 千克 SD10C 炸弹",
     "10.5 cm L/4.2 AP": "105 毫米 L/4.2 AP",
@@ -13349,6 +13355,7 @@
     "127 mm SP Common Mk.46": "Mk 46 特种常规弹",
     "127 mm Type 1 HE": "常规弹",
     "127 mm/38 Mk 12 cannon, mount Mk 30": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 30 炮座)",
+    "127 mm/38 Mk.12 cannon, mount Mk.30": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 30 炮座)",
     "127 mm/50 3rd Year Type cannon": "127 毫米五十倍径三年式十二厘七炮",
     "127 mm/54 Mark 18 cannon": "127 毫米 5 英寸/54 Mk 18 高平两用炮",
     "128 RC.18": "128 RC.18",
@@ -13875,13 +13882,14 @@
     "20 mm cannon ammunition belt with tracer shells": "20 毫米机炮曳光弹链配置",
     "20 mm cannon shell rack filled with %s shells": "20 毫米炮使用 %s",
     "20 mm lvakan m/40B cannon": "20 毫米 m/40B 防空炮",
-    "20 mm rotary cannon JM61": "20 毫米 JM61-RFS 机炮",
+    "20 mm rotary cannon JM61": "20 毫米 JM61-M 机炮",
     "20 mm/65 Breda anti-aircraft gun": "20 毫米/65 布雷达 防空炮",
     "20 mm/65 Rh 202 automatic cannon": "20 毫米/65 Rh 202 机炮",
     "20 mm/70 Oerlikon 3S autocannon": "20 毫米 厄利孔 3S 型防空炮",
     "20 mm/70 Oerlikon Mark 24 autocannon": "20 毫米 厄利孔 Mk 24 防空炮座",
     "20 mm/70 Oerlikon Mark V autocannon": "20 毫米 厄利孔 Mk V 防空炮座",
     "20 mm/70 Oerlikon Mk II autocannon": "20 毫米 厄利孔 Mk II 机炮",
+    "20 mm/70 Oerlikon Mk.II autocannon": "20 毫米 厄利孔 Mk II 机炮",
     "20 mm/70 Scotti-Isotta Fraschini mod.1939 autocannon": "20 毫米/70 斯科蒂-伊索塔-弗拉斯基尼 1939 型防空炮",
     "20.3 cm L/4.4 (m.Hb) APBC": "203 毫米 PsGr. L/4.4 (m.Hb) APBC",
     "20.3 cm L/4.7 Bdz (m.Hb) SAP": "203 毫米 L/4.7 Bdz (m.Hb) SAP",
@@ -14099,6 +14107,7 @@
     "2cm Brgr.L'Spur 151": "BrGr. L'Supr 151",
     "2cm Pzbrgr.(Ph) 151": "PzBrGr. (Ph) 151",
     "3 inch 12pdr 12 cwt QF Mk V cannon": "76 毫米 QF 12 磅 12 英担 Mk V 舰炮",
+    "3 inch 12pdr 12 cwt QF Mk.V cannon": "76 毫米 QF 12 磅 12 英担 Mk V 舰炮",
     "3 inch AA Mk 26": "Mk 26 防空弹",
     "3 inch AA Mk.26": "Mk 26 防空弹",
     "3 inch NC101 HE-VT": "NC101 引信榴弹",
@@ -14106,6 +14115,7 @@
     "3 inch common Mk.3": "Mk 3 常规弹",
     "3 inch/23 Mk 4 naval gun": "76 毫米 3 英寸/23 Mk 4 舰炮",
     "3 inch/50 Mk 33 cannon": "76 毫米 3 英寸/50 Mk 33 舰炮",
+    "3 inch/50 Mk.33 cannon": "76 毫米 3 英寸/50 Mk 33 舰炮",
     "3 inch/70 Mark 6 cannon": "76 毫米 3 英寸 Mk 6 防空炮座",
     "3 pdr Mk 2 HE": "榴弹",
     "3 pdr Mk.2 HE": "榴弹",
@@ -14119,6 +14129,7 @@
     "3-inch/40 Type 41 cannon": "76 毫米四十倍径四一式三寸炮",
     "3-inch/50 Mk 10 cannon": "76 毫米 3 英寸/50 Mk 10 防空炮",
     "3-inch/50 Mk 34 gun": "76 毫米 3 英寸/50 Mk 34 防空炮座",
+    "3-inch/50 Mk.34 gun": "76 毫米 3 英寸/50 Mk 34 防空炮座",
     "3-inch/70 Mk 37 cannon": "76 毫米 3 英寸/70 Mk 37 防空炮",
     "3.7 cm FlaK LM/42 mounting": "37 毫米 FlaK LM/42 防空炮座",
     "3.7 cm Flak M42 mounting": "37 毫米 Flak M42 防空炮座",
@@ -14518,6 +14529,7 @@
     "4.7 inch/45 Mk IX cannon": "120 毫米 4.7 英寸/45 Mk IX 舰炮",
     "4.7 inch/45 Mk XII cannon, CPXIX mounting": "120 毫米 4.7 英寸 QF Mk XII 舰炮 (CPXIX 炮座)",
     "4.7 inch/45 Mk XII cannon, CPXVII mounting": "120 毫米 4.7 英寸 QF Mk XII 舰炮（CPXVII 炮座）",
+    "4.7 inch/45 Mk.XII cannon, CPXIX mounting": "120 毫米 4.7 英寸 QF Mk XII 舰炮 (CPXIX 炮座)",
     "40 mm 2pdr QF Mark IX gun": "40 毫米 QF 2 磅 Mk IX 舰炮",
     "40 mm 2pdr QF Mk IIc automatic cannon": "40 毫米 QF 2 磅 Mk II*C 防空炮",
     "40 mm 2pdr QF Mk VIII automatic cannon": "40 毫米 QF 2 磅 Mk VIII 舰炮",
@@ -14718,6 +14730,12 @@
     "5 inch/38 Mk 12 cannon, mount Mk 30": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 30 炮座)",
     "5 inch/38 Mk 12 cannon, mount Mk 32": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 32 炮座)",
     "5 inch/38 Mk 12 cannon, mount Mk 38": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 38 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.21": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 21 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.22": "127 毫米 5 英寸/38 Mk 12 舰炮 (Mk 22 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.28": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 28 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.30": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 30 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.32": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 32 炮座)",
+    "5 inch/38 Mk.12 cannon, mount Mk.38": "127 毫米 5 英寸/38 Mk 12 高平两用炮 (Mk 38 炮座)",
     "5 inch/40 Type 89 cannon": "127 毫米四十倍径八九式十二厘七防空炮",
     "5 inch/51 Mk 7 cannon": "127 毫米 5 英寸/51 Mk 7 舰炮",
     "5 inch/54 Mk 16 cannon": "127 毫米 5 英寸/54 Mk 16 舰炮",
@@ -15666,7 +15684,7 @@
     "AC-12 \"Tickler\"": "AC-12 抓搔",
     "ACM": "格斗模式",
     "ACh-30": "ACh-30",
-    "ADEN": "ADEN",
+    "ADEN": "亚丁",
     "ADEN 25": "阿登 25",
     "ADEN Mk 4": "阿登 Mk 4",
     "ADW-CLGP": "ADW-CLGP",
@@ -18167,7 +18185,7 @@
     "HF-7A": "火发-7A",
     "HF-7D": "火发-7D",
     "HIRSS": "悬停红外抑制系统",
-    "HJ-73": "红箭-73 反坦克导弹",
+    "HJ-73": "红箭-73",
     "HJ-73 ATGM": "红箭-73 反坦克导弹",
     "HJ-73 anti-tank guided missile": "红箭-73 反坦克导弹",
     "HJ-73E": "红箭-73E",
@@ -18540,6 +18558,7 @@
     "KAB-500LG": "KAB-500LG",
     "KAB-500LG-E": "KAB-500LG-E",
     "KAB-500S": "KAB-500S",
+    "KAB-500kr": "KAB-500Kr",
     "KAB-50L": "KAB-50L",
     "KAB-50S": "KAB-50S",
     "KAB-50TV": "KAB-50TV",
@@ -29048,15 +29067,33 @@ const FAMILY_COLLECTIONS = Object.freeze({
       // 弹药链前缀与弹链组成
       [/^(Default|Universal|Air targets?|Ground targets?|Armoured targets?|Armored targets?|Stealth|Tracers):\s*(.+)$/i, (m) => {
         const prefixMap = {
-          'default': '默认', 'universal': '通用', 'air targets': '对空目标', 'air target': '对空目标',
-          'ground targets': '对地目标', 'ground target': '对地目标', 'armoured targets': '对装甲目标',
-          'armoured target': '对装甲目标', 'armored targets': '对装甲目标', 'armored target': '对装甲目标',
+          'default': '默认', 'universal': '通用', 'air targets': '对空', 'air target': '对空',
+          'ground targets': '对地', 'ground target': '对地', 'armoured targets': '穿甲',
+          'armoured target': '穿甲', 'armored targets': '穿甲', 'armored target': '穿甲',
           'stealth': '匿踪', 'tracers': '曳光',
         };
         const p = prefixMap[m[1].toLowerCase()] || m[1];
         return `${p}：${m[2].trim()}`;
       }],
       [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1].trim()}`],
+      // 航电设备/雷达列表拆分（如 AN/APG-83, AN/ASQ-213, Auto tracker）
+      [/^([A-Za-z0-9/_\-.\s]+,\s*)+[A-Za-z0-9/_\-.\s]+$/, (m) => {
+        const parts = m[0].split(/,\s*/);
+        if (parts.length > 1) {
+          let hasZh = false;
+          const translatedParts = parts.map(part => {
+            const trimmed = part.trim();
+            const zh = FIXED_TRANSLATIONS[trimmed] || translateFixedText(trimmed);
+            if (zh && zh !== trimmed) {
+              hasZh = true;
+              return zh;
+            }
+            return trimmed;
+          });
+          if (hasZh) return translatedParts.join(', ');
+        }
+        return null;
+      }],
       // 弹种缩写与全称映射（冒号与破折号拆解）
       [/^([A-Za-z0-9/_()\-]+)\s*[:：]\s*(.+)$/, (m) => {
         const abbr = m[1];
@@ -29083,9 +29120,10 @@ const FAMILY_COLLECTIONS = Object.freeze({
         if (zh && zh !== full) return `${abbr}：${zh}${suffix}`;
         return null;
       }],
-      [/^([A-Za-z0-9/_()\-]+)\s*-\s*(.+)$/, (m) => {
+      [/^([A-Za-z0-9_()]+)\s*-\s*([A-Za-z].{3,})$/, (m) => {
         const abbr = m[1];
         const full = m[2].trim();
+        if (abbr.includes('/') || full.includes('/') || m[0].includes('/')) return null;
         const zh = SHELL_TYPES[full] || FIXED_TRANSLATIONS[full] || translateFixedText(full);
         if (zh && zh !== full) return `${abbr} - ${zh}`;
         return null;
@@ -29621,17 +29659,17 @@ const FAMILY_COLLECTIONS = Object.freeze({
     const fixedReplacement = translateFixedText(node.nodeValue);
     if (fixedReplacement) return fixedReplacement;
 
-    // 数值容器：整串不命中时拆分尾部单位翻译（"27.22451.842.1 hp/t" → "…马力/吨"）
+    // 数值容器：整串不命中时拆分尾部单位翻译（必须前置数字，防止 Separate antennas 末尾 s 误当秒）
     if (parent.classList?.contains('game-unit_chars-value')) {
-      const um = firstSegment.match(/^(.*?)(\s*)(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
+      const um = firstSegment.match(/^([\s\S]*?\d)\s*(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
       if (um && um[1]) {
         let prefix = um[1];
         if (/^at\s+/i.test(prefix)) {
           prefix = prefix.replace(/^at\s+/i, '高度 ');
         }
-        let unitZh = translateFixedText(um[3]);
+        let unitZh = translateFixedText(um[2]);
         if (unitZh) {
-          let combined = prefix + um[2] + unitZh;
+          let combined = prefix + ' ' + unitZh;
           combined = combined.replace(/公里\s*\/\s*\/\s*小时/g, '公里/小时').replace(/\/\//g, '/');
           return preserveWhitespace(node.nodeValue, combined);
         }
@@ -29661,6 +29699,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (!element || element.nodeType !== 1 || shouldSkipElement(element)) return;
     const tag = String(element.tagName || '').toUpperCase();
     if (['A', 'BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'OPTION', 'PRE', 'CODE', 'SCRIPT', 'STYLE'].includes(tag)) return;
+    // 严禁跨越交互元素（链接、按钮等）或块级布局/多列表格元素进行文本合并，彻底杜绝掏空 <a> 标签和多列粘连
+    if (element.querySelector && element.querySelector('a, button, input, textarea, select, div, p, table, tr, td, th')) return;
     if (element.getClientRects) {
       let visible = false;
       try {
@@ -29790,7 +29830,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
           }
         }
       }
-      const containers = root.querySelectorAll('span, div, td, th');
+      const containers = root.querySelectorAll('span, td, th');
       for (const element of containers) translateCombinedText(element);
     }
   }

@@ -310,7 +310,7 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.5
+// @version      1.2.6
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -332,7 +332,7 @@ def main() -> None:
     release_dir = HERE / "release"
     if release_dir.exists():
         (release_dir / "wt-wiki-zh.user.js").write_text(full_script, encoding="utf-8", newline="\n")
-        (release_dir / "wt-wiki-zh-v1.2.5.user.js").write_text(full_script, encoding="utf-8", newline="\n")
+        (release_dir / "wt-wiki-zh-v1.2.6.user.js").write_text(full_script, encoding="utf-8", newline="\n")
         print(f"synced to {release_dir / 'wt-wiki-zh.user.js'}")
 
     print(f"unit entries: {len(unit_index)}")
