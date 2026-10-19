@@ -344,4 +344,10 @@ const vehicleLink = element('A', { href: '/unit/germ_t_34_747' });
 const linkTextNode = textNode('▀T 34 747 (r)', vehicleLink);
 assert.equal(translateNodeText(linkTextNode), '▀747 (r) 坦克');
 
+// 5. 中华民国规范化断言（统一为繁体“中國”）
+assert.equal(translateFixedText('Republic of China'), '中國');
+assert.equal(translateFixedText('中华民国'), '中國');
+assert.equal(translateFixedText('ROCA ORDC'), '中國陸軍兵工署');
+assert.equal(translateFixedText('Operator Republic of China'), '使用国 中國');
+
 console.log('core tests passed');

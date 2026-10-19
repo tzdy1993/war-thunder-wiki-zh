@@ -198,6 +198,16 @@ def main() -> None:
         if m_k in unit_name_index:
             unit_name_index[m_k] = m_v
 
+    term_index['Republic of China'] = '中國'
+    unit_name_index['Republic of China'] = '中國'
+    term_index['ROCA ORDC'] = '中國陸軍兵工署'
+    unit_name_index['ROCA ORDC'] = '中國陸軍兵工署'
+
+    for d in (unit_index, unit_name_index, term_index):
+        for k in list(d.keys()):
+            if "中华民国" in d[k]:
+                d[k] = d[k].replace("中华民国", "中國")
+
     core = CORE_PATH.read_text(encoding="utf-8")
     core = replace_between(
         core,
@@ -221,6 +231,9 @@ def main() -> None:
             clean_v = strip_all_markers(clean_v)
             if clean_k and clean_v:
                 unlocks[clean_k] = clean_v
+        for k in list(unlocks.keys()):
+            if "中华民国" in unlocks[k]:
+                unlocks[k] = unlocks[k].replace("中华民国", "中國")
         core = replace_between(
             core,
             "  // BEGIN GENERATED UNLOCKS TRANSLATIONS",

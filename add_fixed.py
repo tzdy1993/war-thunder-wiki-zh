@@ -298,7 +298,7 @@ ENTRIES: list[tuple[str, str]] = [
     ("Deutsche Eisenwerk", "德意志钢铁厂"),
     ("MIAG", "MIAG"),
     ("Omsktransmash", "鄂木斯克运输机械厂"),
-    ("ROCA ORDC", "中华民国陆军兵工署"),
+    ("ROCA ORDC", "中國陸軍兵工署"),
     ("Rheinstahl", "莱茵钢铁"),
     ("Royal Arsenal Woolwich", "伍尔维奇皇家兵工厂"),
     ("White Motor Company", "怀特汽车公司"),
@@ -326,7 +326,8 @@ ENTRIES: list[tuple[str, str]] = [
     ("Sasebo Naval Arsenal", "佐世保海军工厂"),
     # ===== 国家 / 政权 =====
     ("Kingdom of Italy", "意大利王国"),
-    ("Republic of China", "中华民国"),
+    ("Republic of China", "中國"),
+    ("中华民国", "中國"),
     ("Hungary", "匈牙利"),
     ("Finland", "芬兰"),
     ("Thailand", "泰国"),
