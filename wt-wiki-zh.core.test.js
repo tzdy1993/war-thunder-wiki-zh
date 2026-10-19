@@ -2,6 +2,7 @@
 
 const assert = require('node:assert/strict');
 const {
+  preserveWhitespace,
   translateFixedText,
   translateUnitHref,
   translateNodeText,
@@ -304,5 +305,43 @@ assert.equal(MAIN_BUTTON_TITLES['/helicopters'], '直升机');
 assert.equal(MAIN_BUTTON_TITLES['/ground'], '地面载具');
 assert.equal(MAIN_BUTTON_TITLES['/ships'], '远洋海军');
 assert.equal(MAIN_BUTTON_TITLES['/boats'], '近岸海军');
+
+// —— 战雷自创特殊符号与载具汉化保留测试 ——
+// 1. preserveWhitespace 符号保留单元测试
+assert.equal(preserveWhitespace('▀T 34 747 (r)', '747 (r) 坦克'), '▀747 (r) 坦克');
+assert.equal(preserveWhitespace('  ▀Bf 109 F-4  ', 'Bf 109 F-4 战斗机'), '  ▀Bf 109 F-4 战斗机  ');
+assert.equal(preserveWhitespace(' ▀ Bf 109 F-4 ', 'Bf 109 F-4 战斗机'), ' ▀ Bf 109 F-4 战斗机 ');
+assert.equal(preserveWhitespace(' ▅ Multiple Gun Motor Carriage M16 ', '四联机枪运载车 M16'), ' ▅ 四联机枪运载车 M16 ');
+assert.equal(preserveWhitespace('☢Canberra B Mk 6', '堪培拉 B Mk 6'), '☢堪培拉 B Mk 6');
+assert.equal(preserveWhitespace('F-86F-30 ▅', 'F-86F-30'), 'F-86F-30 ▅');
+assert.equal(preserveWhitespace('  F-86F-40 ▅  ', 'F-86F-40'), '  F-86F-40 ▅  ');
+assert.equal(preserveWhitespace('M4A2', 'M4A2 坦克'), 'M4A2 坦克');
+assert.equal(preserveWhitespace('  Sherman Firefly  ', '谢尔曼 萤火虫'), '  谢尔曼 萤火虫  ');
+assert.equal(preserveWhitespace('▀747 (r) 坦克', '▀747 (r) 坦克'), '▀747 (r) 坦克');
+assert.equal(preserveWhitespace('␗F-86F-30', 'F-86F-30'), '␗F-86F-30');
+assert.equal(preserveWhitespace('␙Challenger 2', '挑战者 2'), '␙挑战者 2');
+assert.equal(preserveWhitespace('◄Centauro', '半人马座'), '◄半人马座');
+
+// 2. translateFixedText 直接翻译与符号保留
+assert.equal(translateFixedText('▀T 34 747 (r)'), '▀747 (r) 坦克');
+assert.equal(translateFixedText('  ▀T 34 747 (r)  '), '  ▀747 (r) 坦克  ');
+assert.equal(translateFixedText('▅Multiple Gun Motor Carriage M16'), '▅四联机枪运载车 M16');
+assert.equal(translateFixedText('☢Canberra B Mk 6'), '☢堪培拉 B Mk 6');
+assert.equal(translateFixedText('F-86F-30 ▅'), 'F-86F-30 ▅');
+assert.equal(translateFixedText('  F-86F-30 ▅  '), '  F-86F-30 ▅  ');
+
+// 3. translateUnitHref 超链接翻译与符号保留
+assert.equal(translateUnitHref('/unit/germ_t_34_747', '▀T 34 747 (r)'), '▀747 (r) 坦克');
+assert.equal(translateUnitHref('/unit/canberra_bimk6_killstreak', '☢Canberra B Mk 6'), '☢堪培拉 B Mk 6');
+assert.equal(translateUnitHref('/unit/unknown_slug', '▀T 34 747 (r)'), '▀747 (r) 坦克'); // cleanText fallback
+
+// 4. translateNodeText DOM 节点翻译与符号保留
+const vehicleDiv = element('DIV');
+const vehicleTextNode = textNode('▀T 34 747 (r)', vehicleDiv);
+assert.equal(translateNodeText(vehicleTextNode), '▀747 (r) 坦克');
+
+const vehicleLink = element('A', { href: '/unit/germ_t_34_747' });
+const linkTextNode = textNode('▀T 34 747 (r)', vehicleLink);
+assert.equal(translateNodeText(linkTextNode), '▀747 (r) 坦克');
 
 console.log('core tests passed');

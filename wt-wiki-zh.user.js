@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.1
+// @version      1.2.2
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -28288,12 +28288,18 @@ const FAMILY_COLLECTIONS = Object.freeze({
     'CODE',
   ]);
 
+  const SPECIAL_SYMBOLS_REGEX = /[\u2580-\u259f\u25a0-\u25ff\u2400-\u243f\u22e0\u2622\uf000-\uf8ff\ue000-\uf8ff]/g;
+  const MARKERS_CLASS = '[▀▁▂▃▄▅▆▇◄◘◔◊◗◥◐◌◍◡◢○⋠␗␙␠☢\\uf000-\\uf8ff\\ue000-\\uf8ff]';
+  const REG_PREFIX_MARKER = new RegExp('^(\\s*)(' + MARKERS_CLASS + '+)(\\s*)');
+  const REG_SUFFIX_MARKER = new RegExp('(\\s*)(' + MARKERS_CLASS + '+)(\\s*)$');
+  const REG_LEADING_WS = /^(\s*)/;
+  const REG_TRAILING_WS = /(\s*)$/;
+
   function normalizeText(value) {
     return String(value)
       .replace(/\u00a0/g, ' ')
       .replace(/\u200b/g, '')
-      .replace(/[\uf000-\uf8ff]/g, '')
-      .replace(/[▀▁▂▃▄▅▆▇◄◘◔◊␗☢]/g, '')
+      .replace(SPECIAL_SYMBOLS_REGEX, '')
       .replace(/&quot;/g, '"')
       .replace(/&amp;/g, '&')
       .replace(/&#0?39;/g, "'")
@@ -28310,8 +28316,33 @@ const FAMILY_COLLECTIONS = Object.freeze({
   }
 
   function preserveWhitespace(original, replacement) {
-    const match = String(original).match(/^(\s*)([\s\S]*?)(\s*)$/);
-    return `${match[1]}${replacement}${match[3]}`;
+    if (!replacement) return null;
+    const str = String(original);
+    const pMatch = str.match(REG_PREFIX_MARKER);
+    const sMatch = str.match(REG_SUFFIX_MARKER);
+
+    const leadingWs = pMatch ? pMatch[1] : (str.match(REG_LEADING_WS)?.[1] || '');
+    const prefixMarkers = pMatch ? pMatch[2] : '';
+    const prefixSpacer = pMatch ? pMatch[3] : '';
+
+    let suffixSpacer = '';
+    let suffixMarkers = '';
+    let trailingWs = str.match(REG_TRAILING_WS)?.[1] || '';
+
+    if (sMatch && (!pMatch || sMatch.index >= (pMatch[0].length))) {
+      suffixSpacer = sMatch[1];
+      suffixMarkers = sMatch[2];
+      trailingWs = sMatch[3];
+    }
+
+    let result = replacement;
+    if (prefixMarkers && !result.startsWith(prefixMarkers)) {
+      result = `${prefixMarkers}${prefixSpacer}${result}`;
+    }
+    if (suffixMarkers && !result.endsWith(suffixMarkers)) {
+      result = `${result}${suffixSpacer}${suffixMarkers}`;
+    }
+    return `${leadingWs}${result}${trailingWs}`;
   }
 
   function officialOrRule(text) {
@@ -28332,6 +28363,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (/(?:^|\D)\d{9,}(?:\D|$)/.test(normalized)) return null;
     const replacement = FIXED_TRANSLATIONS[normalized];
     if (replacement) return preserveWhitespace(text, replacement);
+    const unitNameReplacement = UNIT_NAME_TRANSLATIONS[normalized];
+    if (unitNameReplacement) return preserveWhitespace(text, unitNameReplacement);
     const termReplacement = TERM_TRANSLATIONS[normalized];
     if (termReplacement) return preserveWhitespace(text, termReplacement);
     const unlocksReplacement = UNLOCKS_TRANSLATIONS[normalized];
@@ -28583,8 +28616,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }
     }
     const slug = hrefSlug(href);
-    if (!slug) return null;
-    const replacement = UNIT_TRANSLATIONS[slug];
+    const replacement = (slug && UNIT_TRANSLATIONS[slug]) || UNIT_NAME_TRANSLATIONS[cleanText];
     return replacement ? preserveWhitespace(fallbackText, replacement) : null;
   }
 
@@ -29017,6 +29049,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     TERM_TRANSLATIONS,
     FAMILY_COLLECTIONS,
     normalizeText,
+    preserveWhitespace,
     translateFixedText,
     translateUnitHref,
     scheduleTask,
