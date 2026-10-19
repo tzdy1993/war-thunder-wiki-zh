@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.1.1
+// @version      1.1.2
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -180,6 +180,13 @@
     'Game roles': '游戏角色',
     'Vehicle families': '载具家族',
     'Vehicle families | Vehicle Collections | War Thunder Wiki': '载具家族 | 载具收藏 | War Thunder Wiki',
+    'Vehicle Collections': '载具收藏',
+    'Vehicle Collections | War Thunder Wiki': '载具收藏 | War Thunder Wiki',
+    'We gathered vehicle collections for you by various themes.': '我们为您按不同主题整理了各类载具收藏。',
+    'Operator | Vehicle Collections | War Thunder Wiki': '使用国 | 载具收藏 | War Thunder Wiki',
+    'Many more nations are represented in War Thunder than just the 10 main tech trees. Is your favourite nation in the list below?': '除了 10 大主要科技树之外，战争雷霆中还收录了更多国家/地区的载具。你心仪的国家是否就在下方列表中？',
+    'The Great War! (1 April 2025)': '第一次世界大战！（2025年4月1日）',
+    'Operation H.E.A.T. (2019)': '“炽焰”行动（2019年）',
     'If one is good, more must be better! Discover both obvious and more unexpected vehicles with related designs in the collections below.': '独木难支，众木成林！在下列合集中探索设计血脉相连、或经典或意料之外的系列载具。',
     'Number of vehicles': '载具数量',
     'Title': '名称',
@@ -775,6 +782,9 @@
     'South Vietnam': '南越',
     'Weimar Republic': '魏玛共和国',
     'German Empire': '德意志帝国',
+    'UAE': '阿联酋',
+    'United Arab Emirates': '阿拉伯联合酋长国',
+    'country_uae': '阿联酋',
     'Bethlehem Steel': '伯利恒钢铁',
     'Deschimag': '德希马格',
     'New York Ship': '纽约造船',
@@ -26045,6 +26055,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^at\s+([\d,]+)\s+m$/i, '在 $1 米高度'],
       [/^([\d,]+(?:\.\d+)?)\s+m$/, '$1 米'],
       [/^([\d,]+)\s+rounds$/i, '$1 发'],
+      [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
       [/^([\d,]+)\s+shots\/min$/i, '$1 发/分钟'],
       [/^([\d,]+(?:\.\d+)?)\s+m\/s$/i, '$1 米/秒'],
       [/^([\d,]+(?:\.\d+)?)\s+kg\/m²$/i, '$1 千克/平方米'],
@@ -26242,17 +26253,19 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
   function translateUnitHref(href, fallbackText) {
     if (!href) return null;
+    const cleanText = normalizeText(fallbackText || '');
+    if (!cleanText) return null;
+    if (/^\d+\s+vehicles?$/i.test(cleanText) || /^\d+$/.test(cleanText)) return null;
     if (/\/collections\/family\//i.test(href)) {
       const match = href.match(/\/collections\/family\/([^/?#]+)/i);
       if (match) {
         const slug = match[1].toLowerCase();
-        const replacement = FAMILY_COLLECTIONS[slug] || FAMILY_COLLECTIONS[normalizeText(fallbackText || '')];
+        const replacement = FAMILY_COLLECTIONS[cleanText] || FAMILY_COLLECTIONS[slug];
         if (replacement) return preserveWhitespace(fallbackText, replacement);
       }
     }
     const slug = hrefSlug(href);
     if (!slug) return null;
-    if (!normalizeText(fallbackText || '')) return null;
     const replacement = UNIT_TRANSLATIONS[slug];
     return replacement ? preserveWhitespace(fallbackText, replacement) : null;
   }
@@ -26384,16 +26397,6 @@ const FAMILY_COLLECTIONS = Object.freeze({
     // 改装树分区标题按官方术语（特性块的 Mobility 仍走 FIXED 机动性）
     if (firstSegment === 'Mobility' && parent.closest?.('table.game-unit_mods-table')) {
       return preserveWhitespace(node.nodeValue, '机动改装');
-    }
-
-    // 载具家族卡片标题与链接
-    const familyCard = parent.closest?.('a[href*="/collections/family/"], .unit-collection-card');
-    if (familyCard) {
-      const familyHref = familyCard.getAttribute?.('href') || '';
-      const slugMatch = familyHref.match(/\/collections\/family\/([^/?#]+)/i);
-      const slug = slugMatch ? slugMatch[1].toLowerCase() : '';
-      const trans = (slug && FAMILY_COLLECTIONS[slug]) || FAMILY_COLLECTIONS[firstSegment] || FAMILY_COLLECTIONS[node.nodeValue.trim()];
-      if (trans) return preserveWhitespace(node.nodeValue, trans);
     }
 
     if (parent.tagName === 'A') {

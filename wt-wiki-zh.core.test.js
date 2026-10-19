@@ -271,6 +271,29 @@ scan(directDynamic);
 assert.equal(directDynamic.nodeValue, '战斗权重');
 
 const alreadyTranslated = textNode('战斗权重', fixedParent);
-assert.equal(translateNodeText(alreadyTranslated), null);
+// 卡片结构与空白节点防误伤测试
+assert.equal(translateFixedText('UAE'), '阿联酋');
+assert.equal(translateFixedText('United Arab Emirates'), '阿拉伯联合酋长国');
+assert.equal(translateFixedText('We gathered vehicle collections for you by various themes.'), '我们为您按不同主题整理了各类载具收藏。');
+assert.equal(translateFixedText('51 vehicles'), '51 辆载具');
+
+const collectionCardA = element('A', { href: '/collections/family/m4_tank', class: 'unit-collection-card' });
+const cardWhitespace = textNode('\n    ', collectionCardA);
+assert.equal(translateNodeText(cardWhitespace), null);
+
+const cardCover = element('DIV', { class: 'unit-collection-card_cover' });
+cardCover.parentElement = collectionCardA;
+const coverWhitespace = textNode('\n      ', cardCover);
+assert.equal(translateNodeText(coverWhitespace), null);
+
+const cardTitleDiv = element('DIV', { class: 'unit-collection-card_title' });
+cardTitleDiv.parentElement = collectionCardA;
+const cardTitleText = textNode('M4 "Sherman"', cardTitleDiv);
+assert.equal(translateNodeText(cardTitleText), 'M4“谢尔曼”');
+
+const cardStatDiv = element('DIV', { class: 'unit-collection-card_stat' });
+cardStatDiv.parentElement = collectionCardA;
+const cardStatText = textNode('51 vehicles', cardStatDiv);
+assert.equal(translateNodeText(cardStatText), '51 辆载具');
 
 console.log('core tests passed');
