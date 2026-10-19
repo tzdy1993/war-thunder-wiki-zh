@@ -9,6 +9,8 @@ const {
   scheduleTask,
   scan,
   translateElementAttributes,
+  MAIN_BUTTON_TITLES,
+  translateMainButtons,
 } = require('./wt-wiki-zh.core.js');
 
 function element(tagName, attributes = {}) {
@@ -295,5 +297,12 @@ const cardStatDiv = element('DIV', { class: 'unit-collection-card_stat' });
 cardStatDiv.parentElement = collectionCardA;
 const cardStatText = textNode('51 vehicles', cardStatDiv);
 assert.equal(translateNodeText(cardStatText), '51 辆载具');
+
+// 首页核心五大板块横幅汉化标志测试
+assert.equal(MAIN_BUTTON_TITLES['/aviation'], '空军');
+assert.equal(MAIN_BUTTON_TITLES['/helicopters'], '直升机');
+assert.equal(MAIN_BUTTON_TITLES['/ground'], '地面载具');
+assert.equal(MAIN_BUTTON_TITLES['/ships'], '远洋海军');
+assert.equal(MAIN_BUTTON_TITLES['/boats'], '近岸海军');
 
 console.log('core tests passed');

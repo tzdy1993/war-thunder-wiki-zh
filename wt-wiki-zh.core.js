@@ -3170,14 +3170,17 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
   function setZhMode(mode) {
     if (mode === zhMode) return;
+    const doc = typeof document !== 'undefined' ? document : null;
     if (mode) {
       zhMode = true;
-      scan((typeof document !== 'undefined' && document.body) || null);
-      if (zhObserver && typeof MutationObserver !== 'undefined') {
-        zhObserver.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
+      if (doc && doc.body && doc.body.classList) doc.body.classList.remove('wt-zh-off');
+      scan((doc && doc.body) || null);
+      if (zhObserver && typeof MutationObserver !== 'undefined' && doc) {
+        zhObserver.observe(doc.documentElement, { childList: true, subtree: true, characterData: true });
       }
     } else {
       zhMode = false;
+      if (doc && doc.body && doc.body.classList) doc.body.classList.add('wt-zh-off');
       if (zhObserver) zhObserver.disconnect();
       restoreOriginalTexts();
     }
@@ -3216,6 +3219,91 @@ const FAMILY_COLLECTIONS = Object.freeze({
       doc.body.appendChild(btn);
     } catch (e) {
       /* 按钮创建失败不影响翻译 */
+    }
+  }
+
+  const MAIN_BUTTON_TITLES = {
+    '/aviation': '空军',
+    '/helicopters': '直升机',
+    '/ground': '地面载具',
+    '/ships': '远洋海军',
+    '/boats': '近岸海军',
+  };
+
+  function ensureMainButtonStyles(doc) {
+    if (!doc || !doc.head || doc.getElementById('wt-zh-main-btn-styles')) return;
+    const style = doc.createElement('style');
+    style.id = 'wt-zh-main-btn-styles';
+    style.textContent = `
+      .main-button_item {
+        position: relative !important;
+      }
+      .wt-zh-btn-title {
+        position: absolute;
+        left: 12px;
+        bottom: 18px;
+        padding: 10px 8px;
+        background: rgba(12, 17, 22, 0.92);
+        border-left: 3.5px solid #d32f2f;
+        border-radius: 0 5px 5px 0;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.85);
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        color: #ffffff;
+        z-index: 3;
+        pointer-events: none;
+        user-select: none;
+        line-height: 1.15;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        transition: opacity 0.2s ease;
+      }
+      @media (max-width: 768px) {
+        .wt-zh-btn-title {
+          left: 8px;
+          bottom: 12px;
+          padding: 6px 5px;
+          font-size: 18px;
+          letter-spacing: 2px;
+          border-left-width: 2.5px;
+        }
+      }
+      body.wt-zh-off .wt-zh-btn-title {
+        display: none !important;
+      }
+    `;
+    doc.head.appendChild(style);
+  }
+
+  function translateMainButtons(root) {
+    if (!root) return;
+    const doc = root.ownerDocument || (typeof document !== 'undefined' ? document : null);
+    if (doc) ensureMainButtonStyles(doc);
+
+    const candidates = [];
+    if (root.classList && root.classList.contains('main-button_item')) {
+      candidates.push(root);
+    }
+    if (root.querySelectorAll) {
+      const items = root.querySelectorAll('.main-button_item');
+      for (const it of items) candidates.push(it);
+    }
+
+    for (const btn of candidates) {
+      if (btn.dataset && btn.dataset.wtZhBtnDone) continue;
+      const href = btn.getAttribute ? btn.getAttribute('href') : btn.href;
+      if (href && MAIN_BUTTON_TITLES[href]) {
+        if (btn.dataset) btn.dataset.wtZhBtnDone = '1';
+        if (doc && (!btn.querySelector || !btn.querySelector('.wt-zh-btn-title'))) {
+          const title = doc.createElement('div');
+          title.className = 'wt-zh-btn-title';
+          title.textContent = MAIN_BUTTON_TITLES[href];
+          btn.appendChild(title);
+        }
+      }
     }
   }
 
@@ -3400,6 +3488,23 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (root.nodeType === 1) translateElementAttributes(root);
 
     if (root.querySelectorAll) {
+      translateMainButtons(root);
+      // 纪录之书（Book of Records）领奖台排名徽章：彻底重塑为纯净优雅的中文“第 1 名”，清除所有 sup 序数后缀及 place 英文
+      const placeBadges = root.querySelectorAll('.unit-record_item-place');
+      for (const badge of placeBadges) {
+        const placeNum = badge.querySelector('.place-num');
+        const placeText = badge.querySelector('.place-text');
+        if (placeNum && (!badge.dataset || !badge.dataset.wtZhPlaceDone)) {
+          if (badge.dataset) badge.dataset.wtZhPlaceDone = '1';
+          const match = (placeNum.textContent || '').match(/(\d+)/);
+          if (match) {
+            placeNum.textContent = `第 ${match[1]} 名`;
+          }
+          if (placeText) {
+            placeText.textContent = '';
+          }
+        }
+      }
       const containers = root.querySelectorAll('span, div, td, th');
       for (const element of containers) translateCombinedText(element);
     }
@@ -3462,6 +3567,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     translateNodeText,
     translateElementAttributes,
     shouldSkipElement,
+    MAIN_BUTTON_TITLES,
+    translateMainButtons,
     scan,
     start,
   };
