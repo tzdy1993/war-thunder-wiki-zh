@@ -171,6 +171,28 @@ def main() -> None:
 
         unlocks.update(base_unlocks)
 
+    CHINESE_MANUFACTURERS = {
+        'Chengdu': '航空工业成飞',
+        'CAIG': '航空工业成飞',
+        'Shenyang': '航空工业沈飞',
+        "Xi'an": '航空工业西飞',
+        'Hongdu': '航空工业洪都',
+        'Nanchang': '航空工业洪都',
+        'Hafei': '航空工业哈飞',
+        'Harbin': '航空工业哈飞',
+        'Changhe': '航空工业昌飞',
+        'Shaanxi': '航空工业陕飞',
+        'Guizhou': '航空工业贵飞',
+        'NORINCO': '中国兵器工业集团',
+        'Norinco': '中国兵器工业集团',
+        '北方工业': '中国兵器工业集团',
+    }
+    for m_k, m_v in CHINESE_MANUFACTURERS.items():
+        if m_k in term_index:
+            term_index[m_k] = m_v
+        if m_k in unit_name_index:
+            unit_name_index[m_k] = m_v
+
     core = CORE_PATH.read_text(encoding="utf-8")
     core = replace_between(
         core,
@@ -205,7 +227,7 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.0
+// @version      1.2.1
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
