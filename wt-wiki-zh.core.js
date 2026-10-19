@@ -178,6 +178,14 @@
     'CCRP': '连续计算投放点 (CCRP)',
     'Continuously Computed Impact Point': '连续计算落点 (CCIP)',
     'Continuously Computed Release Point': '连续计算投放点 (CCRP)',
+    'EEGS': '增强型航迹射击瞄具 (EEGS)',
+    'Enhanced Envelope Gunsight': '增强型航迹射击瞄具',
+    'Focus sensor': '关注焦点传感器',
+    'Laser designator': '激光测距指示器',
+    'Cannons': '机炮',
+    'Guns': '机枪/机炮',
+    'Rockets': '火箭弹',
+    'Bombs': '炸弹',
     'Night vision device': '夜视设备',
     'Thermal imager': '热成像仪',
     'Laser rangefinder': '激光测距仪',
@@ -208,6 +216,11 @@
     'Radar Warning Receiver': '雷达告警接收器',
     'Ballistic Computer': '弹道计算机',
     'Helmet Mounted Display': '头盔显示器',
+    'Helmet-mounted display': '头盔显示器',
+    'Helmet-Mounted display': '头盔显示器',
+    'Helmet-Mounted Display': '头盔显示器',
+    'Helmet mounted display': '头盔显示器',
+    'at': '高度',
     'Night Vision Devices': '夜视设备',
     'Night vision devices': '夜视设备',
     'Thermal Imager': '热成像仪',
@@ -3706,7 +3719,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^(\d+)\s+hours?\s+ago$/i, '$1 小时前'],
       [/^([\d,]+)\s+persons?$/i, '$1 人'],
       [/^([\d,]+)\s+ratings\s+all\s+time$/i, '$1 次评分（总计）'],
-      [/^at\s+([\d,]+)\s+m$/i, '在 $1 米高度'],
+      [/^at\s+([\d,]+)\s*(?:m|米)$/i, '高度 $1 米'],
+      [/^at\s+sea\s+level$/i, '海平面高度'],
+      [/^at\s*$/i, '高度'],
       [/^([\d,]+(?:\.\d+)?)\s+m$/, '$1 米'],
       [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 公里'],
       [/^([\d,]+(?:\.\d+)?)\s*G$/i, '$1 G'],
@@ -3725,8 +3740,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s+s$/i, '$1 → $2 秒'],
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s*°\/s$/i, '$1 → $2 度/秒'],
       [/^([\d.,]+)\s*°\/s$/i, '$1 度/秒'],
-      [/^([\d,]+)\s*km\/h$/i, '$1 公里/小时'],
-      [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*km\/h$/i, '$1 公里/小时'],
+      [/^([\d,]+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
+      [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
       [/^([\d.,]+)\s*hp\s*\/\s*(?:tonne|t)$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp\/t$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp$/i, '$1 马力'],
@@ -4225,10 +4240,14 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
     // 数值容器：整串不命中时拆分尾部单位翻译（"27.22451.842.1 hp/t" → "…马力/吨"）
     if (parent.classList?.contains('game-unit_chars-value')) {
-      const um = firstSegment.match(/^(.*?)(\s*)(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
+      const um = firstSegment.match(/^(.*?)(\s*)(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
       if (um && um[1]) {
-        const unitZh = translateFixedText(um[3]);
-        if (unitZh) return preserveWhitespace(node.nodeValue, um[1] + um[2] + unitZh);
+        let unitZh = translateFixedText(um[3]);
+        if (unitZh) {
+          let combined = um[1] + um[2] + unitZh;
+          combined = combined.replace(/公里\s*\/\s*\/\s*小时/g, '公里/小时').replace(/\/\//g, '/');
+          return preserveWhitespace(node.nodeValue, combined);
+        }
       }
     }
 

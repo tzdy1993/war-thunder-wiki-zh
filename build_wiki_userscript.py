@@ -27,12 +27,18 @@ CLEAN_PATTERN = re.compile(r'[\u2580-\u259f\u25a0-\u25ff\u2400-\u243f\u2622\uf00
 
 
 def clean(value: str) -> str:
-    return " ".join(value.replace("\u00a0", " ").replace("\u200b", "").split()).strip()
+    if not value:
+        return ""
+    # 彻底清除字面量反斜杠+t以及真实制表符、回车
+    v = value.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
+    v = v.replace("\u00a0", " ").replace("\u200b", "")
+    return " ".join(v.split()).strip()
 
 
 def strip_all_markers(value: str) -> str:
-    """彻底剥离客户端国别标记、控制字符与私有区Unicode字符"""
+    """彻底剥离客户端国别标记、控制字符、制表符与私有区Unicode字符"""
     v = CLEAN_PATTERN.sub('', value)
+    v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
     return v.strip(MARKER_CHARS).strip()
 
 
@@ -157,6 +163,12 @@ def main() -> None:
         base_terms = extract_baseline(base_code, "TERM_TRANSLATIONS")
         base_unlocks = extract_baseline(base_code, "UNLOCKS_TRANSLATIONS")
 
+        # 彻底剿灭历史遗留的残破键（如 Sho't 引发的 "t": "绍特"）
+        BROKEN_KEYS = {'t', 't Kal Alef', 't Kal Dalet', 't Kal Gimel'}
+        for bk in BROKEN_KEYS:
+            base_unit_names.pop(bk, None)
+            base_terms.pop(bk, None)
+
         full_units = dict(base_units)
         full_units.update(unit_index)
         unit_index = full_units
@@ -210,15 +222,34 @@ def main() -> None:
         for p_k, p_v in popover_terms.items():
             clean_k = strip_all_markers(p_k)
             clean_v = strip_all_markers(p_v)
+            clean_k = clean_k.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
+            clean_v = clean_v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
+            clean_v = re.sub(r'\s{2,}', ' ', clean_v)
             if "中华民国" in clean_v:
                 clean_v = clean_v.replace("中华民国", "中國")
             if clean_k and clean_v:
                 term_index[clean_k] = clean_v
 
+    BROKEN_KEYS = {'t', 't Kal Alef', 't Kal Dalet', 't Kal Gimel'}
     for d in (unit_index, unit_name_index, term_index):
         for k in list(d.keys()):
-            if "中华民国" in d[k]:
-                d[k] = d[k].replace("中华民国", "中國")
+            # 彻底禁止单字母或残破键进入字典
+            if len(k.strip()) <= 1 or k in BROKEN_KEYS or k.startswith('t Kal '):
+                d.pop(k, None)
+                continue
+            v = d[k]
+            # 彻底清洗所有反斜杠+t与真实制表符
+            cleaned_v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
+            cleaned_v = re.sub(r'\s{2,}', ' ', cleaned_v)
+            if "中华民国" in cleaned_v:
+                cleaned_v = cleaned_v.replace("中华民国", "中國")
+            d[k] = cleaned_v
+
+    # 确保 Sho't 系列载具正确映射
+    unit_name_index["Sho't"] = "绍特"
+    unit_name_index["Sho't Kal Alef"] = "绍特卡尔 A"
+    unit_name_index["Sho't Kal Dalet"] = "绍特卡尔 D"
+    unit_name_index["Sho't Kal Gimel"] = "绍特卡尔 C"
 
     core = CORE_PATH.read_text(encoding="utf-8")
     core = replace_between(
