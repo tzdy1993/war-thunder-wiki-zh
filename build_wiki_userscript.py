@@ -310,10 +310,11 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.4
+// @version      1.2.5
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
+// @tag          War Thunder
 // @license      MIT
 // @match        https://wiki.warthunder.com/*
 // @updateURL    https://raw.githubusercontent.com/tzdy1993/war-thunder-wiki-zh/main/wt-wiki-zh.user.js
@@ -323,8 +324,17 @@ def main() -> None:
 // ==/UserScript==
 
 """
-    OUTPUT_PATH.write_text(header + core, encoding="utf-8", newline="\n")
+    full_script = header + core
+    OUTPUT_PATH.write_text(full_script, encoding="utf-8", newline="\n")
     print(f"wrote {OUTPUT_PATH}")
+
+    # 同步更新 release 目录下的成品脚本
+    release_dir = HERE / "release"
+    if release_dir.exists():
+        (release_dir / "wt-wiki-zh.user.js").write_text(full_script, encoding="utf-8", newline="\n")
+        (release_dir / "wt-wiki-zh-v1.2.5.user.js").write_text(full_script, encoding="utf-8", newline="\n")
+        print(f"synced to {release_dir / 'wt-wiki-zh.user.js'}")
+
     print(f"unit entries: {len(unit_index)}")
     print(f"unit name entries: {len(unit_name_index)}")
     print(f"weapon/mod entries: {len(term_index)}")

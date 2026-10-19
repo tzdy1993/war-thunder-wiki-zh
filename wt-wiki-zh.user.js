@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.4
+// @version      1.2.5
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
+// @tag          War Thunder
 // @license      MIT
 // @match        https://wiki.warthunder.com/*
 // @updateURL    https://raw.githubusercontent.com/tzdy1993/war-thunder-wiki-zh/main/wt-wiki-zh.user.js
@@ -1308,8 +1309,8 @@
     'Separate antennas': '独立天线',
     'Armed Forces of Greece': '希腊武装部队',
     'CVR(T) family of vehicles': 'CVR(T) 载具家族',
-    'Radial, 14-cylinder': '星形，14 缸',
-    'Radial, 18-cylinder': '星形，18 缸',
+    'Radial, 14-cylinder': '星型 14 缸',
+    'Radial, 18-cylinder': '星型 18 缸',
     'Installation of pontoons': '安装浮筒，从而获得水上浮渡能力。',
     'Electro-optical Active Protection System': '光电主动防护系统',
     'Semi-Armour Piercing': '半穿甲',
@@ -1330,9 +1331,9 @@
     'Commander can drive': '车长可驾驶',
     'P: Practice shell': 'P：练习弹',
     '+ Separate antennas': '+ 独立天线',
-    'Radial, 9-cylinder': '星形，9 缸',
-    'Radial, 28-cylinder': '星形，28 缸',
-    'Radial, 5-cylinder': '星形，5 缸',
+    'Radial, 9-cylinder': '星型 9 缸',
+    'Radial, 28-cylinder': '星型 28 缸',
+    'Radial, 5-cylinder': '星型 5 缸',
     'Destroyer Anti-Submarine': '反潜驱逐舰',
     'Medium Extended Air Defense System': '中程增程防空系统',
     'Cleaning the ship’s bottom from seashells and algae. Increases maximum forward speed.': '在干船坞对舰船进行维护，清理船体上附着的贝类和海藻，从而提升最大前进航速。',
@@ -28967,6 +28968,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (unlocksReplacement) return preserveWhitespace(text, unlocksReplacement);
     const familyReplacement = FAMILY_COLLECTIONS[normalized];
     if (familyReplacement) return preserveWhitespace(text, familyReplacement);
+    const shellAbbrReplacement = SHELL_ABBREVIATIONS[normalized];
+    if (shellAbbrReplacement) return preserveWhitespace(text, shellAbbrReplacement);
 
     const compoundRules = [
       // 复合武器挂载规则：炸弹、导弹、火箭弹、鱼雷、水雷
@@ -29010,7 +29013,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }],
       [/^([\d,]+(?:\.\d+)?)\s*m$/, '$1 米'],
       [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 公里'],
-      [/^([\d,]+(?:\.\d+)?)\s*G$/i, '$1 G'],
+      [/^([\d,]+(?:\.\d+)?)\s*G$/, '$1 G'],
       [/^([\d,]+)\s+rounds$/i, '$1 发'],
       [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
       [/^([\d,]+)\s+shots\/min$/i, '$1 发/分钟'],
@@ -29344,7 +29347,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
   function isProtectedContext(element) {
     if (!element || typeof element.closest !== 'function') return false;
     return Boolean(element.closest(
-      'article, .game-unit_desc, .content-markdown, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
+      'article p, article, .game-unit_desc, .content-markdown, [data-article-body], [data-comment-body], [data-comment-content], [data-user-content], [contenteditable="true"]',
     ));
   }
 
