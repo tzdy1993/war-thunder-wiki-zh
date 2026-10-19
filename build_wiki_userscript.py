@@ -203,6 +203,18 @@ def main() -> None:
     term_index['ROCA ORDC'] = '中國陸軍兵工署'
     unit_name_index['ROCA ORDC'] = '中國陸軍兵工署'
 
+    popover_json_path = HERE / "data" / "popover_terms.json"
+    if popover_json_path.exists():
+        import json as _json
+        popover_terms = _json.loads(popover_json_path.read_text(encoding="utf-8"))
+        for p_k, p_v in popover_terms.items():
+            clean_k = strip_all_markers(p_k)
+            clean_v = strip_all_markers(p_v)
+            if "中华民国" in clean_v:
+                clean_v = clean_v.replace("中华民国", "中國")
+            if clean_k and clean_v:
+                term_index[clean_k] = clean_v
+
     for d in (unit_index, unit_name_index, term_index):
         for k in list(d.keys()):
             if "中华民国" in d[k]:
@@ -245,7 +257,7 @@ def main() -> None:
     header = """// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.2
+// @version      1.2.3
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆

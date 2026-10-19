@@ -350,4 +350,23 @@ assert.equal(translateFixedText('中华民国'), '中國');
 assert.equal(translateFixedText('ROCA ORDC'), '中國陸軍兵工署');
 assert.equal(translateFixedText('Operator Republic of China'), '使用国 中國');
 
+// 6. 弹药弹链、武器规格参数与单位防错乱专项测试
+assert.equal(translateFixedText('11 km'), '11 公里');
+assert.equal(translateFixedText('3 km'), '3 公里');
+assert.equal(translateFixedText('18 km'), '18 公里');
+assert.equal(translateFixedText('30 G'), '30 G');
+assert.equal(translateFixedText('14 August'), '8月14日');
+assert.equal(translateFixedText('Belt filling: HEF-I/API-T/AP-I/SAPHEI'), '弹链组成：HEF-I/API-T/AP-I/SAPHEI');
+assert.equal(translateFixedText('Belt filling: HEF-I/HEF-I/API-T/HEF-I/HEF-I/AP-I'), '弹链组成：HEF-I/HEF-I/API-T/HEF-I/HEF-I/AP-I');
+assert.equal(translateFixedText('HEF-I: High-explosive fragmentation incendiary shell'), 'HEF-I：高爆燃烧破片弹');
+assert.equal(translateFixedText('API-T: Armor-piercing incendiary tracer shell'), 'API-T：穿甲燃烧曳光弹');
+assert.equal(translateFixedText('AP-I: Armor-piercing incendiary shell'), 'AP-I：穿甲燃烧弹');
+assert.equal(translateFixedText('SAPHEI: Semi armor-piercing high-explosive incendiary shell'), 'SAPHEI：半穿甲高爆燃烧弹');
+assert.equal(translateFixedText('Projectile Mass'), '弹体质量');
+assert.equal(translateFixedText('Explosive Type'), '装药类型');
+assert.equal(translateFixedText('Explosive Mass'), '装药质量');
+assert.equal(translateFixedText('TNT equivalent'), 'TNT 当量');
+assert.equal(translateFixedText('Missile Approach Warning system'), '导弹逼近告警系统');
+assert.equal(translateFixedText('Flares/Chaff'), '热焰弹/干扰箔');
+
 console.log('core tests passed');
