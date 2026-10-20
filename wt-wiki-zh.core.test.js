@@ -431,6 +431,17 @@ assert.equal(translateFixedText('CCIP'), '连续计算命中点 (CCIP)');
 assert.equal(translateFixedText('Gunner: TVD'), '炮手：热成像');
 assert.equal(translateFixedText('Auto tracker'), '自动跟踪');
 assert.equal(translateFixedText('AN/APG-83, AN/ASQ-213, Auto tracker'), 'AN/APG-83, AN/ASQ-213, 自动跟踪');
+assert.equal(translateFixedText('AN/APG-79, AGM-88 HAS, Auto tracker'), 'AN/APG-79, AGM-88 HAS, 自动跟踪');
+// 雷达频段与波段代号必须完整保留原样，杜绝被拆分误翻为'小时'或'燃烧弹'
+assert.equal(translateFixedText('C, D, E, F, G, H, I, J, K'), null);
+assert.equal(translateFixedText('I, E'), null);
+assert.equal(translateFixedText('I, J'), null);
+assert.equal(translateFixedText('X, Ka'), null);
+// 大写字母保护
+assert.equal(translateFixedText('H'), null);
+assert.equal(translateFixedText('T'), null);
+assert.equal(translateFixedText('S'), null);
+assert.equal(translateFixedText('M'), null);
 assert.equal(translateFixedText('Combat'), '战斗');
 assert.equal(translateFixedText('Air brake'), '减速板');
 assert.equal(translateFixedText('Separate antennas'), '独立天线');

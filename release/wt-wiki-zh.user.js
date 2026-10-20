@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.6
+// @version      1.2.7
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -28987,8 +28987,11 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (unlocksReplacement) return preserveWhitespace(text, unlocksReplacement);
     const familyReplacement = FAMILY_COLLECTIONS[normalized];
     if (familyReplacement) return preserveWhitespace(text, familyReplacement);
-    const shellAbbrReplacement = SHELL_ABBREVIATIONS[normalized];
-    if (shellAbbrReplacement) return preserveWhitespace(text, shellAbbrReplacement);
+    // 弹药缩写独立匹配（排除单字母如 'I'、'T'，防止雷达频段或单字母被误翻为燃烧弹、曳光弹）
+    if (normalized.length > 1) {
+      const shellAbbrReplacement = SHELL_ABBREVIATIONS[normalized];
+      if (shellAbbrReplacement) return preserveWhitespace(text, shellAbbrReplacement);
+    }
 
     const compoundRules = [
       // 复合武器挂载规则：炸弹、导弹、火箭弹、鱼雷、水雷
@@ -29043,7 +29046,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d,]+(?:\.\d+)?)\s*g$/, '$1 克'],
       [/^([\d,]+(?:\.\d+)?)\s+t\s*\((\d+)m\)$/i, '$1 吨（$2 分钟）'],
       [/^([\d,]+(?:\.\d+)?)\s*(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '$1 吨'],
-      [/^(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/i, '吨'],
+      [/^(?:short\s+t|short\s+tons?|sh\s+tn|tonnes?|t)$/, '吨'],
       [/^([\d.]+)\s*M$/, '$1 马赫'],
       [/^≈\s*(-?[\d./]+)\s*G$/i, '约 $1 G'],
       [/^([\d,]+(?:\.\d+)?)\s*s$/i, '$1 秒'],
@@ -29077,12 +29080,16 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }],
       [/^Belt filling:\s*(.+)$/i, (m) => `弹链组成：${m[1].trim()}`],
       // 航电设备/雷达列表拆分（如 AN/APG-83, AN/ASQ-213, Auto tracker）
-      [/^([A-Za-z0-9/_\-.\s]+,\s*)+[A-Za-z0-9/_\-.\s]+$/, (m) => {
+      [/^([A-Za-z0-9/_()\-.\s]+,\s*)+[A-Za-z0-9/_()\-.\s]+$/, (m) => {
         const parts = m[0].split(/,\s*/);
         if (parts.length > 1) {
+          // 如果列表全为1~2个字符的短代号（如雷达波段 'C, D, E, F, G, H, I, J, K' 或 'I, E' 或 'X, Ka'），严禁翻译，必须完整保留英文原样
+          if (parts.every(p => p.trim().length <= 2)) return null;
           let hasZh = false;
           const translatedParts = parts.map(part => {
             const trimmed = part.trim();
+            // 长度 <= 2 的单字母/双字母代号一律保持原样，绝不翻译
+            if (trimmed.length <= 2) return trimmed;
             const zh = FIXED_TRANSLATIONS[trimmed] || translateFixedText(trimmed);
             if (zh && zh !== trimmed) {
               hasZh = true;
@@ -29172,14 +29179,19 @@ const FAMILY_COLLECTIONS = Object.freeze({
           : (isCannon ? '机炮' : '机枪');
         return `为 ${m[1]} 毫米${weaponType}更换新的${isCannon ? '炮管' : '枪管'}、扳机和击发装置，从而改善弹道散布并降低卡弹几率。`;
       }],
-      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|mm|cm|m|s|min|h|lb|in)$/i, (match) => ({
-        'km/h': '公里/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
-        'kg/m2': '千克/平方米', 'kg/m²': '千克/平方米', 'kgf': '千克力', 'kN': '千牛',
-        'rpm': '转/分钟', 'shots/min': '发/分钟', 'rounds': '发', 'hp': '马力', 'kg': '千克',
-        't': '吨', 'tonne': '吨', 'tonnes': '吨', 'short t': '吨', 'sh tn': '吨',
-        'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
-        'h': '小时', 'lb': '磅', 'in': '英寸',
-      }[match[0].toLowerCase()])],
+      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|mm|cm|m|s|min|h|lb|in)$/i, (match) => {
+        const raw = match[0];
+        // 单字母单位必须小写，严禁将大写字母 (H, S, M, T) 误翻为单位
+        if (raw.length === 1 && raw !== raw.toLowerCase()) return null;
+        return ({
+          'km/h': '公里/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
+          'kg/m2': '千克/平方米', 'kg/m²': '千克/平方米', 'kgf': '千克力', 'kN': '千牛',
+          'rpm': '转/分钟', 'shots/min': '发/分钟', 'rounds': '发', 'hp': '马力', 'kg': '千克',
+          't': '吨', 'tonne': '吨', 'tonnes': '吨', 'short t': '吨', 'sh tn': '吨',
+          'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
+          'h': '小时', 'lb': '磅', 'in': '英寸',
+        }[raw.toLowerCase()]);
+      }],
       [/^New\s+([\d.,]+\s*mm)\s+(cannons?|MGs?|machine guns?|guns?)$/i, (m) => `新 ${m[1]} ${m[2].toLowerCase().startsWith('c') ? '机炮' : '机枪'}`],
       [/^(?:The\s+)?highest fire rate$/i, '最高射速'],
       [/^(?:The\s+)?lowest fire rate$/i, '最低射速'],
