@@ -418,7 +418,7 @@ assert.equal(translateFixedText('0.001 s'), '0.001 秒');
 assert.equal(translateFixedText('1,000 lbs'), '1,000 磅');
 assert.equal(translateFixedText('531 lbs'), '531 磅');
 assert.equal(translateFixedText('50 g'), '50 克');
-assert.equal(translateFixedText('800x600'), '800 × 600');
+assert.equal(translateFixedText('800x600'), '800×600');
 assert.equal(translateFixedText('or 310'), '或 310');
 assert.equal(translateFixedText('Engine Thrust (0 m / 0 km/h)'), '发动机推力（0 米 / 0 公里/小时）');
 
@@ -464,6 +464,56 @@ assert.equal(translateFixedText('Inline, 12-cylinder'), '直列 12 缸');
 assert.equal(translateFixedText('Radial, 14-cylinder'), '星型 14 缸');
 assert.equal(translateFixedText('Allows the use of smoke screen system.'), '允许使用烟幕系统。');
 
+// H. 改装件科技树分类表头、基础改装件与浮层属性
+assert.equal(translateFixedText('Survivability'), '生存能力');
+assert.equal(translateFixedText('Protection'), '防御改装');
+assert.equal(translateFixedText('Seakeeping'), '适航性能');
+assert.equal(translateFixedText('Unsinkability'), '抗沉能力');
+assert.equal(translateFixedText('Cover'), '蒙皮');
+assert.equal(translateFixedText('Compressor'), '增压器');
+assert.equal(translateFixedText('Fuselage repair'), '维修机身');
+assert.equal(translateFixedText('Wings repair'), '维修机翼');
+assert.equal(translateFixedText('Airframe'), '机体翻新');
+assert.equal(translateFixedText('Filters'), '滤清器');
+assert.equal(translateFixedText('Transmission'), '传动装置');
+assert.equal(translateFixedText('Artillery Support'), '火炮支援');
+assert.equal(translateFixedText('Tracks'), '履带');
+assert.equal(translateFixedText('Radiator'), '散热器');
+assert.equal(translateFixedText('Engine injection'), '喷油系统');
+assert.equal(translateFixedText('Band'), '频段');
+assert.equal(translateFixedText('Type'), '类型');
+assert.equal(translateFixedText('Model'), '型号');
+assert.equal(translateFixedText('Radar'), '雷达');
+assert.equal(translateFixedText('IFF'), '敌我识别');
+assert.equal(translateFixedText('IR'), '红外');
+assert.equal(translateFixedText('Engine Power'), '发动机输出功率');
+assert.equal(translateFixedText('Cooling type'), '冷却类型');
+assert.equal(translateFixedText('WEP'), '加力');
+assert.equal(translateFixedText('TWS+'), '边扫描边跟踪+');
+assert.equal(translateFixedText('TWS+ + Separate antennas'), '边扫描边跟踪+ + 独立天线');
+
+// I. 弹药架说明、自毁弹药与挂载规则
+assert.equal(
+  translateFixedText('40 mm cannon shell rack filled with HEFI-T/HEFI-T/HEFI-T/AP-T shells'),
+  '40 毫米 机炮使用 HEFI-T/HEFI-T/HEFI-T/AP-T 弹药'
+);
+assert.equal(
+  translateFixedText('20 mm cannon shell rack filled with HEF-T/HEF-I/AP-T/HEF-I shells'),
+  '20 毫米 机炮使用 HEF-T/HEF-I/AP-T/HEF-I 弹药'
+);
+assert.equal(
+  translateFixedText('HEF-T* - High-explosive fragmentation tracer shell (self-destroying)'),
+  'HEF-T* - 高爆破片曳光弹（自毁）'
+);
+assert.equal(
+  translateFixedText('API-T - M20 Armor-piercing incendiary tracer bullet'),
+  'API-T - M20 穿甲燃烧曳光弹'
+);
+assert.equal(
+  translateFixedText('Allows the installation of GBU laser guided bombs:'),
+  '可挂载 GBU 激光制导炸弹：'
+);
+
 // G. 严格反污染校验（无 \t、无 //）
 const allTestSamples = [
   '2 × PL-12', '4 x AIM-120A', '20 × S-8KO rockets', '1 x 250 kg bomb',
@@ -478,5 +528,43 @@ for (const sample of allTestSamples) {
   assert(!result.includes('\t') && !result.includes('\\t'), `Sample contains tab character: ${sample} -> ${result}`);
   assert(!result.includes('//'), `Sample contains double slash: ${sample} -> ${result}`);
 }
+
+
+// H. 关键专项缺陷回归防护测试 (v1.2.8)
+// 1. 分辨率紧凑化（杜绝空格折行错位）
+assert.equal(translateFixedText('800x600'), '800×600');
+assert.equal(translateFixedText('1024x768'), '1024×768');
+assert.equal(translateFixedText('1920x1080'), '1920×1080');
+
+// 2. 雷达波段与单字母严格保护（杜绝 '小时'、'燃烧弹'、'I 级'）
+assert.equal(translateFixedText('I'), 'I 级');
+assert.equal(translateFixedText('T'), null);
+assert.equal(translateFixedText('H'), null);
+assert.equal(translateFixedText('C, D, E, F, G, H, I, J, K'), null);
+assert.equal(translateFixedText('I, E'), null);
+assert.equal(translateFixedText('X, Ka'), null);
+
+// 3. 复合列表与雷达模式
+assert.equal(translateFixedText('AN/APG-79, AGM-88 HAS, Auto tracker'), 'AN/APG-79, AGM-88 HAS, 自动跟踪');
+assert.equal(translateFixedText('TWS ESA + Separate antennas'), '边扫描边跟踪（相控阵）+ 独立天线');
+
+// 4. 载具武器属性卡片备弹量
+assert.equal(translateFixedText('Ammunition'), '备弹量');
+
+// 5. 浮层预处理强制 white-space:nowrap
+const dummyElem = {
+  nodeType: 1,
+  tagName: 'BUTTON',
+  attributes: {
+    'data-feature-popover': '<div class="gunit_specs-table_row mt-1"><div>800x600</div><div>800x600</div><div>—</div></div>'
+  },
+  hasAttribute(name) { return name in this.attributes; },
+  getAttribute(name) { return this.attributes[name]; },
+  setAttribute(name, val) { this.attributes[name] = val; }
+};
+translateElementAttributes(dummyElem);
+const popResult = dummyElem.getAttribute('data-feature-popover');
+assert(popResult.includes('style="white-space:nowrap;"'));
+assert(popResult.includes('800×600'));
 
 console.log('core tests passed');

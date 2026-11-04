@@ -446,6 +446,65 @@
     'Separate antennas': '独立天线',
     'TWS ESA + Separate antennas': '边扫描边跟踪（相控阵）+ 独立天线',
     'L / T / C': '着陆 / 起飞 / 战斗',
+    // 改装件分类表头与通用属性 (官方 units_modifications.csv 对齐)
+    'Survivability': '生存能力',
+    'Protection': '防御改装',
+    'Seakeeping': '适航性能',
+    'Unsinkability': '抗沉能力',
+    'Firepower': '武器改装',
+    'Flight performance': '飞行性能',
+    'Weaponry': '武器配置',
+    'Offensive armament': '前射武器',
+    'Secondary weapon': '挂载',
+    'Special': '高级功能',
+    'Supplies': '消耗物品',
+    'Type': '类型',
+    'Band': '频段',
+    'Model': '型号',
+    'Radar': '雷达',
+    'IFF': '敌我识别',
+    'IR': '红外',
+    'Engine Power': '发动机输出功率',
+    'Cooling type': '冷却类型',
+    'WEP': '加力',
+    'High-explosive fragmentation shell': '高爆破片杀伤榴弹',
+    'Infrared countermeasures': '红外对抗措施',
+    'TWS+': '边扫描边跟踪+',
+    'TWS+ + Separate antennas': '边扫描边跟踪+ + 独立天线',
+    'Cover': '蒙皮',
+    'Compressor': '增压器',
+    'Fuselage repair': '维修机身',
+    'Wings repair': '维修机翼',
+    'Airframe': '机体翻新',
+    'Filters': '滤清器',
+    'Transmission': '传动装置',
+    'Artillery Support': '火炮支援',
+    'Tracks': '履带',
+    'Radiator': '散热器',
+    'Engine injection': '喷油系统',
+    'Smoke grenade': '烟雾弹',
+    'Dry-Docking': '干船坞维护',
+    'Rudder Replacement': '更换船舵',
+    'Propeller Replacement': '更换桨叶',
+    'Engine Maintenance': '发动机维护',
+    'Damage Control Division': '损管小组',
+    'Fire Division': '消防小组',
+    'Primary Armament Targeting': '主炮瞄准',
+    'Auxiliary Armament Targeting': '副炮瞄准',
+    'Anti-Aircraft Armament Targeting': '防空瞄准',
+    'New Pumps': '新型水泵',
+    'EFS': '发动机灭火系统',
+    'G-suit': '抗荷服',
+    'Smokescreen': '发烟装置',
+    'Improved Rangefinder': '改进型测距仪',
+    'Crew Replenishment': '乘员补充',
+    'Parts': '备件',
+    'FPE': '灭火器',
+    'Horizontal Drive': '方向机',
+    'Elevation Mechanism': '高低机',
+    'Adjustment of Fire': '校正火炮',
+    'Suspension': '悬挂',
+    'Brake System': '刹车系统',
     'General characteristics': '一般特性',
     'Engine': '发动机',
     'Length': '长度',
@@ -463,7 +522,7 @@
     'Offensive armament': '前射武器',
     'Armaments': '武器装备',
     'Secondary weapon': '挂载',
-    'Ammunition': '弹种',
+    'Ammunition': '备弹量',
     'Fire rate': '射速',
     'One-second Burst Mass': '一秒齐射质量',
     'Available belts': '可用弹链',
@@ -3716,11 +3775,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
   const SHELL_ABBREVIATIONS = Object.freeze({
     'AP': '穿甲弹',
-    'T': '曳光弹',
     'AP-T': '穿甲曳光弹',
     'AP-I': '穿甲燃烧弹',
     'API-T': '穿甲燃烧曳光弹',
-    'I': '燃烧弹',
     'IAI': '瞬爆燃烧弹',
     'AI': '校射燃烧弹',
     'IT': '燃烧曳光弹',
@@ -3931,7 +3988,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*mm$/i, '$1 毫米'],
       [/^([\d.,]+)\s*mm\s*\((steel)\)$/i, '$1 毫米（钢）'],
       [/^([\d.,]+)x\s*–\s*([\d.,]+)x$/i, '$1–$2 倍'],
-      [/^(\d{3,4})\s*[x×]\s*(\d{3,4})$/i, '$1 × $2'],
+      [/^(\d{3,4})\s*[x×]\s*(\d{3,4})$/i, '$1×$2'],
       [/^or\s+([\d.,]+)$/i, '或 $1'],
       [/^(?:Base\s+weight|Mass\s*\(base\))(?::)?$/i, '基础重量：'],
       [/^Empty\s+mass(?::)?$/i, '空重：'],
@@ -3997,12 +4054,45 @@ const FAMILY_COLLECTIONS = Object.freeze({
         if (zh && zh !== full) return `${abbr}：${zh}${suffix}`;
         return null;
       }],
-      [/^([A-Za-z0-9_()]+)\s*-\s*([A-Za-z].{3,})$/, (m) => {
+      // 弹药架说明（如 40 mm cannon shell rack filled with HEFI-T/... shells）
+      [/^([\d.,]+\s*mm)\s+(?:(cannon|machine gun)\s+)?shell rack filled with (.+?)\s*(?:shells|bullets)?$/i, (m) => {
+        const cal = m[1].replace(/mm$/i, '毫米').trim();
+        const calZh = cal.endsWith('毫米') ? cal : `${cal} 毫米`;
+        const isCannon = m[2] && m[2].toLowerCase().includes('cannon');
+        const isMG = m[2] && m[2].toLowerCase().includes('machine gun');
+        const weaponType = isCannon ? '机炮' : (isMG ? '机枪' : '');
+        return `${calZh}${weaponType ? ' ' + weaponType : ''}使用 ${m[3].trim()} 弹药`;
+      }],
+      // 改装件挂载说明（如 Allows the installation of GBU laser guided bombs:）
+      [/^Allows the installation of\s+(GBU|JDAM|LGBU|LJDAM)\s+(.+?)(:)?$/i, (m) => {
+        let item = m[2].trim();
+        item = item.replace(/laser guided bombs/i, '激光制导炸弹')
+                   .replace(/guided bombs/i, '制导炸弹')
+                   .replace(/bombs/i, '炸弹')
+                   .replace(/missiles/i, '导弹')
+                   .replace(/rockets/i, '火箭弹');
+        const colon = m[3] ? '：' : '';
+        return `可挂载 ${m[1]} ${item}${colon}`;
+      }],
+      // 破折号弹药与自毁说明（支持星号与连字符，如 HEF-T* - High-explosive... (self-destroying)）
+      [/^([A-Za-z0-9_*()\-]+)\s*-\s*([A-Za-z].{3,})$/, (m) => {
         const abbr = m[1];
-        const full = m[2].trim();
+        let full = m[2].trim();
         if (abbr.includes('/') || full.includes('/') || m[0].includes('/')) return null;
+        let suffix = '';
+        if (/\(self-destroying\)/i.test(full)) {
+          suffix = '（自毁）';
+          full = full.replace(/\s*\(self-destroying\)/i, '').trim();
+        }
+        const modelMatch = full.match(/^([A-Za-z0-9_.\-]+)\s+(.+)$/);
+        if (modelMatch) {
+          const candZh = SHELL_TYPES[modelMatch[2]] || FIXED_TRANSLATIONS[modelMatch[2]] || translateFixedText(modelMatch[2]);
+          if (candZh && candZh !== modelMatch[2]) {
+            return `${abbr} - ${modelMatch[1]} ${candZh}${suffix}`;
+          }
+        }
         const zh = SHELL_TYPES[full] || FIXED_TRANSLATIONS[full] || translateFixedText(full);
-        if (zh && zh !== full) return `${abbr} - ${zh}`;
+        if (zh && zh !== full) return `${abbr} - ${zh}${suffix}`;
         return null;
       }],
       // 口径 + 弹药缩写 (如 20 mm AP-T, .50 API-T)
@@ -4582,7 +4672,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     const tag = String(element.tagName || '').toUpperCase();
     if (['A', 'BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'OPTION', 'PRE', 'CODE', 'SCRIPT', 'STYLE'].includes(tag)) return;
     // 严禁跨越交互元素（链接、按钮等）或块级布局/多列表格元素进行文本合并，彻底杜绝掏空 <a> 标签和多列粘连
-    if (element.querySelector && element.querySelector('a, button, input, textarea, select, div, p, table, tr, td, th')) return;
+    if (element.querySelector && element.querySelector('a, button, input, textarea, select, div, p, table, tr, td, th, [data-feature-popover], .underline-dotted')) return;
     if (element.getClientRects) {
       let visible = false;
       try {
@@ -4626,7 +4716,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       const rawHtml = element.getAttribute('data-feature-popover');
       if (rawHtml && !element.hasAttribute('data-wt-zh-original-feature-popover')) {
         element.setAttribute('data-wt-zh-original-feature-popover', rawHtml);
-        const translatedHtml = rawHtml.replace(/>([^<]+)</g, (match, textContent) => {
+        let translatedHtml = rawHtml.replace(/>([^<]+)</g, (match, textContent) => {
           const trimmed = textContent.replace(/\xa0/g, ' ').trim();
           if (!trimmed || !/[a-zA-Z]/.test(trimmed)) return match;
           const rep = translateFixedText(trimmed);
@@ -4635,6 +4725,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
           }
           return match;
         });
+        translatedHtml = translatedHtml.replace(/class="([^"]*gunit_specs-table_row[^"]*)"/g, 'class="$1" style="white-space:nowrap;"');
         element.setAttribute('data-feature-popover', translatedHtml);
       }
     }
