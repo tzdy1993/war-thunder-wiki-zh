@@ -45,10 +45,10 @@ console.log('  ✓ PASSED: Ballistic computer components cleanly translated with
 console.log('\n6. Screenshot 4 Verification (Altitude at & Speed double slash):');
 assert.strictEqual(core.translateFixedText('at 8,500 m'), '高度 8,500 米');
 assert.strictEqual(core.translateFixedText('at'), '高度');
-assert.strictEqual(core.translateFixedText('750 km/h'), '750 公里/小时');
-assert.strictEqual(core.translateFixedText('750 km / h'), '750 公里/小时');
+assert.strictEqual(core.translateFixedText('750 km/h'), '750 千米/小时');
+assert.strictEqual(core.translateFixedText('750 km / h'), '750 千米/小时');
 assert(!core.translateFixedText('750 km/h').includes('//'), 'Speed must NOT have double slashes!');
-console.log('  ✓ PASSED: "at 8,500 m" -> "高度 8,500 米", "750 km/h" -> "750 公里/小时" (No double slashes).');
+console.log('  ✓ PASSED: "at 8,500 m" -> "高度 8,500 米", "750 km/h" -> "750 千米/小时" (No double slashes).');
 
 console.log('\n7. Screenshot 5 & 6 Verification (Weapons, Rockets, Bombs without \\t):');
 // 检查弹药类型与挂载

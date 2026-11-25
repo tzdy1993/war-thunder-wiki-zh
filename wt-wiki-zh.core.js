@@ -17,7 +17,8 @@
   }
 })(function createApi() {
   const FIXED_TRANSLATIONS = Object.freeze({
-    "PLAY": "播放",
+    "PLAY": "游玩",
+    "Play": "游玩",
     "Search…": "搜索…",
     "Login": "登录",
     "VEHICLES": "载具",
@@ -98,7 +99,7 @@
     "Leningrad Kirov Plant": "列宁格勒基洛夫工厂",
     "Ground CBT": "陆战封闭测试",
     "Aircraft CBT": "飞机封闭测试",
-    "Vehicles by events": "按活动划分的载具",
+    "Vehicles by events": "活动载具",
     "Scharnhorst-class battleships": "沙恩霍斯特级战列舰",
     "Armament": "武器",
     "Rangefinder": "测距仪",
@@ -122,7 +123,11 @@
     "McDonnell Douglas": "麦克唐纳-道格拉斯",
     "Mil": "米里",
     "Fiat": "菲亚特",
-    "US Army Ordnance Department/Corps": "美国陆军军械部/兵种",
+    "US Army Ordnance Department/Corps": "美国陆军军械部/军械兵团",
+    "US Army Ordnance Department": "美国陆军军械部",
+    "US Army Ordnance Corps": "美国陆军军械兵团",
+    "Army Ordnance Department": "陆军军械部",
+    "Army Ordnance Corps": "陆军军械兵团",
     "War Thunder birthday (2014)": "《战争雷霆》周年庆（2014年）",
     "Battlefield Engineer (2019)": "战场工程师（2019年）",
     "Chronicles of World War II (2016)": "二战编年史（2016年）",
@@ -358,16 +363,16 @@
     "Vehicle Collections": "载具收藏",
     "Vehicle Collections | War Thunder Wiki": "载具收藏 | War Thunder Wiki",
     "We gathered vehicle collections for you by various themes.": "我们为您按不同主题整理了各类载具收藏。",
-    "Operator | Vehicle Collections | War Thunder Wiki": "使用国 | 载具收藏 | War Thunder Wiki",
+    "Operator | Vehicle Collections | War Thunder Wiki": "使用国家 | 载具收藏 | War Thunder Wiki",
     "Many more nations are represented in War Thunder than just the 10 main tech trees. Is your favourite nation in the list below?": "除了 10 大主要科技树之外，战争雷霆中还收录了更多国家/地区的载具。你心仪的国家是否就在下方列表中？",
     "The Great War! (1 April 2025)": "第一次世界大战！（2025年4月1日）",
     "Operation H.E.A.T. (2019)": "“炽焰”行动（2019年）",
     "If one is good, more must be better! Discover both obvious and more unexpected vehicles with related designs in the collections below.": "独木难支，众木成林！在下列合集中探索设计血脉相连、或经典或意料之外的系列载具。",
     "Number of vehicles": "载具数量",
     "Title": "名称",
-    "Operator": "使用国",
+    "Operator": "使用国家",
     "Manufacturers": "制造厂商",
-    "Vehicles by updates": "按版本更新的载具",
+    "Vehicles by updates": "版本更新",
     "Features": "载具特性",
     "20 mm Hispano 404 cannon": "20 毫米 西斯帕诺 404 机炮",
     "Flight performance": "飞行性能",
@@ -623,7 +628,6 @@
     "Close": "关闭",
     "Light": "浅色",
     "Dark": "深色",
-    "English": "英语",
     "HEI: High-explosive incendiary shell": "HEI：高爆燃烧弹",
     "SAP-I: Semi-armor-piercing incendiary shell": "SAP-I：半穿甲燃烧弹",
     "T: Tracer shell": "T：曳光弹",
@@ -931,7 +935,7 @@
     "Deutsche Eisenwerk": "德意志钢铁厂",
     "MIAG": "米亚格 (MIAG)",
     "Omsktransmash": "鄂木斯克运输机械厂",
-    "ROCA ORDC": "中国陆军兵工署",
+    "ROCA ORDC": "中國陸軍兵工署",
     "Rheinstahl": "莱茵钢铁",
     "Royal Arsenal Woolwich": "伍尔维奇皇家兵工厂",
     "White Motor Company": "怀特汽车公司",
@@ -958,8 +962,9 @@
     "Toyota": "丰田",
     "Sasebo Naval Arsenal": "佐世保海军工厂",
     "Kingdom of Italy": "意大利王国",
-    "Republic of China": "中国",
-    "中华民国": "中国",
+    "Republic of China": "中國",
+    "Republic of China Air Force": "中國空軍",
+    "中华民国": "中國",
     "Hungary": "匈牙利",
     "Finland": "芬兰",
     "Thailand": "泰国",
@@ -1122,7 +1127,10 @@
     "Sikorsky": "西科斯基",
     "Hughes": "休斯",
     "Kamov": "卡莫夫",
-    "CAIC": "昌河飞机工业",
+    "CAIC": "航空工业昌飞",
+    "Shijiazhuang": "航空工业通飞华北",
+    "AVIC": "中国航空工业集团",
+    "Avic": "中国航空工业集团",
     "Hurricane Mk.I/L FAA M": "飓风 Mk I 后期型 (第 800 中队“M”号)",
     "Spitfire Mk IX": "喷火 Mk IX",
     "F-15I Ra’am": "F-15I",
@@ -2279,6 +2287,133 @@
     "Dynamic BR": "动态战斗权重",
     "Infantry Fighting Vehicle": "步兵战车",
     "Allows the installation of guided bombs:": "可携带制导炸弹：",
+    "Air": "空中",
+    "Engine Thrust": "发动机推力",
+    "With full filling of main tanks.": "主油箱满油状态下。",
+    "With full filling of internal tanks": "机内油箱满油状态",
+    "With full filling of external tanks": "副油箱满油状态",
+    "With empty fuel tanks": "空油箱状态",
+    "With minimum fuel": "最小燃油量",
+    "Profile": "个人主页",
+    "My profile": "我的主页",
+    "My Profile": "我的主页",
+    "User profile": "个人资料",
+    "Profile settings": "个人设置",
+    "User settings": "用户设置",
+    "Account settings": "账号设置",
+    "Account": "账号",
+    "New post": "新建文章",
+    "New Post": "新建文章",
+    "Support": "帮助与支持",
+    "Customer Support": "客户支持",
+    "Technical Support": "技术支持",
+    "Bookmarks": "书签",
+    "My bookmarks": "我的书签",
+    "My Bookmarks": "我的书签",
+    "My articles": "我的文章",
+    "My Articles": "我的文章",
+    "My comments": "我的评论",
+    "My Comments": "我的评论",
+    "Drafts": "草稿",
+    "Draft": "草稿",
+    "Draft removal": "删除草稿",
+    "Are you sure you want to remove the draft? This action is irrevertible!": "确定要删除该草稿吗？此操作无法撤销！",
+    "Become an author": "成为创作者",
+    "Searching for categories...": "搜索分类……",
+    "Searching for vehicles and collections...": "搜索载具与合集……",
+    "Searching for users...": "搜索用户……",
+    "Searching for collections...": "搜索合集……",
+    "No categories found": "未找到分类",
+    "No elements found": "未找到载具/合集",
+    "No collections found": "未找到合集",
+    "No users found": "未找到用户",
+    "Add new": "添加新项",
+    "Element limit reached": "已达到元素数量上限",
+    "Category limit reached": "已达到分类数量上限",
+    "Your text...": "请输入正文内容……",
+    "No versions yet": "暂无历史版本",
+    "Edit history loading error": "编辑历史加载失败",
+    "Editing a note": "编辑小贴士",
+    "Creating a note": "创建小贴士",
+    "Got it, continue": "了解，继续",
+    "Back to the rules": "返回规则",
+    "Text of the note": "贴士正文",
+    "Max. 500 characters": "最多 500 字符",
+    "Image (optional)": "图片（可选）",
+    "Related vehicles": "相关载具",
+    "Submit for publication": "提交发布",
+    "Use high-quality images": "使用高清图片",
+    "Max. 10 MB": "最大 10 MB",
+    "The text should not be empty": "文本不能为空",
+    "Need to select at least one vehicle": "需选择至少一辆载具",
+    "Meet the players who write interesting and useful articles on the War Thunder Wiki.": "结识在战争雷霆百科上撰写有趣且实用文章的玩家们。",
+    "And remember, you can become an author, too!": "请记住，您也可以成为一名创作者！",
+    "subscriber": "关注者",
+    "Likes": "点赞数",
+    "Views": "浏览量",
+    "Notifications": "通知",
+    "Logout": "退出登录",
+    "Log out": "退出登录",
+    "Sign out": "退出登录",
+    "Sign in": "登录",
+    "Preferences": "偏好设置",
+    "Avatar": "头像",
+    "Change avatar": "更换头像",
+    "Upload avatar": "上传头像",
+    "Upload new avatar": "上传新头像",
+    "Delete avatar": "删除头像",
+    "Subscribed": "已关注",
+    "Ignore": "屏蔽",
+    "Ignored": "已屏蔽",
+    "Unignore": "取消屏蔽",
+    "Save changes": "保存更改",
+    "Dark theme": "深色主题",
+    "Light theme": "浅色主题",
+    "Night mode": "夜间模式",
+    "Day mode": "日间模式",
+    "How to view the vehicle in the game:": "如何在游戏中查看载具：",
+    "How to view the vehicle in the game": "如何在游戏中查看载具",
+    "Already have a War Thunder account?": "已有 War Thunder 账号？",
+    "Log in to Wiki": "登录 Wiki",
+    "Log in with the same account in game": "在游戏中登录同一账号",
+    "Click on 「Show in game」": "点击「在游戏中查看」",
+    "Click on \"Show in game\"": "点击“在游戏中查看”",
+    "Click on “Show in game”": "点击“在游戏中查看”",
+    "Not registered in War Thunder?": "尚未注册 War Thunder？",
+    "More than 3,000 ground, air, helicopters and naval vehicles are waiting in the game!": "超过 3,000 款地面载具、战机、直升机与舰船正在游戏中等待着你！",
+    "More than 3,000 ground, air, helicopters and naval vehicles are waiting in the game": "超过 3,000 款地面载具、战机、直升机与舰船正在游戏中等待着你",
+    "REGISTER": "立即注册",
+    "Register": "注册",
+    "The fastest, the biggest, the strongest… There are lots of different vehicles in War Thunder, discover which ones are the most outstanding (in various nominations).": "最快、最大、最强……《战争雷霆》中拥有海量各具特色的载具，快来看看哪些载具在各个纪录榜单中拔得头筹。",
+    "All nations": "全部国家",
+    "Faster than sound": "超越音速",
+    "They stumble that run fast": "欲速则不达",
+    "Incredible power": "惊人力量",
+    "The Lightness of Being... and Flight": "生命与飞行之轻",
+    "Flying Tennis Court": "空中网球场",
+    "Small but Mighty": "小巧而强悍",
+    "Office above the clouds": "云端之上的办公室",
+    "King of Battle": "战争之王",
+    "Brrrrrrt": "金属风暴 (Brrrrrrt)",
+    "Front Towards Enemy": "此面向敌",
+    "As fast as the wind": "如风般迅捷",
+    "There are no traffic jams": "空中从不堵车",
+    "Beat the air into submission": "强力驭风",
+    "Float like a butterfly": "如蝶般轻盈",
+    "Need for speed": "极速狂飙",
+    "Quick enough, if good enough": "慢工出细活",
+    "Run for the hills": "倒车狂奔",
+    "The more the merrier": "人多力量大",
+    "Armor superiority": "装甲霸权",
+    "Small and Speedy": "短小精悍",
+    "Full steam ahead!": "全速前进！",
+    "Steady as she goes": "稳扎稳打",
+    "Archimedes' principle states…": "阿基米德浮力定律……",
+    "A city on the water": "水上都市",
+    "Large-caliber arsenal": "大口径军火库",
+    "Too many barrels to count": "数不清的炮管",
+    "Small boats, big results": "小艇立大功",
+    "Sea Brotherhood": "海洋兄弟会",
   });
 
   // BEGIN GENERATED UNIT TRANSLATIONS
@@ -3799,16 +3934,19 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d,]+)\s+persons?$/i, '$1 人'],
       [/^([\d,]+)\s+ratings\s+all\s+time$/i, '$1 次评分（总计）'],
       // 性能参数高度与速度
+      [/^at\s+0\s*(?:m|米)$/i, '海平面 (0 米)'],
       [/^at\s+([\d,]+(?:\.\d+)?)\s*(?:m|米)$/i, '高度 $1 米'],
+      [/^at\s+([\d,]+(?:\.\d+)?)\s*(?:km|千米|公里)$/i, '高度 $1 千米'],
       [/^at\s+sea\s+level$/i, '海平面高度'],
       [/^at\s*$/i, '高度'],
-      [/^Engine Thrust\s*\((.+?)\)$/i, (m) => {
-        const inner = m[1].replace(/([\d,]+(?:\.\d+)?)\s*m\b/gi, '$1 米')
-                          .replace(/([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)\b/gi, '$1 公里/小时');
-        return `发动机推力（${inner}）`;
+      [/^(Engine Thrust|Engine Power)\s*\((.+?)\)$/i, (m) => {
+        const label = /^Engine Power$/i.test(m[1]) ? '发动机功率' : '发动机推力';
+        const inner = m[2].replace(/([\d,]+(?:\.\d+)?)\s*m\b/gi, '$1 米')
+                          .replace(/([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)\b/gi, '$1 千米/小时');
+        return `${label}（${inner}）`;
       }],
       [/^([\d,]+(?:\.\d+)?)\s*m$/, '$1 米'],
-      [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 公里'],
+      [/^([\d,]+(?:\.\d+)?)\s*km$/i, '$1 千米'],
       [/^([\d,]+(?:\.\d+)?)\s*G$/, '$1 G'],
       [/^([\d,]+)\s+rounds$/i, '$1 发'],
       [/^([\d,]+)\s+vehicles?$/i, '$1 辆载具'],
@@ -3831,8 +3969,8 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s+s$/i, '$1 → $2 秒'],
       [/^([\d.,]+)\s*→\s*([\d.,]+)\s*°\/s$/i, '$1 → $2 度/秒'],
       [/^([\d.,]+)\s*°\/s$/i, '$1 度/秒'],
-      [/^([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
-      [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 公里/小时'],
+      [/^([\d,]+(?:\.\d+)?)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 千米/小时'],
+      [/^((?:[\d.,]+(?:\s*\/\s*)?)+)\s*(?:km\/h|km\s*\/\s*h)$/i, '$1 千米/小时'],
       [/^([\d.,]+)\s*hp\s*\/\s*(?:tonne|t)$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp\/t$/i, '$1 马力/吨'],
       [/^([\d.,]+)\s*hp$/i, '$1 马力'],
@@ -3990,16 +4128,16 @@ const FAMILY_COLLECTIONS = Object.freeze({
           : (isCannon ? '机炮' : '机枪');
         return `为 ${m[1]} 毫米${weaponType}更换新的${isCannon ? '炮管' : '枪管'}、扳机和击发装置，从而改善弹道散布并降低卡弹几率。`;
       }],
-      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|mm|cm|m|s|min|h|lb|in)$/i, (match) => {
+      [/^(km\/h|mph|m\/s|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|kg|t|tonne|tonnes|short t|sh tn|km|mm|cm|m|s|min|h|lb|in)$/i, (match) => {
         const raw = match[0];
         // 单字母单位必须小写，严禁将大写字母 (H, S, M, T) 误翻为单位
         if (raw.length === 1 && raw !== raw.toLowerCase()) return null;
         return ({
-          'km/h': '公里/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
+          'km/h': '千米/小时', 'mph': '英里/小时', 'm/s': '米/秒', 'hp/t': '马力/吨',
           'kg/m2': '千克/平方米', 'kg/m²': '千克/平方米', 'kgf': '千克力', 'kN': '千牛',
           'rpm': '转/分钟', 'shots/min': '发/分钟', 'rounds': '发', 'hp': '马力', 'kg': '千克',
           't': '吨', 'tonne': '吨', 'tonnes': '吨', 'short t': '吨', 'sh tn': '吨',
-          'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
+          'km': '千米', 'mm': '毫米', 'cm': '厘米', 'm': '米', 's': '秒', 'min': '分钟',
           'h': '小时', 'lb': '磅', 'in': '英寸',
         }[raw.toLowerCase()]);
       }],
@@ -4030,7 +4168,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^(?:The\s+)?largest caliber ammunition$/i, '最大口径弹药'],
       [/^(?:The\s+)?smallest caliber ammunition$/i, '最小口径弹药'],
       [/^(\d+)\s*x$/i, '$1 ×'],
-      [/^up to\s+([\d.,]+)\s*(km\/h|mph|m\/s|m)$/i, (m) => `最高 ${m[1]} ${m[2] === 'km/h' ? '千米/时' : m[2] === 'm/s' ? '米/秒' : m[2] === 'mph' ? '英里/时' : '米'}`],
+      [/^up to\s+([\d.,]+)\s*(km\/h|mph|m\/s|m)$/i, (m) => `最高 ${m[1]} ${m[2].toLowerCase() === 'km/h' ? '千米/小时' : m[2].toLowerCase() === 'm/s' ? '米/秒' : m[2].toLowerCase() === 'mph' ? '英里/小时' : '米'}`],
       [/^Access to the (first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth) season challenge$/i, (m) => {
         const ord = {
           'first': '一', 'second': '二', 'third': '三', 'fourth': '四', 'fifth': '五',
@@ -4056,6 +4194,17 @@ const FAMILY_COLLECTIONS = Object.freeze({
       [/^(\d+)\s*[x×]\s*(.+)$/i, (match) => `${match[1]} × ${officialOrRule(match[2])}`],
       [/^Go to slide (\d+)$/i, '转到第 $1 张幻灯片'],
       [/^Note #(\d+)$/i, '提示 #$1'],
+      [/^(\d+)\s+more(?:\.{1,3}|…)?$/i, '其余 $1 个'],
+      [/^(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)\s+more(?:\.{1,3}|…)?$/i, (m) => {
+        const numMap = {
+          one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10,
+          eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20,
+        };
+        return `其余 ${numMap[m[1].toLowerCase()] || m[1]} 个`;
+      }],
+      [/^(\d+)(?:st|nd|rd|th)?\s+place$/i, '第 $1 名'],
+      [/^Place\s+(\d+)$/i, '第 $1 名'],
+      [/^More than ([\d,]+) ground, air, helicopters and naval vehicles are waiting in the game(!?)$/i, '超过 $1 款地面载具、战机、直升机与舰船正在游戏中等待着你$2'],
       // 挂载位置后缀：如 "7.62 mm PKT machine gun (coaxial)" -> "7.62 毫米 PKT 机枪（同轴）"
       [/^(.+?)\s*\((coaxial|pintle|roof|anti-aircraft|bow|hull|turret|rear|fixed|flexible|optional|tandem)\)$/i, (m) => {
         const base = officialOrRule(m[1]);
@@ -4257,7 +4406,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       if (parent.dataset) delete parent.dataset.wtZhPairDone;
     }
     if (typeof document !== 'undefined' && document.querySelectorAll) {
-      const trackedAttrs = ['title', 'aria-label', 'data-bs-content', 'data-bs-original-title', 'data-content', 'data-feature-popover'];
+      const trackedAttrs = ['title', 'aria-label', 'data-bs-title', 'data-bs-content', 'data-bs-original-title', 'data-content', 'data-feature-popover'];
       for (const name of trackedAttrs) {
         const attrKey = 'data-wt-zh-original-' + name.replace(/^data-/, '');
         for (const el of document.querySelectorAll('[' + attrKey + ']')) {
@@ -4509,6 +4658,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     if (isArticlePageUrl() && parent.tagName === 'H1') return null;
 
     const firstSegment = normalizeText(node.nodeValue);
+    if (LANG_NAMES.has(firstSegment.toLowerCase())) return null;
     const br = node.nextSibling;
     if (br && br.nodeName === 'BR' && br.nextSibling && br.nextSibling.nodeType === 3) {
       const pairReplacement = FLIGHT_CONTROL_PAIRS[firstSegment + ' ' + normalizeText(br.nextSibling.nodeValue)];
@@ -4550,7 +4700,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
 
     // 数值容器：整串不命中时拆分尾部单位翻译（必须前置数字，防止 Separate antennas 末尾 s 误当秒）
     if (parent.classList?.contains('game-unit_chars-value')) {
-      const um = firstSegment.match(/^([\s\S]*?\d)\s*(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|mm|cm|m|s|min|h|lb|in)$/i);
+      const um = firstSegment.match(/^([\s\S]*?\d)\s*(km\s*\/\s*h|km\/h|mph|m\/s|hp\s*\/\s*t|hp\/t|kg\/m2|kg\/m²|kgf|kN|rpm|shots\/min|rounds|hp|short\s+t|tonne|tonnes|kg|t|km|mm|cm|m|s|min|h|lb|in)$/i);
       if (um && um[1]) {
         let prefix = um[1];
         if (/^at\s+/i.test(prefix)) {
@@ -4559,7 +4709,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
         let unitZh = translateFixedText(um[2]);
         if (unitZh) {
           let combined = prefix + ' ' + unitZh;
-          combined = combined.replace(/公里\s*\/\s*\/\s*小时/g, '公里/小时').replace(/\/\//g, '/');
+          combined = combined.replace(/千米\s*\/\s*\/\s*小时/g, '千米/小时').replace(/\/\//g, '/');
           return preserveWhitespace(node.nodeValue, combined);
         }
       }
@@ -4633,7 +4783,14 @@ const FAMILY_COLLECTIONS = Object.freeze({
       const rawHtml = element.getAttribute('data-feature-popover');
       if (rawHtml && !element.hasAttribute('data-wt-zh-original-feature-popover')) {
         element.setAttribute('data-wt-zh-original-feature-popover', rawHtml);
-        let translatedHtml = rawHtml.replace(/>([^<]+)</g, (match, textContent) => {
+        let preprocessedHtml = rawHtml;
+        if (/Cooling\s+type/i.test(preprocessedHtml)) {
+          preprocessedHtml = preprocessedHtml.replace(
+            /(>Cooling\s+type<\/[^>]+>\s*<[^>]+>\s*)Air(\s*<)/gi,
+            '$1气冷$2',
+          );
+        }
+        let translatedHtml = preprocessedHtml.replace(/>([^<]+)</g, (match, textContent) => {
           const trimmed = textContent.replace(/\xa0/g, ' ').trim();
           if (!trimmed || !/[a-zA-Z]/.test(trimmed)) return match;
           const rep = translateFixedText(trimmed);
@@ -4646,7 +4803,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }
     }
 
-    for (const name of ['title', 'aria-label', 'data-bs-content', 'data-bs-original-title', 'data-content']) {
+    for (const name of ['title', 'aria-label', 'data-bs-title', 'data-bs-content', 'data-bs-original-title', 'data-content']) {
       // 涂装名保留原文（UGC/市场涂装，与游戏内显示一致）
       if (name === 'title' && (element.classList?.contains('game-unit_camo') || element.closest?.('.game-unit_camo-list'))) continue;
       const value = element.getAttribute(name);
@@ -4696,7 +4853,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     }
 
     const elements = root.querySelectorAll
-      ? root.querySelectorAll('[title], [aria-label], [data-feature-popover], [data-bs-content], [data-bs-original-title]')
+      ? root.querySelectorAll('[title], [aria-label], [data-feature-popover], [data-bs-title], [data-bs-content], [data-bs-original-title]')
       : [];
     for (const element of elements) translateElementAttributes(element);
     if (root.nodeType === 1) translateElementAttributes(root);

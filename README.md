@@ -1,6 +1,6 @@
 # 战争雷霆维基汉化 (War Thunder Wiki Zh)
 
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
+[![Version](https://img.shields.io/badge/version-1.3.1-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
 [![Game Version](https://img.shields.io/badge/War%20Thunder-2.61%20Eagle's%20Shadow-green.svg)](https://warthunder.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -42,7 +42,7 @@
 - 组合格式固定文本，例如 `Rank VIII`、`AB / RB / SB`、`Basic → Reference`、日期、评分统计、单位和数量前缀。
 - 资料页的性能、襟翼、武器、经济、评分和标签字段；脚本会重新生成官方载具名称索引，补齐非链接的研发顺序和页面标题。
 - 飞行控制两行标签（`<div>Air<br>brake</div>`）按整词翻译：着陆襟翼 / 起飞襟翼 / 战斗襟翼 / 减速板 / 起落架收放。
-- 数值容器尾部单位翻译（`hp/t`→`马力/吨`、`km/h`→`公里/小时` 等，含模式切换拼接值如 `27.2…42.1 hp/t`）。
+- 数值容器尾部单位翻译（`hp/t`→`马力/吨`、`km/h`→`千米/小时` 等，含模式切换拼接值如 `27.2…42.1 hp/t`）。
 - 版本名（`Update 1.45 "Steel Generals"`→`更新 1.45「钢铁将军」`，UPDATE_NAMES 86 条）。
 - **原文/翻译切换**：位于左侧导航栏「作者支持计划」正下方（移动端/独立页面自动降级悬浮至左下角），一键在「显示原文」与「切换翻译」间无损切换，基于运行时记录完整还原文本节点、属性、浮层与链接状态。
 

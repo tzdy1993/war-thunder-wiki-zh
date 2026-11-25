@@ -22,7 +22,7 @@ UNIT_MARKER_END = "  // END GENERATED UNIT TRANSLATIONS"
 TERM_MARKER_START = "  // BEGIN GENERATED TERM TRANSLATIONS"
 TERM_MARKER_END = "  // END GENERATED TERM TRANSLATIONS"
 
-VERSION = "1.3.0"
+VERSION = "1.3.1"
 
 MARKER_CHARS = '▂▃▄▅▀◄◔◘◊◗◥◐◌◍◡◢○⋠␗␙␠☢“\uf059'
 CLEAN_PATTERN = re.compile(r'[\u2580-\u259f\u25a0-\u25ff\u2400-\u243f\u2622\uf000-\uf8ff\ue000-\uf8ff\u22e0]')
@@ -67,15 +67,20 @@ def normalize_cn_text(value: str) -> str:
     v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
     v = v.replace('\n', ' ').replace(r'\n', ' ')
     v = re.sub(r'\s{2,}', ' ', v).strip()
-    if "中华民国" in v:
-        v = v.replace("中华民国", "中国")
-    if "中華民國" in v:
-        v = v.replace("中華民國", "中国")
-    if "中國" in v:
-        v = v.replace("中國", "中国")
+    # 先用占位符保护刻意使用繁体区分的中华民国/ROC 专名，避免被后续 TRAD_MAP 误伤
+    v = v.replace("中國陸軍兵工署", "__WT_ROC_ORDC__")
+    v = v.replace("中华民国陆军兵工署", "__WT_ROC_ORDC__")
+    v = v.replace("中華民國陸軍兵工署", "__WT_ROC_ORDC__")
+    v = v.replace("中國空軍", "__WT_ROC_AF__")
+    v = v.replace("中华民国", "__WT_ROC_ZH__")
+    v = v.replace("中華民國", "__WT_ROC_ZH__")
+    v = v.replace("中國", "__WT_ROC_ZH__")
     for t_k, t_v in TRAD_MAP.items():
         if t_k in v:
             v = v.replace(t_k, t_v)
+    v = v.replace("__WT_ROC_ORDC__", "中國陸軍兵工署")
+    v = v.replace("__WT_ROC_AF__", "中國空軍")
+    v = v.replace("__WT_ROC_ZH__", "中國")
     return v
 
 
@@ -267,8 +272,12 @@ def main() -> None:
             'Hafei': '航空工业哈飞',
             'Harbin': '航空工业哈飞',
             'Changhe': '航空工业昌飞',
+            'CAIC': '航空工业昌飞',
             'Shaanxi': '航空工业陕飞',
             'Guizhou': '航空工业贵飞',
+            'Shijiazhuang': '航空工业通飞华北',
+            'AVIC': '中国航空工业集团',
+            'Avic': '中国航空工业集团',
             'NORINCO': '中国兵器工业集团',
             'Norinco': '中国兵器工业集团',
             '北方工业': '中国兵器工业集团',
@@ -279,10 +288,11 @@ def main() -> None:
         if m_k in unit_name_index:
             unit_name_index[m_k] = m_v
 
-    term_index['Republic of China'] = '中国'
-    unit_name_index['Republic of China'] = '中国'
-    term_index['ROCA ORDC'] = '中国陆军兵工署'
-    unit_name_index['ROCA ORDC'] = '中国陆军兵工署'
+    term_index['Republic of China'] = '中國'
+    unit_name_index['Republic of China'] = '中國'
+    term_index['Republic of China Air Force'] = '中國空軍'
+    term_index['ROCA ORDC'] = '中國陸軍兵工署'
+    unit_name_index['ROCA ORDC'] = '中國陸軍兵工署'
 
     popover_json_path = HERE / "data" / "popover_terms.json"
     if popover_json_path.exists():

@@ -28,6 +28,15 @@ const INTENTIONAL = {
   'Machine Guns': { f: '机枪', o: '防空机枪', why: 'FIXED 用于 Wiki 武器类别标题；UNIT_NAME 为官方单位特定名' },
   'Boat': { f: '小艇', o: '渔船', why: 'FIXED 用于 Wiki 舰船分类；UNIT_NAME 为官方地图单位渔船' },
   'boat': { f: '小艇', o: '渔船', why: 'FIXED 用于 Wiki 舰船分类；UNIT_NAME 为官方地图单位渔船' },
+  'AMX': { f: 'AMX（伊西莱穆利诺制造厂）', o: 'AMX', why: 'FIXED 用于制造商列表；UNIT_NAME 为法系载具名' },
+  'Aichi': { f: '爱知', o: '零式水侦', why: 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名' },
+  'Isuzu': { f: '五十铃', o: '五十铃 (DE-211)', why: 'FIXED 用于制造商列表；UNIT_NAME 为官方舰船全名' },
+  'Potez': { f: '波捷', o: 'P.630/631', why: 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名' },
+  'IAI': { f: '以色列航太工业 (IAI)', o: 'IAI', why: 'FIXED 用于制造商列表；TERM 为弹药缩写' },
+  'JDAM': { f: '联合直接攻击弹药 (JDAM)', o: 'JDAM', why: 'FIXED 用于挂载特征/合集名；TERM 为改装件简称' },
+  'SPICE': { f: 'SPICE 精确制导炸弹', o: 'SPICE', why: 'FIXED 用于挂载名称；TERM 为改装件简称' },
+  'ARH+IOG+GNSS+DL': { f: '主动雷达寻的 + 惯导 + 卫星导航 + 数据链', o: '主动雷达寻的 + 卫星导航 + 数据链', why: '补全官方略去的 IOG（惯导）' },
+  'IR+IOG+GNSS+DL': { f: '红外 + 惯导 + 卫星导航 + 数据链', o: '红外 + 卫星导航 + 数据链', why: '补全官方略去的 IOG（惯导）' },
 };
 
 const conflicts = [];

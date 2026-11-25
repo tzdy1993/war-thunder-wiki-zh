@@ -37,9 +37,9 @@ def main() -> None:
             en = clean_text(row[1].replace("\\n", " ").replace("\n", " "))
             cn = clean_text(row[zh_idx].replace("\\n", " ").replace("\n", " "))
             if "中华民国" in cn:
-                cn = cn.replace("中华民国", "中国")
+                cn = cn.replace("中华民国", "中國")
             if "中華民國" in cn:
-                cn = cn.replace("中華民國", "中国")
+                cn = cn.replace("中華民國", "中國")
             if not en or not cn or en == cn:
                 continue
             if len(en) > 60 or len(cn) > 60:

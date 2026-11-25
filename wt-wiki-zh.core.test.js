@@ -106,7 +106,7 @@ assert.equal(translateFixedText('See all 42'), '查看全部 42');
 assert.equal(translateFixedText('9 hours ago'), '9 小时前');
 assert.equal(translateFixedText('1,200 rounds'), '1,200 发');
 assert.equal(translateFixedText('6 °/s'), '6 度/秒');
-assert.equal(translateFixedText('34 km/h'), '34 公里/小时');
+assert.equal(translateFixedText('34 km/h'), '34 千米/小时');
 assert.equal(translateFixedText('600 hp'), '600 马力');
 assert.equal(translateFixedText('11.5 hp/t'), '11.5 马力/吨');
 assert.equal(translateFixedText('52.4 t'), '52.4 吨');
@@ -125,7 +125,7 @@ assert.equal(translateFixedText('161 kg/m²'), '161 千克/平方米');
 assert.equal(translateFixedText('1.2 t (34m)'), '1.2 吨（34 分钟）');
 assert.equal(translateFixedText('0.83 M'), '0.83 马赫');
 assert.equal(translateFixedText('≈ -5/10 G'), '约 -5/10 G');
-assert.equal(translateFixedText('290 / 462 / 495 km/h'), '290 / 462 / 495 公里/小时');
+assert.equal(translateFixedText('290 / 462 / 495 km/h'), '290 / 462 / 495 千米/小时');
 assert.equal(translateFixedText('330 / 230 / 90 mm'), '330 / 230 / 90 毫米');
 assert.equal(translateFixedText('25 mm (steel)'), '25 毫米（钢）');
 assert.equal(translateFixedText('2 x (450 / 600) %'), '2 ×（450 / 600）%');
@@ -141,8 +141,9 @@ assert.equal(translateUnitHref('/collections/family/m4_tank', 'M4 "Sherman"'), '
 assert.equal(translateUnitHref('/collections/family/spitfire', 'Spitfire'), '“喷火”');
 assert.equal(translateUnitHref('/collections/family/leopard_2_mbt', 'Leopard 2'), '豹 2');
 assert.equal(translateFixedText('Game roles Fighter'), '游戏角色 战斗机');
-assert.equal(translateFixedText('Operator USSR'), '使用国 苏联');
-assert.equal(translateFixedText('Vehicles by updates Aircraft CBT'), '按版本更新的载具 飞机封闭测试');
+assert.equal(translateFixedText('Operator USSR'), '使用国家 苏联');
+assert.equal(translateFixedText('Vehicles by updates Aircraft CBT'), '版本更新 飞机封闭测试');
+assert.equal(translateFixedText('Vehicles by events'), '活动载具');
 assert.equal(translateFixedText('Spitfire 32 vehicles'), '喷火 32 辆载具');
 assert.equal(translateFixedText('V'), 'V 级');
 assert.equal(translateFixedText('Like'), '喜欢');
@@ -346,16 +347,17 @@ const vehicleLink = element('A', { href: '/unit/germ_t_34_747' });
 const linkTextNode = textNode('▀T 34 747 (r)', vehicleLink);
 assert.equal(translateNodeText(linkTextNode), '▀747 (r) 坦克');
 
-// 5. 中华民国规范化断言（统一为简体“中国”）
-assert.equal(translateFixedText('Republic of China'), '中国');
-assert.equal(translateFixedText('中华民国'), '中国');
-assert.equal(translateFixedText('ROCA ORDC'), '中国陆军兵工署');
-assert.equal(translateFixedText('Operator Republic of China'), '使用国 中国');
+// 5. 中华民国繁体区分规范化断言（统一为繁体“中國”）
+assert.equal(translateFixedText('Republic of China'), '中國');
+assert.equal(translateFixedText('中华民国'), '中國');
+assert.equal(translateFixedText('ROCA ORDC'), '中國陸軍兵工署');
+assert.equal(translateFixedText('Republic of China Air Force'), '中國空軍');
+assert.equal(translateFixedText('Operator Republic of China'), '使用国家 中國');
 
 // 6. 弹药弹链、武器规格参数与单位防错乱专项测试
-assert.equal(translateFixedText('11 km'), '11 公里');
-assert.equal(translateFixedText('3 km'), '3 公里');
-assert.equal(translateFixedText('18 km'), '18 公里');
+assert.equal(translateFixedText('11 km'), '11 千米');
+assert.equal(translateFixedText('3 km'), '3 千米');
+assert.equal(translateFixedText('18 km'), '18 千米');
 assert.equal(translateFixedText('30 G'), '30 G');
 assert.equal(translateFixedText('14 August'), '8月14日');
 assert.equal(translateFixedText('Belt filling: HEF-I/API-T/AP-I/SAPHEI'), '弹链组成：HEF-I/API-T/AP-I/SAPHEI');
@@ -411,9 +413,9 @@ assert.equal(translateFixedText('APCBC'), '被帽风帽穿甲弹');
 
 // D. 性能与单位
 assert.equal(translateFixedText('at 8,500 m'), '高度 8,500 米');
-assert.equal(translateFixedText('1,200 km/h'), '1,200 公里/小时');
-assert.equal(translateFixedText('750 km/h'), '750 公里/小时');
-assert.equal(translateFixedText('750 km / h'), '750 公里/小时');
+assert.equal(translateFixedText('1,200 km/h'), '1,200 千米/小时');
+assert.equal(translateFixedText('750 km/h'), '750 千米/小时');
+assert.equal(translateFixedText('750 km / h'), '750 千米/小时');
 assert.equal(translateFixedText('35 m/s'), '35 米/秒');
 assert.equal(translateFixedText('24.5 s'), '24.5 秒');
 assert.equal(translateFixedText('0.001 s'), '0.001 秒');
@@ -422,7 +424,7 @@ assert.equal(translateFixedText('531 lbs'), '531 磅');
 assert.equal(translateFixedText('50 g'), '50 克');
 assert.equal(translateFixedText('800x600'), '800×600');
 assert.equal(translateFixedText('or 310'), '或 310');
-assert.equal(translateFixedText('Engine Thrust (0 m / 0 km/h)'), '发动机推力（0 米 / 0 公里/小时）');
+assert.equal(translateFixedText('Engine Thrust (0 m / 0 km/h)'), '发动机推力（0 米 / 0 千米/小时）');
 
 // E. 传感器、航电与飞行状态
 assert.equal(translateFixedText('Helmet-mounted display'), '头盔显示器');
@@ -630,5 +632,94 @@ assert.equal(dummyElem.hasAttribute('data-wt-zh-original-feature-popover'), fals
 setZhMode(true);
 assert(dummyElem.getAttribute('data-feature-popover').includes('800×600'));
 global.document = origDoc;
+
+// J. v1.3.1 历史要求全面恢复回归测试
+assert.equal(translateFixedText('PLAY'), '游玩');
+assert.equal(translateFixedText('Play'), '游玩');
+
+// 左下角语言切换栏：无论 <span> 还是 <a> 都绝不翻译
+const langSpan = element('SPAN', { class: 'dropdown-item active' });
+assert.equal(translateNodeText(textNode('English', langSpan)), null);
+const langLink = element('A', { class: 'dropdown-item', href: '/?from=ru_lang' });
+assert.equal(translateNodeText(textNode('Русский', langLink)), null);
+
+// data-bs-title tooltip 翻译与 Cooling type: Air 保护
+const coolingPopoverEl = {
+  nodeType: 1,
+  tagName: 'BUTTON',
+  attributes: {
+    'data-feature-popover': '<div><div>Cooling type</div><div>Air</div></div>'
+  },
+  hasAttribute(name) { return name in this.attributes; },
+  getAttribute(name) { return this.attributes[name]; },
+  setAttribute(name, val) { this.attributes[name] = val; },
+  removeAttribute(name) { delete this.attributes[name]; },
+  isConnected: true,
+};
+translateElementAttributes(coolingPopoverEl);
+assert(coolingPopoverEl.getAttribute('data-feature-popover').includes('冷却方式'));
+assert(coolingPopoverEl.getAttribute('data-feature-popover').includes('气冷'));
+assert.equal(translateFixedText('Air'), '空中');
+
+const bsTooltipEl = {
+  nodeType: 1,
+  tagName: 'SPAN',
+  attributes: {
+    'data-bs-toggle': 'tooltip',
+    'data-bs-title': 'With full filling of main tanks'
+  },
+  hasAttribute(name) { return name in this.attributes; },
+  getAttribute(name) { return this.attributes[name]; },
+  setAttribute(name, val) { this.attributes[name] = val; },
+  removeAttribute(name) { delete this.attributes[name]; },
+  isConnected: true,
+};
+translateElementAttributes(bsTooltipEl);
+assert.equal(bsTooltipEl.getAttribute('data-bs-title'), '主油箱满油状态下');
+
+const origDoc2 = global.document;
+const bsMockDoc = {
+  body: { classList: { add() {}, remove() {}, contains() { return false; } }, querySelectorAll(sel) { return bsMockDoc.querySelectorAll(sel); } },
+  createTreeWalker() { return { nextNode: () => null }; },
+  querySelectorAll(sel) {
+    const m = String(sel || '').match(/^\[([^\]]+)\]$/);
+    if (m) return bsTooltipEl.hasAttribute(m[1]) ? [bsTooltipEl] : [];
+    if (String(sel || '').includes('data-bs-title')) return bsTooltipEl.hasAttribute('data-bs-title') ? [bsTooltipEl] : [];
+    return [];
+  },
+};
+bsMockDoc.body.ownerDocument = bsMockDoc;
+global.document = bsMockDoc;
+setZhMode(false);
+assert.equal(bsTooltipEl.getAttribute('data-bs-title'), 'With full filling of main tanks');
+assert.equal(bsTooltipEl.hasAttribute('data-wt-zh-original-bs-title'), false);
+setZhMode(true);
+assert.equal(bsTooltipEl.getAttribute('data-bs-title'), '主油箱满油状态下');
+global.document = origDoc2;
+
+// 排名页 & 高度
+assert.equal(translateFixedText('Four more'), '其余 4 个');
+assert.equal(translateFixedText('Two more...'), '其余 2 个');
+assert.equal(translateFixedText('12 more'), '其余 12 个');
+assert.equal(translateFixedText('1st place'), '第 1 名');
+assert.equal(translateFixedText('at 0 m'), '海平面 (0 米)');
+assert.equal(translateFixedText('at 5 km'), '高度 5 千米');
+assert.equal(translateFixedText('5 km'), '5 千米');
+
+// 制造商
+assert.equal(translateFixedText('US Army Ordnance Department/Corps'), '美国陆军军械部/军械兵团');
+assert.equal(translateFixedText('CAIC'), '航空工业昌飞');
+assert.equal(translateFixedText('Shijiazhuang'), '航空工业通飞华北');
+assert.equal(translateFixedText('AVIC'), '中国航空工业集团');
+
+// 用户菜单 & Show in game 弹窗
+assert.equal(translateFixedText('Profile'), '个人主页');
+assert.equal(translateFixedText('Profile settings'), '个人设置');
+assert.equal(translateFixedText('Logout'), '退出登录');
+assert.equal(translateFixedText('Notifications'), '通知');
+assert.equal(translateFixedText('Drafts'), '草稿');
+assert.equal(translateFixedText('Bookmarks'), '书签');
+assert.equal(translateFixedText('How to view the vehicle in the game:'), '如何在游戏中查看载具：');
+assert.equal(translateFixedText('Log in to Wiki'), '登录 Wiki');
 
 console.log('core tests passed');
