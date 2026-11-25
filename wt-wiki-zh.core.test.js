@@ -625,15 +625,10 @@ ensureMainButtonStyles(mockDoc);
 assert(appendedStyles.some((css) =>
   css.includes('.gunit_specs-table_row')
   && css.includes('white-space: nowrap')
-  && css.includes('container-type: inline-size')
-  && css.includes('@supports (font-size: 1cqi)')
-  && css.includes('.wt-zh-btn-overlay')
-  && css.includes('writing-mode: vertical-rl')
-  && css.includes('text-orientation: upright')
-  && css.includes('margin: 0 0 9cqi 8cqi')
+  && !css.includes('.wt-zh-btn-overlay')
+  && !css.includes('.wt-zh-btn-title')
   && !css.includes('.wt-zh-btn-accent')
-  && !css.includes('rgba(12, 17, 22, 0.92)')
-  && ![...css.matchAll(/\.wt-zh-btn-overlay\s*\{([^}]*)\}/g)].some((m) => /cqi|cqw/i.test(m[1]))
+  && !css.includes('container-type')
 ));
 
 // 6. 双向切换无损还原属性测试
@@ -798,16 +793,14 @@ const bannerDoc = {
 bannerDoc.body.ownerDocument = bannerDoc;
 bannerBtn.ownerDocument = bannerDoc;
 translateMainButtons(bannerBtn);
-assert.equal(bannerBtn.children.filter((c) => c.className === 'wt-zh-btn-overlay').length, 1);
-assert.equal(bannerBtn.children[1].children.length, 1);
-assert.equal(bannerBtn.children[1].children[0].className, 'wt-zh-btn-title');
-assert.equal(bannerBtn.children[1].children[0].textContent, '空军');
+assert.equal(bannerBtn.children.length, 1);
+assert.equal(bannerBtn.children.filter((c) => c.className === 'wt-zh-btn-overlay').length, 0);
 const origDoc3 = global.document;
 global.document = bannerDoc;
 setZhMode(false);
 assert.equal(Boolean(bannerBtn.dataset.wtZhBtnDone), false);
 setZhMode(true);
-assert.equal(bannerBtn.children.filter((c) => c.className === 'wt-zh-btn-overlay').length, 1);
+assert.equal(bannerBtn.children.length, 1);
 global.document = origDoc3;
 
 console.log('core tests passed');

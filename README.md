@@ -1,6 +1,6 @@
 # 战争雷霆维基汉化 (War Thunder Wiki Zh)
 
-[![Version](https://img.shields.io/badge/version-1.3.4-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
+[![Version](https://img.shields.io/badge/version-1.3.5-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
 [![Game Version](https://img.shields.io/badge/War%20Thunder-2.61%20Eagle's%20Shadow-green.svg)](https://warthunder.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,7 +35,7 @@
 ## 当前翻译范围
 
 - **载具家族/系列收藏全量覆盖**：全新支持 `collections/family` 页面 455 款载具家族合集卡片标题、系列数量统计与页面说明深度汉化，涵盖二战至现代各系主力陆海空载具家族。
-- **首页五大板块入口卡片**：内嵌无字精修底图配合左下角柔和渐变暗角与无框竖排纯白矢量中文大字（空军 / 直升机 / 地面载具 / 远洋海军 / 近岸海军，无底框、无装饰线），切换原文时完整还原官方原图。
+- **首页五大板块入口卡片**：将竖排纯白中文直接高精度合成至 5 张无字原图内（与官方 `_en`/`_ru` 完全同构，零 CSS 偏移风险，支持深浅主题与一键还原官方原图）。
 - Wiki 顶部导航、按钮、分类、标签和固定提示。
 - 载具资料页的等级、战斗权重、国家、角色、规格、武器、经济、改装件和设置字段；其中固定词按客户端官方简中语言包校准。
 - 本地官方简中术语表中的载具、武器和改装件名称。

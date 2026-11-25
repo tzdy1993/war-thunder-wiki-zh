@@ -4572,9 +4572,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     style.id = 'wt-zh-main-btn-styles';
     style.textContent = `
       .main-button_item {
-        position: relative !important;
         overflow: hidden;
-        text-decoration: none !important;
       }
       .main-button_item img {
         width: 100%;
@@ -4586,50 +4584,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
       .main-button_item:hover img {
         transform: scale(1.045);
       }
-      .wt-zh-btn-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        padding: 0;
-        pointer-events: none;
-        z-index: 3;
-        container-type: inline-size;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        background: linear-gradient(35deg, rgba(7, 11, 16, 0.72) 0%, rgba(7, 11, 16, 0.28) 30%, rgba(7, 11, 16, 0) 58%);
-        transition: opacity 0.2s ease;
-      }
-      .wt-zh-btn-title {
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        margin: 0 0 14px 12px;
-        text-decoration: none;
-        color: #ffffff;
-        font-size: clamp(1.05rem, 2.3vw, 1.75rem);
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        line-height: 1.1;
-        white-space: nowrap;
-        user-select: none;
-        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.95);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      }
-      @supports (font-size: 1cqi) {
-        .wt-zh-btn-title {
-          font-size: clamp(1.05rem, 15cqi, 1.75rem);
-          margin: 0 0 9cqi 8cqi;
-        }
-      }
       .popover .gunit_specs-table_row,
       .game-unit_popover-content .gunit_specs-table_row {
         white-space: nowrap;
-      }
-      body.wt-zh-off .wt-zh-btn-overlay {
-        display: none !important;
       }
       body.wt-zh-off .main-button_item:hover img {
         transform: none;
@@ -4672,18 +4629,10 @@ const FAMILY_COLLECTIONS = Object.freeze({
               imgEl.setAttribute('data-wt-zh-orig-src', imgEl.getAttribute('src') || '');
             }
             imgEl.setAttribute('src', cleanDataUrl);
+            imgEl.setAttribute('alt', MAIN_BUTTON_TITLES[href]);
           }
         }
         if (btn.dataset) btn.dataset.wtZhBtnDone = '1';
-        if (doc && (!btn.querySelector || !btn.querySelector('.wt-zh-btn-overlay'))) {
-          const overlay = doc.createElement('div');
-          overlay.className = 'wt-zh-btn-overlay';
-          const title = doc.createElement('div');
-          title.className = 'wt-zh-btn-title';
-          title.textContent = MAIN_BUTTON_TITLES[href];
-          overlay.appendChild(title);
-          btn.appendChild(overlay);
-        }
       }
     }
   }
