@@ -11,7 +11,9 @@ const {
   scan,
   translateElementAttributes,
   MAIN_BUTTON_TITLES,
+  ensureMainButtonStyles,
   translateMainButtons,
+  setZhMode,
 } = require('./wt-wiki-zh.core.js');
 
 function element(tagName, attributes = {}) {
@@ -344,11 +346,11 @@ const vehicleLink = element('A', { href: '/unit/germ_t_34_747' });
 const linkTextNode = textNode('▀T 34 747 (r)', vehicleLink);
 assert.equal(translateNodeText(linkTextNode), '▀747 (r) 坦克');
 
-// 5. 中华民国规范化断言（统一为繁体“中國”）
-assert.equal(translateFixedText('Republic of China'), '中國');
-assert.equal(translateFixedText('中华民国'), '中國');
-assert.equal(translateFixedText('ROCA ORDC'), '中國陸軍兵工署');
-assert.equal(translateFixedText('Operator Republic of China'), '使用国 中國');
+// 5. 中华民国规范化断言（统一为简体“中国”）
+assert.equal(translateFixedText('Republic of China'), '中国');
+assert.equal(translateFixedText('中华民国'), '中国');
+assert.equal(translateFixedText('ROCA ORDC'), '中国陆军兵工署');
+assert.equal(translateFixedText('Operator Republic of China'), '使用国 中国');
 
 // 6. 弹药弹链、武器规格参数与单位防错乱专项测试
 assert.equal(translateFixedText('11 km'), '11 公里');
@@ -362,7 +364,7 @@ assert.equal(translateFixedText('HEF-I: High-explosive fragmentation incendiary 
 assert.equal(translateFixedText('API-T: Armor-piercing incendiary tracer shell'), 'API-T：穿甲燃烧曳光弹');
 assert.equal(translateFixedText('AP-I: Armor-piercing incendiary shell'), 'AP-I：穿甲燃烧弹');
 assert.equal(translateFixedText('SAPHEI: Semi armor-piercing high-explosive incendiary shell'), 'SAPHEI：半穿甲高爆燃烧弹');
-assert.equal(translateFixedText('Projectile Mass'), '弹体质量');
+assert.equal(translateFixedText('Projectile Mass'), '弹头质量');
 assert.equal(translateFixedText('Explosive Type'), '装药类型');
 assert.equal(translateFixedText('Explosive Mass'), '装药质量');
 assert.equal(translateFixedText('TNT equivalent'), 'TNT 当量');
@@ -462,7 +464,7 @@ assert.equal(
 );
 assert.equal(translateFixedText('Inline, 12-cylinder'), '直列 12 缸');
 assert.equal(translateFixedText('Radial, 14-cylinder'), '星型 14 缸');
-assert.equal(translateFixedText('Allows the use of smoke screen system.'), '允许使用烟幕系统。');
+assert.equal(translateFixedText('Allows the use of smoke screen system.'), '可释放烟雾。');
 
 // H. 改装件科技树分类表头、基础改装件与浮层属性
 assert.equal(translateFixedText('Survivability'), '生存能力');
@@ -487,7 +489,7 @@ assert.equal(translateFixedText('Radar'), '雷达');
 assert.equal(translateFixedText('IFF'), '敌我识别');
 assert.equal(translateFixedText('IR'), '红外');
 assert.equal(translateFixedText('Engine Power'), '发动机输出功率');
-assert.equal(translateFixedText('Cooling type'), '冷却类型');
+assert.equal(translateFixedText('Cooling type'), '冷却方式');
 assert.equal(translateFixedText('WEP'), '加力');
 assert.equal(translateFixedText('TWS+'), '边扫描边跟踪+');
 assert.equal(translateFixedText('TWS+ + Separate antennas'), '边扫描边跟踪+ + 独立天线');
@@ -551,20 +553,82 @@ assert.equal(translateFixedText('TWS ESA + Separate antennas'), '边扫描边跟
 // 4. 载具武器属性卡片备弹量
 assert.equal(translateFixedText('Ammunition'), '备弹量');
 
-// 5. 浮层预处理强制 white-space:nowrap
+// 5. 浮层预处理不产生重复 style 属性，且保留原属性与紧凑分辨率
 const dummyElem = {
   nodeType: 1,
   tagName: 'BUTTON',
   attributes: {
-    'data-feature-popover': '<div class="gunit_specs-table_row mt-1"><div>800x600</div><div>800x600</div><div>—</div></div>'
+    'data-feature-popover': '<div class="gunit_specs-table_row mt-1" style="font-size:.9em"><div>800x600</div><div>800x600</div><div>—</div></div>'
   },
   hasAttribute(name) { return name in this.attributes; },
   getAttribute(name) { return this.attributes[name]; },
-  setAttribute(name, val) { this.attributes[name] = val; }
+  setAttribute(name, val) { this.attributes[name] = val; },
+  removeAttribute(name) { delete this.attributes[name]; },
+  isConnected: true,
 };
 translateElementAttributes(dummyElem);
 const popResult = dummyElem.getAttribute('data-feature-popover');
-assert(popResult.includes('style="white-space:nowrap;"'));
+assert(!/style="[^"]*"[^>]*style="/i.test(popResult), 'Must not emit duplicate style attribute');
+assert(popResult.includes('style="font-size:.9em"'), 'Must preserve original style');
 assert(popResult.includes('800×600'));
+
+// I. v1.3.0 全面审查回归测试（2.61 更新 + 官方对齐 + 反贪婪误伤 + 双向无损还原）
+// 1. 2.61 鹰之暗影 / 2.59 长空奥德赛 / 2.45 黄蜂之蜇 & Wiki 新增特征
+assert.equal(translateFixedText('Update 2.61 "Eagle\'s Shadow"'), '更新 2.61「鹰之暗影」');
+assert.equal(translateFixedText('Update 2.59 "Sky Odyssey"'), '更新 2.59「长空奥德赛」');
+assert.equal(translateFixedText('Update 2.45 "Hornet\'s Sting"'), '更新 2.45「黄蜂之蜇」');
+assert.equal(translateFixedText('The Great War!'), '第一次世界大战！');
+assert.equal(translateFixedText('Dynamic BR'), '动态战斗权重');
+assert.equal(translateFixedText('Infantry Fighting Vehicle'), '步兵战车');
+assert.equal(translateFixedText('ARH+IOG+GNSS+DL'), '主动雷达寻的 + 惯导 + 卫星导航 + 数据链');
+assert.equal(translateFixedText('IR+IOG+GNSS+DL'), '红外 + 惯导 + 卫星导航 + 数据链');
+
+// 2. 高频单位与弹链句式
+assert.equal(translateFixedText('17,000 kgf'), '17,000 千克力');
+assert.equal(translateFixedText('45.5 kN'), '45.5 千牛');
+assert.equal(translateFixedText('360 mph'), '360 英里/小时');
+assert.equal(translateFixedText('33 knots'), '33 节');
+assert.equal(translateFixedText('Allows the use of belts PzGr.'), '可使用 PzGr 弹链。');
+
+// 3. 反贪婪正则防误伤（杜绝 'Tri - 颜色' 和文章标题末尾 '坦克'）
+assert.equal(translateFixedText('Tri-color'), null);
+assert.equal(translateFixedText('T1E1(90) - A Big Gun on a Big Tank'), null);
+assert.equal(translateFixedText('Battle-Seasoned Fighter'), null);
+
+// 4. 官方 CSV 术语统一验证
+assert.equal(translateFixedText('Adjustment of Fire'), '校准主炮');
+assert.equal(translateFixedText('Parts'), '维修套件');
+assert.equal(translateFixedText('FPE'), '灭火套件');
+assert.equal(translateFixedText('EFS'), '引擎灭火系统');
+assert.equal(translateFixedText('Brake System'), '刹车装置');
+
+// 5. ensureMainButtonStyles 注入 .gunit_specs-table_row 防折行 CSS
+const appendedStyles = [];
+const mockDoc = {
+  head: { appendChild(el) { appendedStyles.push(el.textContent); } },
+  body: { classList: { add() {}, remove() {}, contains() { return false; } }, querySelectorAll(sel) { return mockDoc.querySelectorAll(sel); } },
+  getElementById() { return null; },
+  createElement() { return { id: '', textContent: '' }; },
+  createTreeWalker() { return { nextNode: () => null }; },
+  querySelectorAll(sel) {
+    const m = String(sel || '').match(/^\[([^\]]+)\]$/);
+    if (m) return dummyElem.hasAttribute(m[1]) ? [dummyElem] : [];
+    if (String(sel || '').includes('data-feature-popover')) return dummyElem.hasAttribute('data-feature-popover') ? [dummyElem] : [];
+    return [];
+  },
+};
+mockDoc.body.ownerDocument = mockDoc;
+ensureMainButtonStyles(mockDoc);
+assert(appendedStyles.some((css) => css.includes('.gunit_specs-table_row') && css.includes('white-space: nowrap')));
+
+// 6. 双向切换无损还原属性测试
+const origDoc = global.document;
+global.document = mockDoc;
+setZhMode(false);
+assert.equal(dummyElem.getAttribute('data-feature-popover'), '<div class="gunit_specs-table_row mt-1" style="font-size:.9em"><div>800x600</div><div>800x600</div><div>—</div></div>');
+assert.equal(dummyElem.hasAttribute('data-wt-zh-original-feature-popover'), false);
+setZhMode(true);
+assert(dummyElem.getAttribute('data-feature-popover').includes('800×600'));
+global.document = origDoc;
 
 console.log('core tests passed');

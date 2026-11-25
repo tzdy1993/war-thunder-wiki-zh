@@ -15,21 +15,41 @@ CORE_PATH = HERE / "wt-wiki-zh.core.js"
 OUTPUT_PATH = HERE / "wt-wiki-zh.user.js"
 
 UNLOCKS_PATH = HERE / "test" / "official-unlocks.json"
+BASELINE_PATH = HERE / "release" / "wt-wiki-zh-v1.1.0.user.js"
 
 UNIT_MARKER_START = "  // BEGIN GENERATED UNIT TRANSLATIONS"
 UNIT_MARKER_END = "  // END GENERATED UNIT TRANSLATIONS"
 TERM_MARKER_START = "  // BEGIN GENERATED TERM TRANSLATIONS"
 TERM_MARKER_END = "  // END GENERATED TERM TRANSLATIONS"
 
+VERSION = "1.3.0"
 
 MARKER_CHARS = '▂▃▄▅▀◄◔◘◊◗◥◐◌◍◡◢○⋠␗␙␠☢“\uf059'
 CLEAN_PATTERN = re.compile(r'[\u2580-\u259f\u25a0-\u25ff\u2400-\u243f\u2622\uf000-\uf8ff\ue000-\uf8ff\u22e0]')
+
+# 全面简繁归一映射（防止官方词典或基线里混入繁体字/异体字）
+TRAD_MAP = {
+    '減速板': '减速板', '雷達': '雷达', '導彈': '导弹', '裝甲': '装甲',
+    '飛機': '飞机', '戰鬥機': '战斗机', '魚雷': '鱼雷', '發動機': '发动机',
+    '國': '国', '陸': '陆', '軍': '军', '艦': '舰', '掛': '挂', '複': '复',
+    '體': '体', '車': '车', '壓': '压', '砲': '炮', '彈': '弹', '弾': '弹',
+    '魚': '鱼', '戰': '战', '機': '机', '裝': '装', '減': '减',
+}
+
+# 撇号/正则切分历史遗留碎片黑名单与前缀识别
+BROKEN_KEYS = {
+    't', 't Kal Alef', 't Kal Dalet', 't Kal Gimel',
+    'type', 'mod', 'GB', 'SA', 'id', 'CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST',
+    'am Sagol', 'll Repair Everything!', 're used.',
+}
+# 历史 extract_baseline 双引号正则在包含未转义/嵌套引号时的断片特征
+QUOTE_FRAG_PREFIX_RE = re.compile(r'^(?:s|d|t|ll|ve|re|am)\s+[A-Za-z]', re.IGNORECASE)
+LEADING_SPACE_FRAG_RE = re.compile(r'^\s+')
 
 
 def clean(value: str) -> str:
     if not value:
         return ""
-    # 彻底清除字面量反斜杠+t以及真实制表符、回车
     v = value.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
     v = v.replace("\u00a0", " ").replace("\u200b", "")
     return " ".join(v.split()).strip()
@@ -40,6 +60,23 @@ def strip_all_markers(value: str) -> str:
     v = CLEAN_PATTERN.sub('', value)
     v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
     return v.strip(MARKER_CHARS).strip()
+
+
+def normalize_cn_text(value: str) -> str:
+    v = strip_all_markers(value)
+    v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
+    v = v.replace('\n', ' ').replace(r'\n', ' ')
+    v = re.sub(r'\s{2,}', ' ', v).strip()
+    if "中华民国" in v:
+        v = v.replace("中华民国", "中国")
+    if "中華民國" in v:
+        v = v.replace("中華民國", "中国")
+    if "中國" in v:
+        v = v.replace("中國", "中国")
+    for t_k, t_v in TRAD_MAP.items():
+        if t_k in v:
+            v = v.replace(t_k, t_v)
+    return v
 
 
 def norm_cn_stripped(value: str) -> str:
@@ -57,16 +94,15 @@ def norm_cn_stripped(value: str) -> str:
     )
 
 
-def pick_cn(counter: "collections.Counter[str]") -> str | None:
+def pick_cn(counter: "Counter[str]") -> str | None:
     """加权归一选择最佳中文译名：无候选返回 None。"""
     if not counter:
         return None
     counts: Counter[str] = Counter()
     for chinese, n in counter.items():
         counts[norm_cn_stripped(chinese)] += n
-    top, n = counts.most_common(1)[0]
+    top, _n = counts.most_common(1)[0]
     candidates = [cn for cn in counter if norm_cn_stripped(cn) == top]
-    # 优先无国别前缀、加权票数最高、最标准简短的表示
     candidates.sort(key=lambda cn: (
         len(cn) != len(strip_all_markers(cn)),
         -counter[cn],
@@ -139,22 +175,62 @@ def replace_between(source: str, start: str, end: str, body: str) -> str:
     return source[:start_index] + start + "\n" + body + "\n" + source[end_index:]
 
 
-BASELINE_PATH = HERE / "release" / "wt-wiki-zh-v1.1.0.user.js"
+def is_broken_fragment_key(k: str) -> bool:
+    if not k or len(k.strip()) <= 1:
+        return True
+    if k in BROKEN_KEYS or k.startswith("t Kal "):
+        return True
+    if QUOTE_FRAG_PREFIX_RE.match(k):
+        return True
+    if LEADING_SPACE_FRAG_RE.match(k):
+        return True
+    return False
 
 
 def extract_baseline(code: str, name: str) -> dict[str, str]:
+    """用标准 JSON 解析基线脚本中的 Object.freeze 字典，彻底消除正则切分导致的单引号碎片键。"""
     m = re.search(rf'const {name} = Object\.freeze\((\{{[\s\S]*?\}})\);', code)
     if not m:
+        m = re.search(rf'const {name} = (\{{[\s\S]*?\}});\n', code)
+    if not m:
+        return {}
+    raw_obj = re.sub(r',\s*\}$', '\n}', m.group(1).strip())
+    try:
+        parsed = json.loads(raw_obj)
+    except json.JSONDecodeError:
         return {}
     res = {}
-    for kv in re.finditer(r'["\']([^"\']+)["\']\s*:\s*["\']([^"\']*)["\']', m.group(1)):
-        res[kv.group(1)] = kv.group(2)
+    for k, v in parsed.items():
+        if not isinstance(k, str) or not isinstance(v, str):
+            continue
+        if is_broken_fragment_key(k):
+            continue
+        res[k] = v
     return res
+
+
+def sanitize_dict(d: dict[str, str], label: str) -> None:
+    french_test_words = {'Furtif', 'Blindage', 'Vitesse', 'Munitions', 'Recherche', 'Achat', 'Portée', 'Viseur'}
+    has_han_re = re.compile(r'[\u4e00-\u9fff]')
+    for k in list(d.keys()):
+        if is_broken_fragment_key(k):
+            d.pop(k, None)
+            continue
+        cleaned_v = normalize_cn_text(d[k])
+        if not cleaned_v:
+            d.pop(k, None)
+            continue
+        # 仅在词条 value 上检查法语污染（若含法语词且无任何汉字，丢弃并告警，不破坏源码）
+        if not has_han_re.search(cleaned_v) and any(fw in cleaned_v for fw in french_test_words):
+            print(f"WARNING: Dropped French-polluted entry in {label}: {k!r} -> {cleaned_v!r}")
+            d.pop(k, None)
+            continue
+        d[k] = cleaned_v
 
 
 def main() -> None:
     unit_index, unit_name_index, term_index = load_indexes()
-    unlocks = {}
+    unlocks: dict[str, str] = {}
 
     if BASELINE_PATH.exists():
         base_code = BASELINE_PATH.read_text(encoding="utf-8")
@@ -162,12 +238,6 @@ def main() -> None:
         base_unit_names = extract_baseline(base_code, "UNIT_NAME_TRANSLATIONS")
         base_terms = extract_baseline(base_code, "TERM_TRANSLATIONS")
         base_unlocks = extract_baseline(base_code, "UNLOCKS_TRANSLATIONS")
-
-        # 彻底剿灭历史遗留的残破键（如 Sho't 引发的 "t": "绍特"）
-        BROKEN_KEYS = {'t', 't Kal Alef', 't Kal Dalet', 't Kal Gimel'}
-        for bk in BROKEN_KEYS:
-            base_unit_names.pop(bk, None)
-            base_terms.pop(bk, None)
 
         full_units = dict(base_units)
         full_units.update(unit_index)
@@ -185,8 +255,7 @@ def main() -> None:
 
     mfg_json_path = HERE / "data" / "manufacturers.json"
     if mfg_json_path.exists():
-        import json as _json
-        CHINESE_MANUFACTURERS = _json.loads(mfg_json_path.read_text(encoding="utf-8"))
+        CHINESE_MANUFACTURERS = json.loads(mfg_json_path.read_text(encoding="utf-8"))
     else:
         CHINESE_MANUFACTURERS = {
             'Chengdu': '航空工业成飞',
@@ -217,45 +286,27 @@ def main() -> None:
 
     popover_json_path = HERE / "data" / "popover_terms.json"
     if popover_json_path.exists():
-        import json as _json
-        popover_terms = _json.loads(popover_json_path.read_text(encoding="utf-8"))
+        popover_terms = json.loads(popover_json_path.read_text(encoding="utf-8"))
         for p_k, p_v in popover_terms.items():
             clean_k = strip_all_markers(p_k)
-            clean_v = strip_all_markers(p_v)
-            clean_k = clean_k.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
-            clean_v = clean_v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
-            clean_v = re.sub(r'\s{2,}', ' ', clean_v)
-            if "中华民国" in clean_v:
-                clean_v = clean_v.replace("中华民国", "中国")
+            clean_v = normalize_cn_text(p_v)
             if clean_k and clean_v:
                 term_index[clean_k] = clean_v
 
-    BROKEN_KEYS = {
-        't', 't Kal Alef', 't Kal Dalet', 't Kal Gimel',
-        'type', 'mod', 'GB', 'SA', 'id', 'CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST'
-    }
-    for d in (unit_index, unit_name_index, term_index):
-        for k in list(d.keys()):
-            # 彻底禁止单字母、危险短键或残破键进入字典
-            if len(k.strip()) <= 1 or k in BROKEN_KEYS or k.startswith('t Kal '):
-                d.pop(k, None)
-                continue
-            v = d[k]
-            # 彻底清洗所有反斜杠+t与真实制表符
-            cleaned_v = v.replace(r'\t', '').replace('\t', '').replace(r'\r', '').replace('\r', '')
-            cleaned_v = re.sub(r'\s{2,}', ' ', cleaned_v)
-            if "中华民国" in cleaned_v:
-                cleaned_v = cleaned_v.replace("中华民国", "中国")
-            TRAD_MAP = {
-                '副翼': '副翼', '升降舵': '升降舵', '方向舵': '方向舵', '襟翼': '襟翼',
-                '減速板': '减速板', '雷達': '雷达', '導彈': '导弹', '裝甲': '装甲',
-                '飛機': '飞机', '戰鬥機': '战斗机', '魚雷': '鱼雷', '發動機': '发动机',
-                '魚': '鱼', '戰': '战', '機': '机', '彈': '弹', '裝': '装', '減': '减'
-            }
-            for t_k, t_v in TRAD_MAP.items():
-                if t_k in cleaned_v:
-                    cleaned_v = cleaned_v.replace(t_k, t_v)
-            d[k] = cleaned_v
+    if UNLOCKS_PATH.exists():
+        unlocks_raw = json.loads(UNLOCKS_PATH.read_text(encoding="utf-8"))
+        for k, v in unlocks_raw.items():
+            clean_k = strip_all_markers(
+                k.replace(r'\t', ' ').replace('\t', ' ').replace(r'\n', ' ').replace('\n', ' ').strip()
+            )
+            clean_v = normalize_cn_text(v)
+            if clean_k and clean_v:
+                unlocks[clean_k] = clean_v
+
+    sanitize_dict(unit_index, "UNIT_TRANSLATIONS")
+    sanitize_dict(unit_name_index, "UNIT_NAME_TRANSLATIONS")
+    sanitize_dict(term_index, "TERM_TRANSLATIONS")
+    sanitize_dict(unlocks, "UNLOCKS_TRANSLATIONS")
 
     # 确保 Sho't 系列载具正确映射
     unit_name_index["Sho't"] = "绍特"
@@ -276,22 +327,7 @@ def main() -> None:
         TERM_MARKER_END,
         js_object("TERM_TRANSLATIONS", term_index),
     )
-    if UNLOCKS_PATH.exists():
-        import json as _json
-        unlocks_raw = _json.loads(UNLOCKS_PATH.read_text(encoding="utf-8"))
-        for k, v in unlocks_raw.items():
-            clean_k = k.replace(r'\t', ' ').replace('\t', ' ').replace(r'\n', ' ').replace('\n', ' ').strip()
-            clean_v = v.replace(r'\t', '').replace('\t', '').replace(r'\n', ' ').replace('\n', ' ').replace('\r', '').strip()
-            clean_k = strip_all_markers(clean_k)
-            clean_v = strip_all_markers(clean_v)
-            for t_k, t_v in TRAD_MAP.items():
-                if t_k in clean_v:
-                    clean_v = clean_v.replace(t_k, t_v)
-            if clean_k and clean_v:
-                unlocks[clean_k] = clean_v
-        for k in list(unlocks.keys()):
-            if "中华民国" in unlocks[k]:
-                unlocks[k] = unlocks[k].replace("中华民国", "中國")
+    if unlocks:
         core = replace_between(
             core,
             "  // BEGIN GENERATED UNLOCKS TRANSLATIONS",
@@ -300,17 +336,10 @@ def main() -> None:
         )
         print(f"unlock entries: {len(unlocks)}")
 
-    # 严密反外语污染校验
-    french_test_words = ['Furtif', 'Blindage', 'Vitesse', 'Munitions', 'Recherche', 'Achat', 'Portée', 'Viseur']
-    for fw in french_test_words:
-        if fw in core:
-            print(f"WARNING: Detected French pollution word '{fw}' in generated core, sanitizing...")
-            core = re.sub(rf'["\'][^"\']*{fw}[^"\']*["\']', '""', core)
-
-    header = """// ==UserScript==
+    header = f"""// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.2.8
+// @version      {VERSION}
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -328,12 +357,11 @@ def main() -> None:
     OUTPUT_PATH.write_text(full_script, encoding="utf-8", newline="\n")
     print(f"wrote {OUTPUT_PATH}")
 
-    # 同步更新 release 目录下的成品脚本
     release_dir = HERE / "release"
     if release_dir.exists():
         (release_dir / "wt-wiki-zh.user.js").write_text(full_script, encoding="utf-8", newline="\n")
-        (release_dir / "wt-wiki-zh-v1.2.8.user.js").write_text(full_script, encoding="utf-8", newline="\n")
-        print(f"synced to {release_dir / 'wt-wiki-zh.user.js'}")
+        (release_dir / f"wt-wiki-zh-v{VERSION}.user.js").write_text(full_script, encoding="utf-8", newline="\n")
+        print(f"synced to {release_dir / 'wt-wiki-zh.user.js'} & {release_dir / f'wt-wiki-zh-v{VERSION}.user.js'}")
 
     print(f"unit entries: {len(unit_index)}")
     print(f"unit name entries: {len(unit_name_index)}")

@@ -16,7 +16,7 @@ const INTENTIONAL = {
   Flares: { f: '热焰', o: '热焰弹', why: '两种译名都是官方词条；页面出现处均在受保护的文章正文' },
   Mobility: { f: '机动性', o: '机动改装', why: '特性块=机动性、改装树标题=机动改装，代码已按 DOM 上下文区分' },
   SB: { f: '全真', o: 'SB', why: 'FIXED 用于 BR 行模式标签；UNIT_NAME 保留官方载具名 SB（图波列夫轰炸机）' },
-  Shenyang: { f: '沈阳', o: '歼-5', why: 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名' },
+  Shenyang: { f: '航空工业沈飞', o: '歼-5', why: 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名' },
   A6M: { f: '零战', o: '零战二一型', why: 'FIXED 用于裸文本泛称；链接走 slug 词典得整名' },
   'P-61A-11': { f: 'P-61A-11 黑寡妇', o: 'P-61A-11', why: 'FIXED 用于全名展示；UNIT_NAME 为官方简写' },
   'Meteor F Mk 8 G.41K': { f: '流星 F.8 (格罗斯特 G.41K)', o: '流星 F.8 G.41K', why: 'FIXED 为带制造商全名；UNIT_NAME 为官方简写' },

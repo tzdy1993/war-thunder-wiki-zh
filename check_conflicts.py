@@ -27,28 +27,31 @@ USER = HERE / 'wt-wiki-zh.user.js'
 
 
 def load_core_fixed() -> dict:
-    """core.js 的 FIXED_TRANSLATIONS：单引号多行格式。"""
+    """core.js 的 FIXED_TRANSLATIONS：支持 JSON 双引号格式与旧单引号格式。"""
     src = CORE.read_text(encoding='utf-8')
     m = re.search(r'const FIXED_TRANSLATIONS = Object\.freeze\((\{.*?\})\);', src, re.S)
     if not m:
         m = re.search(r'const FIXED_TRANSLATIONS = (\{.*?\});', src, re.S)
     if not m:
         return {}
-    return dict(re.findall(r"'([^']+)': '([^']*)'", m.group(1)))
+    raw = re.sub(r',\s*\}$', '\n}', m.group(1).strip())
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return dict(re.findall(r"'([^']+)': '([^']*)'", m.group(1)))
 
 
 def load_user_dict(name: str) -> dict:
-    """user.js 的词典是单行 JSON 双引号格式，结束边界为 `};` + 换行。
-
-    json.loads 成功后即确认 `.*?` 非贪婪匹配停在了真正的对象结尾
-    （若字符串值里出现 `};` 会被 json 解析失败暴露）。
-    """
+    """user.js 的词典是 JSON 双引号格式，兼容 const NAME = Object.freeze({...}); 与旧格式。"""
     src = USER.read_text(encoding='utf-8')
-    m = re.search(rf'const {name} = (\{{.*?\}});\n', src, re.S)
+    m = re.search(rf'const {name} = Object\.freeze\((\{{.*?\}})\);\n', src, re.S)
+    if not m:
+        m = re.search(rf'const {name} = (\{{.*?\}});\n', src, re.S)
     if not m:
         return {}
+    raw = re.sub(r',\s*\}$', '\n}', m.group(1).strip())
     try:
-        return json.loads(m.group(1))
+        return json.loads(raw)
     except json.JSONDecodeError:
         return {}
 
@@ -68,7 +71,7 @@ INTENTIONAL = {
     'Flares': ('热焰', '热焰弹', '两种译名都是官方词条；页面出现处均在受保护的文章正文'),
     'Mobility': ('机动性', '机动改装', '特性块=机动性、改装树标题=机动改装，代码已按 DOM 上下文区分'),
     'SB': ('全真', 'SB', 'FIXED 用于 BR 行模式标签；UNIT_NAME 保留官方载具名 SB（图波列夫轰炸机）'),
-    'Shenyang': ('沈阳', '歼-5', 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名'),
+    'Shenyang': ('航空工业沈飞', '歼-5', 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名'),
     'A6M': ('零战', '零战二一型', 'FIXED 用于裸文本泛称；链接走 slug 词典得整名'),
     'P-61A-11': ('P-61A-11 黑寡妇', 'P-61A-11', 'FIXED 用于全名展示；UNIT_NAME 为官方简写'),
     'Meteor F Mk 8 G.41K': ('流星 F.8 (格罗斯特 G.41K)', '流星 F.8 G.41K', 'FIXED 为带制造商全名；UNIT_NAME 为官方简写'),
@@ -80,6 +83,15 @@ INTENTIONAL = {
     'Machine Guns': ('机枪', '防空机枪', 'FIXED 用于 Wiki 武器类别标题；UNIT_NAME 为官方单位特定名'),
     'Boat': ('小艇', '渔船', 'FIXED 用于 Wiki 舰船分类；UNIT_NAME 为官方地图单位渔船'),
     'boat': ('小艇', '渔船', 'FIXED 用于 Wiki 舰船分类；UNIT_NAME 为官方地图单位渔船'),
+    'AMX': ('AMX（伊西莱穆利诺制造厂）', 'AMX', 'FIXED 用于制造商列表；UNIT_NAME 为法系载具名'),
+    'Aichi': ('爱知', '零式水侦', 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名'),
+    'Isuzu': ('五十铃', '五十铃 (DE-211)', 'FIXED 用于制造商列表；UNIT_NAME 为官方舰船全名'),
+    'Potez': ('波捷', 'P.630/631', 'FIXED 用于制造商列表；UNIT_NAME 为官方载具名'),
+    'IAI': ('以色列航太工业 (IAI)', 'IAI', 'FIXED 用于制造商列表；TERM 为弹药缩写'),
+    'JDAM': ('联合直接攻击弹药 (JDAM)', 'JDAM', 'FIXED 用于挂载特征/合集名；TERM 为改装件简称'),
+    'SPICE': ('SPICE 精确制导炸弹', 'SPICE', 'FIXED 用于挂载名称；TERM 为改装件简称'),
+    'ARH+IOG+GNSS+DL': ('主动雷达寻的 + 惯导 + 卫星导航 + 数据链', '主动雷达寻的 + 卫星导航 + 数据链', '补全官方略去的 IOG（惯导）'),
+    'IR+IOG+GNSS+DL': ('红外 + 惯导 + 卫星导航 + 数据链', '红外 + 卫星导航 + 数据链', '补全官方略去的 IOG（惯导）'),
 }
 
 

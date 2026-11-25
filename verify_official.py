@@ -1,6 +1,9 @@
 """核对 FIXED_TRANSLATIONS 与官方语言包：官方有词条的必须用官方译名。
 输出差异报告。"""
-import csv, re, sys
+import csv
+import json
+import re
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -11,11 +14,28 @@ MARKER_CHARS = '▂▃▄▅▀◄◔◘◊◗◥◐◌◍◡◢○⋠␗␙␠�
 
 INTENTIONAL = {
     'Air': '空中',
+    'AMX': 'AMX（伊西莱穆利诺制造厂）',
+    'Aichi': '爱知',
+    'ARH+IOG+GNSS+DL': '主动雷达寻的 + 惯导 + 卫星导航 + 数据链',
+    'Boosters': '助推器',
+    'CCIP': '连续计算命中点 (CCIP)',
+    'CCRP': '连续计算投放点 (CCRP)',
+    'EEGS': '增强型航迹射击瞄具 (EEGS)',
+    'Cannons': '机炮',
     'Displacement': '排水量',
     'Flares': '热焰',
+    'Guidance system type:': '制导方式：',
+    'IAI': '以色列航太工业 (IAI)',
+    'IR+IOG+GNSS+DL': '红外 + 惯导 + 卫星导航 + 数据链',
+    'Isuzu': '五十铃',
+    'JDAM': '联合直接攻击弹药 (JDAM)',
+    'Maximum': '最大',
     'Mobility': '机动性',
+    'Potez': '波捷',
+    'Research:': '研发：',
     'SB': '全真',
-    'Shenyang': '沈阳',
+    'Shenyang': '航空工业沈飞',
+    'SPICE': 'SPICE 精确制导炸弹',
     'M4A3 (76) W': 'M4A3 (76) W',
     'Machine Gun': '机枪',
     'Machine Guns': '机枪',
@@ -36,12 +56,22 @@ def load_official():
     return official
 
 
-def main():
+def load_fixed():
     src = CORE.read_text(encoding='utf-8')
-    m = re.search(r'const FIXED_TRANSLATIONS = Object\.freeze\((\{.*?\})\);', src, re.S)
+    m = re.search(r'const FIXED_TRANSLATIONS = Object\.freeze\((\{[\s\S]*?\})\);', src)
     if not m:
-        m = re.search(r'const FIXED_TRANSLATIONS = (\{.*?\});', src, re.S)
-    keys = re.findall(r"'([^']+)':\s*'([^']*)'", m.group(1)) if m else []
+        m = re.search(r'const FIXED_TRANSLATIONS = (\{[\s\S]*?\});', src)
+    if not m:
+        return []
+    raw = re.sub(r',\s*\}$', '\n}', m.group(1).strip())
+    try:
+        return list(json.loads(raw).items())
+    except json.JSONDecodeError:
+        return re.findall(r"""['"]([^'"]+)['"]\s*:\s*['"]([^'"]*)['"]""", m.group(1))
+
+
+def main():
+    keys = load_fixed()
     official = load_official()
     diffs = []
     no_official = 0

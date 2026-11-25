@@ -1,7 +1,7 @@
 # 战争雷霆维基汉化 (War Thunder Wiki Zh)
 
-[![Version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
-[![Game Version](https://img.shields.io/badge/War%20Thunder-2.59%20Sky%20Odyssey-green.svg)](https://warthunder.com/)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
+[![Game Version](https://img.shields.io/badge/War%20Thunder-2.61%20Eagle's%20Shadow-green.svg)](https://warthunder.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 《战争雷霆》(War Thunder) 官方 Wiki（[wiki.warthunder.com](https://wiki.warthunder.com/)）全量界面、科技树与载具武器参数简体中文汉化用户脚本。
@@ -44,9 +44,7 @@
 - 飞行控制两行标签（`<div>Air<br>brake</div>`）按整词翻译：着陆襟翼 / 起飞襟翼 / 战斗襟翼 / 减速板 / 起落架收放。
 - 数值容器尾部单位翻译（`hp/t`→`马力/吨`、`km/h`→`公里/小时` 等，含模式切换拼接值如 `27.2…42.1 hp/t`）。
 - 版本名（`Update 1.45 "Steel Generals"`→`更新 1.45「钢铁将军」`，UPDATE_NAMES 86 条）。
-- **原文/翻译切换**：页面右下角悬浮按钮（「原文」↔「中文」），一键恢复所有翻译为英文原文或重新翻译，
-  基于运行时记录（Map 记录每个被翻译节点的原文 + data-wt-zh-original-title 记录属性），
-  切换后 MutationObserver 暂停/恢复，不影响页面模式切换控件。
+- **原文/翻译切换**：位于左侧导航栏「作者支持计划」正下方（移动端/独立页面自动降级悬浮至左下角），一键在「显示原文」与「切换翻译」间无损切换，基于运行时记录完整还原文本节点、属性、浮层与链接状态。
 
 ## 明确不翻译（含涂装名）
 
@@ -56,12 +54,6 @@
 - 用户名、搜索框输入值和代码/预格式文本。
 - 外部页面内容。
 
-## 明确不翻译
-
-- 文章正文。
-- 评论正文和用户自由内容。
-- 用户名、搜索框输入值和代码/预格式文本。
-- 外部页面内容。
 
 脚本使用内嵌本地词典，不调用翻译 API，不上传页面内容。
 
