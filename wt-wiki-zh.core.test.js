@@ -630,8 +630,10 @@ assert(appendedStyles.some((css) =>
   && css.includes('.wt-zh-btn-overlay')
   && css.includes('writing-mode: vertical-rl')
   && css.includes('text-orientation: upright')
+  && css.includes('margin: 0 0 9cqi 8cqi')
   && !css.includes('.wt-zh-btn-accent')
   && !css.includes('rgba(12, 17, 22, 0.92)')
+  && ![...css.matchAll(/\.wt-zh-btn-overlay\s*\{([^}]*)\}/g)].some((m) => /cqi|cqw/i.test(m[1]))
 ));
 
 // 6. 双向切换无损还原属性测试

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)
 // @namespace    https://github.com/tzdy1993/war-thunder-wiki-zh
-// @version      1.3.3
+// @version      1.3.4
 // @description  为 War Thunder 维基提供界面、科技树与载具武器参数的简体中文汉化，支持双向切换。
 // @author       tzdy1993
 // @tag          战争雷霆
@@ -29812,6 +29812,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
       .main-button_item {
         position: relative !important;
         overflow: hidden;
+        text-decoration: none !important;
       }
       .main-button_item img {
         width: 100%;
@@ -29825,20 +29826,26 @@ const FAMILY_COLLECTIONS = Object.freeze({
       }
       .wt-zh-btn-overlay {
         position: absolute;
-        inset: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 0;
         pointer-events: none;
         z-index: 3;
         container-type: inline-size;
         display: flex;
         align-items: flex-end;
         justify-content: flex-start;
-        padding: 14px 12px 16px;
         background: linear-gradient(35deg, rgba(7, 11, 16, 0.72) 0%, rgba(7, 11, 16, 0.28) 30%, rgba(7, 11, 16, 0) 58%);
         transition: opacity 0.2s ease;
       }
       .wt-zh-btn-title {
         writing-mode: vertical-rl;
         text-orientation: upright;
+        margin: 0 0 14px 12px;
+        text-decoration: none;
         color: #ffffff;
         font-size: clamp(1.05rem, 2.3vw, 1.75rem);
         font-weight: 800;
@@ -29850,11 +29857,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       }
       @supports (font-size: 1cqi) {
-        .wt-zh-btn-overlay {
-          padding: 8cqi 8cqi 9cqi;
-        }
         .wt-zh-btn-title {
           font-size: clamp(1.05rem, 15cqi, 1.75rem);
+          margin: 0 0 9cqi 8cqi;
         }
       }
       .popover .gunit_specs-table_row,
