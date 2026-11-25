@@ -4592,49 +4592,31 @@ const FAMILY_COLLECTIONS = Object.freeze({
         z-index: 3;
         container-type: inline-size;
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
-        padding: 14px 12px 15px;
-        background: linear-gradient(to top, rgba(7, 11, 16, 0.88) 0%, rgba(7, 11, 16, 0.46) 24%, rgba(7, 11, 16, 0) 50%);
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 14px 12px 16px;
+        background: linear-gradient(35deg, rgba(7, 11, 16, 0.72) 0%, rgba(7, 11, 16, 0.28) 30%, rgba(7, 11, 16, 0) 58%);
         transition: opacity 0.2s ease;
       }
-      .wt-zh-btn-accent {
-        width: 24px;
-        height: 2.5px;
-        border-radius: 2px;
-        background: #e03a2f;
-        margin-bottom: 6px;
-        box-shadow: 0 1px 6px rgba(224, 58, 47, 0.65);
-        transition: width 0.28s cubic-bezier(0.22, 1, 0.36, 1);
-      }
-      .main-button_item:hover .wt-zh-btn-accent {
-        width: 40px;
-      }
       .wt-zh-btn-title {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
         color: #ffffff;
-        font-size: clamp(0.95rem, 2.1vw, 1.55rem);
+        font-size: clamp(1.05rem, 2.3vw, 1.75rem);
         font-weight: 800;
-        letter-spacing: 0.08em;
-        line-height: 1.15;
+        letter-spacing: 0.14em;
+        line-height: 1.1;
         white-space: nowrap;
         user-select: none;
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85), 0 1px 2px rgba(0, 0, 0, 0.95);
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.95);
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       }
       @supports (font-size: 1cqi) {
         .wt-zh-btn-overlay {
-          padding: 7cqi 8cqi 8.5cqi;
+          padding: 8cqi 8cqi 9cqi;
         }
         .wt-zh-btn-title {
-          font-size: clamp(0.95rem, 13.5cqi, 1.55rem);
-        }
-        .wt-zh-btn-accent {
-          width: clamp(18px, 14cqi, 28px);
-          margin-bottom: clamp(4px, 3.5cqi, 8px);
-        }
-        .main-button_item:hover .wt-zh-btn-accent {
-          width: clamp(30px, 24cqi, 46px);
+          font-size: clamp(1.05rem, 15cqi, 1.75rem);
         }
       }
       .popover .gunit_specs-table_row,
@@ -4691,12 +4673,9 @@ const FAMILY_COLLECTIONS = Object.freeze({
         if (doc && (!btn.querySelector || !btn.querySelector('.wt-zh-btn-overlay'))) {
           const overlay = doc.createElement('div');
           overlay.className = 'wt-zh-btn-overlay';
-          const accent = doc.createElement('span');
-          accent.className = 'wt-zh-btn-accent';
           const title = doc.createElement('div');
           title.className = 'wt-zh-btn-title';
           title.textContent = MAIN_BUTTON_TITLES[href];
-          overlay.appendChild(accent);
           overlay.appendChild(title);
           btn.appendChild(overlay);
         }
