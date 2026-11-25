@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import base64
 import csv
 import json
 import re
@@ -21,8 +22,10 @@ UNIT_MARKER_START = "  // BEGIN GENERATED UNIT TRANSLATIONS"
 UNIT_MARKER_END = "  // END GENERATED UNIT TRANSLATIONS"
 TERM_MARKER_START = "  // BEGIN GENERATED TERM TRANSLATIONS"
 TERM_MARKER_END = "  // END GENERATED TERM TRANSLATIONS"
+MAIN_BTN_MARKER_START = "  // BEGIN GENERATED MAIN BUTTON IMAGES"
+MAIN_BTN_MARKER_END = "  // END GENERATED MAIN BUTTON IMAGES"
 
-VERSION = "1.3.1"
+VERSION = "1.3.2"
 
 MARKER_CHARS = '▂▃▄▅▀◄◔◘◊◗◥◐◌◍◡◢○⋠␗␙␠☢“\uf059'
 CLEAN_PATTERN = re.compile(r'[\u2580-\u259f\u25a0-\u25ff\u2400-\u243f\u2622\uf000-\uf8ff\ue000-\uf8ff\u22e0]')
@@ -345,6 +348,28 @@ def main() -> None:
             js_object("UNLOCKS_TRANSLATIONS", unlocks),
         )
         print(f"unlock entries: {len(unlocks)}")
+
+    main_btn_files = {
+        "/aviation": "main_button_aircraft_zh.webp",
+        "/helicopters": "main_button_helicopter_zh.webp",
+        "/ground": "main_button_tank_zh.webp",
+        "/ships": "main_button_ship_zh.webp",
+        "/boats": "main_button_boat_zh.webp",
+    }
+    main_btn_images: dict[str, str] = {}
+    main_btn_dir = HERE / "assets" / "main_button"
+    for route, fname in main_btn_files.items():
+        fpath = main_btn_dir / fname
+        if fpath.exists():
+            b64 = base64.b64encode(fpath.read_bytes()).decode("ascii")
+            main_btn_images[route] = f"data:image/webp;base64,{b64}"
+    core = replace_between(
+        core,
+        MAIN_BTN_MARKER_START,
+        MAIN_BTN_MARKER_END,
+        js_object("MAIN_BUTTON_IMAGES", main_btn_images),
+    )
+    print(f"main button images: {len(main_btn_images)}")
 
     header = f"""// ==UserScript==
 // @name         战争雷霆维基汉化 (War Thunder Wiki)

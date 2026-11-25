@@ -11,6 +11,7 @@ const {
   scan,
   translateElementAttributes,
   MAIN_BUTTON_TITLES,
+  MAIN_BUTTON_IMAGES,
   ensureMainButtonStyles,
   translateMainButtons,
   setZhMode,
@@ -621,7 +622,15 @@ const mockDoc = {
 };
 mockDoc.body.ownerDocument = mockDoc;
 ensureMainButtonStyles(mockDoc);
-assert(appendedStyles.some((css) => css.includes('.gunit_specs-table_row') && css.includes('white-space: nowrap')));
+assert(appendedStyles.some((css) =>
+  css.includes('.gunit_specs-table_row')
+  && css.includes('white-space: nowrap')
+  && css.includes('container-type: inline-size')
+  && css.includes('@supports (font-size: 1cqi)')
+  && css.includes('.wt-zh-btn-overlay')
+  && css.includes('.wt-zh-btn-accent')
+  && !css.includes('writing-mode: vertical-rl')
+));
 
 // 6. 双向切换无损还原属性测试
 const origDoc = global.document;
@@ -721,5 +730,79 @@ assert.equal(translateFixedText('Drafts'), '草稿');
 assert.equal(translateFixedText('Bookmarks'), '书签');
 assert.equal(translateFixedText('How to view the vehicle in the game:'), '如何在游戏中查看载具：');
 assert.equal(translateFixedText('Log in to Wiki'), '登录 Wiki');
+
+// K. v1.3.2 首页五大入口无框矢量排版 & 双向图片还原测试
+assert.equal(typeof MAIN_BUTTON_IMAGES, 'object');
+const origBannerSrcset = '/static/main_button/main_button_aircraft_en.webp';
+const origBannerSrc = '/static/main_button/main_button_aircraft_en.png';
+function makeMockEl(tag, initAttrs = {}, initClass = '') {
+  const attrs = { ...initAttrs };
+  const children = [];
+  return {
+    nodeType: 1,
+    tagName: tag,
+    className: initClass,
+    children,
+    dataset: {},
+    style: {},
+    classList: {
+      contains(c) { return String(this.className || '').split(/\s+/).includes(c); },
+      add() {}, remove() {},
+    },
+    hasAttribute(k) { return Object.prototype.hasOwnProperty.call(attrs, k); },
+    getAttribute(k) { return Object.prototype.hasOwnProperty.call(attrs, k) ? attrs[k] : null; },
+    setAttribute(k, v) { attrs[k] = String(v); },
+    removeAttribute(k) { delete attrs[k]; },
+    appendChild(child) { children.push(child); return child; },
+    querySelector(sel) {
+      if (sel === 'img') return children.flatMap((c) => c.tagName === 'PICTURE' ? c.children : [c]).find((c) => c.tagName === 'IMG') || null;
+      if (sel === '.wt-zh-btn-overlay') return children.find((c) => c.className === 'wt-zh-btn-overlay') || null;
+      return null;
+    },
+    querySelectorAll(sel) {
+      if (sel === 'source') return children.flatMap((c) => c.tagName === 'PICTURE' ? c.children : [c]).filter((c) => c.tagName === 'SOURCE');
+      return [];
+    },
+  };
+}
+const bannerBtn = makeMockEl('A', { href: '/aviation' }, 'main-button_item');
+bannerBtn.classList.contains = (c) => c === 'main-button_item';
+const picEl = makeMockEl('PICTURE');
+const srcEl = makeMockEl('SOURCE', { srcset: origBannerSrcset });
+const imgEl = makeMockEl('IMG', { src: origBannerSrc });
+picEl.appendChild(srcEl);
+picEl.appendChild(imgEl);
+bannerBtn.appendChild(picEl);
+
+const bannerDoc = {
+  head: { appendChild() {} },
+  body: {
+    classList: { add() {}, remove() {}, contains() { return false; } },
+    querySelectorAll(sel) {
+      if (sel === '.main-button_item source[data-wt-zh-orig-srcset]') return srcEl.hasAttribute('data-wt-zh-orig-srcset') ? [srcEl] : [];
+      if (sel === '.main-button_item img[data-wt-zh-orig-src]') return imgEl.hasAttribute('data-wt-zh-orig-src') ? [imgEl] : [];
+      if (sel === '.main-button_item[data-wt-zh-btn-done]') return bannerBtn.dataset.wtZhBtnDone ? [bannerBtn] : [];
+      if (sel === '.main-button_item') return [bannerBtn];
+      return [];
+    },
+  },
+  getElementById() { return { id: 'wt-zh-main-btn-styles' }; },
+  createElement(tag) { return makeMockEl(tag.toUpperCase()); },
+  createTreeWalker() { return { nextNode: () => null }; },
+  querySelectorAll(sel) { return this.body.querySelectorAll(sel); },
+};
+bannerDoc.body.ownerDocument = bannerDoc;
+bannerBtn.ownerDocument = bannerDoc;
+translateMainButtons(bannerBtn);
+assert.equal(bannerBtn.children.filter((c) => c.className === 'wt-zh-btn-overlay').length, 1);
+assert.equal(bannerBtn.children[1].children[0].className, 'wt-zh-btn-accent');
+assert.equal(bannerBtn.children[1].children[1].textContent, '空军');
+const origDoc3 = global.document;
+global.document = bannerDoc;
+setZhMode(false);
+assert.equal(Boolean(bannerBtn.dataset.wtZhBtnDone), false);
+setZhMode(true);
+assert.equal(bannerBtn.children.filter((c) => c.className === 'wt-zh-btn-overlay').length, 1);
+global.document = origDoc3;
 
 console.log('core tests passed');

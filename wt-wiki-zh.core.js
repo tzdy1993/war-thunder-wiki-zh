@@ -4441,6 +4441,17 @@ const FAMILY_COLLECTIONS = Object.freeze({
       for (const a of document.querySelectorAll('a[data-wt-zh-done]')) {
         a.removeAttribute('data-wt-zh-done');
       }
+      for (const srcEl of document.querySelectorAll('.main-button_item source[data-wt-zh-orig-srcset]')) {
+        srcEl.setAttribute('srcset', srcEl.getAttribute('data-wt-zh-orig-srcset'));
+        srcEl.removeAttribute('data-wt-zh-orig-srcset');
+      }
+      for (const imgEl of document.querySelectorAll('.main-button_item img[data-wt-zh-orig-src]')) {
+        imgEl.setAttribute('src', imgEl.getAttribute('data-wt-zh-orig-src'));
+        imgEl.removeAttribute('data-wt-zh-orig-src');
+      }
+      for (const btn of document.querySelectorAll('.main-button_item[data-wt-zh-btn-done]')) {
+        if (btn.dataset) delete btn.dataset.wtZhBtnDone;
+      }
     }
   }
 
@@ -4551,6 +4562,10 @@ const FAMILY_COLLECTIONS = Object.freeze({
     '/boats': '近岸海军',
   };
 
+  // BEGIN GENERATED MAIN BUTTON IMAGES
+  const MAIN_BUTTON_IMAGES = Object.freeze({});
+  // END GENERATED MAIN BUTTON IMAGES
+
   function ensureMainButtonStyles(doc) {
     if (!doc || !doc.head || doc.getElementById('wt-zh-main-btn-styles')) return;
     const style = doc.createElement('style');
@@ -4558,53 +4573,86 @@ const FAMILY_COLLECTIONS = Object.freeze({
     style.textContent = `
       .main-button_item {
         position: relative !important;
+        overflow: hidden;
       }
-      .wt-zh-btn-title {
+      .main-button_item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .main-button_item:hover img {
+        transform: scale(1.045);
+      }
+      .wt-zh-btn-overlay {
         position: absolute;
-        left: 12px;
-        bottom: 18px;
-        padding: 10px 8px;
-        background: rgba(12, 17, 22, 0.92);
-        border-left: 3.5px solid #d32f2f;
-        border-radius: 0 5px 5px 0;
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.85);
-        writing-mode: vertical-rl;
-        text-orientation: upright;
-        font-size: 24px;
-        font-weight: 900;
-        letter-spacing: 4px;
-        color: #ffffff;
-        z-index: 3;
+        inset: 0;
         pointer-events: none;
-        user-select: none;
-        line-height: 1.15;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        z-index: 3;
+        container-type: inline-size;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 14px 12px 15px;
+        background: linear-gradient(to top, rgba(7, 11, 16, 0.88) 0%, rgba(7, 11, 16, 0.46) 24%, rgba(7, 11, 16, 0) 50%);
         transition: opacity 0.2s ease;
       }
-      @media (max-width: 768px) {
+      .wt-zh-btn-accent {
+        width: 24px;
+        height: 2.5px;
+        border-radius: 2px;
+        background: #e03a2f;
+        margin-bottom: 6px;
+        box-shadow: 0 1px 6px rgba(224, 58, 47, 0.65);
+        transition: width 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .main-button_item:hover .wt-zh-btn-accent {
+        width: 40px;
+      }
+      .wt-zh-btn-title {
+        color: #ffffff;
+        font-size: clamp(0.95rem, 2.1vw, 1.55rem);
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        line-height: 1.15;
+        white-space: nowrap;
+        user-select: none;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.85), 0 1px 2px rgba(0, 0, 0, 0.95);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      }
+      @supports (font-size: 1cqi) {
+        .wt-zh-btn-overlay {
+          padding: 7cqi 8cqi 8.5cqi;
+        }
         .wt-zh-btn-title {
-          left: 8px;
-          bottom: 12px;
-          padding: 6px 5px;
-          font-size: 18px;
-          letter-spacing: 2px;
-          border-left-width: 2.5px;
+          font-size: clamp(0.95rem, 13.5cqi, 1.55rem);
+        }
+        .wt-zh-btn-accent {
+          width: clamp(18px, 14cqi, 28px);
+          margin-bottom: clamp(4px, 3.5cqi, 8px);
+        }
+        .main-button_item:hover .wt-zh-btn-accent {
+          width: clamp(30px, 24cqi, 46px);
         }
       }
       .popover .gunit_specs-table_row,
       .game-unit_popover-content .gunit_specs-table_row {
         white-space: nowrap;
       }
-      body.wt-zh-off .wt-zh-btn-title {
+      body.wt-zh-off .wt-zh-btn-overlay {
         display: none !important;
+      }
+      body.wt-zh-off .main-button_item:hover img {
+        transform: none;
       }
     `;
     doc.head.appendChild(style);
   }
 
   function translateMainButtons(root) {
-    if (!root) return;
+    if (!zhMode || !root) return;
     const doc = root.ownerDocument || (typeof document !== 'undefined' ? document : null);
     if (doc) ensureMainButtonStyles(doc);
 
@@ -4621,12 +4669,36 @@ const FAMILY_COLLECTIONS = Object.freeze({
       if (btn.dataset && btn.dataset.wtZhBtnDone) continue;
       const href = btn.getAttribute ? btn.getAttribute('href') : btn.href;
       if (href && MAIN_BUTTON_TITLES[href]) {
+        const cleanDataUrl = MAIN_BUTTON_IMAGES[href];
+        if (cleanDataUrl) {
+          if (btn.querySelectorAll) {
+            for (const srcEl of btn.querySelectorAll('source')) {
+              if (!srcEl.hasAttribute('data-wt-zh-orig-srcset')) {
+                srcEl.setAttribute('data-wt-zh-orig-srcset', srcEl.getAttribute('srcset') || '');
+              }
+              srcEl.setAttribute('srcset', cleanDataUrl);
+            }
+          }
+          const imgEl = btn.querySelector ? btn.querySelector('img') : null;
+          if (imgEl) {
+            if (!imgEl.hasAttribute('data-wt-zh-orig-src')) {
+              imgEl.setAttribute('data-wt-zh-orig-src', imgEl.getAttribute('src') || '');
+            }
+            imgEl.setAttribute('src', cleanDataUrl);
+          }
+        }
         if (btn.dataset) btn.dataset.wtZhBtnDone = '1';
-        if (doc && (!btn.querySelector || !btn.querySelector('.wt-zh-btn-title'))) {
+        if (doc && (!btn.querySelector || !btn.querySelector('.wt-zh-btn-overlay'))) {
+          const overlay = doc.createElement('div');
+          overlay.className = 'wt-zh-btn-overlay';
+          const accent = doc.createElement('span');
+          accent.className = 'wt-zh-btn-accent';
           const title = doc.createElement('div');
           title.className = 'wt-zh-btn-title';
           title.textContent = MAIN_BUTTON_TITLES[href];
-          btn.appendChild(title);
+          overlay.appendChild(accent);
+          overlay.appendChild(title);
+          btn.appendChild(overlay);
         }
       }
     }
@@ -4948,6 +5020,7 @@ const FAMILY_COLLECTIONS = Object.freeze({
     translateElementAttributes,
     shouldSkipElement,
     MAIN_BUTTON_TITLES,
+    MAIN_BUTTON_IMAGES,
     ensureMainButtonStyles,
     translateMainButtons,
     setZhMode,
