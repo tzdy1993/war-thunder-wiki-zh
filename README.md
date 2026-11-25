@@ -1,6 +1,6 @@
 # 战争雷霆维基汉化 (War Thunder Wiki Zh)
 
-[![Version](https://img.shields.io/badge/version-1.3.5-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
+[![Version](https://img.shields.io/badge/version-1.3.6-blue.svg)](https://github.com/tzdy1993/war-thunder-wiki-zh/releases)
 [![Game Version](https://img.shields.io/badge/War%20Thunder-2.61%20Eagle's%20Shadow-green.svg)](https://warthunder.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

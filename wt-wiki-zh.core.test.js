@@ -803,4 +803,38 @@ setZhMode(true);
 assert.equal(bannerBtn.children.length, 1);
 global.document = origDoc3;
 
+// L. v1.3.6 全站 5706 页深层弹窗漏翻与反中英混翻回归测试
+assert.equal(translateFixedText('Protects against IR-guided missiles'), '防御红外制导导弹');
+assert.equal(translateFixedText('Ball: Omni-purpose bullet'), 'Ball：通用弹');
+assert.equal(translateFixedText('AP - Armor-piercing bullet'), 'AP - 穿甲弹');
+assert.equal(translateFixedText('T - Tracer bullet'), 'T - 曳光弹');
+assert.equal(translateFixedText('I - Incendiary bullet'), 'I - 燃烧弹');
+assert.equal(
+  translateFixedText('ATGM (tandem) - Anti-Tank Guided Missile (tandem-charge)'),
+  'ATGM (串联) - 反坦克导弹（串联装药）'
+);
+assert.equal(
+  translateFixedText('HEAT MP - High explosive Anti-Tank, Multi-purpose shell'),
+  'HEAT MP - 多用途破甲弹'
+);
+assert.equal(
+  translateFixedText('PELE-T: Armor-piercing fragmentation tracer shell with enhanced lateral effect'),
+  'PELE-T：横向效应增强型穿甲破片曳光弹'
+);
+assert.equal(translateFixedText('AC shell - Anti-concrete shell'), 'AC 弹 - 混凝土破坏弹');
+assert.equal(translateFixedText('Inline, 12-cylinder'), '直列 12 缸');
+assert.equal(translateFixedText('Turret 12.7 mm belts'), '12.7 毫米炮塔弹链');
+assert.equal(translateFixedText('Vertical Take-Off and Landing'), '垂直起降');
+assert.equal(translateFixedText('TWS ESA'), '边扫描边跟踪（相控阵）');
+assert.equal(translateFixedText('Allows the installation of LS-6 guided bombs:'), '可挂载 LS-6 制导炸弹：');
+assert.equal(translateFixedText('Allows the installation of GB laser guided bombs.'), '可挂载 GB 激光制导炸弹。');
+assert.equal(translateFixedText('Allows the installation of satellite guided bombs:'), '可挂载卫星制导炸弹：');
+assert.equal(translateFixedText('1,600 lb AN-Mk 1 armor-piercing bomb'), '1,600 磅 AN-Mk 1 穿甲炸弹');
+
+// 反中英混翻守卫
+assert.equal(translateFixedText('In Air Battles'), null);
+assert.equal(translateFixedText('Turret armor cheeks are near-impenetrable'), null);
+assert.equal(translateFixedText('Switch selected weapon to missiles'), null);
+assert.equal(translateFixedText('Did you know? // Thrust Vectoring Missiles'), null);
+
 console.log('core tests passed');
